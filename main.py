@@ -65,8 +65,8 @@ def main(help, top, auto_commit, gtk, mail_smtp, mail_user, mail_pass):
             mail.to_mail(gtk, all_cves, mail_smtp, mail_user, mail_pass)
 
 
-            if auto_commit:
-                git.auto_commit()
+        if auto_commit:
+            git.auto_commit()
 
 
 
