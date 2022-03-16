@@ -2031,3 +2031,64 @@ and then push using the remote name
 
     git push <name>
 '
+2022-03-16 09:52:14 [ERROR] : 提交变更失败
+Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/utils/_git.py", line 26, in auto_commit
+    repo.git.push()
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 542, in <lambda>
+    return lambda *args, **kwargs: self._call_process(name, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 1005, in _call_process
+    return self.execute(call, **exec_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 822, in execute
+    raise GitCommandError(command, status, stderr_value, stdout_value)
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(128)
+  cmdline: git push
+  stderr: 'fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+'
+2022-03-16 09:52:14 [ERROR] : Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/utils/_git.py", line 26, in auto_commit
+    repo.git.push()
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 542, in <lambda>
+    return lambda *args, **kwargs: self._call_process(name, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 1005, in _call_process
+    return self.execute(call, **exec_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 822, in execute
+    raise GitCommandError(command, status, stderr_value, stdout_value)
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(128)
+  cmdline: git push
+  stderr: 'fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+'
+Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/utils/_git.py", line 26, in auto_commit
+    repo.git.push()
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 542, in <lambda>
+    return lambda *args, **kwargs: self._call_process(name, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 1005, in _call_process
+    return self.execute(call, **exec_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 822, in execute
+    raise GitCommandError(command, status, stderr_value, stdout_value)
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(128)
+  cmdline: git push
+  stderr: 'fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+'
