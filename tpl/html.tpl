@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : %(datetime)s --
+<!-- RELEASE TIME : %(datetime)s -->
 <html lang="zh-cn">
 
  <head>
