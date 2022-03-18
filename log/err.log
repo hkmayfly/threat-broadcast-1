@@ -1,49 +1,25 @@
-2022-03-17 22:53:02 [ERROR] : 提交变更失败
+2022-03-18 16:40:25 [ERROR] : [邮件] 推送威胁情报失败
 Traceback (most recent call last):
-  File "/root/project/threat-broadcast-1/src/utils/_git.py", line 26, in auto_commit
-    repo.git.push()
-  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 542, in <lambda>
-    return lambda *args, **kwargs: self._call_process(name, *args, **kwargs)
-  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 1005, in _call_process
-    return self.execute(call, **exec_kwargs)
-  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 822, in execute
-    raise GitCommandError(command, status, stderr_value, stdout_value)
-git.exc.GitCommandError: Cmd('git') failed due to: exit code(128)
-  cmdline: git push
-  stderr: 'ssh_exchange_identification: read: Connection reset by peer
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.'
-2022-03-17 22:53:02 [ERROR] : Traceback (most recent call last):
-  File "/root/project/threat-broadcast-1/src/utils/_git.py", line 26, in auto_commit
-    repo.git.push()
-  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 542, in <lambda>
-    return lambda *args, **kwargs: self._call_process(name, *args, **kwargs)
-  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 1005, in _call_process
-    return self.execute(call, **exec_kwargs)
-  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 822, in execute
-    raise GitCommandError(command, status, stderr_value, stdout_value)
-git.exc.GitCommandError: Cmd('git') failed due to: exit code(128)
-  cmdline: git push
-  stderr: 'ssh_exchange_identification: read: Connection reset by peer
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.'
+  File "/root/project/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/usr/local/python3/lib/python3.8/smtplib.py", line 723, in login
+    (code, resp) = self.auth(
+  File "/usr/local/python3/lib/python3.8/smtplib.py", line 642, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-03-18 16:40:25 [ERROR] : Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/usr/local/python3/lib/python3.8/smtplib.py", line 723, in login
+    (code, resp) = self.auth(
+  File "/usr/local/python3/lib/python3.8/smtplib.py", line 642, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
 Traceback (most recent call last):
-  File "/root/project/threat-broadcast-1/src/utils/_git.py", line 26, in auto_commit
-    repo.git.push()
-  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 542, in <lambda>
-    return lambda *args, **kwargs: self._call_process(name, *args, **kwargs)
-  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 1005, in _call_process
-    return self.execute(call, **exec_kwargs)
-  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 822, in execute
-    raise GitCommandError(command, status, stderr_value, stdout_value)
-git.exc.GitCommandError: Cmd('git') failed due to: exit code(128)
-  cmdline: git push
-  stderr: 'ssh_exchange_identification: read: Connection reset by peer
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.'
+  File "/root/project/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/usr/local/python3/lib/python3.8/smtplib.py", line 723, in login
+    (code, resp) = self.auth(
+  File "/usr/local/python3/lib/python3.8/smtplib.py", line 642, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'

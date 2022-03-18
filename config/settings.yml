@@ -14,7 +14,7 @@ crawler:
   top: 30                                 # 播报时每个来源最多取最新的前 top 个 CVE
 
 notify:
-  mail_smtp: ''
-  mail_user: ''     # 用于发送播报信息的邮箱账号
+  mail_smtp: 'smtp.qq.com'
+  mail_user: '1024593536@qq.com'     # 用于发送播报信息的邮箱账号
   mail_pass: "<%= ENV['MAIL_PASS'] %>"
 

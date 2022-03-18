@@ -62,7 +62,7 @@ def main(help, top, auto_commit, gtk, mail_smtp, mail_user, mail_pass):
 
         #if all_cves:
         page.to_page(top)
-            #mail.to_mail(gtk, all_cves, mail_smtp, mail_user, mail_pass)
+        mail.to_mail(gtk, all_cves, mail_smtp, mail_user, mail_pass)
 
 
         if auto_commit:
