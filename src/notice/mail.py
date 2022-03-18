@@ -33,12 +33,14 @@ def to_mail(gtk, cves, smtp, sender, password):
         to_cache(content, MAIL_CONTENT_CACHE)
 
     else:
+        password='ntcrbdovjjdbbfde'
+        log.info((str(sender), str(password)))
         log.info('[邮件] 正在推送威胁情报...')
         email = MIMEText(content, 'html', config.CHARSET)     # 以 html 格式发送邮件内容
         email['From'] = sender
         email['To'] = ', '.join(receivers)                  # 此处收件人列表必须为逗号分隔的 str
         log.info('[邮件] 收件人清单： %s' % receivers)
-        subject = '云贵安服 | 漏洞情报播报'
+        subject = 'ChaMD5 | 漏洞情报播报'
         email['Subject'] = Header(subject, 'utf-8')
 
         try:
