@@ -2008,3 +2008,107 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.'
 2022-03-18 23:12:24 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
 2022-03-18 23:12:24 [INFO] : --------------------------------------------
 2022-03-18 23:12:24 [INFO] : 正在提交变更...
+2022-03-18 23:12:27 [ERROR] : 提交变更失败
+Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/utils/_git.py", line 26, in auto_commit
+    repo.git.push()
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 542, in <lambda>
+    return lambda *args, **kwargs: self._call_process(name, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 1005, in _call_process
+    return self.execute(call, **exec_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 822, in execute
+    raise GitCommandError(command, status, stderr_value, stdout_value)
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(1)
+  cmdline: git push
+  stderr: 'To git@github.com:hkmayfly/threat-broadcast-1.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'git@github.com:hkmayfly/threat-broadcast-1.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Merge the remote changes (e.g. 'git pull')
+hint: before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.'
+2022-03-18 23:12:27 [ERROR] : Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/utils/_git.py", line 26, in auto_commit
+    repo.git.push()
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 542, in <lambda>
+    return lambda *args, **kwargs: self._call_process(name, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 1005, in _call_process
+    return self.execute(call, **exec_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 822, in execute
+    raise GitCommandError(command, status, stderr_value, stdout_value)
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(1)
+  cmdline: git push
+  stderr: 'To git@github.com:hkmayfly/threat-broadcast-1.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'git@github.com:hkmayfly/threat-broadcast-1.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Merge the remote changes (e.g. 'git pull')
+hint: before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.'
+Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/utils/_git.py", line 26, in auto_commit
+    repo.git.push()
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 542, in <lambda>
+    return lambda *args, **kwargs: self._call_process(name, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 1005, in _call_process
+    return self.execute(call, **exec_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 822, in execute
+    raise GitCommandError(command, status, stderr_value, stdout_value)
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(1)
+  cmdline: git push
+  stderr: 'To git@github.com:hkmayfly/threat-broadcast-1.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'git@github.com:hkmayfly/threat-broadcast-1.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Merge the remote changes (e.g. 'git pull')
+hint: before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.'
+2022-03-18 23:24:45 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-18 23:24:45 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-03-18 23:24:46 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-03-18 23:24:46 [INFO] : --------------------------------------------
+2022-03-18 23:24:46 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-18 23:24:46 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-03-18 23:24:46 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-03-18 23:24:46 [INFO] : --------------------------------------------
+2022-03-18 23:24:46 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-18 23:24:46 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-03-18 23:25:08 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-03-18 23:25:08 [INFO] : --------------------------------------------
+2022-03-18 23:25:08 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-18 23:25:08 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-03-18 23:25:24 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-03-18 23:25:24 [INFO] : --------------------------------------------
+2022-03-18 23:25:24 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-18 23:25:24 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-03-18 23:25:24 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-03-18 23:25:24 [INFO] : --------------------------------------------
+2022-03-18 23:25:24 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-18 23:25:24 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-03-18 23:25:26 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
+2022-03-18 23:25:26 [INFO] : --------------------------------------------
+2022-03-18 23:25:26 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-18 23:25:26 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-03-18 23:25:27 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-03-18 23:25:27 [INFO] : --------------------------------------------
+2022-03-18 23:25:27 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-18 23:25:27 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-03-18 23:25:27 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-03-18 23:25:27 [INFO] : --------------------------------------------
+2022-03-18 23:25:27 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-18 23:25:27 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-03-18 23:25:28 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-03-18 23:25:28 [INFO] : --------------------------------------------
+2022-03-18 23:25:28 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-18 23:25:28 [INFO] : 正在获取 [红后] 威胁情报...
+2022-03-18 23:25:28 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-03-18 23:25:28 [INFO] : --------------------------------------------
+2022-03-18 23:25:28 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-18 23:25:28 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-03-18 23:25:31 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-03-18 23:25:31 [INFO] : --------------------------------------------
+2022-03-18 23:25:31 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-18 23:25:31 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-03-18 23:25:31 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
+2022-03-18 23:25:31 [INFO] : --------------------------------------------
+2022-03-18 23:25:31 [INFO] : 正在提交变更...

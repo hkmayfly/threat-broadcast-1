@@ -33,7 +33,6 @@ def to_mail(gtk, cves, smtp, sender, password):
         to_cache(content, MAIL_CONTENT_CACHE)
 
     else:
-        log.info((sender, password))
         log.info('[邮件] 正在推送威胁情报...')
         email = MIMEText(content, 'html', config.CHARSET)     # 以 html 格式发送邮件内容
         email['From'] = sender
