@@ -537,3 +537,58 @@ Traceback (most recent call last):
   File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 529, in send
     raise ReadTimeout(e, request=request)
 requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='cert.360.cn', port=443): Read timed out. (read timeout=60)
+2022-03-18 23:05:28 [ERROR] : 提交变更失败
+Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/utils/_git.py", line 26, in auto_commit
+    repo.git.push()
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 542, in <lambda>
+    return lambda *args, **kwargs: self._call_process(name, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 1005, in _call_process
+    return self.execute(call, **exec_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 822, in execute
+    raise GitCommandError(command, status, stderr_value, stdout_value)
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(1)
+  cmdline: git push
+  stderr: 'To git@github.com:hkmayfly/threat-broadcast-1.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'git@github.com:hkmayfly/threat-broadcast-1.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Merge the remote changes (e.g. 'git pull')
+hint: before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.'
+2022-03-18 23:05:28 [ERROR] : Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/utils/_git.py", line 26, in auto_commit
+    repo.git.push()
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 542, in <lambda>
+    return lambda *args, **kwargs: self._call_process(name, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 1005, in _call_process
+    return self.execute(call, **exec_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 822, in execute
+    raise GitCommandError(command, status, stderr_value, stdout_value)
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(1)
+  cmdline: git push
+  stderr: 'To git@github.com:hkmayfly/threat-broadcast-1.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'git@github.com:hkmayfly/threat-broadcast-1.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Merge the remote changes (e.g. 'git pull')
+hint: before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.'
+Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/utils/_git.py", line 26, in auto_commit
+    repo.git.push()
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 542, in <lambda>
+    return lambda *args, **kwargs: self._call_process(name, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 1005, in _call_process
+    return self.execute(call, **exec_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 822, in execute
+    raise GitCommandError(command, status, stderr_value, stdout_value)
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(1)
+  cmdline: git push
+  stderr: 'To git@github.com:hkmayfly/threat-broadcast-1.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'git@github.com:hkmayfly/threat-broadcast-1.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Merge the remote changes (e.g. 'git pull')
+hint: before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.'
