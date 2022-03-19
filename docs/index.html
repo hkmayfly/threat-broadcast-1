@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-03-19 05:34:01 -->
+<!-- RELEASE TIME : 2022-03-19 06:42:12 -->
 <html lang="zh-cn">
 
  <head>
@@ -119,6 +119,14 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">eacf1e901f1f1b1eb3162cb13014f55f</td>
+       <td>CVE-2022-27226</td>
+       <td>2022-03-19 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>A CSRF issue in /api/crontab on iRZ Mobile Routers through 2022-03-16 allows a threat actor to create a crontab entry in the router administration panel. The cronjob will consequently execute the entry on the threat actor's defined interval, leading to remote code execution, allowing the threat actor to gain filesystem access. In addition, if the router's default credentials aren't rotated or a threat actor discovers valid credentials, remote code execution can be achieved without user interaction.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27226">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">c13a9c3693d6147a5dfe65cf2aa9f7e7</td>
        <td>CVE-2022-26267</td>
@@ -349,14 +357,6 @@
        <td>2022-03-18 05:15:00 <img src="imgs/new.gif" /></td>
        <td>An issue was discovered in Pascom Cloud Phone System before 7.20.x. A configuration error between NGINX and a backend Tomcat server leads to a path traversal in the Tomcat server, exposing unintended endpoints.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-45967">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0356c3a091fbc69bc2f27321d1ab3761</td>
-       <td>CVE-2022-0758</td>
-       <td>2022-03-17 23:15:00</td>
-       <td>Rapid7 Nexpose versions 6.6.129 and earlier suffer from a reflected cross site scripting vulnerability, within the shared scan configuration component of the tool. With this vulnerability an attacker could pass literal values as the test credentials, providing the opportunity for a potential XSS attack. This issue is fixed in Rapid7 Nexpose version 6.6.130.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-0758">详情</a></td>
       </tr>
 
      </tbody>
