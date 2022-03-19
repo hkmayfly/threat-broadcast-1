@@ -1036,3 +1036,28 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
     authobject(challenge).encode('ascii'), eol='')
 AttributeError: 'NoneType' object has no attribute 'encode'
+2022-03-19 09:35:34 [ERROR] : [邮件] 推送威胁情报失败
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-03-19 09:35:34 [ERROR] : Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
