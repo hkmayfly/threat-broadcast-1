@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-03-20 10:29:43 -->
+<!-- RELEASE TIME : 2022-03-20 19:17:12 -->
 <html lang="zh-cn">
 
  <head>
@@ -119,6 +119,22 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">d828c698ad601b93dc6a36e273dfaa34</td>
+       <td>CVE-2022-24125</td>
+       <td>2022-03-20 01:15:00 <img src="imgs/new.gif" /></td>
+       <td>The matchmaking servers of Bandai Namco FromSoftware Dark Souls III through 2022-03-19 allow remote attackers to send arbitrary push requests to clients via a RequestSendMessageToPlayers request. For example, ability to send a push message to hundreds of thousands of machines is only restricted on the client side, and can thus be bypassed with a modified client.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24125">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6b861c054a5b6fba8700460a02f5745a</td>
+       <td>CVE-2022-24126</td>
+       <td>2022-03-20 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>A buffer overflow in the NRSessionSearchResult parser in Bandai Namco FromSoftware Dark Souls III through 2022-03-19 allows remote attackers to execute arbitrary code via matchmaking servers, a different vulnerability than CVE-2021-34170.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24126">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">e159412de58687dd4d48e2fb5228f5b0</td>
        <td>CVE-2022-0991</td>
@@ -341,22 +357,6 @@
        <td>2022-03-18 07:15:00</td>
        <td>In the Linux kernel before 5.15.3, fs/quota/quota_tree.c does not validate the block number in the quota tree (on disk). This can, for example, lead to a kernel/locking/rwsem.c use-after-free if there is a corrupted quota file.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-45868">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4a0106d09bee072aa1d802c058fed7c5</td>
-       <td>CVE-2022-27240</td>
-       <td>2022-03-18 06:15:00</td>
-       <td>scheme/webauthn.c in Glewlwyd SSO server 2.x before 2.6.2 has a buffer overflow associated with a webauthn assertion.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27240">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8aca01f81bf142c447d2a44656f99744</td>
-       <td>CVE-2021-45968</td>
-       <td>2022-03-18 05:15:00</td>
-       <td>An issue was discovered in xmppserver jar in the XMPP Server component of the JIve platform, as used in Pascom Cloud Phone System before 7.20.x (and in other products). An endpoint in the backend Tomcat server of the Pascom allows SSRF, a related issue to CVE-2019-18394.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-45968">详情</a></td>
       </tr>
 
      </tbody>
@@ -2124,6 +2124,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">8c33f068116488758e002a7049b0dfcd</td>
+       <td>CVE-2022-26981</td>
+       <td>2022-03-13 18:15:08 </td>
+       <td>Liblouis through 3.21.0 has a buffer overflow in compilePassOpcode in compileTranslationTable.c (called, indirectly, by tools/lou_checktable.c).</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26981">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">c23aa7f543a1b8bb186702e0c55c615f</td>
        <td>CVE-2022-24750</td>
        <td>2022-03-10 21:15:14 </td>
@@ -2353,14 +2361,6 @@
        <td>2022-03-10 17:46:38 </td>
        <td>The absence of filters when loading some sections in the web application of the vulnerable device allows attackers to inject malicious code that will be interpreted when a legitimate user accesses the web section where the information is displayed. Injection can be done on specific parameters. The injected code is executed when a legitimate user attempts to upload, copy, download, or delete an existing configuration (Administrative Services).</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24915">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ab5810667d0351b1c60d52cd57657557</td>
-       <td>CVE-2022-24748</td>
-       <td>2022-03-09 23:15:08 </td>
-       <td>Shopware is an open commerce platform based on the Symfony php Framework and the Vue javascript framework. In versions prior to 6.4.8.2 it is possible to modify customers and to create orders without App Permission. This issue is a result of improper api route checking. Users are advised to upgrade to version 6.4.8.2. There are no known workarounds.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24748">详情</a></td>
       </tr>
 
      </tbody>
