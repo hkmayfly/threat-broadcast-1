@@ -1,0 +1,1113 @@
+2022-03-19 00:26:20 [ERROR] : 提交变更失败
+Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/utils/_git.py", line 26, in auto_commit
+    repo.git.push()
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 542, in <lambda>
+    return lambda *args, **kwargs: self._call_process(name, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 1005, in _call_process
+    return self.execute(call, **exec_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 822, in execute
+    raise GitCommandError(command, status, stderr_value, stdout_value)
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(1)
+  cmdline: git push
+  stderr: 'To git@github.com:hkmayfly/threat-broadcast-1.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'git@github.com:hkmayfly/threat-broadcast-1.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first merge the remote changes (e.g.,
+hint: 'git pull') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.'
+2022-03-19 00:26:20 [ERROR] : Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/utils/_git.py", line 26, in auto_commit
+    repo.git.push()
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 542, in <lambda>
+    return lambda *args, **kwargs: self._call_process(name, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 1005, in _call_process
+    return self.execute(call, **exec_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 822, in execute
+    raise GitCommandError(command, status, stderr_value, stdout_value)
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(1)
+  cmdline: git push
+  stderr: 'To git@github.com:hkmayfly/threat-broadcast-1.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'git@github.com:hkmayfly/threat-broadcast-1.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first merge the remote changes (e.g.,
+hint: 'git pull') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.'
+Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/utils/_git.py", line 26, in auto_commit
+    repo.git.push()
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 542, in <lambda>
+    return lambda *args, **kwargs: self._call_process(name, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 1005, in _call_process
+    return self.execute(call, **exec_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 822, in execute
+    raise GitCommandError(command, status, stderr_value, stdout_value)
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(1)
+  cmdline: git push
+  stderr: 'To git@github.com:hkmayfly/threat-broadcast-1.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'git@github.com:hkmayfly/threat-broadcast-1.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first merge the remote changes (e.g.,
+hint: 'git pull') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.'
+<<<<<<< HEAD
+=======
+2022-03-18 23:05:15 [ERROR] : 获取 [360 网络安全响应中心] 威胁情报异常
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 362, in connect
+    self.sock = ssl_wrap_socket(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/ssl_.py", line 386, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/local/python3/lib/python3.8/ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/usr/local/python3/lib/python3.8/ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "/usr/local/python3/lib/python3.8/ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:1091: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/retry.py", line 410, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 384, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 335, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='cert.360.cn', port=443): Read timed out. (read timeout=60)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/crawler/_base_crawler.py", line 62, in cves
+    new_cves = self.get_cves()
+  File "/root/project/threat-broadcast-1/src/crawler/cert360.py", line 48, in get_cves
+    response = requests.get(
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='cert.360.cn', port=443): Read timed out. (read timeout=60)
+2022-03-18 23:05:15 [ERROR] : Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 362, in connect
+    self.sock = ssl_wrap_socket(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/ssl_.py", line 386, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/local/python3/lib/python3.8/ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/usr/local/python3/lib/python3.8/ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "/usr/local/python3/lib/python3.8/ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:1091: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/retry.py", line 410, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 384, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 335, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='cert.360.cn', port=443): Read timed out. (read timeout=60)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/crawler/_base_crawler.py", line 62, in cves
+    new_cves = self.get_cves()
+  File "/root/project/threat-broadcast-1/src/crawler/cert360.py", line 48, in get_cves
+    response = requests.get(
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='cert.360.cn', port=443): Read timed out. (read timeout=60)
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 362, in connect
+    self.sock = ssl_wrap_socket(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/ssl_.py", line 386, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/local/python3/lib/python3.8/ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/usr/local/python3/lib/python3.8/ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "/usr/local/python3/lib/python3.8/ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:1091: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/retry.py", line 410, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 384, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 335, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='cert.360.cn', port=443): Read timed out. (read timeout=60)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/crawler/_base_crawler.py", line 62, in cves
+    new_cves = self.get_cves()
+  File "/root/project/threat-broadcast-1/src/crawler/cert360.py", line 48, in get_cves
+    response = requests.get(
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='cert.360.cn', port=443): Read timed out. (read timeout=60)
+2022-03-18 23:05:28 [ERROR] : 提交变更失败
+Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/utils/_git.py", line 26, in auto_commit
+    repo.git.push()
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 542, in <lambda>
+    return lambda *args, **kwargs: self._call_process(name, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 1005, in _call_process
+    return self.execute(call, **exec_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 822, in execute
+    raise GitCommandError(command, status, stderr_value, stdout_value)
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(1)
+  cmdline: git push
+  stderr: 'To git@github.com:hkmayfly/threat-broadcast-1.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'git@github.com:hkmayfly/threat-broadcast-1.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Merge the remote changes (e.g. 'git pull')
+hint: before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.'
+2022-03-18 23:05:28 [ERROR] : Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/utils/_git.py", line 26, in auto_commit
+    repo.git.push()
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 542, in <lambda>
+    return lambda *args, **kwargs: self._call_process(name, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 1005, in _call_process
+    return self.execute(call, **exec_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 822, in execute
+    raise GitCommandError(command, status, stderr_value, stdout_value)
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(1)
+  cmdline: git push
+  stderr: 'To git@github.com:hkmayfly/threat-broadcast-1.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'git@github.com:hkmayfly/threat-broadcast-1.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Merge the remote changes (e.g. 'git pull')
+hint: before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.'
+Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/utils/_git.py", line 26, in auto_commit
+    repo.git.push()
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 542, in <lambda>
+    return lambda *args, **kwargs: self._call_process(name, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 1005, in _call_process
+    return self.execute(call, **exec_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 822, in execute
+    raise GitCommandError(command, status, stderr_value, stdout_value)
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(1)
+  cmdline: git push
+  stderr: 'To git@github.com:hkmayfly/threat-broadcast-1.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'git@github.com:hkmayfly/threat-broadcast-1.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Merge the remote changes (e.g. 'git pull')
+hint: before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.'
+2022-03-18 23:12:27 [ERROR] : 提交变更失败
+Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/utils/_git.py", line 26, in auto_commit
+    repo.git.push()
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 542, in <lambda>
+    return lambda *args, **kwargs: self._call_process(name, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 1005, in _call_process
+    return self.execute(call, **exec_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 822, in execute
+    raise GitCommandError(command, status, stderr_value, stdout_value)
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(1)
+  cmdline: git push
+  stderr: 'To git@github.com:hkmayfly/threat-broadcast-1.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'git@github.com:hkmayfly/threat-broadcast-1.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Merge the remote changes (e.g. 'git pull')
+hint: before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.'
+2022-03-18 23:12:27 [ERROR] : Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/utils/_git.py", line 26, in auto_commit
+    repo.git.push()
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 542, in <lambda>
+    return lambda *args, **kwargs: self._call_process(name, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 1005, in _call_process
+    return self.execute(call, **exec_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 822, in execute
+    raise GitCommandError(command, status, stderr_value, stdout_value)
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(1)
+  cmdline: git push
+  stderr: 'To git@github.com:hkmayfly/threat-broadcast-1.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'git@github.com:hkmayfly/threat-broadcast-1.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Merge the remote changes (e.g. 'git pull')
+hint: before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.'
+Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/utils/_git.py", line 26, in auto_commit
+    repo.git.push()
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 542, in <lambda>
+    return lambda *args, **kwargs: self._call_process(name, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 1005, in _call_process
+    return self.execute(call, **exec_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 822, in execute
+    raise GitCommandError(command, status, stderr_value, stdout_value)
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(1)
+  cmdline: git push
+  stderr: 'To git@github.com:hkmayfly/threat-broadcast-1.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'git@github.com:hkmayfly/threat-broadcast-1.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Merge the remote changes (e.g. 'git pull')
+hint: before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.'
+2022-03-18 15:39:44 [ERROR] : [邮件] 推送威胁情报失败
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-03-18 15:39:44 [ERROR] : Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+>>>>>>> 3064b1f879ae4b11fb41e39d5d326ebafee0a9c8
+<<<<<<< HEAD
+2022-03-19 08:01:27 [ERROR] : 获取 [国家信息安全漏洞库（CNNVD）] 威胁情报异常
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1230, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1276, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1225, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1004, in _send_output
+    self.send(msg)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 944, in send
+    self.connect()
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 164, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7f539220f910>, 'Connection to www.cnnvd.org.cn timed out. (connect timeout=60)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='www.cnnvd.org.cn', port=80): Max retries exceeded with url: /web/vulnerability/querylist.tag (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f539220f910>, 'Connection to www.cnnvd.org.cn timed out. (connect timeout=60)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/crawler/_base_crawler.py", line 62, in cves
+    new_cves = self.get_cves()
+  File "/root/project/threat-broadcast-1/src/crawler/cnnvd.py", line 43, in get_cves
+    response = requests.get(
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='www.cnnvd.org.cn', port=80): Max retries exceeded with url: /web/vulnerability/querylist.tag (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f539220f910>, 'Connection to www.cnnvd.org.cn timed out. (connect timeout=60)'))
+2022-03-19 08:01:27 [ERROR] : Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1230, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1276, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1225, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1004, in _send_output
+    self.send(msg)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 944, in send
+    self.connect()
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 164, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7f539220f910>, 'Connection to www.cnnvd.org.cn timed out. (connect timeout=60)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='www.cnnvd.org.cn', port=80): Max retries exceeded with url: /web/vulnerability/querylist.tag (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f539220f910>, 'Connection to www.cnnvd.org.cn timed out. (connect timeout=60)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/crawler/_base_crawler.py", line 62, in cves
+    new_cves = self.get_cves()
+  File "/root/project/threat-broadcast-1/src/crawler/cnnvd.py", line 43, in get_cves
+    response = requests.get(
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='www.cnnvd.org.cn', port=80): Max retries exceeded with url: /web/vulnerability/querylist.tag (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f539220f910>, 'Connection to www.cnnvd.org.cn timed out. (connect timeout=60)'))
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1230, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1276, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1225, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1004, in _send_output
+    self.send(msg)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 944, in send
+    self.connect()
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 164, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7f539220f910>, 'Connection to www.cnnvd.org.cn timed out. (connect timeout=60)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='www.cnnvd.org.cn', port=80): Max retries exceeded with url: /web/vulnerability/querylist.tag (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f539220f910>, 'Connection to www.cnnvd.org.cn timed out. (connect timeout=60)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/crawler/_base_crawler.py", line 62, in cves
+    new_cves = self.get_cves()
+  File "/root/project/threat-broadcast-1/src/crawler/cnnvd.py", line 43, in get_cves
+    response = requests.get(
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='www.cnnvd.org.cn', port=80): Max retries exceeded with url: /web/vulnerability/querylist.tag (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f539220f910>, 'Connection to www.cnnvd.org.cn timed out. (connect timeout=60)'))
+2022-03-19 08:02:30 [ERROR] : 获取 [信息安全漏洞门户] 威胁情报异常
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1230, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1276, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1225, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1004, in _send_output
+    self.send(msg)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 944, in send
+    self.connect()
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 164, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7f5392191370>, 'Connection to cve.scap.org.cn timed out. (connect timeout=60)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='cve.scap.org.cn', port=80): Max retries exceeded with url: /vulns?view=global (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f5392191370>, 'Connection to cve.scap.org.cn timed out. (connect timeout=60)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/crawler/_base_crawler.py", line 62, in cves
+    new_cves = self.get_cves()
+  File "/root/project/threat-broadcast-1/src/crawler/vulhub.py", line 43, in get_cves
+    response = requests.get(
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='cve.scap.org.cn', port=80): Max retries exceeded with url: /vulns?view=global (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f5392191370>, 'Connection to cve.scap.org.cn timed out. (connect timeout=60)'))
+2022-03-19 08:02:30 [ERROR] : Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1230, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1276, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1225, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1004, in _send_output
+    self.send(msg)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 944, in send
+    self.connect()
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 164, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7f5392191370>, 'Connection to cve.scap.org.cn timed out. (connect timeout=60)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='cve.scap.org.cn', port=80): Max retries exceeded with url: /vulns?view=global (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f5392191370>, 'Connection to cve.scap.org.cn timed out. (connect timeout=60)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/crawler/_base_crawler.py", line 62, in cves
+    new_cves = self.get_cves()
+  File "/root/project/threat-broadcast-1/src/crawler/vulhub.py", line 43, in get_cves
+    response = requests.get(
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='cve.scap.org.cn', port=80): Max retries exceeded with url: /vulns?view=global (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f5392191370>, 'Connection to cve.scap.org.cn timed out. (connect timeout=60)'))
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1230, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1276, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1225, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1004, in _send_output
+    self.send(msg)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 944, in send
+    self.connect()
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 164, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7f5392191370>, 'Connection to cve.scap.org.cn timed out. (connect timeout=60)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='cve.scap.org.cn', port=80): Max retries exceeded with url: /vulns?view=global (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f5392191370>, 'Connection to cve.scap.org.cn timed out. (connect timeout=60)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/crawler/_base_crawler.py", line 62, in cves
+    new_cves = self.get_cves()
+  File "/root/project/threat-broadcast-1/src/crawler/vulhub.py", line 43, in get_cves
+    response = requests.get(
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='cve.scap.org.cn', port=80): Max retries exceeded with url: /vulns?view=global (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f5392191370>, 'Connection to cve.scap.org.cn timed out. (connect timeout=60)'))
+2022-03-19 08:02:38 [ERROR] : 提交变更失败
+Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/utils/_git.py", line 26, in auto_commit
+    repo.git.push()
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 542, in <lambda>
+    return lambda *args, **kwargs: self._call_process(name, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 1005, in _call_process
+    return self.execute(call, **exec_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 822, in execute
+    raise GitCommandError(command, status, stderr_value, stdout_value)
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(1)
+  cmdline: git push
+  stderr: 'To git@github.com:hkmayfly/threat-broadcast-1.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'git@github.com:hkmayfly/threat-broadcast-1.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first merge the remote changes (e.g.,
+hint: 'git pull') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.'
+2022-03-19 08:02:38 [ERROR] : Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/utils/_git.py", line 26, in auto_commit
+    repo.git.push()
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 542, in <lambda>
+    return lambda *args, **kwargs: self._call_process(name, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 1005, in _call_process
+    return self.execute(call, **exec_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 822, in execute
+    raise GitCommandError(command, status, stderr_value, stdout_value)
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(1)
+  cmdline: git push
+  stderr: 'To git@github.com:hkmayfly/threat-broadcast-1.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'git@github.com:hkmayfly/threat-broadcast-1.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first merge the remote changes (e.g.,
+hint: 'git pull') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.'
+Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/utils/_git.py", line 26, in auto_commit
+    repo.git.push()
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 542, in <lambda>
+    return lambda *args, **kwargs: self._call_process(name, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 1005, in _call_process
+    return self.execute(call, **exec_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 822, in execute
+    raise GitCommandError(command, status, stderr_value, stdout_value)
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(1)
+  cmdline: git push
+  stderr: 'To git@github.com:hkmayfly/threat-broadcast-1.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'git@github.com:hkmayfly/threat-broadcast-1.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first merge the remote changes (e.g.,
+hint: 'git pull') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.'
+=======
+2022-03-18 17:37:41 [ERROR] : [邮件] 推送威胁情报失败
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-03-18 17:37:41 [ERROR] : Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-03-18 18:41:54 [ERROR] : [邮件] 推送威胁情报失败
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-03-18 18:41:54 [ERROR] : Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-03-18 19:34:52 [ERROR] : [邮件] 推送威胁情报失败
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-03-18 19:34:52 [ERROR] : Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-03-18 20:36:18 [ERROR] : [邮件] 推送威胁情报失败
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-03-18 20:36:18 [ERROR] : Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-03-18 21:35:19 [ERROR] : [邮件] 推送威胁情报失败
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-03-18 21:35:19 [ERROR] : Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-03-18 22:37:04 [ERROR] : [邮件] 推送威胁情报失败
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-03-18 22:37:04 [ERROR] : Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-03-18 23:36:24 [ERROR] : [邮件] 推送威胁情报失败
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-03-18 23:36:24 [ERROR] : Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+>>>>>>> 7a5f1c19b05234be59de762854e04386763a1098
+2022-03-19 05:34:02 [ERROR] : [邮件] 推送威胁情报失败
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-03-19 05:34:02 [ERROR] : Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-03-19 06:42:13 [ERROR] : [邮件] 推送威胁情报失败
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-03-19 06:42:13 [ERROR] : Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-03-19 07:33:24 [ERROR] : [邮件] 推送威胁情报失败
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-03-19 07:33:24 [ERROR] : Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-03-19 09:35:34 [ERROR] : [邮件] 推送威胁情报失败
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-03-19 09:35:34 [ERROR] : Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-03-19 10:37:59 [ERROR] : [邮件] 推送威胁情报失败
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-03-19 10:37:59 [ERROR] : Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-03-19 11:34:01 [ERROR] : [邮件] 推送威胁情报失败
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+2022-03-19 11:34:01 [ERROR] : Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 46, in to_mail
+    smtpObj.login(sender, password)
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/smtplib.py", line 650, in auth
+    authobject(challenge).encode('ascii'), eol='')
+AttributeError: 'NoneType' object has no attribute 'encode'
