@@ -1,0 +1,368 @@
+2022-03-21 18:52:25 [ERROR] : 获取 [信息安全漏洞门户] 威胁情报异常
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1230, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1276, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1225, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1004, in _send_output
+    self.send(msg)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 944, in send
+    self.connect()
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 164, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7fe9c1d7abe0>, 'Connection to cve.scap.org.cn timed out. (connect timeout=60)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='cve.scap.org.cn', port=80): Max retries exceeded with url: /vulns?view=global (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fe9c1d7abe0>, 'Connection to cve.scap.org.cn timed out. (connect timeout=60)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/crawler/_base_crawler.py", line 62, in cves
+    new_cves = self.get_cves()
+  File "/root/project/threat-broadcast-1/src/crawler/vulhub.py", line 43, in get_cves
+    response = requests.get(
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='cve.scap.org.cn', port=80): Max retries exceeded with url: /vulns?view=global (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fe9c1d7abe0>, 'Connection to cve.scap.org.cn timed out. (connect timeout=60)'))
+2022-03-21 18:52:25 [ERROR] : Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1230, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1276, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1225, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1004, in _send_output
+    self.send(msg)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 944, in send
+    self.connect()
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 164, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7fe9c1d7abe0>, 'Connection to cve.scap.org.cn timed out. (connect timeout=60)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='cve.scap.org.cn', port=80): Max retries exceeded with url: /vulns?view=global (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fe9c1d7abe0>, 'Connection to cve.scap.org.cn timed out. (connect timeout=60)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/crawler/_base_crawler.py", line 62, in cves
+    new_cves = self.get_cves()
+  File "/root/project/threat-broadcast-1/src/crawler/vulhub.py", line 43, in get_cves
+    response = requests.get(
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='cve.scap.org.cn', port=80): Max retries exceeded with url: /vulns?view=global (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fe9c1d7abe0>, 'Connection to cve.scap.org.cn timed out. (connect timeout=60)'))
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1230, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1276, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1225, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1004, in _send_output
+    self.send(msg)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 944, in send
+    self.connect()
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 164, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7fe9c1d7abe0>, 'Connection to cve.scap.org.cn timed out. (connect timeout=60)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='cve.scap.org.cn', port=80): Max retries exceeded with url: /vulns?view=global (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fe9c1d7abe0>, 'Connection to cve.scap.org.cn timed out. (connect timeout=60)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/crawler/_base_crawler.py", line 62, in cves
+    new_cves = self.get_cves()
+  File "/root/project/threat-broadcast-1/src/crawler/vulhub.py", line 43, in get_cves
+    response = requests.get(
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='cve.scap.org.cn', port=80): Max retries exceeded with url: /vulns?view=global (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fe9c1d7abe0>, 'Connection to cve.scap.org.cn timed out. (connect timeout=60)'))
+2022-03-21 19:42:09 [ERROR] : 获取 [信息安全漏洞门户] 威胁情报异常
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1230, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1276, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1225, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1004, in _send_output
+    self.send(msg)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 944, in send
+    self.connect()
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 164, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7fea76342a00>, 'Connection to cve.scap.org.cn timed out. (connect timeout=60)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='cve.scap.org.cn', port=80): Max retries exceeded with url: /vulns?view=global (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fea76342a00>, 'Connection to cve.scap.org.cn timed out. (connect timeout=60)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/crawler/_base_crawler.py", line 62, in cves
+    new_cves = self.get_cves()
+  File "/root/project/threat-broadcast-1/src/crawler/vulhub.py", line 43, in get_cves
+    response = requests.get(
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='cve.scap.org.cn', port=80): Max retries exceeded with url: /vulns?view=global (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fea76342a00>, 'Connection to cve.scap.org.cn timed out. (connect timeout=60)'))
+2022-03-21 19:42:09 [ERROR] : Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1230, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1276, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1225, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1004, in _send_output
+    self.send(msg)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 944, in send
+    self.connect()
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 164, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7fea76342a00>, 'Connection to cve.scap.org.cn timed out. (connect timeout=60)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='cve.scap.org.cn', port=80): Max retries exceeded with url: /vulns?view=global (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fea76342a00>, 'Connection to cve.scap.org.cn timed out. (connect timeout=60)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/crawler/_base_crawler.py", line 62, in cves
+    new_cves = self.get_cves()
+  File "/root/project/threat-broadcast-1/src/crawler/vulhub.py", line 43, in get_cves
+    response = requests.get(
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='cve.scap.org.cn', port=80): Max retries exceeded with url: /vulns?view=global (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fea76342a00>, 'Connection to cve.scap.org.cn timed out. (connect timeout=60)'))
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1230, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1276, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1225, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1004, in _send_output
+    self.send(msg)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 944, in send
+    self.connect()
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 164, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7fea76342a00>, 'Connection to cve.scap.org.cn timed out. (connect timeout=60)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='cve.scap.org.cn', port=80): Max retries exceeded with url: /vulns?view=global (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fea76342a00>, 'Connection to cve.scap.org.cn timed out. (connect timeout=60)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/crawler/_base_crawler.py", line 62, in cves
+    new_cves = self.get_cves()
+  File "/root/project/threat-broadcast-1/src/crawler/vulhub.py", line 43, in get_cves
+    response = requests.get(
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='cve.scap.org.cn', port=80): Max retries exceeded with url: /vulns?view=global (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fea76342a00>, 'Connection to cve.scap.org.cn timed out. (connect timeout=60)'))
