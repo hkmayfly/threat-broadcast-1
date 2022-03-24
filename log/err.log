@@ -1,157 +1,49 @@
-2022-03-23 21:09:27 [ERROR] : 获取 [美国国家漏洞数据库（NVD）] 威胁情报异常
+2022-03-24 18:12:52 [ERROR] : 提交变更失败
 Traceback (most recent call last):
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/response.py", line 436, in _error_catcher
-    yield
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/response.py", line 518, in read
-    data = self._fp.read(amt) if not fp_closed else b""
-  File "/usr/local/python3/lib/python3.8/http/client.py", line 454, in read
-    n = self.readinto(b)
-  File "/usr/local/python3/lib/python3.8/http/client.py", line 498, in readinto
-    n = self.fp.readinto(b)
-  File "/usr/local/python3/lib/python3.8/socket.py", line 669, in readinto
-    return self._sock.recv_into(b)
-  File "/usr/local/python3/lib/python3.8/ssl.py", line 1241, in recv_into
-    return self.read(nbytes, buffer)
-  File "/usr/local/python3/lib/python3.8/ssl.py", line 1099, in read
-    return self._sslobj.read(len, buffer)
-socket.timeout: The read operation timed out
+  File "/root/project/threat-broadcast-1/src/utils/_git.py", line 26, in auto_commit
+    repo.git.push()
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 542, in <lambda>
+    return lambda *args, **kwargs: self._call_process(name, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 1005, in _call_process
+    return self.execute(call, **exec_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 822, in execute
+    raise GitCommandError(command, status, stderr_value, stdout_value)
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(128)
+  cmdline: git push
+  stderr: 'ssh_exchange_identification: read: Connection reset by peer
+fatal: Could not read from remote repository.
 
-During handling of the above exception, another exception occurred:
+Please make sure you have the correct access rights
+and the repository exists.'
+2022-03-24 18:12:52 [ERROR] : Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/utils/_git.py", line 26, in auto_commit
+    repo.git.push()
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 542, in <lambda>
+    return lambda *args, **kwargs: self._call_process(name, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 1005, in _call_process
+    return self.execute(call, **exec_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 822, in execute
+    raise GitCommandError(command, status, stderr_value, stdout_value)
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(128)
+  cmdline: git push
+  stderr: 'ssh_exchange_identification: read: Connection reset by peer
+fatal: Could not read from remote repository.
 
+Please make sure you have the correct access rights
+and the repository exists.'
 Traceback (most recent call last):
-  File "/usr/local/python3/lib/python3.8/site-packages/requests/models.py", line 750, in generate
-    for chunk in self.raw.stream(chunk_size, decode_content=True):
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/response.py", line 575, in stream
-    data = self.read(amt=amt, decode_content=decode_content)
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/response.py", line 540, in read
-    raise IncompleteRead(self._fp_bytes_read, self.length_remaining)
-  File "/usr/local/python3/lib/python3.8/contextlib.py", line 131, in __exit__
-    self.gen.throw(type, value, traceback)
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/response.py", line 441, in _error_catcher
-    raise ReadTimeoutError(self._pool, None, "Read timed out.")
-urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='nvd.nist.gov', port=443): Read timed out.
+  File "/root/project/threat-broadcast-1/src/utils/_git.py", line 26, in auto_commit
+    repo.git.push()
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 542, in <lambda>
+    return lambda *args, **kwargs: self._call_process(name, *args, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 1005, in _call_process
+    return self.execute(call, **exec_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/git/cmd.py", line 822, in execute
+    raise GitCommandError(command, status, stderr_value, stdout_value)
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(128)
+  cmdline: git push
+  stderr: 'ssh_exchange_identification: read: Connection reset by peer
+fatal: Could not read from remote repository.
 
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/root/project/threat-broadcast-1/src/crawler/_base_crawler.py", line 62, in cves
-    new_cves = self.get_cves()
-  File "/root/project/threat-broadcast-1/src/crawler/nvd.py", line 42, in get_cves
-    response = requests.get(
-  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 75, in get
-    return request('get', url, params=params, **kwargs)
-  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 60, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
-    resp = self.send(prep, **send_kwargs)
-  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 686, in send
-    r.content
-  File "/usr/local/python3/lib/python3.8/site-packages/requests/models.py", line 828, in content
-    self._content = b''.join(self.iter_content(CONTENT_CHUNK_SIZE)) or b''
-  File "/usr/local/python3/lib/python3.8/site-packages/requests/models.py", line 757, in generate
-    raise ConnectionError(e)
-requests.exceptions.ConnectionError: HTTPSConnectionPool(host='nvd.nist.gov', port=443): Read timed out.
-2022-03-23 21:09:27 [ERROR] : Traceback (most recent call last):
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/response.py", line 436, in _error_catcher
-    yield
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/response.py", line 518, in read
-    data = self._fp.read(amt) if not fp_closed else b""
-  File "/usr/local/python3/lib/python3.8/http/client.py", line 454, in read
-    n = self.readinto(b)
-  File "/usr/local/python3/lib/python3.8/http/client.py", line 498, in readinto
-    n = self.fp.readinto(b)
-  File "/usr/local/python3/lib/python3.8/socket.py", line 669, in readinto
-    return self._sock.recv_into(b)
-  File "/usr/local/python3/lib/python3.8/ssl.py", line 1241, in recv_into
-    return self.read(nbytes, buffer)
-  File "/usr/local/python3/lib/python3.8/ssl.py", line 1099, in read
-    return self._sslobj.read(len, buffer)
-socket.timeout: The read operation timed out
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/local/python3/lib/python3.8/site-packages/requests/models.py", line 750, in generate
-    for chunk in self.raw.stream(chunk_size, decode_content=True):
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/response.py", line 575, in stream
-    data = self.read(amt=amt, decode_content=decode_content)
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/response.py", line 540, in read
-    raise IncompleteRead(self._fp_bytes_read, self.length_remaining)
-  File "/usr/local/python3/lib/python3.8/contextlib.py", line 131, in __exit__
-    self.gen.throw(type, value, traceback)
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/response.py", line 441, in _error_catcher
-    raise ReadTimeoutError(self._pool, None, "Read timed out.")
-urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='nvd.nist.gov', port=443): Read timed out.
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/root/project/threat-broadcast-1/src/crawler/_base_crawler.py", line 62, in cves
-    new_cves = self.get_cves()
-  File "/root/project/threat-broadcast-1/src/crawler/nvd.py", line 42, in get_cves
-    response = requests.get(
-  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 75, in get
-    return request('get', url, params=params, **kwargs)
-  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 60, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
-    resp = self.send(prep, **send_kwargs)
-  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 686, in send
-    r.content
-  File "/usr/local/python3/lib/python3.8/site-packages/requests/models.py", line 828, in content
-    self._content = b''.join(self.iter_content(CONTENT_CHUNK_SIZE)) or b''
-  File "/usr/local/python3/lib/python3.8/site-packages/requests/models.py", line 757, in generate
-    raise ConnectionError(e)
-requests.exceptions.ConnectionError: HTTPSConnectionPool(host='nvd.nist.gov', port=443): Read timed out.
-Traceback (most recent call last):
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/response.py", line 436, in _error_catcher
-    yield
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/response.py", line 518, in read
-    data = self._fp.read(amt) if not fp_closed else b""
-  File "/usr/local/python3/lib/python3.8/http/client.py", line 454, in read
-    n = self.readinto(b)
-  File "/usr/local/python3/lib/python3.8/http/client.py", line 498, in readinto
-    n = self.fp.readinto(b)
-  File "/usr/local/python3/lib/python3.8/socket.py", line 669, in readinto
-    return self._sock.recv_into(b)
-  File "/usr/local/python3/lib/python3.8/ssl.py", line 1241, in recv_into
-    return self.read(nbytes, buffer)
-  File "/usr/local/python3/lib/python3.8/ssl.py", line 1099, in read
-    return self._sslobj.read(len, buffer)
-socket.timeout: The read operation timed out
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/local/python3/lib/python3.8/site-packages/requests/models.py", line 750, in generate
-    for chunk in self.raw.stream(chunk_size, decode_content=True):
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/response.py", line 575, in stream
-    data = self.read(amt=amt, decode_content=decode_content)
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/response.py", line 540, in read
-    raise IncompleteRead(self._fp_bytes_read, self.length_remaining)
-  File "/usr/local/python3/lib/python3.8/contextlib.py", line 131, in __exit__
-    self.gen.throw(type, value, traceback)
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/response.py", line 441, in _error_catcher
-    raise ReadTimeoutError(self._pool, None, "Read timed out.")
-urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='nvd.nist.gov', port=443): Read timed out.
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/root/project/threat-broadcast-1/src/crawler/_base_crawler.py", line 62, in cves
-    new_cves = self.get_cves()
-  File "/root/project/threat-broadcast-1/src/crawler/nvd.py", line 42, in get_cves
-    response = requests.get(
-  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 75, in get
-    return request('get', url, params=params, **kwargs)
-  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 60, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
-    resp = self.send(prep, **send_kwargs)
-  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 686, in send
-    r.content
-  File "/usr/local/python3/lib/python3.8/site-packages/requests/models.py", line 828, in content
-    self._content = b''.join(self.iter_content(CONTENT_CHUNK_SIZE)) or b''
-  File "/usr/local/python3/lib/python3.8/site-packages/requests/models.py", line 757, in generate
-    raise ConnectionError(e)
-requests.exceptions.ConnectionError: HTTPSConnectionPool(host='nvd.nist.gov', port=443): Read timed out.
+Please make sure you have the correct access rights
+and the repository exists.'
