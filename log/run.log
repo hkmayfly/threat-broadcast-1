@@ -1,320 +1,214 @@
-2022-03-26 12:26:25 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-03-26 12:26:25 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
-2022-03-26 12:26:26 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
-2022-03-26 12:26:26 [INFO] : --------------------------------------------
-2022-03-26 12:26:26 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-03-26 12:26:26 [INFO] : 正在获取 [阿里云] 威胁情报...
-2022-03-26 12:26:27 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
-2022-03-26 12:26:27 [INFO] : --------------------------------------------
-2022-03-26 12:26:27 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-03-26 12:26:27 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
-2022-03-26 12:26:51 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
-2022-03-26 12:26:51 [INFO] : --------------------------------------------
-2022-03-26 12:26:51 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-03-26 12:26:51 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
-2022-03-26 12:27:06 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [10] 条
-2022-03-26 12:27:06 [INFO] : --------------------------------------------
-2022-03-26 12:27:06 [INFO] : 
+2022-03-27 20:00:33 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-27 20:00:33 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-03-27 20:00:34 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [1] 条
+2022-03-27 20:00:34 [INFO] : --------------------------------------------
+2022-03-27 20:00:34 [INFO] : 
 ==============================================
-[ TITLE ] Anchor 跨站请求伪造漏洞
-[ TIME  ] 2022-03-24 12:26:52
-[ CVE   ] CNNVD-202203-2144 (CVE-2022-25576)
-[ SRC   ] 国家信息安全漏洞库（CNNVD）
-[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202203-2144
-2022-03-26 12:27:06 [INFO] : 
+[ TITLE ] Spring Cloud Function SPEL表达式注入漏洞
+[ TIME  ] 2022-03-26 12:43:30
+[ CVE   ] 
+[ SRC   ] 数字观星POC++
+[ URL   ] https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=5686
+2022-03-27 20:00:34 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-27 20:00:34 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-03-27 20:00:34 [INFO] : 得到 [阿里云] 最新威胁情报 [1] 条
+2022-03-27 20:00:34 [INFO] : --------------------------------------------
+2022-03-27 20:00:34 [INFO] : 
 ==============================================
-[ TITLE ] TuziCMS SQL注入漏洞
-[ TIME  ] 2022-03-24 12:26:54
-[ CVE   ] CNNVD-202203-2143 (CVE-2022-26301)
-[ SRC   ] 国家信息安全漏洞库（CNNVD）
-[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202203-2143
-2022-03-26 12:27:06 [INFO] : 
+[ TITLE ] Spring Cloud Function functionRouter SPEL代码执行漏洞
+                        
+[ TIME  ] 2022-03-25 20:00:34
+[ CVE   ] AVD-2022-1117998
+[ SRC   ] 阿里云
+[ URL   ] https://avd.aliyun.com/detail?id=AVD-2022-1117998
+2022-03-27 20:00:34 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-27 20:00:34 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-03-27 20:00:58 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [1] 条
+2022-03-27 20:00:58 [INFO] : --------------------------------------------
+2022-03-27 20:00:58 [INFO] : 
 ==============================================
-[ TITLE ] EyouCms 安全漏洞
-[ TIME  ] 2022-03-24 12:26:55
-[ CVE   ] CNNVD-202203-2142 (CVE-2022-26279)
-[ SRC   ] 国家信息安全漏洞库（CNNVD）
-[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202203-2142
-2022-03-26 12:27:06 [INFO] : 
+[ TITLE ] 盛威时代科技集团有限公司道路客运联网售票系统存在SQL注入漏洞
+[ TIME  ] 2022-03-27 20:00:39
+[ CVE   ] CNVD-2022-18724
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-18724
+2022-03-27 20:00:58 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-27 20:00:58 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-03-27 20:03:13 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-03-27 20:03:13 [INFO] : --------------------------------------------
+2022-03-27 20:03:13 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-27 20:03:13 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-03-27 20:03:13 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-03-27 20:03:13 [INFO] : --------------------------------------------
+2022-03-27 20:03:13 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-27 20:03:13 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-03-27 20:03:15 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
+2022-03-27 20:03:15 [INFO] : --------------------------------------------
+2022-03-27 20:03:15 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-27 20:03:15 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-03-27 20:03:16 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-03-27 20:03:16 [INFO] : --------------------------------------------
+2022-03-27 20:03:16 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-27 20:03:16 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-03-27 20:03:16 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-03-27 20:03:16 [INFO] : --------------------------------------------
+2022-03-27 20:03:16 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-27 20:03:16 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-03-27 20:03:16 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-03-27 20:03:16 [INFO] : --------------------------------------------
+2022-03-27 20:03:16 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-27 20:03:16 [INFO] : 正在获取 [红后] 威胁情报...
+2022-03-27 20:03:17 [INFO] : 得到 [红后] 最新威胁情报 [10] 条
+2022-03-27 20:03:17 [INFO] : --------------------------------------------
+2022-03-27 20:03:17 [INFO] : 
 ==============================================
-[ TITLE ] Ionize 安全漏洞
-[ TIME  ] 2022-03-24 12:26:56
-[ CVE   ] CNNVD-202203-2141 (CVE-2022-26272)
-[ SRC   ] 国家信息安全漏洞库（CNNVD）
-[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202203-2141
-2022-03-26 12:27:06 [INFO] : 
+[ TITLE ] Google Android 竞争条件问题漏洞
+[ TIME  ] 2022-03-26 13:53:17
+[ CVE   ] CVE-2021-0387
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=a83654fa9ad7475e8238ec286e9bf38c
+2022-03-27 20:03:17 [INFO] : 
 ==============================================
-[ TITLE ] Survey King 安全漏洞
-[ TIME  ] 2022-03-24 12:26:58
-[ CVE   ] CNNVD-202203-2140 (CVE-2022-26249)
-[ SRC   ] 国家信息安全漏洞库（CNNVD）
-[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202203-2140
-2022-03-26 12:27:06 [INFO] : 
+[ TITLE ] Google Android 安全漏洞
+[ TIME  ] 2022-03-26 13:53:13
+[ CVE   ] CVE-2021-0386
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=b6fc00e113db4872b8b5a7bb3b8a1ea9
+2022-03-27 20:03:17 [INFO] : 
 ==============================================
-[ TITLE ] Hongmen Intelligent Technology Parking Management System 跨站脚本漏洞
-[ TIME  ] 2022-03-24 12:26:59
-[ CVE   ] CNNVD-202203-2139 (CVE-2022-25575)
-[ SRC   ] 国家信息安全漏洞库（CNNVD）
-[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202203-2139
-2022-03-26 12:27:06 [INFO] : 
+[ TITLE ] Google Android 安全漏洞
+[ TIME  ] 2022-03-26 13:53:10
+[ CVE   ] CVE-2021-0383
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=e33bac1588414bd2adfe43c5b57e56a0
+2022-03-27 20:03:17 [INFO] : 
 ==============================================
-[ TITLE ] math-geon Geon 授权问题漏洞
-[ TIME  ] 2022-03-24 12:27:00
-[ CVE   ] CNNVD-202203-2138 (CVE-2022-24781)
-[ SRC   ] 国家信息安全漏洞库（CNNVD）
-[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202203-2138
-2022-03-26 12:27:06 [INFO] : 
+[ TITLE ] Google Android 安全漏洞
+[ TIME  ] 2022-03-26 13:53:06
+[ CVE   ] CVE-2021-0382
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=c51ff15ccb16425b914d2afb8188c801
+2022-03-27 20:03:17 [INFO] : 
 ==============================================
-[ TITLE ] Flask-AppBuilder 输入验证错误漏洞
-[ TIME  ] 2022-03-24 12:27:02
-[ CVE   ] CNNVD-202203-2137 (CVE-2022-24776)
-[ SRC   ] 国家信息安全漏洞库（CNNVD）
-[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202203-2137
-2022-03-26 12:27:06 [INFO] : 
+[ TITLE ] Google Android 安全漏洞
+[ TIME  ] 2022-03-26 13:53:02
+[ CVE   ] CVE-2021-0385
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=5bda7d15e90941edaa7bbee0976de6bb
+2022-03-27 20:03:17 [INFO] : 
 ==============================================
-[ TITLE ] Discourse 信息泄露漏洞
-[ TIME  ] 2022-03-24 12:27:03
-[ CVE   ] CNNVD-202203-2136 (CVE-2022-24782)
-[ SRC   ] 国家信息安全漏洞库（CNNVD）
-[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202203-2136
-2022-03-26 12:27:06 [INFO] : 
+[ TITLE ] Google Android 安全漏洞
+[ TIME  ] 2022-03-26 13:52:58
+[ CVE   ] CVE-2021-0380
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=6fcce73cbf5f43458a35a9bc26e598a5
+2022-03-27 20:03:17 [INFO] : 
 ==============================================
-[ TITLE ] Bluedon Internet Access Detector 安全漏洞
-[ TIME  ] 2022-03-24 12:27:04
-[ CVE   ] CNNVD-202203-2135 (CVE-2022-25571)
-[ SRC   ] 国家信息安全漏洞库（CNNVD）
-[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202203-2135
-2022-03-26 12:27:06 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-03-26 12:27:06 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
-2022-03-26 12:27:06 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
-2022-03-26 12:27:06 [INFO] : --------------------------------------------
-2022-03-26 12:27:06 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-03-26 12:27:06 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
-2022-03-26 12:27:09 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [8] 条
-2022-03-26 12:27:09 [INFO] : --------------------------------------------
-2022-03-26 12:27:09 [INFO] : 
+[ TITLE ] Google Android 缓冲区错误漏洞
+[ TIME  ] 2022-03-26 13:52:54
+[ CVE   ] CVE-2021-0379
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=b8f096f021db4e49a06f06c599ac05f1
+2022-03-27 20:03:17 [INFO] : 
 ==============================================
-[ TITLE ] An issue was discovered in MISP before 2.4.156. An SVG org logo (which may contain JavaScript) is not forbidden by default.
-[ TIME  ] 2022-03-18 18:15:16 
-[ CVE   ] CVE-2022-27246
-[ SRC   ] 美国国家漏洞数据库（NVD）
-[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27246
-2022-03-26 12:27:09 [INFO] : 
+[ TITLE ] Google Android 安全漏洞
+[ TIME  ] 2022-03-26 13:52:50
+[ CVE   ] CVE-2021-0381
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=8f70e6468cdd48eba3ed80c5aef8dd52
+2022-03-27 20:03:17 [INFO] : 
 ==============================================
-[ TITLE ] An issue was discovered in MISP before 2.4.156. app/Model/Server.php does not restrict generateServerSettings to the CLI. This could lead to SSRF.
-[ TIME  ] 2022-03-18 18:15:16 
-[ CVE   ] CVE-2022-27245
-[ SRC   ] 美国国家漏洞数据库（NVD）
-[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27245
-2022-03-26 12:27:09 [INFO] : 
+[ TITLE ] Google Android 安全漏洞
+[ TIME  ] 2022-03-26 13:52:46
+[ CVE   ] CVE-2021-0377
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=4cb495ca8fbc49378dc60c7ff2ae9e25
+2022-03-27 20:03:17 [INFO] : 
 ==============================================
-[ TITLE ] An issue was discovered in MISP before 2.4.156. A malicious site administrator could store an XSS payload in the custom auth name. This would be executed each time the administrator modifies a user.
-[ TIME  ] 2022-03-18 18:15:16 
-[ CVE   ] CVE-2022-27244
-[ SRC   ] 美国国家漏洞数据库（NVD）
-[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27244
-2022-03-26 12:27:09 [INFO] : 
+[ TITLE ] Google Android 安全漏洞
+[ TIME  ] 2022-03-26 13:52:42
+[ CVE   ] CVE-2021-0376
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=9d283967bcce471893924c1e4c0694ee
+2022-03-27 20:03:17 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-27 20:03:17 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-03-27 20:03:21 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-03-27 20:03:21 [INFO] : --------------------------------------------
+2022-03-27 20:03:21 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-03-27 20:03:21 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-03-27 20:03:22 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [10] 条
+2022-03-27 20:03:22 [INFO] : --------------------------------------------
+2022-03-27 20:03:22 [INFO] : 
 ==============================================
-[ TITLE ] An issue was discovered in MISP before 2.4.156. app/View/Users/terms.ctp allows Local File Inclusion via the custom terms file setting.
-[ TIME  ] 2022-03-18 18:15:16 
-[ CVE   ] CVE-2022-27243
-[ SRC   ] 美国国家漏洞数据库（NVD）
-[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27243
-2022-03-26 12:27:09 [INFO] : 
-==============================================
-[ TITLE ] scheme/webauthn.c in Glewlwyd SSO server 2.x before 2.6.2 has a buffer overflow associated with a webauthn assertion.
-[ TIME  ] 2022-03-18 06:15:08 
-[ CVE   ] CVE-2022-27240
-[ SRC   ] 美国国家漏洞数据库（NVD）
-[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27240
-2022-03-26 12:27:09 [INFO] : 
-==============================================
-[ TITLE ] Jenkins incapptic connect uploader Plugin 1.15 and earlier stores tokens unencrypted in job config.xml files on the Jenkins controller where they can be viewed by users with Extended Read permission, or access to the Jenkins controller file system.
-[ TIME  ] 2022-03-15 17:15:12 
-[ CVE   ] CVE-2022-27218
-[ SRC   ] 美国国家漏洞数据库（NVD）
-[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27218
-2022-03-26 12:27:09 [INFO] : 
-==============================================
-[ TITLE ] Jenkins Vmware vRealize CodeStream Plugin 1.2 and earlier stores passwords unencrypted in job config.xml files on the Jenkins controller where they can be viewed by users with Extended Read permission, or access to the Jenkins controller file system.
-[ TIME  ] 2022-03-15 17:15:12 
-[ CVE   ] CVE-2022-27217
-[ SRC   ] 美国国家漏洞数据库（NVD）
-[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27217
-2022-03-26 12:27:09 [INFO] : 
-==============================================
-[ TITLE ] Jenkins dbCharts Plugin 0.5.2 and earlier stores JDBC connection passwords unencrypted in its global configuration file on the Jenkins controller where they can be viewed by users with access to the Jenkins controller file system.
-[ TIME  ] 2022-03-15 17:15:12 
-[ CVE   ] CVE-2022-27216
-[ SRC   ] 美国国家漏洞数据库（NVD）
-[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27216
-2022-03-26 12:27:09 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-03-26 12:27:09 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
-2022-03-26 12:27:09 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [9] 条
-2022-03-26 12:27:09 [INFO] : --------------------------------------------
-2022-03-26 12:27:09 [INFO] : 
-==============================================
-[ TITLE ] Yogesh Ojha reNgine 安全漏洞
-                    
-[ TIME  ] 2022-03-24 12:27:09
-[ CVE   ] CVE-2021-39491
-[ SRC   ] 信息安全漏洞门户
-[ URL   ] http://cve.scap.org.cn/vuln/VHN-400963
-2022-03-26 12:27:09 [INFO] : 
-==============================================
-[ TITLE ] Nextcloud 安全漏洞
-                    
-[ TIME  ] 2022-03-24 12:27:09
-[ CVE   ] CVE-2021-41741
-[ SRC   ] 信息安全漏洞门户
-[ URL   ] http://cve.scap.org.cn/vuln/VHN-402888
-2022-03-26 12:27:09 [INFO] : 
-==============================================
-[ TITLE ] Dreamer CMS 安全漏洞
-                    
-[ TIME  ] 2022-03-24 12:27:09
-[ CVE   ] CVE-2021-43084
-[ SRC   ] 信息安全漏洞门户
-[ URL   ] http://cve.scap.org.cn/vuln/VHN-404133
-2022-03-26 12:27:09 [INFO] : 
-==============================================
-[ TITLE ] OpenSSL 安全漏洞
-                    
-[ TIME  ] 2022-03-24 12:27:09
-[ CVE   ] CVE-2021-43085
-[ SRC   ] 信息安全漏洞门户
-[ URL   ] http://cve.scap.org.cn/vuln/VHN-404134
-2022-03-26 12:27:09 [INFO] : 
-==============================================
-[ TITLE ] Halo 安全漏洞
-                    
-[ TIME  ] 2022-03-24 12:27:09
-[ CVE   ] CVE-2021-43659
-[ SRC   ] 信息安全漏洞门户
-[ URL   ] http://cve.scap.org.cn/vuln/VHN-406291
-2022-03-26 12:27:09 [INFO] : 
-==============================================
-[ TITLE ] ARM mbed TLS 安全漏洞
-                    
-[ TIME  ] 2022-03-24 12:27:09
-[ CVE   ] CVE-2021-43666
-[ SRC   ] 信息安全漏洞门户
-[ URL   ] http://cve.scap.org.cn/vuln/VHN-406298
-2022-03-26 12:27:09 [INFO] : 
-==============================================
-[ TITLE ] gongwalker ApiManager 安全漏洞
-                    
-[ TIME  ] 2022-03-24 12:27:09
-[ CVE   ] CVE-2021-43700
-[ SRC   ] 信息安全漏洞门户
-[ URL   ] http://cve.scap.org.cn/vuln/VHN-406329
-2022-03-26 12:27:09 [INFO] : 
-==============================================
-[ TITLE ] IBM Power System 安全漏洞
-                    
-[ TIME  ] 2022-03-24 12:27:09
-[ CVE   ] CVE-2022-22374
-[ SRC   ] 信息安全漏洞门户
-[ URL   ] http://cve.scap.org.cn/vuln/VHN-410943
-2022-03-26 12:27:09 [INFO] : 
-==============================================
-[ TITLE ] forkcms 安全漏洞
-                    
-[ TIME  ] 2022-03-24 12:27:09
-[ CVE   ] CVE-2022-0145
-[ SRC   ] 信息安全漏洞门户
-[ URL   ] http://cve.scap.org.cn/vuln/VHN-411434
-2022-03-26 12:27:09 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-03-26 12:27:09 [INFO] : 正在获取 [绿盟] 威胁情报...
-2022-03-26 12:27:10 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
-2022-03-26 12:27:10 [INFO] : --------------------------------------------
-2022-03-26 12:27:10 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-03-26 12:27:10 [INFO] : 正在获取 [奇安信] 威胁情报...
-2022-03-26 12:27:10 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
-2022-03-26 12:27:10 [INFO] : --------------------------------------------
-2022-03-26 12:27:10 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-03-26 12:27:10 [INFO] : 正在获取 [红后] 威胁情报...
-2022-03-26 12:27:10 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
-2022-03-26 12:27:10 [INFO] : --------------------------------------------
-2022-03-26 12:27:10 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-03-26 12:27:10 [INFO] : 正在获取 [斗象] 威胁情报...
-2022-03-26 12:27:13 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
-2022-03-26 12:27:13 [INFO] : --------------------------------------------
-2022-03-26 12:27:13 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-03-26 12:27:13 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
-2022-03-26 12:27:14 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [10] 条
-2022-03-26 12:27:14 [INFO] : --------------------------------------------
-2022-03-26 12:27:14 [INFO] : 
-==============================================
-[ TITLE ] The combination of primitives offered by SMB and AFP in their default configuration allows the arbitrary writing of files. By exploiting these combination of primitives, an attacker can execute arbitrary code.
-[ TIME  ] 2022-03-25 23:15:00
-[ CVE   ] CVE-2022-22995
+[ TITLE ] Marky commit 3686565726c65756e was discovered to contain a remote code execution (RCE) vulnerability via the Display text fields. This vulnerability allows attackers to execute arbitrary code via injection of a crafted payload.
+[ TIME  ] 2022-03-27 01:15:00
+[ CVE   ] CVE-2022-26205
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-22995
-2022-03-26 12:27:14 [INFO] : 
+[ URL   ] https://www.tenable.com/cve/CVE-2022-26205
+2022-03-27 20:03:22 [INFO] : 
 ==============================================
-[ TITLE ] A Stack-based buffer overflow vulnerability in the SonicOS via HTTP request allows a remote unauthenticated attacker to cause Denial of Service (DoS) or potentially results in code execution in the firewall.
-[ TIME  ] 2022-03-25 23:15:00
-[ CVE   ] CVE-2022-22274
+[ TITLE ] Akeo Consulting Rufus Executable 3.17.1846 and Rufus Portable Executable 3.17p were discovered to allow attackers to execute arbitrary code or escalate privileges via placing a crafted x86 DLL in the same directory as other executables.
+[ TIME  ] 2022-03-27 00:15:00
+[ CVE   ] CVE-2022-26620
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-22274
-2022-03-26 12:27:14 [INFO] : 
+[ URL   ] https://www.tenable.com/cve/CVE-2022-26620
+2022-03-27 20:03:22 [INFO] : 
 ==============================================
-[ TITLE ] CheckMK Raw Edition software (versions 1.5.0 to 1.6.0) does not sanitise the input of a web service parameter that is in an unauthenticated zone. This Reflected XSS allows an attacker to open a backdoor on the device with HTML content and interpreted by the browser (such as JavaScript or other client-side scripts) or to steal the session cookies of a user who has previously authenticated via a man in the middle. Successful exploitation requires access to the web service resource without authentication.
-[ TIME  ] 2022-03-25 23:15:00
-[ CVE   ] CVE-2021-40906
+[ TITLE ] Technitium Installer v4.4 was discovered to allow attackers to execute arbitrary code or escalate privileges via placing a crafted DLL in the same directory as the current installer.
+[ TIME  ] 2022-03-27 00:15:00
+[ CVE   ] CVE-2022-26200
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2021-40906
-2022-03-26 12:27:14 [INFO] : 
+[ URL   ] https://www.tenable.com/cve/CVE-2022-26200
+2022-03-27 20:03:22 [INFO] : 
 ==============================================
-[ TITLE ] The web management console of CheckMK Enterprise Edition (versions 1.5.0 to 2.0.0p9) does not properly sanitise the uploading of ".mkp" files, which are Extension Packages, making remote code execution possible. Successful exploitation requires access to the web management interface, either with valid credentials or with a hijacked session of a user with administrator role.
-[ TIME  ] 2022-03-25 23:15:00
-[ CVE   ] CVE-2021-40905
+[ TITLE ] Notable v1.8.4 does not filter text editing, allowing attackers to execute arbitrary code via a crafted payload injected into the Title text field.
+[ TIME  ] 2022-03-27 00:15:00
+[ CVE   ] CVE-2022-26198
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2021-40905
-2022-03-26 12:27:14 [INFO] : 
+[ URL   ] https://www.tenable.com/cve/CVE-2022-26198
+2022-03-27 20:03:22 [INFO] : 
 ==============================================
-[ TITLE ] The web management console of CheckMK Raw Edition (versions 1.5.0 to 1.6.0) allows a misconfiguration of the web-app Dokuwiki (installed by default), which allows embedded php code. As a result, remote code execution is achieved. Successful exploitation requires access to the web management interface, either with valid credentials or with a hijacked session by a user with the role of administrator.
-[ TIME  ] 2022-03-25 23:15:00
-[ CVE   ] CVE-2021-40904
+[ TITLE ] NETGEAR R8500 1.0.2.158 devices allow remote authenticated users to execute arbitrary commands (such as telnetd) via shell metacharacters in the ipv6_fix.cgi ipv6_wan_ipaddr, ipv6_lan_ipaddr, ipv6_wan_length, or ipv6_lan_length parameter.
+[ TIME  ] 2022-03-26 17:15:00
+[ CVE   ] CVE-2022-27947
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2021-40904
-2022-03-26 12:27:14 [INFO] : 
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27947
+2022-03-27 20:03:22 [INFO] : 
 ==============================================
-[ TITLE ] Statamic is a Laravel and Git powered CMS. Before versions 3.2.39 and 3.3.2, it is possible to confirm a single character of a user's password hash using a specially crafted regular expression filter in the users endpoint of the REST API. Multiple such requests can eventually uncover the entire hash. The hash is not present in the response, however the presence or absence of a result confirms if the character is in the right position. The API has throttling enabled by default, making this a time intensive task. Both the REST API and the users endpoint need to be enabled, as they are disabled by default. The issue has been fixed in versions 3.2.39 and above, and 3.3.2 and above.
-[ TIME  ] 2022-03-25 22:15:00
-[ CVE   ] CVE-2022-24784
+[ TITLE ] NETGEAR R8500 1.0.2.158 devices allow remote authenticated users to execute arbitrary commands (such as telnetd) via shell metacharacters in the sysNewPasswd and sysConfirmPasswd parameters to admin_account.cgi.
+[ TIME  ] 2022-03-26 17:15:00
+[ CVE   ] CVE-2022-27946
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-24784
-2022-03-26 12:27:14 [INFO] : 
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27946
+2022-03-27 20:03:22 [INFO] : 
 ==============================================
-[ TITLE ] Deno is a runtime for JavaScript and TypeScript. The versions of Deno between release 1.18.0 and 1.20.2 (inclusive) are vulnerable to an attack where a malicious actor controlling the code executed in a Deno runtime could bypass all permission checks and execute arbitrary shell code. This vulnerability does not affect users of Deno Deploy. The vulnerability has been patched in Deno 1.20.3. There is no workaround. All users are recommended to upgrade to 1.20.3 immediately.
-[ TIME  ] 2022-03-25 22:15:00
-[ CVE   ] CVE-2022-24783
+[ TITLE ] NETGEAR R8500 1.0.2.158 devices allow remote authenticated users to execute arbitrary commands (such as telnetd) via shell metacharacters in the sysNewPasswd and sysConfirmPasswd parameters to password.cgi.
+[ TIME  ] 2022-03-26 17:15:00
+[ CVE   ] CVE-2022-27945
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-24783
-2022-03-26 12:27:14 [INFO] : 
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27945
+2022-03-27 20:03:22 [INFO] : 
 ==============================================
-[ TITLE ] The DuckDuckGo browser 7.64.4 on iOS allows Address Bar Spoofing due to mishandling of the JavaScript window.open function (used to open a secondary browser window). This could be exploited by tricking users into supplying sensitive information such as credentials, because the address bar would display a legitimate URL, but content would be hosted on the attacker's web site.
-[ TIME  ] 2022-03-25 22:15:00
-[ CVE   ] CVE-2021-44683
+[ TITLE ] libiberty/rust-demangle.c in GNU GCC 11.2 allows stack consumption in demangle_const, as demonstrated by nm-new.
+[ TIME  ] 2022-03-26 13:15:00
+[ CVE   ] CVE-2022-27943
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2021-44683
-2022-03-26 12:27:14 [INFO] : 
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27943
+2022-03-27 20:03:22 [INFO] : 
 ==============================================
-[ TITLE ] Docker Desktop installer on Windows in versions before 4.6.0 allows an attacker to overwrite any administrator writable files by creating a symlink in place of where the installer writes its log file. Starting from version 4.6.0, the Docker Desktop installer, when run elevated, will write its log files to a location not writable by non-administrator users.
-[ TIME  ] 2022-03-25 21:15:00
-[ CVE   ] CVE-2022-26659
+[ TITLE ] tcpprep in Tcpreplay 4.4.1 has a heap-based buffer over-read in parse_mpls in common/get.c.
+[ TIME  ] 2022-03-26 13:15:00
+[ CVE   ] CVE-2022-27942
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-26659
-2022-03-26 12:27:14 [INFO] : 
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27942
+2022-03-27 20:03:22 [INFO] : 
 ==============================================
-[ TITLE ] Joget DX 7 was discovered to contain a cross-site scripting (XSS) vulnerability via the Datalist table.
-[ TIME  ] 2022-03-25 21:15:00
-[ CVE   ] CVE-2022-26197
+[ TITLE ] tcprewrite in Tcpreplay 4.4.1 has a heap-based buffer over-read in get_l2len_protocol in common/get.c.
+[ TIME  ] 2022-03-26 13:15:00
+[ CVE   ] CVE-2022-27941
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-26197
-2022-03-26 12:27:14 [INFO] : [邮件] 正在推送威胁情报...
-2022-03-26 12:27:14 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
-2022-03-26 12:27:15 [INFO] : [邮件] 推送威胁情报成功
-2022-03-26 12:27:15 [INFO] : 正在提交变更...
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27941
+2022-03-27 20:03:22 [INFO] : [邮件] 正在推送威胁情报...
+2022-03-27 20:03:22 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
+2022-03-27 20:03:23 [INFO] : [邮件] 推送威胁情报成功
+2022-03-27 20:03:23 [INFO] : 正在提交变更...
