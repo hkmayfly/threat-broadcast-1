@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-04-01 13:59:24 -->
+<!-- RELEASE TIME : 2022-04-01 14:26:02 -->
 <html lang="zh-cn">
 
  <head>
@@ -2268,6 +2268,14 @@
       </tr>
 
       <tr>
+       <td scope="row">57b5ec8da4834df1cd2de0172e0a4174</td>
+       <td>CVE-2022-22995</td>
+       <td>2022-03-25 23:15:08 </td>
+       <td>The combination of primitives offered by SMB and AFP in their default configuration allows the arbitrary writing of files. By exploiting these combination of primitives, an attacker can execute arbitrary code.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22995">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">defabdc1e568b633675126b136107e6e</td>
        <td>CVE-2022-26197</td>
        <td>2022-03-25 21:15:09 </td>
@@ -2300,11 +2308,35 @@
       </tr>
 
       <tr>
+       <td scope="row">9a0027a0377cdf25f1fb2a16c245fa80</td>
+       <td>CVE-2022-22688</td>
+       <td>2022-03-25 07:15:07 </td>
+       <td>Improper neutralization of special elements used in a command ('Command Injection') vulnerability in File service functionality in Synology DiskStation Manager (DSM) before 6.2.4-25556-2 allows remote authenticated users to execute arbitrary commands via unspecified vectors.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22688">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9e476280afa253210555fe8e19b8de98</td>
+       <td>CVE-2022-22687</td>
+       <td>2022-03-25 07:15:07 </td>
+       <td>Buffer copy without checking size of input ('Classic Buffer Overflow') vulnerability in Authentication functionality in Synology DiskStation Manager (DSM) before 6.2.3-25426-3 allows remote attackers to execute arbitrary code via unspecified vectors.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22687">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">0aa832b2207edaba8e69314c77a6998d</td>
        <td>CVE-2022-26249</td>
        <td>2022-03-24 22:15:09 </td>
        <td>Survey King v0.3.0 does not filter data properly when exporting excel files, allowing attackers to execute arbitrary code or access sensitive information via a CSV injection attack.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26249">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7cd335c707132f6c3653326cdf6a3d10</td>
+       <td>CVE-2022-22819</td>
+       <td>2022-03-23 22:15:13 </td>
+       <td>NXP LPC55S66JBD64, LPC55S66JBD100, LPC55S66JEV98, LPC55S69JBD64, LPC55S69JBD100, and LPC55S69JEV98 microcontrollers (ROM version 1B) have a buffer overflow in parsing SB2 updates before the signature is verified. This can allow an attacker to achieve non-persistent code execution via a crafted unsigned update.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22819">详情</a></td>
       </tr>
 
       <tr>
@@ -2348,6 +2380,22 @@
       </tr>
 
       <tr>
+       <td scope="row">ecd322f4dee8d327bdf16afd7ee53eeb</td>
+       <td>CVE-2022-22952</td>
+       <td>2022-03-23 20:15:10 </td>
+       <td>VMware Carbon Black App Control (8.5.x prior to 8.5.14, 8.6.x prior to 8.6.6, 8.7.x prior to 8.7.4 and 8.8.x prior to 8.8.2) contains a file upload vulnerability. A malicious actor with administrative access to the VMware App Control administration interface may be able to execute code on the Windows instance where AppC Server is installed by uploading a specially crafted file.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22952">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">409bde1e6edb04ba7ab4be5711356377</td>
+       <td>CVE-2022-22951</td>
+       <td>2022-03-23 20:15:10 </td>
+       <td>VMware Carbon Black App Control (8.5.x prior to 8.5.14, 8.6.x prior to 8.6.6, 8.7.x prior to 8.7.4 and 8.8.x prior to 8.8.2) contains an OS command injection vulnerability. An authenticated, high privileged malicious actor with network access to the VMware App Control administration interface may be able to execute commands on the server due to improper input validation leading to remote code execution.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22951">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">3243aaa42c99c607785df9f4b81df06e</td>
        <td>CVE-2022-26243</td>
        <td>2022-03-23 19:15:07 </td>
@@ -2356,67 +2404,19 @@
       </tr>
 
       <tr>
+       <td scope="row">cdb2f8169bc73c4982c66e78c5d7fb3a</td>
+       <td>CVE-2022-23242</td>
+       <td>2022-03-23 16:15:08 </td>
+       <td>TeamViewer Linux versions before 15.28 do not properly execute a deletion command for the connection password in case of a process crash. Knowledge of the crash event and the TeamViewer ID as well as either possession of the pre-crash connection password or local authenticated access to the machine would have allowed to establish a remote connection by reusing the not properly deleted connection password.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-23242">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">14224ce569faaff63e572148b62622c9</td>
        <td>CVE-2022-27666</td>
        <td>2022-03-23 06:15:06 </td>
        <td>A heap buffer overflow flaw was found in IPsec ESP transformation code in net/ipv4/esp4.c and net/ipv6/esp6.c. This flaw allows a local attacker with a normal user privilege to overwrite kernel heap objects and may cause a local privilege escalation threat.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27666">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1a36123e943f9ccdcb4bb567001643f6</td>
-       <td>CVE-2022-26189</td>
-       <td>2022-03-22 21:15:07 </td>
-       <td>TOTOLINK N600R V4.3.0cu.7570_B20200620 was discovered to contain a command injection vulnerability via the langType parameter in the login interface.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26189">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a049d79099144df88a7092263967d94e</td>
-       <td>CVE-2022-26188</td>
-       <td>2022-03-22 21:15:07 </td>
-       <td>TOTOLINK N600R V4.3.0cu.7570_B20200620 was discovered to contain a command injection vulnerability via /setting/NTPSyncWithHost.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26188">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0b038e307877f6d84849d0614f5d4309</td>
-       <td>CVE-2022-26260</td>
-       <td>2022-03-22 19:15:07 </td>
-       <td>Simple-Plist v1.3.0 was discovered to contain a prototype pollution vulnerability via .parse().</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26260">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2466b6b5c701eddc10364321a7e99cb6</td>
-       <td>CVE-2022-27228</td>
-       <td>2022-03-22 18:15:08 </td>
-       <td>In the vote (aka &quot;Polls, Votes&quot;) module before 21.0.100 of Bitrix Site Manager, a remote unauthenticated attacker can execute arbitrary code.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27228">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9ce3f6d23295505e3a9bc0eb89b21747</td>
-       <td>CVE-2022-27607</td>
-       <td>2022-03-21 23:15:08 </td>
-       <td>Bento4 1.6.0-639 has a heap-based buffer over-read in the AP4_HvccAtom class, a different issue than CVE-2018-14531.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27607">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d594245e3bd114811554d92e2a322a9d</td>
-       <td>CVE-2022-27333</td>
-       <td>2022-03-21 22:15:08 </td>
-       <td>idcCMS v1.10 was discovered to contain an issue which allows attackers to arbitrarily delete the install.lock file, resulting in a reset of the CMS settings and data.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27333">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1838e5333023ebef213f787a6a774ff5</td>
-       <td>CVE-2022-26247</td>
-       <td>2022-03-20 19:15:07 </td>
-       <td>TMS v2.28.0 contains an insecure permissions vulnerability via the component /TMS/admin/user/Update2. This vulnerability allows attackers to modify the administrator account and password.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26247">详情</a></td>
       </tr>
 
      </tbody>

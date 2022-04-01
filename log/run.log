@@ -2736,3 +2736,122 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.'
 [ SRC   ] Tenable (Nessus)
 [ URL   ] https://www.tenable.com/cve/CVE-2021-46443
 2022-04-01 13:59:24 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
+2022-04-01 14:23:48 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-01 14:23:48 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-04-01 14:23:49 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-04-01 14:23:49 [INFO] : --------------------------------------------
+2022-04-01 14:23:49 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-01 14:23:49 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-04-01 14:23:50 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-04-01 14:23:50 [INFO] : --------------------------------------------
+2022-04-01 14:23:50 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-01 14:23:50 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-04-01 14:24:15 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-04-01 14:24:15 [INFO] : --------------------------------------------
+2022-04-01 14:24:15 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-01 14:24:15 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-04-01 14:25:44 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-04-01 14:25:44 [INFO] : --------------------------------------------
+2022-04-01 14:25:44 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-01 14:25:44 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-04-01 14:25:46 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-04-01 14:25:46 [INFO] : --------------------------------------------
+2022-04-01 14:25:46 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-01 14:25:46 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-04-01 14:25:47 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [10] 条
+2022-04-01 14:25:47 [INFO] : --------------------------------------------
+2022-04-01 14:25:47 [INFO] : 
+==============================================
+[ TITLE ] TeamViewer Linux versions before 15.28 do not properly execute a deletion command for the connection password in case of a process crash. Knowledge of the crash event and the TeamViewer ID as well as either possession of the pre-crash connection password or local authenticated access to the machine would have allowed to establish a remote connection by reusing the not properly deleted connection password.
+[ TIME  ] 2022-03-23 16:15:08 
+[ CVE   ] CVE-2022-23242
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-23242
+2022-04-01 14:25:47 [INFO] : 
+==============================================
+[ TITLE ] SnapCenter versions prior to 4.5 are susceptible to a vulnerability which could allow a local authenticated attacker to discover plaintext HANA credentials.
+[ TIME  ] 2022-03-16 15:15:16 
+[ CVE   ] CVE-2022-23234
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-23234
+2022-04-01 14:25:47 [INFO] : 
+==============================================
+[ TITLE ] The combination of primitives offered by SMB and AFP in their default configuration allows the arbitrary writing of files. By exploiting these combination of primitives, an attacker can execute arbitrary code.
+[ TIME  ] 2022-03-25 23:15:08 
+[ CVE   ] CVE-2022-22995
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22995
+2022-04-01 14:25:47 [INFO] : 
+==============================================
+[ TITLE ] VMware Carbon Black App Control (8.5.x prior to 8.5.14, 8.6.x prior to 8.6.6, 8.7.x prior to 8.7.4 and 8.8.x prior to 8.8.2) contains a file upload vulnerability. A malicious actor with administrative access to the VMware App Control administration interface may be able to execute code on the Windows instance where AppC Server is installed by uploading a specially crafted file.
+[ TIME  ] 2022-03-23 20:15:10 
+[ CVE   ] CVE-2022-22952
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22952
+2022-04-01 14:25:47 [INFO] : 
+==============================================
+[ TITLE ] VMware Carbon Black App Control (8.5.x prior to 8.5.14, 8.6.x prior to 8.6.6, 8.7.x prior to 8.7.4 and 8.8.x prior to 8.8.2) contains an OS command injection vulnerability. An authenticated, high privileged malicious actor with network access to the VMware App Control administration interface may be able to execute commands on the server due to improper input validation leading to remote code execution.
+[ TIME  ] 2022-03-23 20:15:10 
+[ CVE   ] CVE-2022-22951
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22951
+2022-04-01 14:25:47 [INFO] : 
+==============================================
+[ TITLE ] An access control issue in hprms/admin/?page=user/list of Hospital Patient Record Management System v1.0 allows attackers to escalate privileges via accessing and editing the user list.
+[ TIME  ] 2022-02-14 18:15:07 
+[ CVE   ] CVE-2022-22854
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22854
+2022-04-01 14:25:47 [INFO] : 
+==============================================
+[ TITLE ] NXP LPC55S66JBD64, LPC55S66JBD100, LPC55S66JEV98, LPC55S69JBD64, LPC55S69JBD100, and LPC55S69JEV98 microcontrollers (ROM version 1B) have a buffer overflow in parsing SB2 updates before the signature is verified. This can allow an attacker to achieve non-persistent code execution via a crafted unsigned update.
+[ TIME  ] 2022-03-23 22:15:13 
+[ CVE   ] CVE-2022-22819
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22819
+2022-04-01 14:25:47 [INFO] : 
+==============================================
+[ TITLE ] Improper neutralization of special elements used in a command ('Command Injection') vulnerability in File service functionality in Synology DiskStation Manager (DSM) before 6.2.4-25556-2 allows remote authenticated users to execute arbitrary commands via unspecified vectors.
+[ TIME  ] 2022-03-25 07:15:07 
+[ CVE   ] CVE-2022-22688
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22688
+2022-04-01 14:25:47 [INFO] : 
+==============================================
+[ TITLE ] Buffer copy without checking size of input ('Classic Buffer Overflow') vulnerability in Authentication functionality in Synology DiskStation Manager (DSM) before 6.2.3-25426-3 allows remote attackers to execute arbitrary code via unspecified vectors.
+[ TIME  ] 2022-03-25 07:15:07 
+[ CVE   ] CVE-2022-22687
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22687
+2022-04-01 14:25:47 [INFO] : 
+==============================================
+[ TITLE ] An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in macOS Big Sur 11.6.5, macOS Monterey 12.3, Security Update 2022-003 Catalina. An application may be able to gain elevated privileges.
+[ TIME  ] 2022-03-18 18:15:14 
+[ CVE   ] CVE-2022-22631
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22631
+2022-04-01 14:25:47 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-01 14:25:47 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-04-01 14:25:48 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-04-01 14:25:48 [INFO] : --------------------------------------------
+2022-04-01 14:25:48 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-01 14:25:48 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-04-01 14:25:49 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-04-01 14:25:49 [INFO] : --------------------------------------------
+2022-04-01 14:25:49 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-01 14:25:49 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-04-01 14:25:54 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-04-01 14:25:54 [INFO] : --------------------------------------------
+2022-04-01 14:25:54 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-01 14:25:54 [INFO] : 正在获取 [红后] 威胁情报...
+2022-04-01 14:25:55 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-04-01 14:25:55 [INFO] : --------------------------------------------
+2022-04-01 14:25:55 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-01 14:25:55 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-04-01 14:26:01 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-04-01 14:26:01 [INFO] : --------------------------------------------
+2022-04-01 14:26:01 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-01 14:26:01 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-04-01 14:26:02 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
+2022-04-01 14:26:02 [INFO] : --------------------------------------------
+2022-04-01 14:26:02 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
