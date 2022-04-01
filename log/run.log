@@ -4202,3 +4202,122 @@ requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='www.cnvd.org.cn', por
 2022-04-01 19:52:53 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
 2022-04-01 19:52:54 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
 2022-04-01 19:52:54 [INFO] : --------------------------------------------
+2022-04-01 20:12:36 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-01 20:12:36 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-04-01 20:12:38 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-04-01 20:12:38 [INFO] : --------------------------------------------
+2022-04-01 20:12:38 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-01 20:12:38 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-04-01 20:12:39 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-04-01 20:12:39 [INFO] : --------------------------------------------
+2022-04-01 20:12:39 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-01 20:12:39 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-04-01 20:13:06 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-04-01 20:13:06 [INFO] : --------------------------------------------
+2022-04-01 20:13:06 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-01 20:13:06 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-04-01 20:13:29 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-04-01 20:13:29 [INFO] : --------------------------------------------
+2022-04-01 20:13:29 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-01 20:13:29 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-04-01 20:13:30 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-04-01 20:13:30 [INFO] : --------------------------------------------
+2022-04-01 20:13:30 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-01 20:13:30 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-04-01 20:13:30 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [10] 条
+2022-04-01 20:13:30 [INFO] : --------------------------------------------
+2022-04-01 20:13:30 [INFO] : 
+==============================================
+[ TITLE ] A reflected cross-site scripting (XSS) vulnerability in McAfee Enterprise ePolicy Orchestrator (ePO) prior to 5.10 Update 13 allows a remote attacker to potentially obtain access to an ePO administrator's session by convincing the attacker to click on a carefully crafted link. This would lead to limited access to sensitive information and limited ability to alter some information in ePO due to the area of the User Interface the vulnerability is present in.
+[ TIME  ] 2022-03-23 15:15:08 
+[ CVE   ] CVE-2022-0857
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-0857
+2022-04-01 20:13:30 [INFO] : 
+==============================================
+[ TITLE ] A memory leak flaw was found in the Linux kernel&acirc;&euro;&trade;s DMA subsystem, in the way a user calls DMA_FROM_DEVICE. This flaw allows a local user to read random memory from the kernel space.
+[ TIME  ] 2022-03-23 20:15:10 
+[ CVE   ] CVE-2022-0854
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-0854
+2022-04-01 20:13:30 [INFO] : 
+==============================================
+[ TITLE ] A blind SQL injection vulnerability in McAfee Enterprise ePolicy Orchestrator (ePO) prior to 5.10 Update 13 allows a remote authenticated attacker to potentially obtain information from the ePO database. The data obtained is dependent on the privileges the attacker has and to obtain sensitive data the attacker would require administrator privileges.
+[ TIME  ] 2022-03-23 14:15:07 
+[ CVE   ] CVE-2022-0842
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-0842
+2022-04-01 20:13:30 [INFO] : 
+==============================================
+[ TITLE ] The Amelia WordPress plugin is vulnerable to Cross-Site Scripting due to insufficient escaping and sanitization of the lastName parameter found in the ~/src/Application/Controller/User/Customer/AddCustomerController.php file which allows attackers to inject arbitrary web scripts onto a pages that executes whenever a user accesses the booking calendar with the date the attacker has injected the malicious payload into. This affects versions up to and including 1.0.46.
+[ TIME  ] 2022-03-23 20:15:10 
+[ CVE   ] CVE-2022-0834
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-0834
+2022-04-01 20:13:30 [INFO] : 
+==============================================
+[ TITLE ] A flaw was found in CRI-O in the way it set kernel options for a pod. This issue allows anyone with rights to deploy a pod on a Kubernetes cluster that uses the CRI-O runtime to achieve a container escape and arbitrary code execution as root on the cluster node, where the malicious pod was deployed.
+[ TIME  ] 2022-03-16 15:15:16 
+[ CVE   ] CVE-2022-0811
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-0811
+2022-04-01 20:13:30 [INFO] : 
+==============================================
+[ TITLE ] The BN_mod_sqrt() function, which computes a modular square root, contains a bug that can cause it to loop forever for non-prime moduli. Internally this function is used when parsing certificates that contain elliptic curve public keys in compressed form or explicit elliptic curve parameters with a base point encoded in compressed form. It is possible to trigger the infinite loop by crafting a certificate that has invalid explicit curve parameters. Since certificate parsing happens prior to verification of the certificate signature, any process that parses an externally supplied certificate may thus be subject to a denial of service attack. The infinite loop can also be reached when parsing crafted private keys as they can contain explicit elliptic curve parameters. Thus vulnerable situations include: - TLS clients consuming server certificates - TLS servers consuming client certificates - Hosting providers taking certificates or private keys from customers - Certificate authorities parsing certification requests from subscribers - Anything else which parses ASN.1 elliptic curve parameters Also any other applications that use the BN_mod_sqrt() where the attacker can control the parameter values are vulnerable to this DoS issue. In the OpenSSL 1.0.2 version the public key is not parsed during initial parsing of the certificate which makes it slightly harder to trigger the infinite loop. However any operation which requires the public key from the certificate will trigger the infinite loop. In particular the attacker can use a self-signed certificate to trigger the loop during verification of the certificate signature. This issue affects OpenSSL versions 1.0.2, 1.1.1 and 3.0. It was addressed in the releases of 1.1.1n and 3.0.2 on the 15th March 2022. Fixed in OpenSSL 3.0.2 (Affected 3.0.0,3.0.1). Fixed in OpenSSL 1.1.1n (Affected 1.1.1-1.1.1m). Fixed in OpenSSL 1.0.2zd (Affected 1.0.2-1.0.2zc).
+[ TIME  ] 2022-03-15 17:15:08 
+[ CVE   ] CVE-2022-0778
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-0778
+2022-04-01 20:13:30 [INFO] : 
+==============================================
+[ TITLE ] The Simple Link Directory WordPress plugin before 7.7.2 does not validate and escape the post_id parameter before using it in a SQL statement via the qcopd_upvote_action AJAX action (available to unauthenticated and authenticated users), leading to an unauthenticated SQL Injection
+[ TIME  ] 2022-03-21 19:15:11 
+[ CVE   ] CVE-2022-0760
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-0760
+2022-04-01 20:13:30 [INFO] : 
+==============================================
+[ TITLE ] The Photoswipe Masonry Gallery WordPress plugin is vulnerable to Cross-Site Scripting due to insufficient escaping and sanitization of the thumbnail_width, thumbnail_height, max_image_width, and max_image_height parameters found in the ~/photoswipe-masonry.php file which allows authenticated attackers to inject arbitrary web scripts into galleries created by the plugin and on the PhotoSwipe Options page. This affects versions up to and including 1.2.14.
+[ TIME  ] 2022-03-23 20:15:10 
+[ CVE   ] CVE-2022-0750
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-0750
+2022-04-01 20:13:30 [INFO] : 
+==============================================
+[ TITLE ] The Infographic Maker WordPress plugin before 4.3.8 does not validate and escape the post_id parameter before using it in a SQL statement via the qcld_upvote_action AJAX action (available to unauthenticated and authenticated users), leading to an unauthenticated SQL Injection
+[ TIME  ] 2022-03-21 19:15:11 
+[ CVE   ] CVE-2022-0747
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-0747
+2022-04-01 20:13:30 [INFO] : 
+==============================================
+[ TITLE ] The BookingPress WordPress plugin before 1.0.11 fails to properly sanitize user supplied POST data before it is used in a dynamically constructed SQL query via the bookingpress_front_get_category_services AJAX action (available to unauthenticated users), leading to an unauthenticated SQL Injection
+[ TIME  ] 2022-03-21 19:15:11 
+[ CVE   ] CVE-2022-0739
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-0739
+2022-04-01 20:13:30 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-01 20:13:30 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-04-01 20:13:32 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-04-01 20:13:32 [INFO] : --------------------------------------------
+2022-04-01 20:13:32 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-01 20:13:32 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-04-01 20:13:33 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-04-01 20:13:33 [INFO] : --------------------------------------------
+2022-04-01 20:13:33 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-01 20:13:33 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-04-01 20:13:34 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-04-01 20:13:34 [INFO] : --------------------------------------------
+2022-04-01 20:13:34 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-01 20:13:34 [INFO] : 正在获取 [红后] 威胁情报...
+2022-04-01 20:13:35 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-04-01 20:13:35 [INFO] : --------------------------------------------
+2022-04-01 20:13:35 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-01 20:13:35 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-04-01 20:13:42 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-04-01 20:13:42 [INFO] : --------------------------------------------
+2022-04-01 20:13:42 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-01 20:13:42 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-04-01 20:13:42 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
+2022-04-01 20:13:42 [INFO] : --------------------------------------------
+2022-04-01 20:13:42 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
