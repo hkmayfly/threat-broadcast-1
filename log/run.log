@@ -801,3 +801,175 @@
 2022-04-06 14:35:39 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
 2022-04-06 14:35:39 [INFO] : --------------------------------------------
 2022-04-06 14:35:39 [INFO] : 正在提交变更...
+2022-04-06 14:35:42 [INFO] : 提交变更成功
+2022-04-06 15:42:40 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-06 15:42:40 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-04-06 15:42:40 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-04-06 15:42:40 [INFO] : --------------------------------------------
+2022-04-06 15:42:40 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-06 15:42:40 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-04-06 15:42:41 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-04-06 15:42:41 [INFO] : --------------------------------------------
+2022-04-06 15:42:41 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-06 15:42:41 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-04-06 15:43:02 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-04-06 15:43:02 [INFO] : --------------------------------------------
+2022-04-06 15:43:02 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-06 15:43:02 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-04-06 15:43:16 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-04-06 15:43:16 [INFO] : --------------------------------------------
+2022-04-06 15:43:16 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-06 15:43:16 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-04-06 15:43:16 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-04-06 15:43:16 [INFO] : --------------------------------------------
+2022-04-06 15:43:16 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-06 15:43:16 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-04-06 15:43:18 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
+2022-04-06 15:43:18 [INFO] : --------------------------------------------
+2022-04-06 15:43:18 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-06 15:43:18 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-04-06 15:43:19 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-04-06 15:43:19 [INFO] : --------------------------------------------
+2022-04-06 15:43:19 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-06 15:43:19 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-04-06 15:43:20 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-04-06 15:43:20 [INFO] : --------------------------------------------
+2022-04-06 15:43:20 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-06 15:43:20 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-04-06 15:43:20 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-04-06 15:43:20 [INFO] : --------------------------------------------
+2022-04-06 15:43:20 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-06 15:43:20 [INFO] : 正在获取 [红后] 威胁情报...
+2022-04-06 15:43:21 [INFO] : 得到 [红后] 最新威胁情报 [7] 条
+2022-04-06 15:43:21 [INFO] : --------------------------------------------
+2022-04-06 15:43:21 [INFO] : 
+==============================================
+[ TITLE ] FasterXML jackson-databind 代码问题漏洞
+[ TIME  ] 2022-04-06 13:54:04
+[ CVE   ] CVE-2020-36183
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=af9044d5ef8347b0b71fe571c0246449
+2022-04-06 15:43:21 [INFO] : 
+==============================================
+[ TITLE ] Rust tiny_http crate 环境问题漏洞
+[ TIME  ] 2022-04-06 13:53:57
+[ CVE   ] CVE-2020-35884
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=d5e981a699544c1ca21f8c1e631c0985
+2022-04-06 15:43:21 [INFO] : 
+==============================================
+[ TITLE ] FasterXML jackson-databind 代码问题漏洞
+[ TIME  ] 2022-04-06 13:53:52
+[ CVE   ] CVE-2020-36179
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=7d805bdfad304822bedcffa9147bcd2a
+2022-04-06 15:43:21 [INFO] : 
+==============================================
+[ TITLE ] OpenBSD和Bouncy Castle BC 安全漏洞
+[ TIME  ] 2022-04-06 13:53:44
+[ CVE   ] CVE-2020-28052
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=8bf65ce2be3b417fa0324115423a302d
+2022-04-06 15:43:21 [INFO] : 
+==============================================
+[ TITLE ] Red Hat Hibernate ORM SQL注入漏洞
+[ TIME  ] 2022-04-06 13:53:40
+[ CVE   ] CVE-2020-25638
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=e511f0339bd343e3a6c863dc30d86f79
+2022-04-06 15:43:21 [INFO] : 
+==============================================
+[ TITLE ] HAXX libcurl 信息泄露漏洞
+[ TIME  ] 2022-04-06 13:53:36
+[ CVE   ] CVE-2020-8284
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=63d8ac5d941f42b1a6b8038433be0866
+2022-04-06 15:43:21 [INFO] : 
+==============================================
+[ TITLE ] Digium Asterisk Open Source和Certified Asterisk 安全漏洞
+[ TIME  ] 2022-04-06 13:53:29
+[ CVE   ] CVE-2020-28242
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=79d5acc10edd4af99940e6871f296a60
+2022-04-06 15:43:21 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-06 15:43:21 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-04-06 15:43:23 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-04-06 15:43:23 [INFO] : --------------------------------------------
+2022-04-06 15:43:23 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-06 15:43:23 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-04-06 15:43:24 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [10] 条
+2022-04-06 15:43:24 [INFO] : --------------------------------------------
+2022-04-06 15:43:24 [INFO] : 
+==============================================
+[ TITLE ] XSS in livehelperchat in GitHub repository livehelperchat/livehelperchat prior to 3.97. This vulnerability has the potential to deface websites, result in compromised user accounts, and can run malicious code on web pages, which can lead to a compromise of the userâ€™s device.
+[ TIME  ] 2022-04-06 04:15:00
+[ CVE   ] CVE-2022-1234
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-1234
+2022-04-06 15:43:24 [INFO] : 
+==============================================
+[ TITLE ] A vulnerability was found in SAP Information System 1.0 which has been rated as critical. Affected by this issue is the file /SAP_Information_System/controllers/add_admin.php. An unauthenticated attacker is able to create a new admin account for the web application with a simple POST request. Exploit details were disclosed.
+[ TIME  ] 2022-04-06 03:15:00
+[ CVE   ] CVE-2022-1248
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-1248
+2022-04-06 15:43:24 [INFO] : 
+==============================================
+[ TITLE ] An issue was discovered in HTCondor 8.8.x before 8.8.16, 9.0.x before 9.0.10, and 9.1.x before 9.6.0. When a user authenticates to an HTCondor daemon via the CLAIMTOBE method, the user can then impersonate any entity when issuing additional commands to that daemon.
+[ TIME  ] 2022-04-06 02:15:00
+[ CVE   ] CVE-2022-26110
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-26110
+2022-04-06 15:43:24 [INFO] : 
+==============================================
+[ TITLE ] An issue was discovered in HTCondor 9.0.x before 9.0.10 and 9.1.x before 9.5.1. An attacker who can capture HTCondor network data can interfere with users' jobs and data.
+[ TIME  ] 2022-04-06 02:15:00
+[ CVE   ] CVE-2021-45104
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-45104
+2022-04-06 15:43:24 [INFO] : 
+==============================================
+[ TITLE ] Apperta Foundation OpenEyes 3.5.1 allows remote attackers to view the sensitive information of patients without having the intended level of privilege. Despite OpenEyes returning a Forbidden error message, the contents of a patient's profile are still returned in the server response. This response can be read in an intercepting proxy or by viewing the page source. Sensitive information returned in responses includes patient PII and medication records or history.
+[ TIME  ] 2022-04-06 02:15:00
+[ CVE   ] CVE-2021-40375
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-40375
+2022-04-06 15:43:24 [INFO] : 
+==============================================
+[ TITLE ] A stored cross-site scripting (XSS) vulnerability was identified in Apperta Foundation OpenEyes 3.5.1. Updating a patient's details allows remote attackers to inject arbitrary web script or HTML via the Address1 parameter. This JavaScript then executes when the patient profile is loaded, which could be used in a XSS attack.
+[ TIME  ] 2022-04-06 02:15:00
+[ CVE   ] CVE-2021-40374
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-40374
+2022-04-06 15:43:24 [INFO] : 
+==============================================
+[ TITLE ] Ivanti Avalanche (Premise) 6.3.2 allows remote unauthenticated users to read arbitrary files via Absolute Path Traversal. The imageFilePath parameter processed by the /AvalancheWeb/image endpoint is not verified to be within the scope of the image folder, e.g., the attacker can obtain sensitive information via the C:/Windows/system32/config/system.sav value.
+[ TIME  ] 2022-04-06 02:15:00
+[ CVE   ] CVE-2021-30497
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-30497
+2022-04-06 15:43:24 [INFO] : 
+==============================================
+[ TITLE ] Digi Passport Firmware through 1.5.1,1 is affected by a buffer overflow. An attacker can supply a string in the page parameter for reboot.asp endpoint, allowing him to force an overflow when the string is concatenated to the HTML body.
+[ TIME  ] 2022-04-06 01:15:00
+[ CVE   ] CVE-2022-26953
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-26953
+2022-04-06 15:43:24 [INFO] : 
+==============================================
+[ TITLE ] Digi Passport Firmware through 1.5.1,1 is affected by a buffer overflow in the function for building the Location header string when an unauthenticated user is redirected to the authentication page.
+[ TIME  ] 2022-04-06 01:15:00
+[ CVE   ] CVE-2022-26952
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-26952
+2022-04-06 15:43:24 [INFO] : 
+==============================================
+[ TITLE ] The HTTP interface of Synaman v5.1 and below was discovered to allow authenticated attackers to execute arbitrary code and escalate privileges.
+[ TIME  ] 2022-04-06 01:15:00
+[ CVE   ] CVE-2022-26251
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-26251
+2022-04-06 15:43:25 [INFO] : [邮件] 正在推送威胁情报...
+2022-04-06 15:43:25 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
+2022-04-06 15:43:25 [INFO] : [邮件] 推送威胁情报成功
+2022-04-06 15:43:25 [INFO] : 正在提交变更...
