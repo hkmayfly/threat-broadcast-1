@@ -1177,3 +1177,196 @@
 2022-04-06 19:33:46 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
 2022-04-06 19:33:47 [INFO] : [邮件] 推送威胁情报成功
 2022-04-06 19:33:47 [INFO] : 正在提交变更...
+2022-04-06 19:33:52 [INFO] : 提交变更成功
+2022-04-06 21:15:20 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-06 21:15:20 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-04-06 21:15:20 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-04-06 21:15:20 [INFO] : --------------------------------------------
+2022-04-06 21:15:20 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-06 21:15:20 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-04-06 21:15:21 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-04-06 21:15:21 [INFO] : --------------------------------------------
+2022-04-06 21:15:21 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-06 21:15:21 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-04-06 21:15:42 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-04-06 21:15:42 [INFO] : --------------------------------------------
+2022-04-06 21:15:42 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-06 21:15:42 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-04-06 21:15:56 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [10] 条
+2022-04-06 21:15:56 [INFO] : --------------------------------------------
+2022-04-06 21:15:56 [INFO] : 
+==============================================
+[ TITLE ] Google Chromium 安全漏洞
+[ TIME  ] 2022-04-06 21:15:43
+[ CVE   ] CNNVD-202204-1852 (CVE-2022-0337)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-1852
+2022-04-06 21:15:56 [INFO] : 
+==============================================
+[ TITLE ] Huawei HarmonyOS 安全漏洞
+[ TIME  ] 2022-04-05 21:15:45
+[ CVE   ] CNNVD-202204-2035 (CVE-2022-22255)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-2035
+2022-04-06 21:15:56 [INFO] : 
+==============================================
+[ TITLE ] Huawei HarmonyOS 安全漏洞
+[ TIME  ] 2022-04-05 21:15:46
+[ CVE   ] CNNVD-202204-2034 (CVE-2022-22254)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-2034
+2022-04-06 21:15:56 [INFO] : 
+==============================================
+[ TITLE ] Huawei HarmonyOS 安全漏洞
+[ TIME  ] 2022-04-05 21:15:47
+[ CVE   ] CNNVD-202204-2033 (CVE-2022-22258)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-2033
+2022-04-06 21:15:56 [INFO] : 
+==============================================
+[ TITLE ] Payroll Management System 安全漏洞
+[ TIME  ] 2022-04-05 21:15:48
+[ CVE   ] CNNVD-202204-2032 (CVE-2022-28468)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-2032
+2022-04-06 21:15:56 [INFO] : 
+==============================================
+[ TITLE ] Huawei HarmonyOS 安全漏洞
+[ TIME  ] 2022-04-05 21:15:50
+[ CVE   ] CNNVD-202204-2031 (CVE-2022-22252)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-2031
+2022-04-06 21:15:56 [INFO] : 
+==============================================
+[ TITLE ] Online Student Admission System 安全漏洞
+[ TIME  ] 2022-04-05 21:15:51
+[ CVE   ] CNNVD-202204-2030 (CVE-2022-28467)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-2030
+2022-04-06 21:15:56 [INFO] : 
+==============================================
+[ TITLE ] Online Sports Complex Booking 安全漏洞
+[ TIME  ] 2022-04-05 21:15:52
+[ CVE   ] CNNVD-202204-2029 (CVE-2022-28115)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-2029
+2022-04-06 21:15:56 [INFO] : 
+==============================================
+[ TITLE ] Banking System 安全漏洞
+[ TIME  ] 2022-04-05 21:15:54
+[ CVE   ] CNNVD-202204-2028 (CVE-2022-28116)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-2028
+2022-04-06 21:15:56 [INFO] : 
+==============================================
+[ TITLE ] Huawei HarmonyOS 安全漏洞
+[ TIME  ] 2022-04-05 21:15:55
+[ CVE   ] CNNVD-202204-2027 (CVE-2021-40065)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-2027
+2022-04-06 21:15:56 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-06 21:15:56 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-04-06 21:15:57 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-04-06 21:15:57 [INFO] : --------------------------------------------
+2022-04-06 21:15:57 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-06 21:15:57 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-04-06 21:15:58 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
+2022-04-06 21:15:58 [INFO] : --------------------------------------------
+2022-04-06 21:15:58 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-06 21:15:58 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-04-06 21:15:59 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-04-06 21:15:59 [INFO] : --------------------------------------------
+2022-04-06 21:15:59 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-06 21:15:59 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-04-06 21:15:59 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-04-06 21:15:59 [INFO] : --------------------------------------------
+2022-04-06 21:15:59 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-06 21:15:59 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-04-06 21:16:00 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-04-06 21:16:00 [INFO] : --------------------------------------------
+2022-04-06 21:16:00 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-06 21:16:00 [INFO] : 正在获取 [红后] 威胁情报...
+2022-04-06 21:16:00 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-04-06 21:16:00 [INFO] : --------------------------------------------
+2022-04-06 21:16:00 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-06 21:16:00 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-04-06 21:16:03 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-04-06 21:16:03 [INFO] : --------------------------------------------
+2022-04-06 21:16:03 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-06 21:16:03 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-04-06 21:16:06 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [10] 条
+2022-04-06 21:16:06 [INFO] : --------------------------------------------
+2022-04-06 21:16:06 [INFO] : 
+==============================================
+[ TITLE ] Heap buffer overflow in libr/bin/format/mach0/mach0.c in GitHub repository radareorg/radare2 prior to 5.8.6. If address sanitizer is disabled during the compiling, the program should executes into the `r_str_ncpy` function. Therefore I think it is very likely to be exploitable. For more general description of heap buffer overflow, see [CWE](https://cwe.mitre.org/data/definitions/122.html).
+[ TIME  ] 2022-04-06 11:15:00
+[ CVE   ] CVE-2022-1240
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-1240
+2022-04-06 21:16:06 [INFO] : 
+==============================================
+[ TITLE ] A use of hard-coded cryptographic key vulnerability [CWE-321] in the registration mechanism of FortiEDR collectors versions 5.0.2, 5.0.1, 5.0.0, 4.0.0 may allow a local attacker to disable and uninstall the collectors from the end-points within the same deployment.
+[ TIME  ] 2022-04-06 10:15:00
+[ CVE   ] CVE-2022-23440
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-23440
+2022-04-06 21:16:06 [INFO] : 
+==============================================
+[ TITLE ] Heap-based Buffer Overflow in libr/bin/format/ne/ne.c in GitHub repository radareorg/radare2 prior to 5.6.8. This vulnerability is heap overflow and may be exploitable. For more general description of heap buffer overflow, see [CWE](https://cwe.mitre.org/data/definitions/122.html).
+[ TIME  ] 2022-04-06 10:15:00
+[ CVE   ] CVE-2022-1238
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-1238
+2022-04-06 21:16:06 [INFO] : 
+==============================================
+[ TITLE ] Improper Validation of Array Index in GitHub repository radareorg/radare2 prior to 5.6.8. This vulnerability is heap overflow and may be exploitable. For more general description of heap buffer overflow, see [CWE](https://cwe.mitre.org/data/definitions/122.html).
+[ TIME  ] 2022-04-06 10:15:00
+[ CVE   ] CVE-2022-1237
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-1237
+2022-04-06 21:16:06 [INFO] : 
+==============================================
+[ TITLE ] A improper initialization in Fortinet FortiClient (Windows) version 6.0.10 and below, version 6.2.9 and below, version 6.4.7 and below, version 7.0.3 and below allows attacker to gain administrative privileges via placing a malicious executable inside the FortiClient installer's directory.
+[ TIME  ] 2022-04-06 10:15:00
+[ CVE   ] CVE-2021-44169
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-44169
+2022-04-06 21:16:06 [INFO] : 
+==============================================
+[ TITLE ] An exposure of sensitive information to an unauthorized actor vulnerability [CWE-200] in FortiClient for Linux version 7.0.2 and below, 6.4.7 and below and 6.2.9 and below may allow an unauthenticated attacker to access the confighandler webserver via external binaries.
+[ TIME  ] 2022-04-06 10:15:00
+[ CVE   ] CVE-2021-43205
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-43205
+2022-04-06 21:16:06 [INFO] : 
+==============================================
+[ TITLE ] A use of a broken or risky cryptographic algorithm vulnerability [CWE-327] in the Dynamic Tunnel Protocol of FortiWAN before 4.5.9 may allow an unauthenticated remote attacker to decrypt and forge protocol communication messages.
+[ TIME  ] 2022-04-06 10:15:00
+[ CVE   ] CVE-2021-32593
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-32593
+2022-04-06 21:16:06 [INFO] : 
+==============================================
+[ TITLE ] Multiple improper neutralization of special elements used in an SQL command vulnerabilities in FortiWAN before 4.5.9 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP requests.
+[ TIME  ] 2022-04-06 10:15:00
+[ CVE   ] CVE-2021-26114
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-26114
+2022-04-06 21:16:06 [INFO] : 
+==============================================
+[ TITLE ] Multiple stack-based buffer overflow vulnerabilities [CWE-121] both in network daemons and in the command line interpreter of FortiWAN before 4.5.9 may allow an unauthenticated attacker to potentially corrupt control data in memory and execute arbitrary code via specifically crafted requests.
+[ TIME  ] 2022-04-06 10:15:00
+[ CVE   ] CVE-2021-26112
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-26112
+2022-04-06 21:16:06 [INFO] : 
+==============================================
+[ TITLE ] Multiple improper neutralization of special elements used in an OS command vulnerabilities (CWE-78) in the Web GUI of FortiWAN before 4.5.9 may allow an authenticated attacker to execute arbitrary commands on the underlying system's shell via specifically crafted HTTP requests.
+[ TIME  ] 2022-04-06 10:15:00
+[ CVE   ] CVE-2021-24009
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-24009
+2022-04-06 21:16:06 [INFO] : [邮件] 正在推送威胁情报...
+2022-04-06 21:16:06 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
+2022-04-06 21:16:07 [INFO] : [邮件] 推送威胁情报成功
+2022-04-06 21:16:07 [INFO] : 正在提交变更...
