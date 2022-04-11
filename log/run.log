@@ -1,275 +1,437 @@
-2022-04-11 10:26:51 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-11 10:26:51 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
-2022-04-11 10:26:52 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
-2022-04-11 10:26:52 [INFO] : --------------------------------------------
-2022-04-11 10:26:52 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-11 10:26:52 [INFO] : 正在获取 [阿里云] 威胁情报...
-2022-04-11 10:26:52 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
-2022-04-11 10:26:52 [INFO] : --------------------------------------------
-2022-04-11 10:26:52 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-11 10:26:52 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
-2022-04-11 10:27:15 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [10] 条
-2022-04-11 10:27:15 [INFO] : --------------------------------------------
-2022-04-11 10:27:15 [INFO] : 
+2022-04-12 02:57:26 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-12 02:57:26 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-04-12 02:57:27 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [1] 条
+2022-04-12 02:57:27 [INFO] : --------------------------------------------
+2022-04-12 02:57:27 [INFO] : 
 ==============================================
-[ TITLE ] Delta Electronics DIAEnergie代码问题漏洞
-[ TIME  ] 2022-04-11 10:26:54
-[ CVE   ] CNVD-2022-27549 (CVE-2022-1098)
+[ TITLE ] Django框架存在两个sql注入漏洞
+[ TIME  ] 2022-04-11 19:24:42
+[ CVE   ] CVE-2022-28346,CVE-2022-28347
+[ SRC   ] 数字观星POC++
+[ URL   ] https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=5810
+2022-04-12 02:57:27 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-12 02:57:27 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-04-12 02:57:28 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-04-12 02:57:28 [INFO] : --------------------------------------------
+2022-04-12 02:57:28 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-12 02:57:28 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-04-12 02:57:52 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [2] 条
+2022-04-12 02:57:52 [INFO] : --------------------------------------------
+2022-04-12 02:57:52 [INFO] : 
+==============================================
+[ TITLE ] Facebook WhatsApp存在未明漏洞
+[ TIME  ] 2022-04-12 02:57:32
+[ CVE   ] CNVD-2022-27552 (CVE-2020-20096)
 [ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-27549
-2022-04-11 10:27:15 [INFO] : 
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-27552
+2022-04-12 02:57:52 [INFO] : 
 ==============================================
-[ TITLE ] Delta Electronics DIAEnergie SQL注入漏洞
-[ TIME  ] 2022-04-11 10:26:56
-[ CVE   ] CNVD-2022-27550 (CVE-2022-0923)
+[ TITLE ] TOTOLINK N302R Plus存在命令执行漏洞
+[ TIME  ] 2022-04-12 02:57:34
+[ CVE   ] CNVD-2022-21892
 [ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-27550
-2022-04-11 10:27:15 [INFO] : 
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-21892
+2022-04-12 02:57:52 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-12 02:57:52 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-04-12 02:58:05 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [10] 条
+2022-04-12 02:58:05 [INFO] : --------------------------------------------
+2022-04-12 02:58:05 [INFO] : 
 ==============================================
-[ TITLE ] Facebook Instagram输入验证错误漏洞
-[ TIME  ] 2022-04-11 10:26:58
-[ CVE   ] CNVD-2022-27551 (CVE-2020-20094)
-[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-27551
-2022-04-11 10:27:15 [INFO] : 
+[ TITLE ] 中天网络科技 OFCMS 安全漏洞
+[ TIME  ] 2022-04-10 02:57:53
+[ CVE   ] CNNVD-202204-2769 (CVE-2022-27961)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-2769
+2022-04-12 02:58:05 [INFO] : 
 ==============================================
-[ TITLE ] Delta Electronics DIAEnergie授权问题漏洞
-[ TIME  ] 2022-04-11 10:27:01
-[ CVE   ] CNVD-2022-27553 (CVE-2022-26839)
-[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-27553
-2022-04-11 10:27:15 [INFO] : 
+[ TITLE ] 中天网络科技 OFCMS 安全漏洞
+[ TIME  ] 2022-04-10 02:57:54
+[ CVE   ] CNNVD-202204-2768 (CVE-2022-27960)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-2768
+2022-04-12 02:58:05 [INFO] : 
 ==============================================
-[ TITLE ] Delta Electronics DIAEnergie路径遍历漏洞
-[ TIME  ] 2022-04-11 10:27:03
-[ CVE   ] CNVD-2022-27554 (CVE-2022-25347)
-[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-27554
-2022-04-11 10:27:15 [INFO] : 
+[ TITLE ] FEBS-Security 安全漏洞
+[ TIME  ] 2022-04-10 02:57:55
+[ CVE   ] CNNVD-202204-2767 (CVE-2022-27958)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-2767
+2022-04-12 02:58:05 [INFO] : 
 ==============================================
-[ TITLE ] Delta Electronics DIAEnergie SQL注入漏洞
-[ TIME  ] 2022-04-11 10:27:05
-[ CVE   ] CNVD-2022-27555 (CVE-2022-27175)
-[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-27555
-2022-04-11 10:27:15 [INFO] : 
+[ TITLE ] newbee-mall 安全漏洞
+[ TIME  ] 2022-04-10 02:57:57
+[ CVE   ] CNNVD-202204-2766 (CVE-2022-27477)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-2766
+2022-04-12 02:58:05 [INFO] : 
 ==============================================
-[ TITLE ] Delta Electronics DIAEnergie SQL注入漏洞
-[ TIME  ] 2022-04-11 10:27:08
-[ CVE   ] CNVD-2022-27556 (CVE-2022-26836)
-[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-27556
-2022-04-11 10:27:15 [INFO] : 
+[ TITLE ] D-Link DIR-619 安全漏洞
+[ TIME  ] 2022-04-10 02:57:58
+[ CVE   ] CNNVD-202204-2765 (CVE-2022-27295)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-2765
+2022-04-12 02:58:05 [INFO] : 
 ==============================================
-[ TITLE ] Delta Electronics DIAEnergie SQL注入漏洞
-[ TIME  ] 2022-04-11 10:27:10
-[ CVE   ] CNVD-2022-27557 (CVE-2022-26667)
-[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-27557
-2022-04-11 10:27:15 [INFO] : 
+[ TITLE ] Newbee-Mall 安全漏洞
+[ TIME  ] 2022-04-10 02:57:59
+[ CVE   ] CNNVD-202204-2764 (CVE-2022-27476)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-2764
+2022-04-12 02:58:05 [INFO] : 
 ==============================================
-[ TITLE ] Delta Electronics DIAEnergie SQL注入漏洞
-[ TIME  ] 2022-04-11 10:27:12
-[ CVE   ] CNVD-2022-27558 (CVE-2022-26666)
-[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-27558
-2022-04-11 10:27:15 [INFO] : 
+[ TITLE ] D-Link DIR-619 安全漏洞
+[ TIME  ] 2022-04-10 02:58:01
+[ CVE   ] CNNVD-202204-2763 (CVE-2022-27293)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-2763
+2022-04-12 02:58:05 [INFO] : 
 ==============================================
-[ TITLE ] 七牛Logkit监控中心存在未授权访问漏洞
-[ TIME  ] 2022-04-11 10:27:14
-[ CVE   ] CNVD-2022-21830
-[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-21830
-2022-04-11 10:27:15 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-11 10:27:15 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
-2022-04-11 10:27:28 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
-2022-04-11 10:27:28 [INFO] : --------------------------------------------
-2022-04-11 10:27:28 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-11 10:27:28 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
-2022-04-11 10:27:29 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
-2022-04-11 10:27:29 [INFO] : --------------------------------------------
-2022-04-11 10:27:29 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-11 10:27:29 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
-2022-04-11 10:27:31 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
-2022-04-11 10:27:31 [INFO] : --------------------------------------------
-2022-04-11 10:27:31 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-11 10:27:31 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
-2022-04-11 10:27:31 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
-2022-04-11 10:27:31 [INFO] : --------------------------------------------
-2022-04-11 10:27:31 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-11 10:27:31 [INFO] : 正在获取 [绿盟] 威胁情报...
-2022-04-11 10:27:32 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
-2022-04-11 10:27:32 [INFO] : --------------------------------------------
-2022-04-11 10:27:32 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-11 10:27:32 [INFO] : 正在获取 [奇安信] 威胁情报...
-2022-04-11 10:27:32 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
-2022-04-11 10:27:32 [INFO] : --------------------------------------------
-2022-04-11 10:27:32 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-11 10:27:32 [INFO] : 正在获取 [红后] 威胁情报...
-2022-04-11 10:27:33 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
-2022-04-11 10:27:33 [INFO] : --------------------------------------------
-2022-04-11 10:27:33 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-11 10:27:33 [INFO] : 正在获取 [斗象] 威胁情报...
-2022-04-11 10:27:36 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
-2022-04-11 10:27:36 [INFO] : --------------------------------------------
-2022-04-11 10:27:36 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-11 10:27:36 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
-2022-04-11 10:27:37 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [10] 条
-2022-04-11 10:27:37 [INFO] : --------------------------------------------
-2022-04-11 10:27:37 [INFO] : 
+[ TITLE ] D-Link DIR-619 安全漏洞
+[ TIME  ] 2022-04-10 02:58:02
+[ CVE   ] CNNVD-202204-2762 (CVE-2022-27292)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-2762
+2022-04-12 02:58:05 [INFO] : 
 ==============================================
-[ TITLE ] A cross-site scripting (XSS) vulnerability at /ofcms/company-c-47 in OFCMS v1.1.4 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Comment text box.
-[ TIME  ] 2022-04-10 21:15:00
-[ CVE   ] CVE-2022-27961
+[ TITLE ] D-Link DIR-619 安全漏洞
+[ TIME  ] 2022-04-10 02:58:03
+[ CVE   ] CNNVD-202204-2761 (CVE-2022-27291)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-2761
+2022-04-12 02:58:05 [INFO] : 
+==============================================
+[ TITLE ] D-Link DIR-619 安全漏洞
+[ TIME  ] 2022-04-10 02:58:04
+[ CVE   ] CNNVD-202204-2760 (CVE-2022-27290)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-2760
+2022-04-12 02:58:05 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-12 02:58:05 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-04-12 02:58:06 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [2] 条
+2022-04-12 02:58:06 [INFO] : --------------------------------------------
+2022-04-12 02:58:06 [INFO] : 
+==============================================
+[ TITLE ] 双平台挖矿僵尸网络Sysrv-hello加持新漏洞再度来袭
+[ TIME  ] 2022-04-11 15:42:43
+[ CVE   ] 
+[ SRC   ] 360 网络安全响应中心
+[ URL   ] https://cert.360.cn/warning/detail?id=840995a8f77b07fdd0b433401081dc03
+2022-04-12 02:58:06 [INFO] : 
+==============================================
+[ TITLE ] 安全事件周报 (04-04 ~ 04-10)
+[ TIME  ] 2022-04-11 15:07:10
+[ CVE   ] 
+[ SRC   ] 360 网络安全响应中心
+[ URL   ] https://cert.360.cn/warning/detail?id=8bea961382a5490e81754e1b6952dd92
+2022-04-12 02:58:06 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-12 02:58:06 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-04-12 02:58:08 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [5] 条
+2022-04-12 02:58:08 [INFO] : --------------------------------------------
+2022-04-12 02:58:08 [INFO] : 
+==============================================
+[ TITLE ] jc21.com Nginx Proxy Manager before 2.9.17 allows XSS during item deletion.
+[ TIME  ] 2022-04-03 18:15:07 
+[ CVE   ] CVE-2022-28379
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-28379
+2022-04-12 02:58:08 [INFO] : 
+==============================================
+[ TITLE ] Craft CMS before 3.7.29 allows XSS.
+[ TIME  ] 2022-04-03 18:15:07 
+[ CVE   ] CVE-2022-28378
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-28378
+2022-04-12 02:58:08 [INFO] : 
+==============================================
+[ TITLE ] Untrusted search path vulnerability in AttacheCase ver.3.6.1.0 and earlier allows an attacker to gain privileges and execute arbitrary code via a Trojan horse DLL in an unspecified directory.
+[ TIME  ] 2022-03-31 08:15:08 
+[ CVE   ] CVE-2022-28128
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-28128
+2022-04-12 02:58:08 [INFO] : 
+==============================================
+[ TITLE ] Simple Bakery Shop Management System v1.0 contains a file disclosure via /bsms/?page=products.
+[ TIME  ] 2022-04-04 14:15:07 
+[ CVE   ] CVE-2022-28063
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-28063
+2022-04-12 02:58:08 [INFO] : 
+==============================================
+[ TITLE ] Car Rental System v1.0 contains an arbitrary file upload vulnerability via the Add Car component which allows attackers to upload a webshell and execute arbitrary code.
+[ TIME  ] 2022-04-04 14:15:07 
+[ CVE   ] CVE-2022-28062
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-28062
+2022-04-12 02:58:08 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-12 02:58:08 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-04-12 02:58:08 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-04-12 02:58:08 [INFO] : --------------------------------------------
+2022-04-12 02:58:08 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-12 02:58:08 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-04-12 02:58:09 [INFO] : 得到 [绿盟] 最新威胁情报 [15] 条
+2022-04-12 02:58:09 [INFO] : --------------------------------------------
+2022-04-12 02:58:09 [INFO] : 
+==============================================
+[ TITLE ] Flask-AppBuilder用户枚举漏洞
+[ TIME  ] 2022-04-11 02:58:09
+[ CVE   ] CVE-2022-21659
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64083
+2022-04-12 02:58:09 [INFO] : 
+==============================================
+[ TITLE ] Tianocore EDK II拒绝服务漏洞
+[ TIME  ] 2022-04-11 02:58:09
+[ CVE   ] CVE-2021-38576
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64082
+2022-04-12 02:58:09 [INFO] : 
+==============================================
+[ TITLE ] Liferay Portal Server OS命令注入漏洞
+[ TIME  ] 2022-04-11 02:58:09
+[ CVE   ] CVE-2020-28885
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64081
+2022-04-12 02:58:09 [INFO] : 
+==============================================
+[ TITLE ] Google Go越界写入漏洞
+[ TIME  ] 2022-04-11 02:58:09
+[ CVE   ] CVE-2021-44717
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64080
+2022-04-12 02:58:09 [INFO] : 
+==============================================
+[ TITLE ] Sun ＆ Moon Rise Shockwall System输入验证错误漏洞
+[ TIME  ] 2022-04-11 02:58:09
+[ CVE   ] CVE-2021-45916
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64079
+2022-04-12 02:58:09 [INFO] : 
+==============================================
+[ TITLE ] Qualcomm Chipsets堆内存破坏漏洞
+[ TIME  ] 2022-04-11 02:58:09
+[ CVE   ] CVE-2021-30268
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64078
+2022-04-12 02:58:09 [INFO] : 
+==============================================
+[ TITLE ] Qualcomm Chipsets拒绝服务漏洞
+[ TIME  ] 2022-04-11 02:58:09
+[ CVE   ] CVE-2021-30283
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64077
+2022-04-12 02:58:09 [INFO] : 
+==============================================
+[ TITLE ] Qualcomm Chipsets越界读取漏洞
+[ TIME  ] 2022-04-11 02:58:09
+[ CVE   ] CVE-2021-30336
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64076
+2022-04-12 02:58:09 [INFO] : 
+==============================================
+[ TITLE ] Huawei HarmonyOS信息泄露漏洞
+[ TIME  ] 2022-04-11 02:58:09
+[ CVE   ] CVE-2021-37125
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64075
+2022-04-12 02:58:09 [INFO] : 
+==============================================
+[ TITLE ] Huawei HarmonyOS数据处理错误漏洞
+[ TIME  ] 2022-04-11 02:58:09
+[ CVE   ] CVE-2021-37098
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64074
+2022-04-12 02:58:09 [INFO] : 
+==============================================
+[ TITLE ] Huawei HarmonyOS输入验证错误漏洞
+[ TIME  ] 2022-04-11 02:58:09
+[ CVE   ] CVE-2021-37116
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64073
+2022-04-12 02:58:09 [INFO] : 
+==============================================
+[ TITLE ] Bosch Video Security HTML代码注入漏洞
+[ TIME  ] 2022-04-11 02:58:09
+[ CVE   ] CVE-2021-23863
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64072
+2022-04-12 02:58:09 [INFO] : 
+==============================================
+[ TITLE ] MariaDB拒绝服务漏洞
+[ TIME  ] 2022-04-11 02:58:09
+[ CVE   ] CVE-2021-46661
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64071
+2022-04-12 02:58:09 [INFO] : 
+==============================================
+[ TITLE ] Jsish拒绝服务漏洞
+[ TIME  ] 2022-04-11 02:58:09
+[ CVE   ] CVE-2021-46490
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64070
+2022-04-12 02:58:09 [INFO] : 
+==============================================
+[ TITLE ] Jsish堆释放后重用漏洞
+[ TIME  ] 2022-04-11 02:58:09
+[ CVE   ] CVE-2021-46497
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64069
+2022-04-12 02:58:09 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-12 02:58:09 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-04-12 02:58:10 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-04-12 02:58:10 [INFO] : --------------------------------------------
+2022-04-12 02:58:10 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-12 02:58:10 [INFO] : 正在获取 [红后] 威胁情报...
+2022-04-12 02:58:10 [INFO] : 得到 [红后] 最新威胁情报 [10] 条
+2022-04-12 02:58:10 [INFO] : --------------------------------------------
+2022-04-12 02:58:10 [INFO] : 
+==============================================
+[ TITLE ] ClamAV 安全漏洞
+[ TIME  ] 2022-04-11 13:51:50
+[ CVE   ] CVE-2021-27506
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=29eae5efe3794d9395a2c7ad3dec2743
+2022-04-12 02:58:10 [INFO] : 
+==============================================
+[ TITLE ] Pillow 安全漏洞
+[ TIME  ] 2022-04-11 13:51:46
+[ CVE   ] CVE-2021-25292
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=79bba9ed1aa641ccbef06682101c06ab
+2022-04-12 02:58:10 [INFO] : 
+==============================================
+[ TITLE ] Minio MinIO 安全漏洞
+[ TIME  ] 2022-04-11 13:51:42
+[ CVE   ] CVE-2021-21390
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=a059213f58564ff092d98430b2296066
+2022-04-12 02:58:10 [INFO] : 
+==============================================
+[ TITLE ] Apache PDFBox 安全漏洞
+[ TIME  ] 2022-04-11 13:51:42
+[ CVE   ] CVE-2021-27807
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=71e32d664e9a46098690a34cb0ea946f
+2022-04-12 02:58:10 [INFO] : 
+==============================================
+[ TITLE ] Grafana 安全漏洞
+[ TIME  ] 2022-04-11 13:51:32
+[ CVE   ] CVE-2021-27358
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=1e868c088ce7460989705117e51ca5a2
+2022-04-12 02:58:10 [INFO] : 
+==============================================
+[ TITLE ] Johnson Controls exacqVision Web Service 信息泄露漏洞
+[ TIME  ] 2022-04-11 13:51:32
+[ CVE   ] CVE-2021-27656
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=0e59a3e080b649c0b8e5407847add04b
+2022-04-12 02:58:10 [INFO] : 
+==============================================
+[ TITLE ] IBM Resilient 安全漏洞
+[ TIME  ] 2022-04-11 13:51:32
+[ CVE   ] CVE-2020-4635
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=056d99fb1114494b9af55759f0348b86
+2022-04-12 02:58:10 [INFO] : 
+==============================================
+[ TITLE ] Pillow 缓冲区错误漏洞
+[ TIME  ] 2022-04-11 13:51:18
+[ CVE   ] CVE-2021-25293
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=e40f6876edd54f6895612aec3e25697d
+2022-04-12 02:58:10 [INFO] : 
+==============================================
+[ TITLE ] Pillow 缓冲区错误漏洞
+[ TIME  ] 2022-04-11 13:51:18
+[ CVE   ] CVE-2021-25291
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=3e60b77ac15d452ea389745ec212e293
+2022-04-12 02:58:10 [INFO] : 
+==============================================
+[ TITLE ] Squid 环境问题漏洞
+[ TIME  ] 2022-04-11 13:51:17
+[ CVE   ] CVE-2020-25097
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=45c9c6a67653407dbc46863224b9857b
+2022-04-12 02:58:10 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-12 02:58:10 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-04-12 02:58:13 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-04-12 02:58:13 [INFO] : --------------------------------------------
+2022-04-12 02:58:13 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-12 02:58:13 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-04-12 02:58:13 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [10] 条
+2022-04-12 02:58:13 [INFO] : --------------------------------------------
+2022-04-12 02:58:13 [INFO] : 
+==============================================
+[ TITLE ] Daylight Studio Fuel CMS 1.5.1 is vulnerable to HTML Injection.
+[ TIME  ] 2022-04-11 15:15:00
+[ CVE   ] CVE-2022-27156
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-27961
-2022-04-11 10:27:37 [INFO] : 
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27156
+2022-04-12 02:58:13 [INFO] : 
 ==============================================
-[ TITLE ] Insecure permissions configured in the user_id parameter at SysUserController.java of OFCMS v1.1.4 allows attackers to access and arbitrarily modify users' personal information.
-[ TIME  ] 2022-04-10 21:15:00
-[ CVE   ] CVE-2022-27960
+[ TITLE ] In Studio-42 elFinder 2.1.60, there is a vulnerability that causes remote code execution through file name bypass for file upload.
+[ TIME  ] 2022-04-11 15:15:00
+[ CVE   ] CVE-2022-27115
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-27960
-2022-04-11 10:27:37 [INFO] : 
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27115
+2022-04-12 02:58:13 [INFO] : 
 ==============================================
-[ TITLE ] Insecure permissions configured in the userid parameter at /user/getuserprofile of FEBS-Security v1.0 allows attackers to access and arbitrarily modify users' personal information.
-[ TIME  ] 2022-04-10 21:15:00
-[ CVE   ] CVE-2022-27958
+[ TITLE ] Jfinal_CMS 5.1.0 allows attackers to use the feedback function to send malicious XSS code to the administrator backend and execute it.
+[ TIME  ] 2022-04-11 15:15:00
+[ CVE   ] CVE-2022-27111
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-27958
-2022-04-11 10:27:37 [INFO] : 
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27111
+2022-04-12 02:58:13 [INFO] : 
 ==============================================
-[ TITLE ] Newbee-Mall v1.0.0 was discovered to contain an arbitrary file upload via the Upload function at /admin/goods/edit.
-[ TIME  ] 2022-04-10 21:15:00
-[ CVE   ] CVE-2022-27477
+[ TITLE ] The Podcast Importer SecondLine WordPress plugin before 1.3.8 does not sanitise and properly escape some imported data, which could allow SQL injection attacks to be performed by imported a malicious podcast file
+[ TIME  ] 2022-04-11 15:15:00
+[ CVE   ] CVE-2022-1023
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-27477
-2022-04-11 10:27:37 [INFO] : 
+[ URL   ] https://www.tenable.com/cve/CVE-2022-1023
+2022-04-12 02:58:13 [INFO] : 
 ==============================================
-[ TITLE ] A cross-site scripting (XSS) vulnerability at /admin/goods/update in Newbee-Mall v1.0.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the goodsName parameter.
-[ TIME  ] 2022-04-10 21:15:00
-[ CVE   ] CVE-2022-27476
+[ TITLE ] The One Click Demo Import WordPress plugin before 3.1.0 does not validate the imported file, allowing high privilege users such as admin to upload arbitrary files (such as PHP) even when FILE_MODS and FILE_EDIT are disallowed
+[ TIME  ] 2022-04-11 15:15:00
+[ CVE   ] CVE-2022-1008
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-27476
-2022-04-11 10:27:37 [INFO] : 
+[ URL   ] https://www.tenable.com/cve/CVE-2022-1008
+2022-04-12 02:58:13 [INFO] : 
 ==============================================
-[ TITLE ] D-Link DIR-619 Ax v1.00 was discovered to contain a stack overflow in the function formAdvanceSetup. This vulnerability allows attackers to cause a Denial of Service (DoS) via the webpage parameter.
-[ TIME  ] 2022-04-10 21:15:00
-[ CVE   ] CVE-2022-27295
+[ TITLE ] The Advanced Booking Calendar WordPress plugin before 1.7.1 does not sanitise and escape the room parameter before outputting it back in an admin page, leading to a Reflected Cross-Site Scripting issue
+[ TIME  ] 2022-04-11 15:15:00
+[ CVE   ] CVE-2022-1007
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-27295
-2022-04-11 10:27:37 [INFO] : 
+[ URL   ] https://www.tenable.com/cve/CVE-2022-1007
+2022-04-12 02:58:13 [INFO] : 
 ==============================================
-[ TITLE ] D-Link DIR-619 Ax v1.00 was discovered to contain a stack overflow in the function formWlanWizardSetup. This vulnerability allows attackers to cause a Denial of Service (DoS) via the webpage parameter.
-[ TIME  ] 2022-04-10 21:15:00
-[ CVE   ] CVE-2022-27294
+[ TITLE ] The Advanced Booking Calendar WordPress plugin before 1.7.1 does not sanitise and escape the id parameter when editing Calendars, which could allow high privilege users such as admin to perform SQL injection attacks
+[ TIME  ] 2022-04-11 15:15:00
+[ CVE   ] CVE-2022-1006
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-27294
-2022-04-11 10:27:37 [INFO] : 
+[ URL   ] https://www.tenable.com/cve/CVE-2022-1006
+2022-04-12 02:58:13 [INFO] : 
 ==============================================
-[ TITLE ] D-Link DIR-619 Ax v1.00 was discovered to contain a stack overflow in the function formWlanSetup. This vulnerability allows attackers to cause a Denial of Service (DoS) via the webpage parameter.
-[ TIME  ] 2022-04-10 21:15:00
-[ CVE   ] CVE-2022-27293
+[ TITLE ] An unprivileged user could use the functionality of the NS WooCommerce Watermark WordPress plugin through 2.11.3 to load images that hide malware for example from passing malicious domains to hide their trace, by making them pass through the vulnerable domain.
+[ TIME  ] 2022-04-11 15:15:00
+[ CVE   ] CVE-2022-0989
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-27293
-2022-04-11 10:27:37 [INFO] : 
+[ URL   ] https://www.tenable.com/cve/CVE-2022-0989
+2022-04-12 02:58:13 [INFO] : 
 ==============================================
-[ TITLE ] D-Link DIR-619 Ax v1.00 was discovered to contain a stack overflow in the function formLanguageChange. This vulnerability allows attackers to cause a Denial of Service (DoS) via the nextPage parameter.
-[ TIME  ] 2022-04-10 21:15:00
-[ CVE   ] CVE-2022-27292
+[ TITLE ] The Image optimization & Lazy Load by Optimole WordPress plugin before 3.3.2 does not sanitise and escape its "Lazyload background images for selectors" settings, which could allow high privilege users such as admin to perform Cross-Site scripting attacks even when the unfiltered_html capability is disallowed.
+[ TIME  ] 2022-04-11 15:15:00
+[ CVE   ] CVE-2022-0969
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-27292
-2022-04-11 10:27:37 [INFO] : 
+[ URL   ] https://www.tenable.com/cve/CVE-2022-0969
+2022-04-12 02:58:13 [INFO] : 
 ==============================================
-[ TITLE ] D-Link DIR-619 Ax v1.00 was discovered to contain a stack overflow in the function formdumpeasysetup. This vulnerability allows attackers to cause a Denial of Service (DoS) via the config.save_network_enabled parameter.
-[ TIME  ] 2022-04-10 21:15:00
-[ CVE   ] CVE-2022-27291
+[ TITLE ] The Block Bad Bots and Stop Bad Bots Crawlers and Spiders and Anti Spam Protection WordPress plugin before 6.930 does not properly sanitise and escape the fingerprint parameter before using it in a SQL statement via the stopbadbots_grava_fingerprint AJAX action, available to unauthenticated users, leading to a SQL injection
+[ TIME  ] 2022-04-11 15:15:00
+[ CVE   ] CVE-2022-0949
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-27291
-2022-04-11 10:27:37 [INFO] : [邮件] 正在推送威胁情报...
-2022-04-11 10:27:37 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
-2022-04-11 10:27:37 [INFO] : [邮件] 推送威胁情报成功
-2022-04-11 10:27:37 [INFO] : 正在提交变更...
-2022-04-11 10:27:42 [INFO] : 提交变更成功
-2022-04-11 11:27:58 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-11 11:27:58 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
-2022-04-11 11:27:59 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
-2022-04-11 11:27:59 [INFO] : --------------------------------------------
-2022-04-11 11:27:59 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-11 11:27:59 [INFO] : 正在获取 [阿里云] 威胁情报...
-2022-04-11 11:27:59 [INFO] : 得到 [阿里云] 最新威胁情报 [2] 条
-2022-04-11 11:27:59 [INFO] : --------------------------------------------
-2022-04-11 11:27:59 [INFO] : 
-==============================================
-[ TITLE ] VMware Workspace ONE Access 模板注入漏洞（CVE-2022-22954）
-                        
-[ TIME  ] 2022-04-08 11:27:59
-[ CVE   ] CVE-2022-22954
-[ SRC   ] 阿里云
-[ URL   ] https://avd.aliyun.com/detail?id=AVD-2022-22954
-2022-04-11 11:27:59 [INFO] : 
-==============================================
-[ TITLE ] Gitlab OmniAuth 账号劫持漏洞（CVE-2022-1162）
-                        
-[ TIME  ] 2022-04-05 11:27:59
-[ CVE   ] CVE-2022-1162
-[ SRC   ] 阿里云
-[ URL   ] https://avd.aliyun.com/detail?id=AVD-2022-1162
-2022-04-11 11:27:59 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-11 11:27:59 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
-2022-04-11 11:28:29 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [2] 条
-2022-04-11 11:28:29 [INFO] : --------------------------------------------
-2022-04-11 11:28:29 [INFO] : 
-==============================================
-[ TITLE ] 杭州安恒信息技术股份有限公司明御安全网关存在命令执行漏洞
-[ TIME  ] 2022-04-11 11:28:03
-[ CVE   ] CNVD-2022-25741
-[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-25741
-2022-04-11 11:28:29 [INFO] : 
-==============================================
-[ TITLE ] Oracle MySQL存在逻辑缺陷漏洞
-[ TIME  ] 2022-04-11 11:28:06
-[ CVE   ] CNVD-2022-03670
-[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-03670
-2022-04-11 11:28:29 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-11 11:28:29 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
-2022-04-11 11:28:43 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
-2022-04-11 11:28:43 [INFO] : --------------------------------------------
-2022-04-11 11:28:43 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-11 11:28:43 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
-2022-04-11 11:28:44 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
-2022-04-11 11:28:44 [INFO] : --------------------------------------------
-2022-04-11 11:28:44 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-11 11:28:44 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
-2022-04-11 11:28:45 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
-2022-04-11 11:28:45 [INFO] : --------------------------------------------
-2022-04-11 11:28:45 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-11 11:28:45 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
-2022-04-11 11:28:46 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
-2022-04-11 11:28:46 [INFO] : --------------------------------------------
-2022-04-11 11:28:46 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-11 11:28:46 [INFO] : 正在获取 [绿盟] 威胁情报...
-2022-04-11 11:28:46 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
-2022-04-11 11:28:46 [INFO] : --------------------------------------------
-2022-04-11 11:28:46 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-11 11:28:46 [INFO] : 正在获取 [奇安信] 威胁情报...
-2022-04-11 11:28:48 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
-2022-04-11 11:28:48 [INFO] : --------------------------------------------
-2022-04-11 11:28:48 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-11 11:28:48 [INFO] : 正在获取 [红后] 威胁情报...
-2022-04-11 11:28:48 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
-2022-04-11 11:28:48 [INFO] : --------------------------------------------
-2022-04-11 11:28:48 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-11 11:28:48 [INFO] : 正在获取 [斗象] 威胁情报...
-2022-04-11 11:28:51 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
-2022-04-11 11:28:51 [INFO] : --------------------------------------------
-2022-04-11 11:28:51 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-11 11:28:51 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
-2022-04-11 11:28:53 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
-2022-04-11 11:28:53 [INFO] : --------------------------------------------
-2022-04-11 11:28:53 [INFO] : [邮件] 正在推送威胁情报...
-2022-04-11 11:28:53 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
-2022-04-11 11:28:54 [INFO] : [邮件] 推送威胁情报成功
-2022-04-11 11:28:54 [INFO] : 正在提交变更...
+[ URL   ] https://www.tenable.com/cve/CVE-2022-0949
+2022-04-12 02:58:14 [INFO] : [邮件] 正在推送威胁情报...
+2022-04-12 02:58:14 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
+2022-04-12 02:58:15 [INFO] : [邮件] 推送威胁情报成功
+2022-04-12 02:58:15 [INFO] : 正在提交变更...
