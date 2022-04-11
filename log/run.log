@@ -1,515 +1,192 @@
-2022-04-10 22:28:22 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-10 22:28:22 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
-2022-04-10 22:28:23 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [1] 条
-2022-04-10 22:28:23 [INFO] : --------------------------------------------
-2022-04-10 22:28:23 [INFO] : 
+2022-04-11 10:26:51 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-11 10:26:51 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-04-11 10:26:52 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-04-11 10:26:52 [INFO] : --------------------------------------------
+2022-04-11 10:26:52 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-11 10:26:52 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-04-11 10:26:52 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-04-11 10:26:52 [INFO] : --------------------------------------------
+2022-04-11 10:26:52 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-11 10:26:52 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-04-11 10:27:15 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [10] 条
+2022-04-11 10:27:15 [INFO] : --------------------------------------------
+2022-04-11 10:27:15 [INFO] : 
 ==============================================
-[ TITLE ] VMware 产品多个高危漏洞
-[ TIME  ] 2022-04-08 19:09:00
-[ CVE   ] CVE-2022-22954,CVE-2022-22955,CVE-2022-22956,CVE-2022-22957,CVE-2022-22958,CVE-2022-22959,CVE-2022-22960,CVE-2022-22961
-[ SRC   ] 数字观星POC++
-[ URL   ] https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=5792
-2022-04-10 22:28:23 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-10 22:28:23 [INFO] : 正在获取 [阿里云] 威胁情报...
-2022-04-10 22:28:24 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
-2022-04-10 22:28:24 [INFO] : --------------------------------------------
-2022-04-10 22:28:24 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-10 22:28:24 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
-2022-04-10 22:28:45 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [10] 条
-2022-04-10 22:28:45 [INFO] : --------------------------------------------
-2022-04-10 22:28:45 [INFO] : 
-==============================================
-[ TITLE ] Reolink Rlc-410W拒绝服务漏洞
-[ TIME  ] 2022-04-10 22:28:25
-[ CVE   ] CNVD-2022-27432 (CVE-2021-44360)
+[ TITLE ] Delta Electronics DIAEnergie代码问题漏洞
+[ TIME  ] 2022-04-11 10:26:54
+[ CVE   ] CNVD-2022-27549 (CVE-2022-1098)
 [ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-27432
-2022-04-10 22:28:45 [INFO] : 
-==============================================
-[ TITLE ] Synology DiskStation Manager SQL注入漏洞
-[ TIME  ] 2022-04-10 22:28:27
-[ CVE   ] CNVD-2022-27444 (CVE-2021-43927)
-[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-27444
-2022-04-10 22:28:45 [INFO] : 
-==============================================
-[ TITLE ] Synology DiskStation Manager SQL注入漏洞
-[ TIME  ] 2022-04-10 22:28:29
-[ CVE   ] CNVD-2022-27445 (CVE-2021-43926)
-[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-27445
-2022-04-10 22:28:45 [INFO] : 
-==============================================
-[ TITLE ] Synology DiskStation Manager SQL注入漏洞
-[ TIME  ] 2022-04-10 22:28:31
-[ CVE   ] CNVD-2022-27446 (CVE-2021-43925)
-[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-27446
-2022-04-10 22:28:45 [INFO] : 
-==============================================
-[ TITLE ] Delta Electronics DIAEnergie信息泄露漏洞
-[ TIME  ] 2022-04-10 22:28:33
-[ CVE   ] CNVD-2022-27433 (CVE-2022-0988)
-[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-27433
-2022-04-10 22:28:45 [INFO] : 
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-27549
+2022-04-11 10:27:15 [INFO] : 
 ==============================================
 [ TITLE ] Delta Electronics DIAEnergie SQL注入漏洞
-[ TIME  ] 2022-04-10 22:28:35
-[ CVE   ] CNVD-2022-27434 (CVE-2022-26514)
+[ TIME  ] 2022-04-11 10:26:56
+[ CVE   ] CNVD-2022-27550 (CVE-2022-0923)
 [ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-27434
-2022-04-10 22:28:45 [INFO] : 
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-27550
+2022-04-11 10:27:15 [INFO] : 
+==============================================
+[ TITLE ] Facebook Instagram输入验证错误漏洞
+[ TIME  ] 2022-04-11 10:26:58
+[ CVE   ] CNVD-2022-27551 (CVE-2020-20094)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-27551
+2022-04-11 10:27:15 [INFO] : 
+==============================================
+[ TITLE ] Delta Electronics DIAEnergie授权问题漏洞
+[ TIME  ] 2022-04-11 10:27:01
+[ CVE   ] CNVD-2022-27553 (CVE-2022-26839)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-27553
+2022-04-11 10:27:15 [INFO] : 
+==============================================
+[ TITLE ] Delta Electronics DIAEnergie路径遍历漏洞
+[ TIME  ] 2022-04-11 10:27:03
+[ CVE   ] CNVD-2022-27554 (CVE-2022-25347)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-27554
+2022-04-11 10:27:15 [INFO] : 
 ==============================================
 [ TITLE ] Delta Electronics DIAEnergie SQL注入漏洞
-[ TIME  ] 2022-04-10 22:28:37
-[ CVE   ] CNVD-2022-27435 (CVE-2022-26349)
+[ TIME  ] 2022-04-11 10:27:05
+[ CVE   ] CNVD-2022-27555 (CVE-2022-27175)
 [ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-27435
-2022-04-10 22:28:45 [INFO] : 
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-27555
+2022-04-11 10:27:15 [INFO] : 
 ==============================================
 [ TITLE ] Delta Electronics DIAEnergie SQL注入漏洞
-[ TIME  ] 2022-04-10 22:28:39
-[ CVE   ] CNVD-2022-27436 (CVE-2022-26069)
+[ TIME  ] 2022-04-11 10:27:08
+[ CVE   ] CNVD-2022-27556 (CVE-2022-26836)
 [ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-27436
-2022-04-10 22:28:45 [INFO] : 
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-27556
+2022-04-11 10:27:15 [INFO] : 
 ==============================================
 [ TITLE ] Delta Electronics DIAEnergie SQL注入漏洞
-[ TIME  ] 2022-04-10 22:28:41
-[ CVE   ] CNVD-2022-27437 (CVE-2022-26065)
+[ TIME  ] 2022-04-11 10:27:10
+[ CVE   ] CNVD-2022-27557 (CVE-2022-26667)
 [ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-27437
-2022-04-10 22:28:45 [INFO] : 
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-27557
+2022-04-11 10:27:15 [INFO] : 
 ==============================================
 [ TITLE ] Delta Electronics DIAEnergie SQL注入漏洞
-[ TIME  ] 2022-04-10 22:28:43
-[ CVE   ] CNVD-2022-27438 (CVE-2022-26059)
+[ TIME  ] 2022-04-11 10:27:12
+[ CVE   ] CNVD-2022-27558 (CVE-2022-26666)
 [ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-27438
-2022-04-10 22:28:45 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-10 22:28:45 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
-2022-04-10 22:28:59 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [10] 条
-2022-04-10 22:28:59 [INFO] : --------------------------------------------
-2022-04-10 22:28:59 [INFO] : 
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-27558
+2022-04-11 10:27:15 [INFO] : 
 ==============================================
-[ TITLE ] GNU Gzip 输入验证错误漏洞
-[ TIME  ] 2022-04-08 22:28:46
-[ CVE   ] CNNVD-202204-2632 (CVE-2022-1271)
-[ SRC   ] 国家信息安全漏洞库（CNNVD）
-[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-2632
-2022-04-10 22:28:59 [INFO] : 
+[ TITLE ] 七牛Logkit监控中心存在未授权访问漏洞
+[ TIME  ] 2022-04-11 10:27:14
+[ CVE   ] CNVD-2022-21830
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-21830
+2022-04-11 10:27:15 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-11 10:27:15 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-04-11 10:27:28 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-04-11 10:27:28 [INFO] : --------------------------------------------
+2022-04-11 10:27:28 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-11 10:27:28 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-04-11 10:27:29 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-04-11 10:27:29 [INFO] : --------------------------------------------
+2022-04-11 10:27:29 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-11 10:27:29 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-04-11 10:27:31 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
+2022-04-11 10:27:31 [INFO] : --------------------------------------------
+2022-04-11 10:27:31 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-11 10:27:31 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-04-11 10:27:31 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-04-11 10:27:31 [INFO] : --------------------------------------------
+2022-04-11 10:27:31 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-11 10:27:31 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-04-11 10:27:32 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-04-11 10:27:32 [INFO] : --------------------------------------------
+2022-04-11 10:27:32 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-11 10:27:32 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-04-11 10:27:32 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-04-11 10:27:32 [INFO] : --------------------------------------------
+2022-04-11 10:27:32 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-11 10:27:32 [INFO] : 正在获取 [红后] 威胁情报...
+2022-04-11 10:27:33 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-04-11 10:27:33 [INFO] : --------------------------------------------
+2022-04-11 10:27:33 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-11 10:27:33 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-04-11 10:27:36 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-04-11 10:27:36 [INFO] : --------------------------------------------
+2022-04-11 10:27:36 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-11 10:27:36 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-04-11 10:27:37 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [10] 条
+2022-04-11 10:27:37 [INFO] : --------------------------------------------
+2022-04-11 10:27:37 [INFO] : 
 ==============================================
-[ TITLE ] Linux kernel 安全漏洞
-[ TIME  ] 2022-04-07 22:28:47
-[ CVE   ] CNNVD-202204-2631 (CVE-2022-1263)
-[ SRC   ] 国家信息安全漏洞库（CNNVD）
-[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-2631
-2022-04-10 22:28:59 [INFO] : 
-==============================================
-[ TITLE ] D-Link DIR-823G 安全漏洞
-[ TIME  ] 2022-04-07 22:28:49
-[ CVE   ] CNNVD-202204-2630 (CVE-2021-43474)
-[ SRC   ] 国家信息安全漏洞库（CNNVD）
-[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-2630
-2022-04-10 22:28:59 [INFO] : 
-==============================================
-[ TITLE ] JerryScript 安全漏洞
-[ TIME  ] 2022-04-07 22:28:50
-[ CVE   ] CNNVD-202204-2629 (CVE-2021-43453)
-[ SRC   ] 国家信息安全漏洞库（CNNVD）
-[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-2629
-2022-04-10 22:28:59 [INFO] : 
-==============================================
-[ TITLE ] Bitdefender Endpoint Security Tool 安全漏洞
-[ TIME  ] 2022-04-07 22:28:51
-[ CVE   ] CNNVD-202204-2628 (CVE-2022-0677)
-[ SRC   ] 国家信息安全漏洞库（CNNVD）
-[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-2628
-2022-04-10 22:28:59 [INFO] : 
-==============================================
-[ TITLE ] Exrick XMall 安全漏洞
-[ TIME  ] 2022-04-07 22:28:53
-[ CVE   ] CNNVD-202204-2627 (CVE-2021-43432)
-[ SRC   ] 国家信息安全漏洞库（CNNVD）
-[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-2627
-2022-04-10 22:28:59 [INFO] : 
-==============================================
-[ TITLE ] BigAntSoft BigAnt office messenger 安全漏洞
-[ TIME  ] 2022-04-07 22:28:54
-[ CVE   ] CNNVD-202204-2626 (CVE-2021-43430)
-[ SRC   ] 国家信息安全漏洞库（CNNVD）
-[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-2626
-2022-04-10 22:28:59 [INFO] : 
-==============================================
-[ TITLE ] livehelperchat 安全漏洞
-[ TIME  ] 2022-04-07 22:28:55
-[ CVE   ] CNNVD-202204-2625 (CVE-2022-0935)
-[ SRC   ] 国家信息安全漏洞库（CNNVD）
-[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-2625
-2022-04-10 22:28:59 [INFO] : 
-==============================================
-[ TITLE ] qdPM 跨站请求伪造漏洞
-[ TIME  ] 2022-04-07 22:28:57
-[ CVE   ] CNNVD-202204-2624 (CVE-2022-26180)
-[ SRC   ] 国家信息安全漏洞库（CNNVD）
-[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-2624
-2022-04-10 22:28:59 [INFO] : 
-==============================================
-[ TITLE ] CODESYS 代码问题漏洞
-[ TIME  ] 2022-04-07 22:28:58
-[ CVE   ] CNNVD-202204-2623 (CVE-2022-22513)
-[ SRC   ] 国家信息安全漏洞库（CNNVD）
-[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-2623
-2022-04-10 22:28:59 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-10 22:28:59 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
-2022-04-10 22:29:00 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
-2022-04-10 22:29:00 [INFO] : --------------------------------------------
-2022-04-10 22:29:00 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-10 22:29:00 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
-2022-04-10 22:29:02 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [5] 条
-2022-04-10 22:29:02 [INFO] : --------------------------------------------
-2022-04-10 22:29:02 [INFO] : 
-==============================================
-[ TITLE ] ems_usb_start_xmit in drivers/net/can/usb/ems_usb.c in the Linux kernel through 5.17.1 has a double free.
-[ TIME  ] 2022-04-03 21:15:08 
-[ CVE   ] CVE-2022-28390
-[ SRC   ] 美国国家漏洞数据库（NVD）
-[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-28390
-2022-04-10 22:29:02 [INFO] : 
-==============================================
-[ TITLE ] mcba_usb_start_xmit in drivers/net/can/usb/mcba_usb.c in the Linux kernel through 5.17.1 has a double free.
-[ TIME  ] 2022-04-03 21:15:08 
-[ CVE   ] CVE-2022-28389
-[ SRC   ] 美国国家漏洞数据库（NVD）
-[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-28389
-2022-04-10 22:29:02 [INFO] : 
-==============================================
-[ TITLE ] usb_8dev_start_xmit in drivers/net/can/usb/usb_8dev.c in the Linux kernel through 5.17.1 has a double free.
-[ TIME  ] 2022-04-03 21:15:08 
-[ CVE   ] CVE-2022-28388
-[ SRC   ] 美国国家漏洞数据库（NVD）
-[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-28388
-2022-04-10 22:29:02 [INFO] : 
-==============================================
-[ TITLE ] Mediaserver.exe in ALLMediaServer 1.6 has a stack-based buffer overflow that allows remote attackers to execute arbitrary code via a long string to TCP port 888, a related issue to CVE-2017-17932.
-[ TIME  ] 2022-04-03 19:15:07 
-[ CVE   ] CVE-2022-28381
-[ SRC   ] 美国国家漏洞数据库（NVD）
-[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-28381
-2022-04-10 22:29:02 [INFO] : 
-==============================================
-[ TITLE ] In the Linux kernel before 5.17.1, a refcount leak bug was found in net/llc/af_llc.c.
-[ TIME  ] 2022-04-02 21:15:09 
-[ CVE   ] CVE-2022-28356
-[ SRC   ] 美国国家漏洞数据库（NVD）
-[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-28356
-2022-04-10 22:29:02 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-10 22:29:02 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
-2022-04-10 22:29:02 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
-2022-04-10 22:29:02 [INFO] : --------------------------------------------
-2022-04-10 22:29:02 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-10 22:29:02 [INFO] : 正在获取 [绿盟] 威胁情报...
-2022-04-10 22:29:02 [INFO] : 得到 [绿盟] 最新威胁情报 [15] 条
-2022-04-10 22:29:02 [INFO] : --------------------------------------------
-2022-04-10 22:29:02 [INFO] : 
-==============================================
-[ TITLE ] D-Link DIR-878命令注入漏洞
-[ TIME  ] 2022-04-08 22:29:02
-[ CVE   ] CVE-2022-26670
-[ SRC   ] 绿盟
-[ URL   ] http://www.nsfocus.net/vulndb/64049
-2022-04-10 22:29:02 [INFO] : 
-==============================================
-[ TITLE ] Johnson Controls Metasys服务器端请求伪造漏洞
-[ TIME  ] 2022-04-08 22:29:02
-[ CVE   ] CVE-2021-36202
-[ SRC   ] 绿盟
-[ URL   ] http://www.nsfocus.net/vulndb/64048
-2022-04-10 22:29:02 [INFO] : 
-==============================================
-[ TITLE ] ASUS RT-AC86U堆栈缓冲区溢出漏洞
-[ TIME  ] 2022-04-08 22:29:02
-[ CVE   ] CVE-2022-23973
-[ SRC   ] 绿盟
-[ URL   ] http://www.nsfocus.net/vulndb/64047
-2022-04-10 22:29:02 [INFO] : 
-==============================================
-[ TITLE ] ASUS RT-AC86U输入验证错误漏洞
-[ TIME  ] 2022-04-08 22:29:02
-[ CVE   ] CVE-2022-25595
-[ SRC   ] 绿盟
-[ URL   ] http://www.nsfocus.net/vulndb/64046
-2022-04-10 22:29:02 [INFO] : 
-==============================================
-[ TITLE ] ASUS RT-AC86U堆缓冲区溢出漏洞
-[ TIME  ] 2022-04-08 22:29:02
-[ CVE   ] CVE-2022-25596
-[ SRC   ] 绿盟
-[ URL   ] http://www.nsfocus.net/vulndb/64045
-2022-04-10 22:29:02 [INFO] : 
-==============================================
-[ TITLE ] ASUS RT-AC86U命令注入漏洞
-[ TIME  ] 2022-04-08 22:29:02
-[ CVE   ] CVE-2022-25597
-[ SRC   ] 绿盟
-[ URL   ] http://www.nsfocus.net/vulndb/64044
-2022-04-10 22:29:02 [INFO] : 
-==============================================
-[ TITLE ] ASUS RT-AC86U SQL注入漏洞
-[ TIME  ] 2022-04-08 22:29:02
-[ CVE   ] CVE-2022-23972
-[ SRC   ] 绿盟
-[ URL   ] http://www.nsfocus.net/vulndb/64043
-2022-04-10 22:29:02 [INFO] : 
-==============================================
-[ TITLE ] ASUS RT-AC86U路径遍历漏洞
-[ TIME  ] 2022-04-08 22:29:02
-[ CVE   ] CVE-2022-23971
-[ SRC   ] 绿盟
-[ URL   ] http://www.nsfocus.net/vulndb/64042
-2022-04-10 22:29:02 [INFO] : 
-==============================================
-[ TITLE ] ASUS RT-AC86U路径遍历漏洞
-[ TIME  ] 2022-04-08 22:29:02
-[ CVE   ] CVE-2022-23970
-[ SRC   ] 绿盟
-[ URL   ] http://www.nsfocus.net/vulndb/64041
-2022-04-10 22:29:02 [INFO] : 
-==============================================
-[ TITLE ] CODESYS Control Runtime System缓冲区溢出漏洞
-[ TIME  ] 2022-04-08 22:29:02
-[ CVE   ] CVE-2022-22519
-[ SRC   ] 绿盟
-[ URL   ] http://www.nsfocus.net/vulndb/64040
-2022-04-10 22:29:02 [INFO] : 
-==============================================
-[ TITLE ] CODESYS Control Runtime System信息修改漏洞
-[ TIME  ] 2022-04-08 22:29:02
-[ CVE   ] CVE-2022-22515
-[ SRC   ] 绿盟
-[ URL   ] http://www.nsfocus.net/vulndb/64039
-2022-04-10 22:29:02 [INFO] : 
-==============================================
-[ TITLE ] WordPress Mark Posts Plugin跨站脚本漏洞
-[ TIME  ] 2022-04-08 22:29:02
-[ CVE   ] CVE-2022-0958
-[ SRC   ] 绿盟
-[ URL   ] http://www.nsfocus.net/vulndb/64038
-2022-04-10 22:29:02 [INFO] : 
-==============================================
-[ TITLE ] WordPress Ad Inserter Free and Pro Plugin跨站脚本漏洞
-[ TIME  ] 2022-04-08 22:29:02
-[ CVE   ] CVE-2022-0901
-[ SRC   ] 绿盟
-[ URL   ] http://www.nsfocus.net/vulndb/64037
-2022-04-10 22:29:02 [INFO] : 
-==============================================
-[ TITLE ] WordPress Easy Social Icons Plugin SQL注入漏洞
-[ TIME  ] 2022-04-08 22:29:02
-[ CVE   ] CVE-2022-0887
-[ SRC   ] 绿盟
-[ URL   ] http://www.nsfocus.net/vulndb/64036
-2022-04-10 22:29:02 [INFO] : 
-==============================================
-[ TITLE ] WordPress Profile Builder Plugin跨站脚本漏洞
-[ TIME  ] 2022-04-08 22:29:02
-[ CVE   ] CVE-2022-0884
-[ SRC   ] 绿盟
-[ URL   ] http://www.nsfocus.net/vulndb/64035
-2022-04-10 22:29:02 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-10 22:29:02 [INFO] : 正在获取 [奇安信] 威胁情报...
-2022-04-10 22:29:03 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
-2022-04-10 22:29:03 [INFO] : --------------------------------------------
-2022-04-10 22:29:03 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-10 22:29:03 [INFO] : 正在获取 [红后] 威胁情报...
-2022-04-10 22:29:03 [INFO] : 得到 [红后] 最新威胁情报 [8] 条
-2022-04-10 22:29:03 [INFO] : --------------------------------------------
-2022-04-10 22:29:03 [INFO] : 
-==============================================
-[ TITLE ] GNU C Library 安全漏洞
-[ TIME  ] 2022-04-10 13:54:28
-[ CVE   ] CVE-2020-27618
-[ SRC   ] 红后
-[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=0a1aaccd92d542b3a7d6d69cca192736
-2022-04-10 22:29:03 [INFO] : 
-==============================================
-[ TITLE ] Apache Thrift 资源管理错误漏洞
-[ TIME  ] 2022-04-10 13:54:24
-[ CVE   ] CVE-2020-13949
-[ SRC   ] 红后
-[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=57726799ffc84d5198d6ad32d6d2780f
-2022-04-10 22:29:03 [INFO] : 
-==============================================
-[ TITLE ] libcaca 缓冲区错误漏洞
-[ TIME  ] 2022-04-10 13:54:20
-[ CVE   ] CVE-2021-3410
-[ SRC   ] 红后
-[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=e96a1e1348204017a17958e55bebf85b
-2022-04-10 22:29:03 [INFO] : 
-==============================================
-[ TITLE ] lodash 命令注入漏洞
-[ TIME  ] 2022-04-10 13:54:16
-[ CVE   ] CVE-2021-23337
-[ SRC   ] 红后
-[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=3f6e86c757bd4da3bf9f94aff5d8d0e1
-2022-04-10 22:29:03 [INFO] : 
-==============================================
-[ TITLE ] OpenSSL 输入验证错误漏洞
-[ TIME  ] 2022-04-10 13:54:12
-[ CVE   ] CVE-2021-23840
-[ SRC   ] 红后
-[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=17dbfebb248b47488400aa5590c3428c
-2022-04-10 22:29:03 [INFO] : 
-==============================================
-[ TITLE ] Pallets Jinja 安全漏洞
-[ TIME  ] 2022-04-10 13:54:08
-[ CVE   ] CVE-2020-28493
-[ SRC   ] 红后
-[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=3d7f9d505c2c42299a97205cac56d1c8
-2022-04-10 22:29:03 [INFO] : 
-==============================================
-[ TITLE ] Atlassian Jira Server and Data Center 输入验证错误漏洞
-[ TIME  ] 2022-04-10 13:54:04
-[ CVE   ] CVE-2020-36231
-[ SRC   ] 红后
-[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=75e65b71786847c4bc28c4026afafefd
-2022-04-10 22:29:03 [INFO] : 
-==============================================
-[ TITLE ] Kubernetes 安全漏洞
-[ TIME  ] 2022-04-10 13:53:56
-[ CVE   ] CVE-2020-8554
-[ SRC   ] 红后
-[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=faf898c740bd43e892f75a7bdca74582
-2022-04-10 22:29:03 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-10 22:29:03 [INFO] : 正在获取 [斗象] 威胁情报...
-2022-04-10 22:29:08 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
-2022-04-10 22:29:08 [INFO] : --------------------------------------------
-2022-04-10 22:29:08 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-10 22:29:08 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
-2022-04-10 22:29:09 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [10] 条
-2022-04-10 22:29:09 [INFO] : --------------------------------------------
-2022-04-10 22:29:09 [INFO] : 
-==============================================
-[ TITLE ] heap-buffer-overflow in mrb_vm_exec in mruby/mruby in GitHub repository mruby/mruby prior to 3.2. Possible arbitrary code execution if being exploited.
-[ TIME  ] 2022-04-10 11:15:00
-[ CVE   ] CVE-2022-1286
+[ TITLE ] A cross-site scripting (XSS) vulnerability at /ofcms/company-c-47 in OFCMS v1.1.4 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Comment text box.
+[ TIME  ] 2022-04-10 21:15:00
+[ CVE   ] CVE-2022-27961
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-1286
-2022-04-10 22:29:09 [INFO] : 
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27961
+2022-04-11 10:27:37 [INFO] : 
 ==============================================
-[ TITLE ] Out-of-bounds Read in mrb_get_args in GitHub repository mruby/mruby prior to 3.2. Possible arbitrary code execution if being exploited.
-[ TIME  ] 2022-04-10 10:15:00
-[ CVE   ] CVE-2022-1276
+[ TITLE ] Insecure permissions configured in the user_id parameter at SysUserController.java of OFCMS v1.1.4 allows attackers to access and arbitrarily modify users' personal information.
+[ TIME  ] 2022-04-10 21:15:00
+[ CVE   ] CVE-2022-27960
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-1276
-2022-04-10 22:29:09 [INFO] : 
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27960
+2022-04-11 10:27:37 [INFO] : 
 ==============================================
-[ TITLE ] A vulnerability, which was classified as problematic, has been found in School Club Application System 1.0. This issue affects access to /scas/admin/. The manipulation of the parameter page with the input %22%3E%3Cimg%20src=x%20onerror=alert(1)%3E leads to a reflected cross site scripting. The attack may be initiated remotely and does not require any form of authentication. The exploit has been disclosed to the public and may be used.
-[ TIME  ] 2022-04-09 20:15:00
-[ CVE   ] CVE-2022-1288
+[ TITLE ] Insecure permissions configured in the userid parameter at /user/getuserprofile of FEBS-Security v1.0 allows attackers to access and arbitrarily modify users' personal information.
+[ TIME  ] 2022-04-10 21:15:00
+[ CVE   ] CVE-2022-27958
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-1288
-2022-04-10 22:29:09 [INFO] : 
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27958
+2022-04-11 10:27:37 [INFO] : 
 ==============================================
-[ TITLE ] A vulnerability classified as critical was found in School Club Application System 1.0. This vulnerability affects a request to the file /scas/classes/Users.php?f=save_user. The manipulation with a POST request leads to privilege escalation. The attack can be initiated remotely and does not require authentication. The exploit has been disclosed to the public and may be used.
-[ TIME  ] 2022-04-09 20:15:00
-[ CVE   ] CVE-2022-1287
+[ TITLE ] Newbee-Mall v1.0.0 was discovered to contain an arbitrary file upload via the Upload function at /admin/goods/edit.
+[ TIME  ] 2022-04-10 21:15:00
+[ CVE   ] CVE-2022-27477
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-1287
-2022-04-10 22:29:09 [INFO] : 
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27477
+2022-04-11 10:27:37 [INFO] : 
 ==============================================
-[ TITLE ] Reprise License Manager 14.2 is affected by an Information Disclosure vulnerability via a GET request to /goforms/rlminfo. No authentication is required. The information disclosed is associated with software versions, process IDs, network configuration, hostname(s), system architecture, and file/directory details.
-[ TIME  ] 2022-04-09 17:15:00
-[ CVE   ] CVE-2022-28365
+[ TITLE ] A cross-site scripting (XSS) vulnerability at /admin/goods/update in Newbee-Mall v1.0.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the goodsName parameter.
+[ TIME  ] 2022-04-10 21:15:00
+[ CVE   ] CVE-2022-27476
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-28365
-2022-04-10 22:29:09 [INFO] : 
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27476
+2022-04-11 10:27:37 [INFO] : 
 ==============================================
-[ TITLE ] Reprise License Manager 14.2 is affected by a reflected cross-site scripting vulnerability (XSS) in the /goform/rlmswitchr_process file parameter via GET. Authentication is required.
-[ TIME  ] 2022-04-09 17:15:00
-[ CVE   ] CVE-2022-28364
+[ TITLE ] D-Link DIR-619 Ax v1.00 was discovered to contain a stack overflow in the function formAdvanceSetup. This vulnerability allows attackers to cause a Denial of Service (DoS) via the webpage parameter.
+[ TIME  ] 2022-04-10 21:15:00
+[ CVE   ] CVE-2022-27295
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-28364
-2022-04-10 22:29:09 [INFO] : 
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27295
+2022-04-11 10:27:37 [INFO] : 
 ==============================================
-[ TITLE ] Reprise License Manager 14.2 is affected by a reflected cross-site scripting vulnerability (XSS) in the /goform/login_process username parameter via GET. No authentication is required.
-[ TIME  ] 2022-04-09 17:15:00
-[ CVE   ] CVE-2022-28363
+[ TITLE ] D-Link DIR-619 Ax v1.00 was discovered to contain a stack overflow in the function formWlanWizardSetup. This vulnerability allows attackers to cause a Denial of Service (DoS) via the webpage parameter.
+[ TIME  ] 2022-04-10 21:15:00
+[ CVE   ] CVE-2022-27294
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-28363
-2022-04-10 22:29:09 [INFO] : 
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27294
+2022-04-11 10:27:37 [INFO] : 
 ==============================================
-[ TITLE ] ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.
-[ TIME  ] 2022-04-09 01:15:00
-[ CVE   ] CVE-2022-27149
+[ TITLE ] D-Link DIR-619 Ax v1.00 was discovered to contain a stack overflow in the function formWlanSetup. This vulnerability allows attackers to cause a Denial of Service (DoS) via the webpage parameter.
+[ TIME  ] 2022-04-10 21:15:00
+[ CVE   ] CVE-2022-27293
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-27149
-2022-04-10 22:29:09 [INFO] : 
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27293
+2022-04-11 10:27:37 [INFO] : 
 ==============================================
-[ TITLE ] Asana Desktop before 1.6.0 allows remote attackers to exfiltrate local files if they can trick the Asana desktop app into loading a malicious web page.
-[ TIME  ] 2022-04-09 01:15:00
-[ CVE   ] CVE-2022-26877
+[ TITLE ] D-Link DIR-619 Ax v1.00 was discovered to contain a stack overflow in the function formLanguageChange. This vulnerability allows attackers to cause a Denial of Service (DoS) via the nextPage parameter.
+[ TIME  ] 2022-04-10 21:15:00
+[ CVE   ] CVE-2022-27292
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-26877
-2022-04-10 22:29:09 [INFO] : 
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27292
+2022-04-11 10:27:37 [INFO] : 
 ==============================================
-[ TITLE ] A link following vulnerability in Trend Micro Antivirus for Mac 11.5 could allow an attacker to create a specially-crafted file as a symlink that can lead to privilege escalation. Please note that an attacker must at least have low-level privileges on the system to attempt to exploit this vulnerability.
-[ TIME  ] 2022-04-09 00:15:00
-[ CVE   ] CVE-2022-27883
+[ TITLE ] D-Link DIR-619 Ax v1.00 was discovered to contain a stack overflow in the function formdumpeasysetup. This vulnerability allows attackers to cause a Denial of Service (DoS) via the config.save_network_enabled parameter.
+[ TIME  ] 2022-04-10 21:15:00
+[ CVE   ] CVE-2022-27291
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-27883
-2022-04-10 22:29:09 [INFO] : [邮件] 正在推送威胁情报...
-2022-04-10 22:29:09 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
-2022-04-10 22:29:10 [INFO] : [邮件] 推送威胁情报成功
-2022-04-10 22:29:10 [INFO] : 正在提交变更...
-2022-04-10 22:29:16 [INFO] : 提交变更成功
-2022-04-10 23:36:42 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-10 23:36:42 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
-2022-04-10 23:36:43 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
-2022-04-10 23:36:43 [INFO] : --------------------------------------------
-2022-04-10 23:36:43 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-10 23:36:43 [INFO] : 正在获取 [阿里云] 威胁情报...
-2022-04-10 23:36:43 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
-2022-04-10 23:36:43 [INFO] : --------------------------------------------
-2022-04-10 23:36:43 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-10 23:36:43 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
-2022-04-10 23:37:05 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
-2022-04-10 23:37:05 [INFO] : --------------------------------------------
-2022-04-10 23:37:05 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-10 23:37:05 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
-2022-04-10 23:37:19 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
-2022-04-10 23:37:19 [INFO] : --------------------------------------------
-2022-04-10 23:37:19 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-10 23:37:19 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
-2022-04-10 23:37:19 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
-2022-04-10 23:37:19 [INFO] : --------------------------------------------
-2022-04-10 23:37:19 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-10 23:37:19 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
-2022-04-10 23:37:21 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
-2022-04-10 23:37:21 [INFO] : --------------------------------------------
-2022-04-10 23:37:21 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-10 23:37:21 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
-2022-04-10 23:37:22 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
-2022-04-10 23:37:22 [INFO] : --------------------------------------------
-2022-04-10 23:37:22 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-10 23:37:22 [INFO] : 正在获取 [绿盟] 威胁情报...
-2022-04-10 23:37:22 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
-2022-04-10 23:37:22 [INFO] : --------------------------------------------
-2022-04-10 23:37:22 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-10 23:37:22 [INFO] : 正在获取 [奇安信] 威胁情报...
-2022-04-10 23:37:22 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
-2022-04-10 23:37:22 [INFO] : --------------------------------------------
-2022-04-10 23:37:22 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-10 23:37:22 [INFO] : 正在获取 [红后] 威胁情报...
-2022-04-10 23:37:23 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
-2022-04-10 23:37:23 [INFO] : --------------------------------------------
-2022-04-10 23:37:23 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-10 23:37:23 [INFO] : 正在获取 [斗象] 威胁情报...
-2022-04-10 23:37:26 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
-2022-04-10 23:37:26 [INFO] : --------------------------------------------
-2022-04-10 23:37:26 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-10 23:37:26 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
-2022-04-10 23:37:26 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
-2022-04-10 23:37:26 [INFO] : --------------------------------------------
-2022-04-10 23:37:26 [INFO] : 正在提交变更...
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27291
+2022-04-11 10:27:37 [INFO] : [邮件] 正在推送威胁情报...
+2022-04-11 10:27:37 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
+2022-04-11 10:27:37 [INFO] : [邮件] 推送威胁情报成功
+2022-04-11 10:27:37 [INFO] : 正在提交变更...
