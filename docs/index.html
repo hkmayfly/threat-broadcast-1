@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-04-12 10:33:17 -->
+<!-- RELEASE TIME : 2022-04-12 14:49:10 -->
 <html lang="zh-cn">
 
  <head>
@@ -167,6 +167,22 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">65185f3d5797956e8ae5d0b41f2f0b04</td>
+       <td>CVE-2022-24839</td>
+       <td>2022-04-11 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>org.cyberneko.html is an html parser written in Java. The fork of `org.cyberneko.html` used by Nokogiri (Rubygem) raises a `java.lang.OutOfMemoryError` exception when parsing ill-formed HTML markup. Users are advised to upgrade to `>= 1.9.22.noko2`. Note: The upstream library `org.cyberneko.html` is no longer maintained. Nokogiri uses its own fork of this library located at https://github.com/sparklemotion/nekohtml and this CVE applies only to that fork. Other forks of nekohtml may have a similar vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24839">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">df551902132dfd2c8278fe8c6d14a0eb</td>
+       <td>CVE-2022-24836</td>
+       <td>2022-04-11 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>Nokogiri is an open source XML and HTML library for Ruby. Nokogiri `< v1.13.4` contains an inefficient regular expression that is susceptible to excessive backtracking when attempting to detect encoding in HTML documents. Users are advised to upgrade to Nokogiri `>= 1.13.4`. There are no known workarounds for this issue.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24836">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">316b2c992a0c76457254c3c2d5ecf418</td>
        <td>CVE-2022-24838</td>
@@ -389,22 +405,6 @@
        <td>2022-04-10 21:15:00</td>
        <td>D-Link DIR-619 Ax v1.00 was discovered to contain a stack overflow in the function formWlanSetup. This vulnerability allows attackers to cause a Denial of Service (DoS) via the webpage parameter.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27293">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2faa9f65601518a16637d403b077f0d9</td>
-       <td>CVE-2022-27292</td>
-       <td>2022-04-10 21:15:00</td>
-       <td>D-Link DIR-619 Ax v1.00 was discovered to contain a stack overflow in the function formLanguageChange. This vulnerability allows attackers to cause a Denial of Service (DoS) via the nextPage parameter.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27292">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8cde6796324b0e79d62eb263d1f4e176</td>
-       <td>CVE-2022-27291</td>
-       <td>2022-04-10 21:15:00</td>
-       <td>D-Link DIR-619 Ax v1.00 was discovered to contain a stack overflow in the function formdumpeasysetup. This vulnerability allows attackers to cause a Denial of Service (DoS) via the config.save_network_enabled parameter.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27291">详情</a></td>
       </tr>
 
      </tbody>
