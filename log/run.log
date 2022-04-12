@@ -923,3 +923,210 @@ requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='www.nsfocus.net', p
 2022-04-12 14:49:10 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
 2022-04-12 14:49:11 [INFO] : [邮件] 推送威胁情报成功
 2022-04-12 14:49:11 [INFO] : 正在提交变更...
+2022-04-12 14:49:16 [INFO] : 提交变更成功
+2022-04-12 19:36:29 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-12 19:36:29 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-04-12 19:36:29 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-04-12 19:36:29 [INFO] : --------------------------------------------
+2022-04-12 19:36:29 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-12 19:36:29 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-04-12 19:36:30 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-04-12 19:36:30 [INFO] : --------------------------------------------
+2022-04-12 19:36:30 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-12 19:36:30 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-04-12 19:36:51 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-04-12 19:36:51 [INFO] : --------------------------------------------
+2022-04-12 19:36:51 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-12 19:36:51 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-04-12 19:37:06 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-04-12 19:37:06 [INFO] : --------------------------------------------
+2022-04-12 19:37:06 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-12 19:37:06 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-04-12 19:37:07 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-04-12 19:37:07 [INFO] : --------------------------------------------
+2022-04-12 19:37:07 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-12 19:37:07 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-04-12 19:37:08 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
+2022-04-12 19:37:08 [INFO] : --------------------------------------------
+2022-04-12 19:37:08 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-12 19:37:08 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-04-12 19:37:09 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-04-12 19:37:09 [INFO] : --------------------------------------------
+2022-04-12 19:37:09 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-12 19:37:09 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-04-12 19:37:09 [INFO] : 得到 [绿盟] 最新威胁情报 [2] 条
+2022-04-12 19:37:09 [INFO] : --------------------------------------------
+2022-04-12 19:37:09 [INFO] : 
+==============================================
+[ TITLE ] Controlup Real-Time Agent OS命令注入漏洞
+[ TIME  ] 2022-04-12 19:37:09
+[ CVE   ] CVE-2021-45912
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64085
+2022-04-12 19:37:09 [INFO] : 
+==============================================
+[ TITLE ] Apache James路径遍历漏洞
+[ TIME  ] 2022-04-12 19:37:09
+[ CVE   ] CVE-2021-40525
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64084
+2022-04-12 19:37:09 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-12 19:37:09 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-04-12 19:37:10 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-04-12 19:37:10 [INFO] : --------------------------------------------
+2022-04-12 19:37:10 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-12 19:37:10 [INFO] : 正在获取 [红后] 威胁情报...
+2022-04-12 19:37:10 [INFO] : 得到 [红后] 最新威胁情报 [10] 条
+2022-04-12 19:37:10 [INFO] : --------------------------------------------
+2022-04-12 19:37:10 [INFO] : 
+==============================================
+[ TITLE ] Grafana 安全漏洞
+[ TIME  ] 2022-04-12 13:52:07
+[ CVE   ] CVE-2021-28146
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=4a5d7cdc7d414ed0902f71acb37213f0
+2022-04-12 19:37:10 [INFO] : 
+==============================================
+[ TITLE ] SAP 3D Visual Enterprise Viewer 输入验证错误漏洞
+[ TIME  ] 2022-04-12 13:52:03
+[ CVE   ] CVE-2021-27595
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=d605229d8c65496686feaf886285b367
+2022-04-12 19:37:10 [INFO] : 
+==============================================
+[ TITLE ] Grafana Labs Grafana Enterprise 安全漏洞
+[ TIME  ] 2022-04-12 13:51:59
+[ CVE   ] CVE-2021-27962
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=cbe307c40b5241c6be9e0d2f0145688e
+2022-04-12 19:37:10 [INFO] : 
+==============================================
+[ TITLE ] Apache OFBiz 代码问题漏洞
+[ TIME  ] 2022-04-12 13:51:54
+[ CVE   ] CVE-2021-26295
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=7c227006d9a147d79f7e51677cad5b00
+2022-04-12 19:37:10 [INFO] : 
+==============================================
+[ TITLE ] SAP 3D Visual Enterprise Viewer 输入验证错误漏洞
+[ TIME  ] 2022-04-12 13:51:50
+[ CVE   ] CVE-2021-27596
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=c463bf5ad4e04ea98f8fe609883ddbc5
+2022-04-12 19:37:10 [INFO] : 
+==============================================
+[ TITLE ] SAP 3D Visual Enterprise Viewer 安全漏洞
+[ TIME  ] 2022-04-12 13:51:46
+[ CVE   ] CVE-2021-27593
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=0a4420c9561d4f6e96452fffaadcd579
+2022-04-12 19:37:10 [INFO] : 
+==============================================
+[ TITLE ] OTRS OTRS 权限许可和访问控制问题漏洞
+[ TIME  ] 2022-04-12 13:51:41
+[ CVE   ] CVE-2021-21438
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=2e3ea05f951c44a99ca211598ebd41ea
+2022-04-12 19:37:10 [INFO] : 
+==============================================
+[ TITLE ] Atlassian Jira 授权问题漏洞
+[ TIME  ] 2022-04-12 13:51:37
+[ CVE   ] CVE-2021-26070
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=3a6b6cff28cc444486a8a660eed1018a
+2022-04-12 19:37:10 [INFO] : 
+==============================================
+[ TITLE ] SOPlanning 授权问题漏洞
+[ TIME  ] 2022-04-12 13:51:33
+[ CVE   ] CVE-2020-13963
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=eb23d8d9061348feb48414834b025a78
+2022-04-12 19:37:10 [INFO] : 
+==============================================
+[ TITLE ] Lxml 跨站脚本漏洞
+[ TIME  ] 2022-04-12 13:51:28
+[ CVE   ] CVE-2021-28957
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=56818551ca9845f7a0b351d4dbedd9a9
+2022-04-12 19:37:10 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-12 19:37:10 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-04-12 19:37:16 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-04-12 19:37:16 [INFO] : --------------------------------------------
+2022-04-12 19:37:16 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-12 19:37:16 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-04-12 19:37:19 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [10] 条
+2022-04-12 19:37:19 [INFO] : --------------------------------------------
+2022-04-12 19:37:19 [INFO] : 
+==============================================
+[ TITLE ] A vulnerability has been identified in Simcenter Femap (All versions < V2022.1.2). The affected application contains an out of bounds write past the end of an allocated structure while parsing specially crafted .NEU files. This could allow an attacker to execute code in the context of the current process. (ZDI-CAN-15592)
+[ TIME  ] 2022-04-12 09:15:00
+[ CVE   ] CVE-2022-28663
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-28663
+2022-04-12 19:37:19 [INFO] : 
+==============================================
+[ TITLE ] A vulnerability has been identified in Simcenter Femap (All versions < V2022.1.2). The affected application contains an out of bounds write past the end of an allocated buffer while parsing specially crafted .NEU files. This could allow an attacker to leverage this vulnerability to leak information in the context of the current process. (ZDI-CAN-15307)
+[ TIME  ] 2022-04-12 09:15:00
+[ CVE   ] CVE-2022-28662
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-28662
+2022-04-12 19:37:19 [INFO] : 
+==============================================
+[ TITLE ] A vulnerability has been identified in Simcenter Femap (All versions < V2022.1.2). The affected application contains an out of bounds read past the end of an allocated buffer while parsing specially crafted .NEU files. This could allow an attacker to execute code in the context of the current process. (ZDI-CAN-15114)
+[ TIME  ] 2022-04-12 09:15:00
+[ CVE   ] CVE-2022-28661
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-28661
+2022-04-12 19:37:19 [INFO] : 
+==============================================
+[ TITLE ] A vulnerability has been identified in SCALANCE W1788-1 M12 (All versions < V3.0.0), SCALANCE W1788-2 EEC M12 (All versions < V3.0.0), SCALANCE W1788-2 M12 (All versions < V3.0.0), SCALANCE W1788-2IA M12 (All versions < V3.0.0). Affected devices do not properly handle malformed TCP packets received over the RemoteCapture feature. This could allow an attacker to lead to a denial of service condition which only affects the port used by the RemoteCapture feature.
+[ TIME  ] 2022-04-12 09:15:00
+[ CVE   ] CVE-2022-28329
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-28329
+2022-04-12 19:37:19 [INFO] : 
+==============================================
+[ TITLE ] A vulnerability has been identified in SCALANCE W1788-1 M12 (All versions < V3.0.0), SCALANCE W1788-2 EEC M12 (All versions < V3.0.0), SCALANCE W1788-2 M12 (All versions < V3.0.0), SCALANCE W1788-2IA M12 (All versions < V3.0.0). Affected devices do not properly handle malformed Multicast LLC frames. This could allow an attacker to trigger a denial of service condition.
+[ TIME  ] 2022-04-12 09:15:00
+[ CVE   ] CVE-2022-28328
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-28328
+2022-04-12 19:37:19 [INFO] : 
+==============================================
+[ TITLE ] A vulnerability has been identified in SCALANCE W1788-1 M12 (All versions < V3.0.0), SCALANCE W1788-2 EEC M12 (All versions < V3.0.0), SCALANCE W1788-2 M12 (All versions < V3.0.0), SCALANCE W1788-2IA M12 (All versions < V3.0.0). Affected devices do not properly handle resources of ARP requests. This could allow an attacker to cause a race condition that leads to a crash of the entire device.
+[ TIME  ] 2022-04-12 09:15:00
+[ CVE   ] CVE-2022-27481
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27481
+2022-04-12 19:37:19 [INFO] : 
+==============================================
+[ TITLE ] A vulnerability has been identified in SICAM A8000 CP-8031 (All versions < V4.80), SICAM A8000 CP-8050 (All versions < V4.80). Affected devices do not require an user to be authenticated to access certain files. This could allow unauthenticated attackers to download these files.
+[ TIME  ] 2022-04-12 09:15:00
+[ CVE   ] CVE-2022-27480
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27480
+2022-04-12 19:37:19 [INFO] : 
+==============================================
+[ TITLE ] A vulnerability has been identified in Mendix Applications using Mendix 7 (All versions), Mendix Applications using Mendix 8 (All versions), Mendix Applications using Mendix 9 (All versions < V9.11). Applications built with an affected system publicly expose the internal project structure.This could allow an unauthenticated remote attacker to read confidential information.
+[ TIME  ] 2022-04-12 09:15:00
+[ CVE   ] CVE-2022-27241
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27241
+2022-04-12 19:37:19 [INFO] : 
+==============================================
+[ TITLE ] A vulnerability has been identified in SIMATIC PCS neo (Administration Console) (All versions < V3.1 SP1), SINETPLAN (All versions), TIA Portal (V15, V15.1, V16 and V17). The affected system cannot properly process specially crafted packets sent to port 8888/tcp. A remote attacker could exploit this vulnerability to cause a Denial-of-Service condition. The affected devices must be restarted manually.
+[ TIME  ] 2022-04-12 09:15:00
+[ CVE   ] CVE-2022-27194
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27194
+2022-04-12 19:37:19 [INFO] : 
+==============================================
+[ TITLE ] A vulnerability has been identified in SCALANCE X302-7 EEC (230V), SCALANCE X302-7 EEC (230V, coated), SCALANCE X302-7 EEC (24V), SCALANCE X302-7 EEC (24V, coated), SCALANCE X302-7 EEC (2x 230V), SCALANCE X302-7 EEC (2x 230V, coated), SCALANCE X302-7 EEC (2x 24V), SCALANCE X302-7 EEC (2x 24V, coated), SCALANCE X304-2FE, SCALANCE X306-1LD FE, SCALANCE X307-2 EEC (230V), SCALANCE X307-2 EEC (230V, coated), SCALANCE X307-2 EEC (24V), SCALANCE X307-2 EEC (24V, coated), SCALANCE X307-2 EEC (2x 230V), SCALANCE X307-2 EEC (2x 230V, coated), SCALANCE X307-2 EEC (2x 24V), SCALANCE X307-2 EEC (2x 24V, coated), SCALANCE X307-3, SCALANCE X307-3, SCALANCE X307-3LD, SCALANCE X307-3LD, SCALANCE X308-2, SCALANCE X308-2, SCALANCE X308-2LD, SCALANCE X308-2LD, SCALANCE X308-2LH, SCALANCE X308-2LH, SCALANCE X308-2LH+, SCALANCE X308-2LH+, SCALANCE X308-2M, SCALANCE X308-2M, SCALANCE X308-2M PoE, SCALANCE X308-2M PoE, SCALANCE X308-2M TS, SCALANCE X308-2M TS, SCALANCE X310, SCALANCE X310, SCALANCE X310FE, SCALANCE X310FE, SCALANCE X320-1 FE, SCALANCE X320-1-2LD FE, SCALANCE X408-2, SCALANCE XR324-12M (230V, ports on front), SCALANCE XR324-12M (230V, ports on front), SCALANCE XR324-12M (230V, ports on rear), SCALANCE XR324-12M (230V, ports on rear), SCALANCE XR324-12M (24V, ports on front), SCALANCE XR324-12M (24V, ports on front), SCALANCE XR324-12M (24V, ports on rear), SCALANCE XR324-12M (24V, ports on rear), SCALANCE XR324-12M TS (24V), SCALANCE XR324-12M TS (24V), SCALANCE XR324-4M EEC (100-240VAC/60-250VDC, ports on front), SCALANCE XR324-4M EEC (100-240VAC/60-250VDC, ports on front), SCALANCE XR324-4M EEC (100-240VAC/60-250VDC, ports on rear), SCALANCE XR324-4M EEC (100-240VAC/60-250VDC, ports on rear), SCALANCE XR324-4M EEC (24V, ports on front), SCALANCE XR324-4M EEC (24V, ports on front), SCALANCE XR324-4M EEC (24V, ports on rear), SCALANCE XR324-4M EEC (24V, ports on rear), SCALANCE XR324-4M EEC (2x 100-240VAC/60-250VDC, ports on front), SCALANCE XR324-4M EEC (2x 100-240VAC/60-250VDC, ports on front), SCALANCE XR324-4M EEC (2x 100-240VAC/60-250VDC, ports on rear), SCALANCE XR324-4M EEC (2x 100-240VAC/60-250VDC, ports on rear), SCALANCE XR324-4M EEC (2x 24V, ports on front), SCALANCE XR324-4M EEC (2x 24V, ports on front), SCALANCE XR324-4M EEC (2x 24V, ports on rear), SCALANCE XR324-4M EEC (2x 24V, ports on rear), SCALANCE XR324-4M PoE (230V, ports on front), SCALANCE XR324-4M PoE (230V, ports on rear), SCALANCE XR324-4M PoE (24V, ports on front), SCALANCE XR324-4M PoE (24V, ports on rear), SCALANCE XR324-4M PoE TS (24V, ports on front), SIPLUS NET SCALANCE X308-2. Affected devices do not properly validate if a certain SNMP key exists. An attacker could use this to trigger a reboot of an affected device by requesting specific SNMP information from the device.
+[ TIME  ] 2022-04-12 09:15:00
+[ CVE   ] CVE-2022-26380
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-26380
+2022-04-12 19:37:19 [INFO] : [邮件] 正在推送威胁情报...
+2022-04-12 19:37:19 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
+2022-04-12 19:37:20 [INFO] : [邮件] 推送威胁情报成功
+2022-04-12 19:37:20 [INFO] : 正在提交变更...
