@@ -435,3 +435,324 @@
 2022-04-12 02:58:14 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
 2022-04-12 02:58:15 [INFO] : [邮件] 推送威胁情报成功
 2022-04-12 02:58:15 [INFO] : 正在提交变更...
+2022-04-12 02:58:20 [INFO] : 提交变更成功
+2022-04-12 10:31:18 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-12 10:31:18 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-04-12 10:31:19 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-04-12 10:31:19 [INFO] : --------------------------------------------
+2022-04-12 10:31:19 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-12 10:31:19 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-04-12 10:31:20 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-04-12 10:31:20 [INFO] : --------------------------------------------
+2022-04-12 10:31:20 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-12 10:31:20 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-04-12 10:31:44 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-04-12 10:31:44 [INFO] : --------------------------------------------
+2022-04-12 10:31:44 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-12 10:31:44 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-04-12 10:32:04 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-04-12 10:32:04 [INFO] : --------------------------------------------
+2022-04-12 10:32:04 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-12 10:32:04 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-04-12 10:32:05 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-04-12 10:32:05 [INFO] : --------------------------------------------
+2022-04-12 10:32:05 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-12 10:32:05 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-04-12 10:32:07 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [2] 条
+2022-04-12 10:32:07 [INFO] : --------------------------------------------
+2022-04-12 10:32:07 [INFO] : 
+==============================================
+[ TITLE ] The rc-httpd component through 2022-03-31 for 9front (Plan 9 fork) allows ..%2f directory traversal if serve-static is used.
+[ TIME  ] 2022-04-03 18:15:07 
+[ CVE   ] CVE-2022-28380
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-28380
+2022-04-12 10:32:07 [INFO] : 
+==============================================
+[ TITLE ] randomUUID in Scala.js before 1.10.0 generates predictable values.
+[ TIME  ] 2022-04-02 21:15:09 
+[ CVE   ] CVE-2022-28355
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-28355
+2022-04-12 10:32:07 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-12 10:32:07 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-04-12 10:32:08 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-04-12 10:32:08 [INFO] : --------------------------------------------
+2022-04-12 10:32:08 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-12 10:32:08 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-04-12 10:33:08 [ERROR] : 获取 [绿盟] 威胁情报异常
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1230, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1276, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1225, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1004, in _send_output
+    self.send(msg)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 944, in send
+    self.connect()
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 164, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7f8c0f83a850>, 'Connection to www.nsfocus.net timed out. (connect timeout=60)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='www.nsfocus.net', port=80): Max retries exceeded with url: /index.php?act=sec_bug (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f8c0f83a850>, 'Connection to www.nsfocus.net timed out. (connect timeout=60)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/crawler/_base_crawler.py", line 62, in cves
+    new_cves = self.get_cves()
+  File "/root/project/threat-broadcast-1/src/crawler/nsfocus.py", line 46, in get_cves
+    response = requests.get(
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='www.nsfocus.net', port=80): Max retries exceeded with url: /index.php?act=sec_bug (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f8c0f83a850>, 'Connection to www.nsfocus.net timed out. (connect timeout=60)'))
+2022-04-12 10:33:08 [ERROR] : Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1230, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1276, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1225, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1004, in _send_output
+    self.send(msg)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 944, in send
+    self.connect()
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 164, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7f8c0f83a850>, 'Connection to www.nsfocus.net timed out. (connect timeout=60)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='www.nsfocus.net', port=80): Max retries exceeded with url: /index.php?act=sec_bug (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f8c0f83a850>, 'Connection to www.nsfocus.net timed out. (connect timeout=60)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/crawler/_base_crawler.py", line 62, in cves
+    new_cves = self.get_cves()
+  File "/root/project/threat-broadcast-1/src/crawler/nsfocus.py", line 46, in get_cves
+    response = requests.get(
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='www.nsfocus.net', port=80): Max retries exceeded with url: /index.php?act=sec_bug (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f8c0f83a850>, 'Connection to www.nsfocus.net timed out. (connect timeout=60)'))
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1230, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1276, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1225, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 1004, in _send_output
+    self.send(msg)
+  File "/usr/local/python3/lib/python3.8/http/client.py", line 944, in send
+    self.connect()
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 164, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7f8c0f83a850>, 'Connection to www.nsfocus.net timed out. (connect timeout=60)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='www.nsfocus.net', port=80): Max retries exceeded with url: /index.php?act=sec_bug (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f8c0f83a850>, 'Connection to www.nsfocus.net timed out. (connect timeout=60)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/project/threat-broadcast-1/src/crawler/_base_crawler.py", line 62, in cves
+    new_cves = self.get_cves()
+  File "/root/project/threat-broadcast-1/src/crawler/nsfocus.py", line 46, in get_cves
+    response = requests.get(
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='www.nsfocus.net', port=80): Max retries exceeded with url: /index.php?act=sec_bug (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f8c0f83a850>, 'Connection to www.nsfocus.net timed out. (connect timeout=60)'))
+2022-04-12 10:33:08 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-04-12 10:33:08 [INFO] : --------------------------------------------
+2022-04-12 10:33:08 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-12 10:33:08 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-04-12 10:33:09 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-04-12 10:33:09 [INFO] : --------------------------------------------
+2022-04-12 10:33:09 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-12 10:33:09 [INFO] : 正在获取 [红后] 威胁情报...
+2022-04-12 10:33:10 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-04-12 10:33:10 [INFO] : --------------------------------------------
+2022-04-12 10:33:10 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-12 10:33:10 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-04-12 10:33:16 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-04-12 10:33:16 [INFO] : --------------------------------------------
+2022-04-12 10:33:16 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-12 10:33:16 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-04-12 10:33:17 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [10] 条
+2022-04-12 10:33:17 [INFO] : --------------------------------------------
+2022-04-12 10:33:17 [INFO] : 
+==============================================
+[ TITLE ] Nextcloud Calendar is a calendar application for the nextcloud framework. SMTP Command Injection in Appointment Emails via Newlines: as newlines and special characters are not sanitized in the email value in the JSON request, a malicious attacker can inject newlines to break out of the `RCPT TO:<BOOKING USER'S EMAIL> ` SMTP command and begin injecting arbitrary SMTP commands. It is recommended that Calendar is upgraded to 3.2.2. There are no workaround available.
+[ TIME  ] 2022-04-11 21:15:00
+[ CVE   ] CVE-2022-24838
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24838
+2022-04-12 10:33:17 [INFO] : 
+==============================================
+[ TITLE ] HedgeDoc is an open-source, web-based, self-hosted, collaborative markdown editor. Images uploaded with HedgeDoc version 1.9.1 and later have an enumerable filename after the upload, resulting in potential information leakage of uploaded documents. This is especially relevant for private notes and affects all upload backends, except Lutim and imgur. This issue is patched in version 1.9.3 by replacing the filename generation with UUIDv4. If you cannot upgrade to HedgeDoc 1.9.3, it is possible to block POST requests to `/uploadimage`, which will disable future uploads.
+[ TIME  ] 2022-04-11 21:15:00
+[ CVE   ] CVE-2022-24837
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24837
+2022-04-12 10:33:17 [INFO] : 
+==============================================
+[ TITLE ] PrivateBin is minimalist, open source online pastebin clone where the server has zero knowledge of pasted data. In PrivateBin < v1.4.0 a cross-site scripting (XSS) vulnerability was found. The vulnerability is present in all versions from v0.21 of the project, which was at the time still called ZeroBin. The issue is caused by the fact that SVGs can contain JavaScript. This can allow an attacker to execute code, if the user opens a paste with a specifically crafted SVG attachment, and interacts with the preview image and the instance isn't protected by an appropriate content security policy. Users are advised to either upgrade to version 1.4.0 or to ensure the content security policy of their instance is set correctly.
+[ TIME  ] 2022-04-11 21:15:00
+[ CVE   ] CVE-2022-24833
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24833
+2022-04-12 10:33:17 [INFO] : 
+==============================================
+[ TITLE ] GoCD is an open source a continuous delivery server. The bundled gocd-ldap-authentication-plugin included with the GoCD Server fails to correctly escape special characters when using the username to construct LDAP queries. While this does not directly allow arbitrary LDAP data exfiltration, it can allow an existing LDAP-authenticated GoCD user with malicious intent to construct and execute malicious queries, allowing them to deduce facts about other users or entries within the LDAP database (e.g alternate fields, usernames, hashed passwords etc) through brute force mechanisms. This only affects users who have a working LDAP authorization configuration enabled on their GoCD server, and only is exploitable by users authenticating using such an LDAP configuration. This issue has been fixed in GoCD 22.1.0, which is bundled with gocd-ldap-authentication-plugin v2.2.0-144.
+[ TIME  ] 2022-04-11 21:15:00
+[ CVE   ] CVE-2022-24832
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24832
+2022-04-12 10:33:17 [INFO] : 
+==============================================
+[ TITLE ] Elide is a Java library that lets you stand up a GraphQL/JSON-API web service with minimal effort. When leveraging the following together: Elide Aggregation Data Store for Analytic Queries, Parameterized Columns (A column that requires a client provided parameter), and a parameterized column of type TEXT. There is the potential for a hacker to provide a carefully crafted query that would bypass server side authorization filters through SQL injection. A recent patch to Elide 6.1.2 allowed the '-' character to be included in parameterized TEXT columns. This character can be interpreted as SQL comments ('--') and allow the attacker to remove the WHERE clause from the generated query and bypass authorization filters. A fix is provided in Elide 6.1.4. The vulnerability only exists for parameterized columns of type TEXT and only for analytic queries (CRUD is not impacted). Workarounds include leveraging a different type of parameterized column (TIME, MONEY, etc) or not leveraging parameterized columns.
+[ TIME  ] 2022-04-11 21:15:00
+[ CVE   ] CVE-2022-24827
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24827
+2022-04-12 10:33:17 [INFO] : 
+==============================================
+[ TITLE ] Uncontrolled search path element vulnerability in Samsung Android USB Driver windows installer program prior to version 1.7.50 allows attacker to execute arbitrary code.
+[ TIME  ] 2022-04-11 20:15:00
+[ CVE   ] CVE-2022-28779
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-28779
+2022-04-12 10:33:17 [INFO] : 
+==============================================
+[ TITLE ] Improper access control vulnerability in Samsung Security Supporter prior to version 1.2.40.0 allows attacker to set the arbitrary folder as Secret Folder without Samsung Security Supporter permission
+[ TIME  ] 2022-04-11 20:15:00
+[ CVE   ] CVE-2022-28778
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-28778
+2022-04-12 10:33:17 [INFO] : 
+==============================================
+[ TITLE ] Improper access control vulnerability in Samsung Members prior to version 13.6.08.5 allows local attacker to execute call function without CALL_PHONE permission.
+[ TIME  ] 2022-04-11 20:15:00
+[ CVE   ] CVE-2022-28777
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-28777
+2022-04-12 10:33:17 [INFO] : 
+==============================================
+[ TITLE ] Improper access control vulnerability in Galaxy Store prior to version 4.5.36.4 allows attacker to install applications from Galaxy Store without user interactions.
+[ TIME  ] 2022-04-11 20:15:00
+[ CVE   ] CVE-2022-28776
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-28776
+2022-04-12 10:33:17 [INFO] : 
+==============================================
+[ TITLE ] Improper access control vulnerability in Samsung Flow prior to version 4.8.06.5 allows attacker to write the file without Samsung Flow permission.
+[ TIME  ] 2022-04-11 20:15:00
+[ CVE   ] CVE-2022-28775
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-28775
+2022-04-12 10:33:17 [INFO] : [邮件] 正在推送威胁情报...
+2022-04-12 10:33:17 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
+2022-04-12 10:33:20 [INFO] : [邮件] 推送威胁情报成功
+2022-04-12 10:33:20 [INFO] : 正在提交变更...

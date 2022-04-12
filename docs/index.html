@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-04-12 02:58:14 -->
+<!-- RELEASE TIME : 2022-04-12 10:33:17 -->
 <html lang="zh-cn">
 
  <head>
@@ -168,6 +168,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">316b2c992a0c76457254c3c2d5ecf418</td>
+       <td>CVE-2022-24838</td>
+       <td>2022-04-11 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>Nextcloud Calendar is a calendar application for the nextcloud framework. SMTP Command Injection in Appointment Emails via Newlines: as newlines and special characters are not sanitized in the email value in the JSON request, a malicious attacker can inject newlines to break out of the `RCPT TO:<BOOKING USER'S EMAIL> ` SMTP command and begin injecting arbitrary SMTP commands. It is recommended that Calendar is upgraded to 3.2.2. There are no workaround available.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24838">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">940e8f3e08ce7f7ca49450b9b3417e9c</td>
+       <td>CVE-2022-24837</td>
+       <td>2022-04-11 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>HedgeDoc is an open-source, web-based, self-hosted, collaborative markdown editor. Images uploaded with HedgeDoc version 1.9.1 and later have an enumerable filename after the upload, resulting in potential information leakage of uploaded documents. This is especially relevant for private notes and affects all upload backends, except Lutim and imgur. This issue is patched in version 1.9.3 by replacing the filename generation with UUIDv4. If you cannot upgrade to HedgeDoc 1.9.3, it is possible to block POST requests to `/uploadimage`, which will disable future uploads.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24837">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">fe8fb42e318b754e6a69e11ddcb28ad5</td>
+       <td>CVE-2022-24833</td>
+       <td>2022-04-11 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>PrivateBin is minimalist, open source online pastebin clone where the server has zero knowledge of pasted data. In PrivateBin < v1.4.0 a cross-site scripting (XSS) vulnerability was found. The vulnerability is present in all versions from v0.21 of the project, which was at the time still called ZeroBin. The issue is caused by the fact that SVGs can contain JavaScript. This can allow an attacker to execute code, if the user opens a paste with a specifically crafted SVG attachment, and interacts with the preview image and the instance isn't protected by an appropriate content security policy. Users are advised to either upgrade to version 1.4.0 or to ensure the content security policy of their instance is set correctly.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24833">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b368d5cfa0cade5d2dd58fb3bb6d5ef8</td>
+       <td>CVE-2022-24832</td>
+       <td>2022-04-11 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>GoCD is an open source a continuous delivery server. The bundled gocd-ldap-authentication-plugin included with the GoCD Server fails to correctly escape special characters when using the username to construct LDAP queries. While this does not directly allow arbitrary LDAP data exfiltration, it can allow an existing LDAP-authenticated GoCD user with malicious intent to construct and execute malicious queries, allowing them to deduce facts about other users or entries within the LDAP database (e.g alternate fields, usernames, hashed passwords etc) through brute force mechanisms. This only affects users who have a working LDAP authorization configuration enabled on their GoCD server, and only is exploitable by users authenticating using such an LDAP configuration. This issue has been fixed in GoCD 22.1.0, which is bundled with gocd-ldap-authentication-plugin v2.2.0-144.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24832">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">236c60b5503881c234fb6eed5d1b2aa8</td>
+       <td>CVE-2022-24827</td>
+       <td>2022-04-11 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>Elide is a Java library that lets you stand up a GraphQL/JSON-API web service with minimal effort. When leveraging the following together: Elide Aggregation Data Store for Analytic Queries, Parameterized Columns (A column that requires a client provided parameter), and a parameterized column of type TEXT. There is the potential for a hacker to provide a carefully crafted query that would bypass server side authorization filters through SQL injection. A recent patch to Elide 6.1.2 allowed the '-' character to be included in parameterized TEXT columns. This character can be interpreted as SQL comments ('--') and allow the attacker to remove the WHERE clause from the generated query and bypass authorization filters. A fix is provided in Elide 6.1.4. The vulnerability only exists for parameterized columns of type TEXT and only for analytic queries (CRUD is not impacted). Workarounds include leveraging a different type of parameterized column (TIME, MONEY, etc) or not leveraging parameterized columns.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24827">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a75a3a816e01e71c89763b322774cf6a</td>
+       <td>CVE-2022-28779</td>
+       <td>2022-04-11 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Uncontrolled search path element vulnerability in Samsung Android USB Driver windows installer program prior to version 1.7.50 allows attacker to execute arbitrary code.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-28779">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">82a7534fc6e8bfe66448bc75dd38af91</td>
+       <td>CVE-2022-28778</td>
+       <td>2022-04-11 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Improper access control vulnerability in Samsung Security Supporter prior to version 1.2.40.0 allows attacker to set the arbitrary folder as Secret Folder without Samsung Security Supporter permission</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-28778">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">20da0b654eaf1b0ea4896b6ea44ea340</td>
+       <td>CVE-2022-28777</td>
+       <td>2022-04-11 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Improper access control vulnerability in Samsung Members prior to version 13.6.08.5 allows local attacker to execute call function without CALL_PHONE permission.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-28777">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0ef5ca50882429bb36517f6e59db57d1</td>
+       <td>CVE-2022-28776</td>
+       <td>2022-04-11 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Improper access control vulnerability in Galaxy Store prior to version 4.5.36.4 allows attacker to install applications from Galaxy Store without user interactions.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-28776">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1e622f27eb2b4c953dcc219ca0e52126</td>
+       <td>CVE-2022-28775</td>
+       <td>2022-04-11 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Improper access control vulnerability in Samsung Flow prior to version 4.8.06.5 allows attacker to write the file without Samsung Flow permission.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-28775">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">5e93ffe8a3481233cc58c64571ce1d2a</td>
        <td>CVE-2022-27156</td>
        <td>2022-04-11 15:15:00 <img src="imgs/new.gif" /></td>
@@ -325,86 +405,6 @@
        <td>2022-04-10 21:15:00</td>
        <td>D-Link DIR-619 Ax v1.00 was discovered to contain a stack overflow in the function formdumpeasysetup. This vulnerability allows attackers to cause a Denial of Service (DoS) via the config.save_network_enabled parameter.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27291">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e72fe97ff6c0838b88e60a5d06ed80dc</td>
-       <td>CVE-2022-1286</td>
-       <td>2022-04-10 11:15:00</td>
-       <td>heap-buffer-overflow in mrb_vm_exec in mruby/mruby in GitHub repository mruby/mruby prior to 3.2. Possible arbitrary code execution if being exploited.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1286">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0f81c90e3942e29c7347d37ecb386731</td>
-       <td>CVE-2022-1276</td>
-       <td>2022-04-10 10:15:00</td>
-       <td>Out-of-bounds Read in mrb_get_args in GitHub repository mruby/mruby prior to 3.2. Possible arbitrary code execution if being exploited.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1276">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d041ed4a7b8f4e46bf1e043c497b498e</td>
-       <td>CVE-2022-1288</td>
-       <td>2022-04-09 20:15:00</td>
-       <td>A vulnerability, which was classified as problematic, has been found in School Club Application System 1.0. This issue affects access to /scas/admin/. The manipulation of the parameter page with the input %22%3E%3Cimg%20src=x%20onerror=alert(1)%3E leads to a reflected cross site scripting. The attack may be initiated remotely and does not require any form of authentication. The exploit has been disclosed to the public and may be used.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1288">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9deb1a1f793796c64ae798c43a7d0ee1</td>
-       <td>CVE-2022-1287</td>
-       <td>2022-04-09 20:15:00</td>
-       <td>A vulnerability classified as critical was found in School Club Application System 1.0. This vulnerability affects a request to the file /scas/classes/Users.php?f=save_user. The manipulation with a POST request leads to privilege escalation. The attack can be initiated remotely and does not require authentication. The exploit has been disclosed to the public and may be used.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1287">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c52ce1cc8d1a155daf41a3ebd18eba7e</td>
-       <td>CVE-2022-28365</td>
-       <td>2022-04-09 17:15:00</td>
-       <td>Reprise License Manager 14.2 is affected by an Information Disclosure vulnerability via a GET request to /goforms/rlminfo. No authentication is required. The information disclosed is associated with software versions, process IDs, network configuration, hostname(s), system architecture, and file/directory details.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-28365">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">74677956fbd06018468af815bad75f3a</td>
-       <td>CVE-2022-28364</td>
-       <td>2022-04-09 17:15:00</td>
-       <td>Reprise License Manager 14.2 is affected by a reflected cross-site scripting vulnerability (XSS) in the /goform/rlmswitchr_process file parameter via GET. Authentication is required.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-28364">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">31327b6b18317b7469831cbacf472522</td>
-       <td>CVE-2022-28363</td>
-       <td>2022-04-09 17:15:00</td>
-       <td>Reprise License Manager 14.2 is affected by a reflected cross-site scripting vulnerability (XSS) in the /goform/login_process username parameter via GET. No authentication is required.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-28363">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6304960273f6c856074ed9963e763f0e</td>
-       <td>CVE-2022-27149</td>
-       <td>2022-04-09 01:15:00</td>
-       <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27149">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">559033a7486653efaeccb81fe3740936</td>
-       <td>CVE-2022-26877</td>
-       <td>2022-04-09 01:15:00</td>
-       <td>Asana Desktop before 1.6.0 allows remote attackers to exfiltrate local files if they can trick the Asana desktop app into loading a malicious web page.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26877">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e148f419e1f146da14ec021bf24f35c9</td>
-       <td>CVE-2022-27883</td>
-       <td>2022-04-09 00:15:00</td>
-       <td>A link following vulnerability in Trend Micro Antivirus for Mac 11.5 could allow an attacker to create a specially-crafted file as a symlink that can lead to privilege escalation. Please note that an attacker must at least have low-level privileges on the system to attempt to exploit this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27883">详情</a></td>
       </tr>
 
      </tbody>
@@ -2284,11 +2284,27 @@
       </tr>
 
       <tr>
+       <td scope="row">5854a42d2d4b789fa891064b321a7531</td>
+       <td>CVE-2022-28380</td>
+       <td>2022-04-03 18:15:07 </td>
+       <td>The rc-httpd component through 2022-03-31 for 9front (Plan 9 fork) allows ..%2f directory traversal if serve-static is used.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-28380">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">145dd964f341b79360419672b20a06e0</td>
        <td>CVE-2022-28356</td>
        <td>2022-04-02 21:15:09 </td>
        <td>In the Linux kernel before 5.17.1, a refcount leak bug was found in net/llc/af_llc.c.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-28356">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b9196b9ac283fe75100fc4ab2d5607cd</td>
+       <td>CVE-2022-28355</td>
+       <td>2022-04-02 21:15:09 </td>
+       <td>randomUUID in Scala.js before 1.10.0 generates predictable values.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-28355">详情</a></td>
       </tr>
 
       <tr>
@@ -2441,22 +2457,6 @@
        <td>2022-03-29 13:15:10 </td>
        <td>Jenkins Pipeline: Phoenix AutoTest Plugin 1.3 and earlier allows attackers with Item/Configure permission to upload arbitrary files from the Jenkins controller via FTP to an attacker-specified FTP server.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-28157">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9d455a50d983a9e241ade2af283c537a</td>
-       <td>CVE-2022-28156</td>
-       <td>2022-03-29 13:15:10 </td>
-       <td>Jenkins Pipeline: Phoenix AutoTest Plugin 1.3 and earlier allows attackers with Item/Configure permission to copy arbitrary files and directories from the Jenkins controller to the agent workspace.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-28156">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1ca0513c505da86b3be2d5997d06cdbe</td>
-       <td>CVE-2022-26291</td>
-       <td>2022-03-28 22:15:09 </td>
-       <td>lrzip v0.641 was discovered to contain a multiple concurrency use-after-free between the functions zpaq_decompress_buf() and clear_rulist(). This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted Irz file.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26291">详情</a></td>
       </tr>
 
      </tbody>
