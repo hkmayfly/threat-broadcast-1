@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-04-13 16:47:37 -->
+<!-- RELEASE TIME : 2022-04-13 20:40:12 -->
 <html lang="zh-cn">
 
  <head>
@@ -183,6 +183,22 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">d4946f49431a39deff8738ffa7d1d342</td>
+       <td>CVE-2022-29156</td>
+       <td>2022-04-13 07:15:00 <img src="imgs/new.gif" /></td>
+       <td>drivers/infiniband/ulp/rtrs/rtrs-clt.c in the Linux kernel before 5.16.12 has a double free related to rtrs_clt_dev_release.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29156">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e27f1c27ed61db2c7b71dbbf066b0eeb</td>
+       <td>CVE-2022-22279</td>
+       <td>2022-04-13 06:15:00 <img src="imgs/new.gif" /></td>
+       <td>** UNSUPPORTED WHEN ASSIGNED ** A post-authentication arbitrary file read vulnerability impacting end-of-life Secure Remote Access (SRA) products and older firmware versions of Secure Mobile Access (SMA) 100 series products, specifically the SRA appliances running all 8.x, 9.0.0.5-19sv and earlier versions and Secure Mobile Access (SMA) 100 series products running older firmware 9.0.0.9-26sv and earlier versions.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-22279">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">b903e9e2a0c0e45ecc205af265cbe312</td>
        <td>CVE-2022-26589</td>
@@ -405,22 +421,6 @@
        <td>2022-04-11 21:15:00</td>
        <td>PrivateBin is minimalist, open source online pastebin clone where the server has zero knowledge of pasted data. In PrivateBin < v1.4.0 a cross-site scripting (XSS) vulnerability was found. The vulnerability is present in all versions from v0.21 of the project, which was at the time still called ZeroBin. The issue is caused by the fact that SVGs can contain JavaScript. This can allow an attacker to execute code, if the user opens a paste with a specifically crafted SVG attachment, and interacts with the preview image and the instance isn't protected by an appropriate content security policy. Users are advised to either upgrade to version 1.4.0 or to ensure the content security policy of their instance is set correctly.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24833">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b368d5cfa0cade5d2dd58fb3bb6d5ef8</td>
-       <td>CVE-2022-24832</td>
-       <td>2022-04-11 21:15:00</td>
-       <td>GoCD is an open source a continuous delivery server. The bundled gocd-ldap-authentication-plugin included with the GoCD Server fails to correctly escape special characters when using the username to construct LDAP queries. While this does not directly allow arbitrary LDAP data exfiltration, it can allow an existing LDAP-authenticated GoCD user with malicious intent to construct and execute malicious queries, allowing them to deduce facts about other users or entries within the LDAP database (e.g alternate fields, usernames, hashed passwords etc) through brute force mechanisms. This only affects users who have a working LDAP authorization configuration enabled on their GoCD server, and only is exploitable by users authenticating using such an LDAP configuration. This issue has been fixed in GoCD 22.1.0, which is bundled with gocd-ldap-authentication-plugin v2.2.0-144.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24832">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">236c60b5503881c234fb6eed5d1b2aa8</td>
-       <td>CVE-2022-24827</td>
-       <td>2022-04-11 21:15:00</td>
-       <td>Elide is a Java library that lets you stand up a GraphQL/JSON-API web service with minimal effort. When leveraging the following together: Elide Aggregation Data Store for Analytic Queries, Parameterized Columns (A column that requires a client provided parameter), and a parameterized column of type TEXT. There is the potential for a hacker to provide a carefully crafted query that would bypass server side authorization filters through SQL injection. A recent patch to Elide 6.1.2 allowed the '-' character to be included in parameterized TEXT columns. This character can be interpreted as SQL comments ('--') and allow the attacker to remove the WHERE clause from the generated query and bypass authorization filters. A fix is provided in Elide 6.1.4. The vulnerability only exists for parameterized columns of type TEXT and only for analytic queries (CRUD is not impacted). Workarounds include leveraging a different type of parameterized column (TIME, MONEY, etc) or not leveraging parameterized columns.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24827">详情</a></td>
       </tr>
 
      </tbody>
@@ -1736,6 +1736,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">e2ad506b0329fad817686b6e57263722</td>
+       <td>CVE-2021-21342</td>
+       <td>2022-04-13 13:53:42 <img src="imgs/new.gif" /></td>
+       <td>XStream 代码问题漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=d8e45d55ae4d42248a29bf94a63282a0">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">364ce77087f8971b453e98660e2e44fd</td>
+       <td>CVE-2021-21339</td>
+       <td>2022-04-13 13:53:38 <img src="imgs/new.gif" /></td>
+       <td>TYPO3 跨站脚本漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=812094c6aa64465a976c519578ec6fee">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1b0bc3e1d6ea6e19d43214830a1381dc</td>
+       <td>CVE-2021-20227</td>
+       <td>2022-04-13 13:53:34 <img src="imgs/new.gif" /></td>
+       <td>Ubuntu SQLite 资源管理错误漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=00a9654ab806466bac1b5142131288a4">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8079f780f4ff723cb60999104f0adab5</td>
+       <td>CVE-2021-21341</td>
+       <td>2022-04-13 13:53:10 <img src="imgs/new.gif" /></td>
+       <td>XStream 代码问题漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=1b07352aceb7468e850a0a1017df542e">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">df7e1250b40518d01902053fdffd46be</td>
+       <td>CVE-2021-21338</td>
+       <td>2022-04-13 13:53:05 <img src="imgs/new.gif" /></td>
+       <td>TYPO3 输入验证错误漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=6a998b5068aa444295046e8f5c174328">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2c2596c566ef35a2e4c7150a927ee545</td>
+       <td>CVE-2021-20222</td>
+       <td>2022-04-13 13:53:01 <img src="imgs/new.gif" /></td>
+       <td>Red Hat Keycloak 输入验证错误漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=2c2773225491480c96bb9d19b183fec2">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b3bb430a0041be79adb91cf28e48ad6f</td>
+       <td>CVE-2020-9212</td>
+       <td>2022-04-13 13:52:57 <img src="imgs/new.gif" /></td>
+       <td>Huawei USG9500 信息泄露漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=8e7f2420dced41e0bd28305992ab972f">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5b1b989dfe1ec53fb9e5263914fbd414</td>
+       <td>CVE-2021-28972</td>
+       <td>2022-04-13 13:52:53 <img src="imgs/new.gif" /></td>
+       <td>Linux kernel 安全漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=79356c07decb441a8dc72271b266422a">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5d6f81a371756e68eb7f59f28beb224a</td>
+       <td>CVE-2021-21340</td>
+       <td>2022-04-13 13:52:42 <img src="imgs/new.gif" /></td>
+       <td>TYPO3 跨站脚本漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=8f5ef67eab43454bbadeb657b82ad3e1">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6e56972157fb79a94cc7957aed7dfd97</td>
+       <td>CVE-2021-20270</td>
+       <td>2022-04-13 13:52:38 <img src="imgs/new.gif" /></td>
+       <td>Red Hat Ansible Automation 安全漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=20437e0c0dbe4720bfa64a347786c671">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">bc4c237b5cbd817c258d878392089363</td>
        <td>CVE-2021-28146</td>
        <td>2022-04-12 13:52:07 <img src="imgs/new.gif" /></td>
@@ -1893,86 +1973,6 @@
        <td>2022-04-11 13:51:17</td>
        <td>Squid 环境问题漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=45c9c6a67653407dbc46863224b9857b">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c0bc3d57c036f1727f8bf76b14a25cfc</td>
-       <td>CVE-2020-27618</td>
-       <td>2022-04-10 13:54:28</td>
-       <td>GNU C Library 安全漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=0a1aaccd92d542b3a7d6d69cca192736">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e603a9de618dc91ad1bc2bdb49f30ce1</td>
-       <td>CVE-2020-13949</td>
-       <td>2022-04-10 13:54:24</td>
-       <td>Apache Thrift 资源管理错误漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=57726799ffc84d5198d6ad32d6d2780f">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4724d4776150ce475eb936c8d9685f56</td>
-       <td>CVE-2021-3410</td>
-       <td>2022-04-10 13:54:20</td>
-       <td>libcaca 缓冲区错误漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=e96a1e1348204017a17958e55bebf85b">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7bbb55c714a632f93e38f828ade31022</td>
-       <td>CVE-2021-23337</td>
-       <td>2022-04-10 13:54:16</td>
-       <td>lodash 命令注入漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=3f6e86c757bd4da3bf9f94aff5d8d0e1">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d3fae22448e9061ada310cd261a1812d</td>
-       <td>CVE-2021-23840</td>
-       <td>2022-04-10 13:54:12</td>
-       <td>OpenSSL 输入验证错误漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=17dbfebb248b47488400aa5590c3428c">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8728b2f5039a4ff876a4d0b76214679d</td>
-       <td>CVE-2020-28493</td>
-       <td>2022-04-10 13:54:08</td>
-       <td>Pallets Jinja 安全漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=3d7f9d505c2c42299a97205cac56d1c8">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0121b4ff36a067fe337ca96add75df4f</td>
-       <td>CVE-2020-36231</td>
-       <td>2022-04-10 13:54:04</td>
-       <td>Atlassian Jira Server and Data Center 输入验证错误漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=75e65b71786847c4bc28c4026afafefd">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5148bb8ad4e9af690f308aa9bb7e285d</td>
-       <td>CVE-2020-8554</td>
-       <td>2022-04-10 13:53:56</td>
-       <td>Kubernetes 安全漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=faf898c740bd43e892f75a7bdca74582">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1b64ed764878ddccc7058460cef97d50</td>
-       <td>CVE-2020-35848</td>
-       <td>2022-04-08 13:51:45</td>
-       <td>Agentejo Cockpit SQL注入漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=600a848130404b219db091ff0b8699e6">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f994d3e2369f067854d6f44593ca55c8</td>
-       <td>CVE-2020-35847</td>
-       <td>2022-04-08 13:51:37</td>
-       <td>Agentejo Cockpit SQL注入漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=3aa2ffd496a2466586149931daf14ebb">详情</a></td>
       </tr>
 
      </tbody>
