@@ -1,902 +1,227 @@
-2022-04-14 09:52:28 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 09:52:28 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
-2022-04-14 09:52:28 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
-2022-04-14 09:52:28 [INFO] : --------------------------------------------
-2022-04-14 09:52:28 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 09:52:28 [INFO] : 正在获取 [阿里云] 威胁情报...
-2022-04-14 09:52:29 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
-2022-04-14 09:52:29 [INFO] : --------------------------------------------
-2022-04-14 09:52:29 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 09:52:29 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
-2022-04-14 09:52:50 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [10] 条
-2022-04-14 09:52:50 [INFO] : --------------------------------------------
-2022-04-14 09:52:50 [INFO] : 
+2022-04-15 01:08:55 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-15 01:08:55 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-04-15 01:09:06 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-04-15 01:09:06 [INFO] : --------------------------------------------
+2022-04-15 01:09:06 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-15 01:09:06 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-04-15 01:09:12 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-04-15 01:09:12 [INFO] : --------------------------------------------
+2022-04-15 01:09:12 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-15 01:09:12 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-04-15 01:09:38 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [5] 条
+2022-04-15 01:09:38 [INFO] : --------------------------------------------
+2022-04-15 01:09:38 [INFO] : 
 ==============================================
-[ TITLE ] Open-xchange OX App Suite跨站脚本漏洞
-[ TIME  ] 2022-04-14 09:52:31
-[ CVE   ] CNVD-2022-28455 (CVE-2021-44213)
+[ TITLE ] NETGEAR R8500命令注入漏洞
+[ TIME  ] 2022-04-15 01:09:16
+[ CVE   ] CNVD-2022-28463 (CVE-2022-27947)
 [ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-28455
-2022-04-14 09:52:50 [INFO] : 
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-28463
+2022-04-15 01:09:38 [INFO] : 
 ==============================================
-[ TITLE ] Open-xchange OX App Suite跨站脚本漏洞
-[ TIME  ] 2022-04-14 09:52:33
-[ CVE   ] CNVD-2022-28456 (CVE-2021-44212)
+[ TITLE ] NETGEAR R8500命令注入漏洞
+[ TIME  ] 2022-04-15 01:09:19
+[ CVE   ] CNVD-2022-28464 (CVE-2022-27946)
 [ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-28456
-2022-04-14 09:52:50 [INFO] : 
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-28464
+2022-04-15 01:09:38 [INFO] : 
 ==============================================
-[ TITLE ] Open-xchange OX App Suite跨站脚本漏洞
-[ TIME  ] 2022-04-14 09:52:35
-[ CVE   ] CNVD-2022-28457 (CVE-2021-44211)
+[ TITLE ] NETGEAR R8500命令注入漏洞
+[ TIME  ] 2022-04-15 01:09:21
+[ CVE   ] CNVD-2022-28465 (CVE-2022-27945)
 [ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-28457
-2022-04-14 09:52:50 [INFO] : 
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-28465
+2022-04-15 01:09:38 [INFO] : 
 ==============================================
-[ TITLE ] BigAnt Software BigAnt Server拒绝服务漏洞
-[ TIME  ] 2022-04-14 09:52:37
-[ CVE   ] CNVD-2022-28458 (CVE-2022-23352)
+[ TITLE ] TOTOLINK A850R存在命令执行漏洞
+[ TIME  ] 2022-04-15 01:09:24
+[ CVE   ] CNVD-2022-20373
 [ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-28458
-2022-04-14 09:52:50 [INFO] : 
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-20373
+2022-04-15 01:09:38 [INFO] : 
 ==============================================
-[ TITLE ] BigAnt Software BigAnt Server跨站脚本漏洞
-[ TIME  ] 2022-04-14 09:52:39
-[ CVE   ] CNVD-2022-28459 (CVE-2022-23350)
+[ TITLE ] BossCMS存在文件上传漏洞
+[ TIME  ] 2022-04-15 01:09:26
+[ CVE   ] CNVD-2022-20375
 [ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-28459
-2022-04-14 09:52:50 [INFO] : 
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-20375
+2022-04-15 01:09:38 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-15 01:09:38 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-04-15 01:09:51 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [10] 条
+2022-04-15 01:09:51 [INFO] : --------------------------------------------
+2022-04-15 01:09:51 [INFO] : 
 ==============================================
-[ TITLE ] BigAnt Software BigAnt Server跨站请求伪造漏洞
-[ TIME  ] 2022-04-14 09:52:41
-[ CVE   ] CNVD-2022-28460 (CVE-2022-23349)
-[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-28460
-2022-04-14 09:52:50 [INFO] : 
-==============================================
-[ TITLE ] BigAnt Software BigAnt Server目录遍历漏洞
-[ TIME  ] 2022-04-14 09:52:43
-[ CVE   ] CNVD-2022-28461 (CVE-2022-23347)
-[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-28461
-2022-04-14 09:52:50 [INFO] : 
-==============================================
-[ TITLE ] BigAnt Software BigAnt Server弱密码漏洞
-[ TIME  ] 2022-04-14 09:52:45
-[ CVE   ] CNVD-2022-28462 (CVE-2022-23348)
-[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-28462
-2022-04-14 09:52:50 [INFO] : 
-==============================================
-[ TITLE ] 支付宝存在逻辑缺陷漏洞
-[ TIME  ] 2022-04-14 09:52:47
-[ CVE   ] CNVD-2022-21865
-[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-21865
-2022-04-14 09:52:50 [INFO] : 
-==============================================
-[ TITLE ] 武汉金同方科技有限公司月子护理ERP管理平台存在文件上传漏洞
-[ TIME  ] 2022-04-14 09:52:49
-[ CVE   ] CNVD-2022-27360
-[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-27360
-2022-04-14 09:52:50 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 09:52:50 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
-2022-04-14 09:53:04 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [10] 条
-2022-04-14 09:53:04 [INFO] : --------------------------------------------
-2022-04-14 09:53:04 [INFO] : 
-==============================================
-[ TITLE ] Lenovo ThinkPad 缓冲区错误漏洞
-[ TIME  ] 2022-04-13 09:52:51
-[ CVE   ] CNNVD-202204-3294 (CVE-2022-1108)
+[ TITLE ] Ruby 资源管理错误漏洞
+[ TIME  ] 2022-04-14 01:09:39
+[ CVE   ] CNNVD-202204-3370 (CVE-2022-28738)
 [ SRC   ] 国家信息安全漏洞库（CNNVD）
-[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3294
-2022-04-14 09:53:04 [INFO] : 
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3370
+2022-04-15 01:09:51 [INFO] : 
 ==============================================
-[ TITLE ] Lenovo ThinkPad 权限许可和访问控制问题漏洞
-[ TIME  ] 2022-04-13 09:52:53
-[ CVE   ] CNNVD-202204-3293 (CVE-2022-1107)
+[ TITLE ] Ruby 代码问题漏洞
+[ TIME  ] 2022-04-14 01:09:40
+[ CVE   ] CNNVD-202204-3369 (CVE-2022-28739)
 [ SRC   ] 国家信息安全漏洞库（CNNVD）
-[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3293
-2022-04-14 09:53:04 [INFO] : 
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3369
+2022-04-15 01:09:51 [INFO] : 
 ==============================================
-[ TITLE ] Microsoft YARP reverse proxy 安全漏洞
-[ TIME  ] 2022-04-12 09:52:54
-[ CVE   ] CNNVD-202204-3292 (CVE-2022-26924)
+[ TITLE ] GeoServer 输入验证错误漏洞
+[ TIME  ] 2022-04-13 01:09:41
+[ CVE   ] CNNVD-202204-3368 (CVE-2022-24847)
 [ SRC   ] 国家信息安全漏洞库（CNNVD）
-[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3292
-2022-04-14 09:53:04 [INFO] : 
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3368
+2022-04-15 01:09:51 [INFO] : 
 ==============================================
-[ TITLE ] Pluck安全漏洞
-[ TIME  ] 2022-04-12 09:52:55
-[ CVE   ] CNNVD-202204-3291 (CVE-2022-26589)
+[ TITLE ] CMS Made Simple 安全漏洞
+[ TIME  ] 2022-04-13 01:09:42
+[ CVE   ] CNNVD-202204-3367 (CVE-2021-43154)
 [ SRC   ] 国家信息安全漏洞库（CNNVD）
-[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3291
-2022-04-14 09:53:04 [INFO] : 
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3367
+2022-04-15 01:09:51 [INFO] : 
 ==============================================
-[ TITLE ] Microsoft Visual Studio 安全漏洞
-[ TIME  ] 2022-04-12 09:52:56
-[ CVE   ] CNNVD-202204-3290 (CVE-2022-26921)
+[ TITLE ] Vyper 输入验证错误漏洞
+[ TIME  ] 2022-04-13 01:09:44
+[ CVE   ] CNNVD-202204-3366 (CVE-2022-24845)
 [ SRC   ] 国家信息安全漏洞库（CNNVD）
-[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3290
-2022-04-14 09:53:04 [INFO] : 
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3366
+2022-04-15 01:09:51 [INFO] : 
 ==============================================
-[ TITLE ] Citrix Systems XenMobile Server 安全漏洞
-[ TIME  ] 2022-04-12 09:52:58
-[ CVE   ] CNNVD-202204-3289 (CVE-2022-26151)
+[ TITLE ] Gin-Vue-Admin 安全漏洞
+[ TIME  ] 2022-04-13 01:09:45
+[ CVE   ] CNNVD-202204-3365 (CVE-2022-24843)
 [ SRC   ] 国家信息安全漏洞库（CNNVD）
-[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3289
-2022-04-14 09:53:04 [INFO] : 
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3365
+2022-04-15 01:09:51 [INFO] : 
 ==============================================
-[ TITLE ] Inductive Automation Ignition 路径遍历漏洞
-[ TIME  ] 2022-04-12 09:52:59
-[ CVE   ] CNNVD-202204-3288 (CVE-2022-1264)
+[ TITLE ] Elementor 安全漏洞
+[ TIME  ] 2022-04-13 01:09:46
+[ CVE   ] CNNVD-202204-3364 (CVE-2022-1329)
 [ SRC   ] 国家信息安全漏洞库（CNNVD）
-[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3288
-2022-04-14 09:53:04 [INFO] : 
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3364
+2022-04-15 01:09:51 [INFO] : 
 ==============================================
-[ TITLE ] Citrix Systems XenMobile Server 安全漏洞
-[ TIME  ] 2022-04-12 09:53:00
-[ CVE   ] CNNVD-202204-3287 (CVE-2021-44520)
+[ TITLE ] Cisco IOS XE 安全漏洞
+[ TIME  ] 2022-04-13 01:09:47
+[ CVE   ] CNNVD-202204-3363 (CVE-2022-20679)
 [ SRC   ] 国家信息安全漏洞库（CNNVD）
-[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3287
-2022-04-14 09:53:04 [INFO] : 
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3363
+2022-04-15 01:09:51 [INFO] : 
 ==============================================
-[ TITLE ] MariaDB 安全漏洞
-[ TIME  ] 2022-04-12 09:53:01
-[ CVE   ] CNNVD-202204-3286 (CVE-2022-27379)
+[ TITLE ] Cisco IOS XE 安全漏洞
+[ TIME  ] 2022-04-13 01:09:49
+[ CVE   ] CNNVD-202204-3362 (CVE-2022-20682)
 [ SRC   ] 国家信息安全漏洞库（CNNVD）
-[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3286
-2022-04-14 09:53:04 [INFO] : 
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3362
+2022-04-15 01:09:51 [INFO] : 
 ==============================================
-[ TITLE ] MariaDB 安全漏洞
-[ TIME  ] 2022-04-12 09:53:03
-[ CVE   ] CNNVD-202204-3285 (CVE-2022-27381)
+[ TITLE ] Cisco IOS XE 安全漏洞
+[ TIME  ] 2022-04-13 01:09:50
+[ CVE   ] CNNVD-202204-3361 (CVE-2022-20684)
 [ SRC   ] 国家信息安全漏洞库（CNNVD）
-[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3285
-2022-04-14 09:53:04 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 09:53:04 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
-2022-04-14 09:53:04 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
-2022-04-14 09:53:04 [INFO] : --------------------------------------------
-2022-04-14 09:53:04 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 09:53:04 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
-2022-04-14 09:53:06 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [10] 条
-2022-04-14 09:53:06 [INFO] : --------------------------------------------
-2022-04-14 09:53:06 [INFO] : 
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3361
+2022-04-15 01:09:51 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-15 01:09:51 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-04-15 01:09:52 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-04-15 01:09:52 [INFO] : --------------------------------------------
+2022-04-15 01:09:52 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-15 01:09:52 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-04-15 01:09:53 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
+2022-04-15 01:09:53 [INFO] : --------------------------------------------
+2022-04-15 01:09:53 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-15 01:09:53 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-04-15 01:09:54 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-04-15 01:09:54 [INFO] : --------------------------------------------
+2022-04-15 01:09:54 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-15 01:09:54 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-04-15 01:09:54 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-04-15 01:09:54 [INFO] : --------------------------------------------
+2022-04-15 01:09:54 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-15 01:09:54 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-04-15 01:09:55 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-04-15 01:09:55 [INFO] : --------------------------------------------
+2022-04-15 01:09:55 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-15 01:09:55 [INFO] : 正在获取 [红后] 威胁情报...
+2022-04-15 01:09:55 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-04-15 01:09:55 [INFO] : --------------------------------------------
+2022-04-15 01:09:55 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-15 01:09:55 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-04-15 01:09:58 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-04-15 01:09:58 [INFO] : --------------------------------------------
+2022-04-15 01:09:58 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-15 01:09:58 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-04-15 01:09:58 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [10] 条
+2022-04-15 01:09:58 [INFO] : --------------------------------------------
+2022-04-15 01:09:58 [INFO] : 
 ==============================================
-[ TITLE ] Wyse Device Agent version 14.6.1.4 and below contain a sensitive data exposure vulnerability. A authenticated malicious user could potentially exploit this vulnerability in order to view sensitive information from the WMS Server.
-[ TIME  ] 2022-04-01 20:15:07 
-[ CVE   ] CVE-2022-23157
-[ SRC   ] 美国国家漏洞数据库（NVD）
-[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-23157
-2022-04-14 09:53:06 [INFO] : 
-==============================================
-[ TITLE ] Wyse Device Agent version 14.6.1.4 and below contain an Improper Authentication vulnerability. A malicious user could potentially exploit this vulnerability by providing invalid input in order to obtain a connection to WMS server.
-[ TIME  ] 2022-04-01 20:15:07 
-[ CVE   ] CVE-2022-23156
-[ SRC   ] 美国国家漏洞数据库（NVD）
-[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-23156
-2022-04-14 09:53:06 [INFO] : 
-==============================================
-[ TITLE ] Dell Wyse Management Suite versions 2.0 through 3.5.2 contain an unrestricted file upload vulnerability. A malicious user with admin privileges can exploit this vulnerability in order to execute arbitrary code on the system.
-[ TIME  ] 2022-04-01 20:15:07 
-[ CVE   ] CVE-2022-23155
-[ SRC   ] 美国国家漏洞数据库（NVD）
-[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-23155
-2022-04-14 09:53:06 [INFO] : 
-==============================================
-[ TITLE ] A Stored Cross Site Scripting (XSS) vulnerability exists in Shopizer versions 2.0 through 2.17.0 via the &acirc;&euro;&oelig;Manage Images&acirc;&euro;&#65533; tab, which allows an attacker to upload a SVG file containing malicious JavaScript code.
-[ TIME  ] 2022-03-29 11:15:07 
-[ CVE   ] CVE-2022-23059
-[ SRC   ] 美国国家漏洞数据库（NVD）
-[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-23059
-2022-04-14 09:53:06 [INFO] : 
-==============================================
-[ TITLE ] Netcommunity OG410X and OG810X series (Netcommunity OG410Xa, OG410Xi, OG810Xa, and OG810Xi firmware Ver.2.28 and earlier) allow an attacker on the adjacent network to execute an arbitrary OS command via a specially crafted config file.
-[ TIME  ] 2022-03-31 08:15:08 
-[ CVE   ] CVE-2022-22986
-[ SRC   ] 美国国家漏洞数据库（NVD）
-[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22986
-2022-04-14 09:53:06 [INFO] : 
-==============================================
-[ TITLE ] A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable to remote code execution (RCE) via data binding. The specific exploit requires the application to run on Tomcat as a WAR deployment. If the application is deployed as a Spring Boot executable jar, i.e. the default, it is not vulnerable to the exploit. However, the nature of the vulnerability is more general, and there may be other ways to exploit it.
-[ TIME  ] 2022-04-01 23:15:13 
-[ CVE   ] CVE-2022-22965
-[ SRC   ] 美国国家漏洞数据库（NVD）
-[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22965
-2022-04-14 09:53:06 [INFO] : 
-==============================================
-[ TITLE ] n Spring Framework versions 5.3.0 - 5.3.16 and older unsupported versions, it is possible for a user to provide a specially crafted SpEL expression that may cause a denial of service condition.
-[ TIME  ] 2022-04-01 23:15:13 
-[ CVE   ] CVE-2022-22950
-[ SRC   ] 美国国家漏洞数据库（NVD）
-[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22950
-2022-04-14 09:53:06 [INFO] : 
-==============================================
-[ TITLE ] The vCenter Server contains an information disclosure vulnerability due to improper permission of files. A malicious actor with non-administrative access to the vCenter Server may exploit this issue to gain access to sensitive information.
-[ TIME  ] 2022-03-29 18:15:08 
-[ CVE   ] CVE-2022-22948
-[ SRC   ] 美国国家漏洞数据库（NVD）
-[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22948
-2022-04-14 09:53:06 [INFO] : 
-==============================================
-[ TITLE ] A buffer overflow vulnerability found in the UniFi Door Access Reader Lite&acirc;&euro;&trade;s (UA Lite) firmware (Version 3.8.28.24 and earlier) allows a malicious actor who has gained access to a network to control all connected UA devices. This vulnerability is fixed in Version 3.8.31.13 and later.
-[ TIME  ] 2022-04-01 23:15:13 
-[ CVE   ] CVE-2022-22570
-[ SRC   ] 美国国家漏洞数据库（NVD）
-[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22570
-2022-04-14 09:53:06 [INFO] : 
-==============================================
-[ TITLE ] IBM App Connect Enterprise Certified Container Dashboard UI (IBM App Connect Enterprise Certified Container 1.5, 2.0, 2.1, 3.0, and 3.1) may be vulnerable to denial of service due to excessive rate limiting.
-[ TIME  ] 2022-04-01 17:15:09 
-[ CVE   ] CVE-2022-22404
-[ SRC   ] 美国国家漏洞数据库（NVD）
-[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22404
-2022-04-14 09:53:06 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 09:53:06 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
-2022-04-14 09:53:06 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
-2022-04-14 09:53:06 [INFO] : --------------------------------------------
-2022-04-14 09:53:06 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 09:53:06 [INFO] : 正在获取 [绿盟] 威胁情报...
-2022-04-14 09:53:07 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
-2022-04-14 09:53:07 [INFO] : --------------------------------------------
-2022-04-14 09:53:07 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 09:53:07 [INFO] : 正在获取 [奇安信] 威胁情报...
-2022-04-14 09:53:07 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
-2022-04-14 09:53:07 [INFO] : --------------------------------------------
-2022-04-14 09:53:07 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 09:53:07 [INFO] : 正在获取 [红后] 威胁情报...
-2022-04-14 09:53:08 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
-2022-04-14 09:53:08 [INFO] : --------------------------------------------
-2022-04-14 09:53:08 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 09:53:08 [INFO] : 正在获取 [斗象] 威胁情报...
-2022-04-14 09:53:11 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
-2022-04-14 09:53:11 [INFO] : --------------------------------------------
-2022-04-14 09:53:11 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 09:53:11 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
-2022-04-14 09:53:12 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [10] 条
-2022-04-14 09:53:12 [INFO] : --------------------------------------------
-2022-04-14 09:53:12 [INFO] : 
-==============================================
-[ TITLE ] Cross Site Scripting (XSS) vulnerability exists in CMS Made Simple 2.2.15 via the Name field in an Add Category action in moduleinterface.php.
-[ TIME  ] 2022-04-13 23:15:00
-[ CVE   ] CVE-2021-43154
+[ TITLE ] MariaDB Server v10.6.3 and below was discovered to contain an use-after-free in the component Binary_string::free_buffer() at /sql/sql_string.h.
+[ TIME  ] 2022-04-14 13:15:00
+[ CVE   ] CVE-2022-27458
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2021-43154
-2022-04-14 09:53:12 [INFO] : 
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27458
+2022-04-15 01:09:58 [INFO] : 
 ==============================================
-[ TITLE ] GeoServer is an open source software server written in Java that allows users to share and edit geospatial data. The GeoServer security mechanism can perform an unchecked JNDI lookup, which in turn can be used to perform class deserialization and result in arbitrary code execution. The same can happen while configuring data stores with data sources located in JNDI, or while setting up the disk quota mechanism. In order to perform any of the above changes, the attack needs to have obtained admin rights and use either the GeoServer GUI, or its REST API. The lookups are going to be restricted in GeoServer 2.21.0, 2.20.4, 1.19.6. Users unable to upgrade should restrict access to the `geoserver/web` and `geoserver/rest` via a firewall and ensure that the GeoWebCache is not remotely accessible.
-[ TIME  ] 2022-04-13 22:15:00
-[ CVE   ] CVE-2022-24847
+[ TITLE ] MariaDB Server v10.6.3 and below was discovered to contain an use-after-free in the component my_mb_wc_latin1 at /strings/ctype-latin1.c.
+[ TIME  ] 2022-04-14 13:15:00
+[ CVE   ] CVE-2022-27457
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-24847
-2022-04-14 09:53:12 [INFO] : 
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27457
+2022-04-15 01:09:58 [INFO] : 
 ==============================================
-[ TITLE ] Vyper is a pythonic Smart Contract Language for the ethereum virtual machine. In affected versions, the return of `<iface>.returns_int128()` is not validated to fall within the bounds of `int128`. This issue can result in a misinterpretation of the integer value and lead to incorrect behavior. As of v0.3.0, `<iface>.returns_int128()` is validated in simple expressions, but not complex expressions. Users are advised to upgrade. There is no known workaround for this issue.
-[ TIME  ] 2022-04-13 22:15:00
-[ CVE   ] CVE-2022-24845
+[ TITLE ] MariaDB Server v10.6.3 and below was discovered to contain an use-after-free in the component VDec::VDec at /sql/sql_type.cc.
+[ TIME  ] 2022-04-14 13:15:00
+[ CVE   ] CVE-2022-27456
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-24845
-2022-04-14 09:53:12 [INFO] : 
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27456
+2022-04-15 01:09:58 [INFO] : 
 ==============================================
-[ TITLE ] Gin-vue-admin is a backstage management system based on vue and gin, which separates the front and rear of the full stack. Gin-vue-admin 2.50 has arbitrary file read vulnerability due to a lack of parameter validation. This has been resolved in version 2.5.1. There are no known workarounds for this issue.
-[ TIME  ] 2022-04-13 22:15:00
-[ CVE   ] CVE-2022-24843
+[ TITLE ] MariaDB Server v10.6.3 and below was discovered to contain an use-after-free in the component my_wildcmp_8bit_impl at /strings/ctype-simple.c.
+[ TIME  ] 2022-04-14 13:15:00
+[ CVE   ] CVE-2022-27455
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-24843
-2022-04-14 09:53:12 [INFO] : 
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27455
+2022-04-15 01:09:58 [INFO] : 
 ==============================================
-[ TITLE ] Gin-vue-admin is a backstage management system based on vue and gin, which separates the front and rear of the full stack. The problem occurs in the following code in server/service/system/sys_auto_code_pgsql.go, which means that PostgreSQL must be used as the database for this vulnerability to occur. Users must: Require JWT login? and be using PostgreSQL to be affected. This issue has been resolved in version 2.5.1. There are no known workarounds.
-[ TIME  ] 2022-04-13 21:15:00
-[ CVE   ] CVE-2022-24844
+[ TITLE ] MariaDB Server v10.9 and below was discovered to contain a segmentation fault via the component sql/item_cmpfunc.cc.
+[ TIME  ] 2022-04-14 13:15:00
+[ CVE   ] CVE-2022-27452
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-24844
-2022-04-14 09:53:12 [INFO] : 
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27452
+2022-04-15 01:09:58 [INFO] : 
 ==============================================
-[ TITLE ] Composer is a dependency manager for the PHP programming language. Integrators using Composer code to call `VcsDriver::getFileContent` can have a code injection vulnerability if the user can control the `$file` or `$identifier` argument. This leads to a vulnerability on packagist.org for example where the composer.json's `readme` field can be used as a vector for injecting parameters into hg/Mercurial via the `$file` argument, or git via the `$identifier` argument if you allow arbitrary data there (Packagist does not, but maybe other integrators do). Composer itself should not be affected by the vulnerability as it does not call `getFileContent` with arbitrary data into `$file`/`$identifier`. To the best of our knowledge this was not abused, and the vulnerability has been patched on packagist.org and Private Packagist within a day of the vulnerability report.
-[ TIME  ] 2022-04-13 21:15:00
-[ CVE   ] CVE-2022-24828
+[ TITLE ] MariaDB Server v10.9 and below was discovered to contain a segmentation fault via the component sql/field_conv.cc.
+[ TIME  ] 2022-04-14 13:15:00
+[ CVE   ] CVE-2022-27451
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-24828
-2022-04-14 09:53:12 [INFO] : 
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27451
+2022-04-15 01:09:58 [INFO] : 
 ==============================================
-[ TITLE ] GeoTools is an open source Java library that provides tools for geospatial data. The GeoTools library has a number of data sources that can perform unchecked JNDI lookups, which in turn can be used to perform class deserialization and result in arbitrary code execution. Similar to the Log4J case, the vulnerability can be triggered if the JNDI names are user-provided, but requires admin-level login to be triggered. The lookups are now restricted in GeoTools 26.4, GeoTools 25.6, and GeoTools 24.6. Users unable to upgrade should ensure that any downstream application should not allow usage of remotely provided JNDI strings.
-[ TIME  ] 2022-04-13 21:15:00
-[ CVE   ] CVE-2022-24818
+[ TITLE ] MariaDB Server v10.9 and below was discovered to contain a segmentation fault via the component sql/item_func.cc:148.
+[ TIME  ] 2022-04-14 13:15:00
+[ CVE   ] CVE-2022-27449
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-24818
-2022-04-14 09:53:12 [INFO] : 
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27449
+2022-04-15 01:09:58 [INFO] : 
 ==============================================
-[ TITLE ] JAI-EXT is an open-source project which aims to extend the Java Advanced Imaging (JAI) API. Programs allowing Jiffle script to be provided via network request can lead to a Remote Code Execution as the Jiffle script is compiled into Java code via Janino, and executed. In particular, this affects the downstream GeoServer project. Version 1.2.22 will contain a patch that disables the ability to inject malicious code into the resulting script. Users unable to upgrade may negate the ability to compile Jiffle scripts from the final application, by removing janino-x.y.z.jar from the classpath.
-[ TIME  ] 2022-04-13 21:15:00
-[ CVE   ] CVE-2022-24816
+[ TITLE ] There is an Assertion failure in MariaDB Server v10.9 and below via 'node->pcur->rel_pos == BTR_PCUR_ON' at /row/row0mysql.cc.
+[ TIME  ] 2022-04-14 13:15:00
+[ CVE   ] CVE-2022-27448
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-24816
-2022-04-14 09:53:12 [INFO] : 
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27448
+2022-04-15 01:09:58 [INFO] : 
 ==============================================
-[ TITLE ] Apache Superset before 1.4.2 is vulnerable to SQL injection in chart data requests. Users should update to 1.4.2 or higher which addresses this issue.
-[ TIME  ] 2022-04-13 19:15:00
-[ CVE   ] CVE-2022-27479
+[ TITLE ] MariaDB Server v10.9 and below was discovered to contain a use-after-free via the component Binary_string::free_buffer() at /sql/sql_string.h.
+[ TIME  ] 2022-04-14 13:15:00
+[ CVE   ] CVE-2022-27447
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-27479
-2022-04-14 09:53:12 [INFO] : 
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27447
+2022-04-15 01:09:58 [INFO] : 
 ==============================================
-[ TITLE ] Vyper is a pythonic Smart Contract Language for the ethereum virtual machine. Versions of vyper prior to 0.3.2 suffer from a potential buffer overrun. Importing a function from a JSON interface which returns `bytes` generates bytecode which does not clamp bytes length, potentially resulting in a buffer overrun. Users are advised to upgrade. There are no known workarounds for this issue.
-[ TIME  ] 2022-04-13 19:15:00
-[ CVE   ] CVE-2022-24788
+[ TITLE ] MariaDB Server v10.9 and below was discovered to contain a segmentation fault via the component sql/item_cmpfunc.h.
+[ TIME  ] 2022-04-14 13:15:00
+[ CVE   ] CVE-2022-27446
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-24788
-2022-04-14 09:53:12 [INFO] : [邮件] 正在推送威胁情报...
-2022-04-14 09:53:12 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
-2022-04-14 09:53:13 [INFO] : [邮件] 推送威胁情报成功
-2022-04-14 09:53:13 [INFO] : 正在提交变更...
-2022-04-14 09:53:19 [INFO] : 提交变更成功
-2022-04-14 10:27:53 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 10:27:53 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
-2022-04-14 10:27:54 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
-2022-04-14 10:27:54 [INFO] : --------------------------------------------
-2022-04-14 10:27:54 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 10:27:54 [INFO] : 正在获取 [阿里云] 威胁情报...
-2022-04-14 10:27:54 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
-2022-04-14 10:27:54 [INFO] : --------------------------------------------
-2022-04-14 10:27:54 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 10:27:54 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
-2022-04-14 10:28:15 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
-2022-04-14 10:28:15 [INFO] : --------------------------------------------
-2022-04-14 10:28:15 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 10:28:15 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
-2022-04-14 10:28:28 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
-2022-04-14 10:28:28 [INFO] : --------------------------------------------
-2022-04-14 10:28:28 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 10:28:28 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
-2022-04-14 10:28:29 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
-2022-04-14 10:28:29 [INFO] : --------------------------------------------
-2022-04-14 10:28:29 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 10:28:29 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
-2022-04-14 10:28:30 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
-2022-04-14 10:28:30 [INFO] : --------------------------------------------
-2022-04-14 10:28:30 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 10:28:30 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
-2022-04-14 10:28:31 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
-2022-04-14 10:28:31 [INFO] : --------------------------------------------
-2022-04-14 10:28:31 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 10:28:31 [INFO] : 正在获取 [绿盟] 威胁情报...
-2022-04-14 10:28:31 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
-2022-04-14 10:28:31 [INFO] : --------------------------------------------
-2022-04-14 10:28:31 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 10:28:31 [INFO] : 正在获取 [奇安信] 威胁情报...
-2022-04-14 10:28:32 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
-2022-04-14 10:28:32 [INFO] : --------------------------------------------
-2022-04-14 10:28:32 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 10:28:32 [INFO] : 正在获取 [红后] 威胁情报...
-2022-04-14 10:28:32 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
-2022-04-14 10:28:32 [INFO] : --------------------------------------------
-2022-04-14 10:28:32 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 10:28:32 [INFO] : 正在获取 [斗象] 威胁情报...
-2022-04-14 10:28:35 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
-2022-04-14 10:28:35 [INFO] : --------------------------------------------
-2022-04-14 10:28:35 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 10:28:35 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
-2022-04-14 10:28:36 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
-2022-04-14 10:28:36 [INFO] : --------------------------------------------
-2022-04-14 10:28:36 [INFO] : 正在提交变更...
-2022-04-14 10:28:39 [INFO] : 提交变更成功
-2022-04-14 14:40:37 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 14:40:37 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
-2022-04-14 14:40:38 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
-2022-04-14 14:40:38 [INFO] : --------------------------------------------
-2022-04-14 14:40:38 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 14:40:38 [INFO] : 正在获取 [阿里云] 威胁情报...
-2022-04-14 14:40:39 [INFO] : 得到 [阿里云] 最新威胁情报 [2] 条
-2022-04-14 14:40:39 [INFO] : --------------------------------------------
-2022-04-14 14:40:39 [INFO] : 
-==============================================
-[ TITLE ] Windows 网络文件系统远程代码执行漏洞
-                        
-[ TIME  ] 2022-04-12 14:40:39
-[ CVE   ] CVE-2022-24491
-[ SRC   ] 阿里云
-[ URL   ] https://avd.aliyun.com/detail?id=AVD-2022-24491
-2022-04-14 14:40:39 [INFO] : 
-==============================================
-[ TITLE ] Windows 远程过程调用运行时远程执行代码漏洞
-                        
-[ TIME  ] 2022-04-12 14:40:39
-[ CVE   ] CVE-2022-26809
-[ SRC   ] 阿里云
-[ URL   ] https://avd.aliyun.com/detail?id=AVD-2022-26809
-2022-04-14 14:40:39 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 14:40:39 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
-2022-04-14 14:41:02 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [1] 条
-2022-04-14 14:41:02 [INFO] : --------------------------------------------
-2022-04-14 14:41:02 [INFO] : 
-==============================================
-[ TITLE ] Grafana跨站脚本漏洞
-[ TIME  ] 2022-04-14 14:40:59
-[ CVE   ] CNVD-2022-28802 (CVE-2022-21702)
-[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-28802
-2022-04-14 14:41:02 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 14:41:02 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
-2022-04-14 14:41:15 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
-2022-04-14 14:41:15 [INFO] : --------------------------------------------
-2022-04-14 14:41:15 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 14:41:15 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
-2022-04-14 14:41:16 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
-2022-04-14 14:41:16 [INFO] : --------------------------------------------
-2022-04-14 14:41:16 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 14:41:16 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
-2022-04-14 14:41:18 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
-2022-04-14 14:41:18 [INFO] : --------------------------------------------
-2022-04-14 14:41:18 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 14:41:18 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
-2022-04-14 14:41:19 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
-2022-04-14 14:41:19 [INFO] : --------------------------------------------
-2022-04-14 14:41:19 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 14:41:19 [INFO] : 正在获取 [绿盟] 威胁情报...
-2022-04-14 14:41:19 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
-2022-04-14 14:41:19 [INFO] : --------------------------------------------
-2022-04-14 14:41:19 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 14:41:19 [INFO] : 正在获取 [奇安信] 威胁情报...
-2022-04-14 14:41:19 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
-2022-04-14 14:41:19 [INFO] : --------------------------------------------
-2022-04-14 14:41:19 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 14:41:19 [INFO] : 正在获取 [红后] 威胁情报...
-2022-04-14 14:41:20 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
-2022-04-14 14:41:20 [INFO] : --------------------------------------------
-2022-04-14 14:41:20 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 14:41:20 [INFO] : 正在获取 [斗象] 威胁情报...
-2022-04-14 14:41:22 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
-2022-04-14 14:41:22 [INFO] : --------------------------------------------
-2022-04-14 14:41:22 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 14:41:22 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
-2022-04-14 14:41:23 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
-2022-04-14 14:41:23 [INFO] : --------------------------------------------
-2022-04-14 14:41:23 [INFO] : [邮件] 正在推送威胁情报...
-2022-04-14 14:41:23 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
-2022-04-14 14:41:24 [INFO] : [邮件] 推送威胁情报成功
-2022-04-14 14:41:24 [INFO] : 正在提交变更...
-2022-04-14 14:41:29 [INFO] : 提交变更成功
-2022-04-14 17:08:06 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 17:08:06 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
-2022-04-14 17:08:06 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
-2022-04-14 17:08:06 [INFO] : --------------------------------------------
-2022-04-14 17:08:06 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 17:08:06 [INFO] : 正在获取 [阿里云] 威胁情报...
-2022-04-14 17:08:07 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
-2022-04-14 17:08:07 [INFO] : --------------------------------------------
-2022-04-14 17:08:07 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 17:08:07 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
-2022-04-14 17:08:28 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
-2022-04-14 17:08:28 [INFO] : --------------------------------------------
-2022-04-14 17:08:28 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 17:08:28 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
-2022-04-14 17:08:42 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
-2022-04-14 17:08:42 [INFO] : --------------------------------------------
-2022-04-14 17:08:42 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 17:08:42 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
-2022-04-14 17:08:42 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
-2022-04-14 17:08:42 [INFO] : --------------------------------------------
-2022-04-14 17:08:42 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 17:08:42 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
-2022-04-14 17:08:44 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
-2022-04-14 17:08:44 [INFO] : --------------------------------------------
-2022-04-14 17:08:44 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 17:08:44 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
-2022-04-14 17:08:44 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
-2022-04-14 17:08:44 [INFO] : --------------------------------------------
-2022-04-14 17:08:44 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 17:08:44 [INFO] : 正在获取 [绿盟] 威胁情报...
-2022-04-14 17:08:45 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
-2022-04-14 17:08:45 [INFO] : --------------------------------------------
-2022-04-14 17:08:45 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 17:08:45 [INFO] : 正在获取 [奇安信] 威胁情报...
-2022-04-14 17:08:45 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
-2022-04-14 17:08:45 [INFO] : --------------------------------------------
-2022-04-14 17:08:45 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 17:08:45 [INFO] : 正在获取 [红后] 威胁情报...
-2022-04-14 17:08:46 [INFO] : 得到 [红后] 最新威胁情报 [10] 条
-2022-04-14 17:08:46 [INFO] : --------------------------------------------
-2022-04-14 17:08:46 [INFO] : 
-==============================================
-[ TITLE ] TYPO3 安全漏洞
-[ TIME  ] 2022-04-14 13:52:37
-[ CVE   ] CVE-2021-21355
-[ SRC   ] 红后
-[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=85218ce890c74bbf8234842ab851b2d7
-2022-04-14 17:08:46 [INFO] : 
-==============================================
-[ TITLE ] XStream 代码问题漏洞
-[ TIME  ] 2022-04-14 13:52:32
-[ CVE   ] CVE-2021-21349
-[ SRC   ] 红后
-[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=48c6b0a87c2c4e6ba3b5706d43855a7f
-2022-04-14 17:08:46 [INFO] : 
-==============================================
-[ TITLE ] XStream 代码问题漏洞
-[ TIME  ] 2022-04-14 13:52:28
-[ CVE   ] CVE-2021-21346
-[ SRC   ] 红后
-[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=3c100f94781949b89f7aa5de8c0931dc
-2022-04-14 17:08:46 [INFO] : 
-==============================================
-[ TITLE ] XStream 安全漏洞
-[ TIME  ] 2022-04-14 13:52:24
-[ CVE   ] CVE-2021-21343
-[ SRC   ] 红后
-[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=b6e6113e102444e7b278078b93ca0e49
-2022-04-14 17:08:46 [INFO] : 
-==============================================
-[ TITLE ] Vmware VMware vCenter Server 安全漏洞
-[ TIME  ] 2022-04-14 13:52:19
-[ CVE   ] CVE-2021-26987
-[ SRC   ] 红后
-[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=519a9df7ea8d4c34a6fdbd5108998fb6
-2022-04-14 17:08:46 [INFO] : 
-==============================================
-[ TITLE ] Rockwell Automation RSLogix 500 和 Logix Designer Studio 5000 安全漏洞
-[ TIME  ] 2022-04-14 13:52:15
-[ CVE   ] CVE-2021-22681
-[ SRC   ] 红后
-[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=70d95d4929fa403fa088b59c074cffe8
-2022-04-14 17:08:46 [INFO] : 
-==============================================
-[ TITLE ] TYPO3 跨站脚本漏洞
-[ TIME  ] 2022-04-14 13:52:14
-[ CVE   ] CVE-2021-21358
-[ SRC   ] 红后
-[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=5fc921ed87ae4ae18a7e2490bfd94063
-2022-04-14 17:08:46 [INFO] : 
-==============================================
-[ TITLE ] XStream 代码问题漏洞
-[ TIME  ] 2022-04-14 13:52:06
-[ CVE   ] CVE-2021-21351
-[ SRC   ] 红后
-[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=a2297bbdcfee46a1bc9d0bfe6a2a8e3b
-2022-04-14 17:08:46 [INFO] : 
-==============================================
-[ TITLE ] XStream 代码问题漏洞
-[ TIME  ] 2022-04-14 13:52:01
-[ CVE   ] CVE-2021-21348
-[ SRC   ] 红后
-[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=5fd4ead5f57e4d94bd0ca4347ac6d3db
-2022-04-14 17:08:46 [INFO] : 
-==============================================
-[ TITLE ] XStream 代码问题漏洞
-[ TIME  ] 2022-04-14 13:51:56
-[ CVE   ] CVE-2021-21345
-[ SRC   ] 红后
-[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=3db77479e14148599f06f001fcfaf39a
-2022-04-14 17:08:46 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 17:08:46 [INFO] : 正在获取 [斗象] 威胁情报...
-2022-04-14 17:08:49 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
-2022-04-14 17:08:49 [INFO] : --------------------------------------------
-2022-04-14 17:08:49 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 17:08:49 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
-2022-04-14 17:08:50 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
-2022-04-14 17:08:50 [INFO] : --------------------------------------------
-2022-04-14 17:08:50 [INFO] : [邮件] 正在推送威胁情报...
-2022-04-14 17:08:50 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
-2022-04-14 17:08:50 [INFO] : [邮件] 推送威胁情报成功
-2022-04-14 17:08:50 [INFO] : 正在提交变更...
-2022-04-14 17:08:55 [INFO] : 提交变更成功
-2022-04-14 19:41:39 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 19:41:39 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
-2022-04-14 19:41:40 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
-2022-04-14 19:41:40 [INFO] : --------------------------------------------
-2022-04-14 19:41:40 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 19:41:40 [INFO] : 正在获取 [阿里云] 威胁情报...
-2022-04-14 19:41:41 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
-2022-04-14 19:41:41 [INFO] : --------------------------------------------
-2022-04-14 19:41:41 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 19:41:41 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
-2022-04-14 19:42:07 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [10] 条
-2022-04-14 19:42:07 [INFO] : --------------------------------------------
-2022-04-14 19:42:07 [INFO] : 
-==============================================
-[ TITLE ] Google Android权限提升漏洞
-[ TIME  ] 2022-04-14 19:41:45
-[ CVE   ] CNVD-2022-28909 (CVE-2021-39796)
-[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-28909
-2022-04-14 19:42:07 [INFO] : 
-==============================================
-[ TITLE ] Google Android权限提升漏洞
-[ TIME  ] 2022-04-14 19:41:47
-[ CVE   ] CNVD-2022-28910 (CVE-2021-39795)
-[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-28910
-2022-04-14 19:42:07 [INFO] : 
-==============================================
-[ TITLE ] Google Android权限提升漏洞
-[ TIME  ] 2022-04-14 19:41:49
-[ CVE   ] CNVD-2022-28911 (CVE-2021-39794)
-[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-28911
-2022-04-14 19:42:07 [INFO] : 
-==============================================
-[ TITLE ] Google Android信息泄露漏洞
-[ TIME  ] 2022-04-14 19:41:52
-[ CVE   ] CNVD-2022-28912 (CVE-2021-39791)
-[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-28912
-2022-04-14 19:42:07 [INFO] : 
-==============================================
-[ TITLE ] Google Android信息泄露漏洞
-[ TIME  ] 2022-04-14 19:41:54
-[ CVE   ] CNVD-2022-28913 (CVE-2021-39773)
-[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-28913
-2022-04-14 19:42:07 [INFO] : 
-==============================================
-[ TITLE ] Google Android信息泄露漏洞
-[ TIME  ] 2022-04-14 19:41:56
-[ CVE   ] CNVD-2022-28914 (CVE-2021-39762)
-[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-28914
-2022-04-14 19:42:07 [INFO] : 
-==============================================
-[ TITLE ] Google Android权限提升漏洞
-[ TIME  ] 2022-04-14 19:41:59
-[ CVE   ] CNVD-2022-28915 (CVE-2021-39780)
-[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-28915
-2022-04-14 19:42:07 [INFO] : 
-==============================================
-[ TITLE ] Google Android信息泄露漏洞
-[ TIME  ] 2022-04-14 19:42:01
-[ CVE   ] CNVD-2022-28916 (CVE-2021-39777)
-[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-28916
-2022-04-14 19:42:07 [INFO] : 
-==============================================
-[ TITLE ] Google Android权限提升漏洞
-[ TIME  ] 2022-04-14 19:42:03
-[ CVE   ] CNVD-2022-28917 (CVE-2021-39782)
-[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-28917
-2022-04-14 19:42:07 [INFO] : 
-==============================================
-[ TITLE ] Google Android权限提升漏洞
-[ TIME  ] 2022-04-14 19:42:06
-[ CVE   ] CNVD-2022-28918 (CVE-2021-39789)
-[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-28918
-2022-04-14 19:42:07 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 19:42:07 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
-2022-04-14 19:42:29 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
-2022-04-14 19:42:29 [INFO] : --------------------------------------------
-2022-04-14 19:42:29 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 19:42:29 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
-2022-04-14 19:42:31 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
-2022-04-14 19:42:31 [INFO] : --------------------------------------------
-2022-04-14 19:42:31 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 19:42:31 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
-2022-04-14 19:42:37 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
-2022-04-14 19:42:37 [INFO] : --------------------------------------------
-2022-04-14 19:42:37 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 19:42:37 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
-2022-04-14 19:42:38 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
-2022-04-14 19:42:38 [INFO] : --------------------------------------------
-2022-04-14 19:42:38 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 19:42:38 [INFO] : 正在获取 [绿盟] 威胁情报...
-2022-04-14 19:43:38 [ERROR] : 获取 [绿盟] 威胁情报异常
-Traceback (most recent call last):
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
-    conn = connection.create_connection(
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
-    raise err
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
-    sock.connect(sa)
-socket.timeout: timed out
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
-    httplib_response = self._make_request(
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 392, in _make_request
-    conn.request(method, url, **httplib_request_kw)
-  File "/usr/local/python3/lib/python3.8/http/client.py", line 1230, in request
-    self._send_request(method, url, body, headers, encode_chunked)
-  File "/usr/local/python3/lib/python3.8/http/client.py", line 1276, in _send_request
-    self.endheaders(body, encode_chunked=encode_chunked)
-  File "/usr/local/python3/lib/python3.8/http/client.py", line 1225, in endheaders
-    self._send_output(message_body, encode_chunked=encode_chunked)
-  File "/usr/local/python3/lib/python3.8/http/client.py", line 1004, in _send_output
-    self.send(msg)
-  File "/usr/local/python3/lib/python3.8/http/client.py", line 944, in send
-    self.connect()
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 187, in connect
-    conn = self._new_conn()
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 164, in _new_conn
-    raise ConnectTimeoutError(
-urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7f12dce78ac0>, 'Connection to www.nsfocus.net timed out. (connect timeout=60)')
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
-    resp = conn.urlopen(
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
-    retries = retries.increment(
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/retry.py", line 446, in increment
-    raise MaxRetryError(_pool, url, error or ResponseError(cause))
-urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='www.nsfocus.net', port=80): Max retries exceeded with url: /index.php?act=sec_bug (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f12dce78ac0>, 'Connection to www.nsfocus.net timed out. (connect timeout=60)'))
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/root/project/threat-broadcast-1/src/crawler/_base_crawler.py", line 62, in cves
-    new_cves = self.get_cves()
-  File "/root/project/threat-broadcast-1/src/crawler/nsfocus.py", line 46, in get_cves
-    response = requests.get(
-  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 75, in get
-    return request('get', url, params=params, **kwargs)
-  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 60, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
-    resp = self.send(prep, **send_kwargs)
-  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
-    r = adapter.send(request, **kwargs)
-  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 504, in send
-    raise ConnectTimeout(e, request=request)
-requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='www.nsfocus.net', port=80): Max retries exceeded with url: /index.php?act=sec_bug (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f12dce78ac0>, 'Connection to www.nsfocus.net timed out. (connect timeout=60)'))
-2022-04-14 19:43:38 [ERROR] : Traceback (most recent call last):
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
-    conn = connection.create_connection(
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
-    raise err
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
-    sock.connect(sa)
-socket.timeout: timed out
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
-    httplib_response = self._make_request(
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 392, in _make_request
-    conn.request(method, url, **httplib_request_kw)
-  File "/usr/local/python3/lib/python3.8/http/client.py", line 1230, in request
-    self._send_request(method, url, body, headers, encode_chunked)
-  File "/usr/local/python3/lib/python3.8/http/client.py", line 1276, in _send_request
-    self.endheaders(body, encode_chunked=encode_chunked)
-  File "/usr/local/python3/lib/python3.8/http/client.py", line 1225, in endheaders
-    self._send_output(message_body, encode_chunked=encode_chunked)
-  File "/usr/local/python3/lib/python3.8/http/client.py", line 1004, in _send_output
-    self.send(msg)
-  File "/usr/local/python3/lib/python3.8/http/client.py", line 944, in send
-    self.connect()
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 187, in connect
-    conn = self._new_conn()
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 164, in _new_conn
-    raise ConnectTimeoutError(
-urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7f12dce78ac0>, 'Connection to www.nsfocus.net timed out. (connect timeout=60)')
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
-    resp = conn.urlopen(
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
-    retries = retries.increment(
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/retry.py", line 446, in increment
-    raise MaxRetryError(_pool, url, error or ResponseError(cause))
-urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='www.nsfocus.net', port=80): Max retries exceeded with url: /index.php?act=sec_bug (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f12dce78ac0>, 'Connection to www.nsfocus.net timed out. (connect timeout=60)'))
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/root/project/threat-broadcast-1/src/crawler/_base_crawler.py", line 62, in cves
-    new_cves = self.get_cves()
-  File "/root/project/threat-broadcast-1/src/crawler/nsfocus.py", line 46, in get_cves
-    response = requests.get(
-  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 75, in get
-    return request('get', url, params=params, **kwargs)
-  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 60, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
-    resp = self.send(prep, **send_kwargs)
-  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
-    r = adapter.send(request, **kwargs)
-  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 504, in send
-    raise ConnectTimeout(e, request=request)
-requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='www.nsfocus.net', port=80): Max retries exceeded with url: /index.php?act=sec_bug (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f12dce78ac0>, 'Connection to www.nsfocus.net timed out. (connect timeout=60)'))
-Traceback (most recent call last):
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
-    conn = connection.create_connection(
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
-    raise err
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
-    sock.connect(sa)
-socket.timeout: timed out
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
-    httplib_response = self._make_request(
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 392, in _make_request
-    conn.request(method, url, **httplib_request_kw)
-  File "/usr/local/python3/lib/python3.8/http/client.py", line 1230, in request
-    self._send_request(method, url, body, headers, encode_chunked)
-  File "/usr/local/python3/lib/python3.8/http/client.py", line 1276, in _send_request
-    self.endheaders(body, encode_chunked=encode_chunked)
-  File "/usr/local/python3/lib/python3.8/http/client.py", line 1225, in endheaders
-    self._send_output(message_body, encode_chunked=encode_chunked)
-  File "/usr/local/python3/lib/python3.8/http/client.py", line 1004, in _send_output
-    self.send(msg)
-  File "/usr/local/python3/lib/python3.8/http/client.py", line 944, in send
-    self.connect()
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 187, in connect
-    conn = self._new_conn()
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connection.py", line 164, in _new_conn
-    raise ConnectTimeoutError(
-urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7f12dce78ac0>, 'Connection to www.nsfocus.net timed out. (connect timeout=60)')
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
-    resp = conn.urlopen(
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
-    retries = retries.increment(
-  File "/usr/local/python3/lib/python3.8/site-packages/urllib3/util/retry.py", line 446, in increment
-    raise MaxRetryError(_pool, url, error or ResponseError(cause))
-urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='www.nsfocus.net', port=80): Max retries exceeded with url: /index.php?act=sec_bug (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f12dce78ac0>, 'Connection to www.nsfocus.net timed out. (connect timeout=60)'))
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/root/project/threat-broadcast-1/src/crawler/_base_crawler.py", line 62, in cves
-    new_cves = self.get_cves()
-  File "/root/project/threat-broadcast-1/src/crawler/nsfocus.py", line 46, in get_cves
-    response = requests.get(
-  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 75, in get
-    return request('get', url, params=params, **kwargs)
-  File "/usr/local/python3/lib/python3.8/site-packages/requests/api.py", line 60, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
-    resp = self.send(prep, **send_kwargs)
-  File "/usr/local/python3/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
-    r = adapter.send(request, **kwargs)
-  File "/usr/local/python3/lib/python3.8/site-packages/requests/adapters.py", line 504, in send
-    raise ConnectTimeout(e, request=request)
-requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='www.nsfocus.net', port=80): Max retries exceeded with url: /index.php?act=sec_bug (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f12dce78ac0>, 'Connection to www.nsfocus.net timed out. (connect timeout=60)'))
-2022-04-14 19:43:38 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
-2022-04-14 19:43:38 [INFO] : --------------------------------------------
-2022-04-14 19:43:38 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 19:43:38 [INFO] : 正在获取 [奇安信] 威胁情报...
-2022-04-14 19:43:40 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
-2022-04-14 19:43:40 [INFO] : --------------------------------------------
-2022-04-14 19:43:40 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 19:43:40 [INFO] : 正在获取 [红后] 威胁情报...
-2022-04-14 19:43:41 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
-2022-04-14 19:43:41 [INFO] : --------------------------------------------
-2022-04-14 19:43:41 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 19:43:41 [INFO] : 正在获取 [斗象] 威胁情报...
-2022-04-14 19:43:47 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
-2022-04-14 19:43:47 [INFO] : --------------------------------------------
-2022-04-14 19:43:47 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-14 19:43:47 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
-2022-04-14 19:43:48 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [2] 条
-2022-04-14 19:43:48 [INFO] : --------------------------------------------
-2022-04-14 19:43:48 [INFO] : 
-==============================================
-[ TITLE ] A vulnerability in the encryption implementation of EBICS messages in the open source librairy ebics-java/ebics-java-client allows an attacker sniffing network traffic to decrypt EBICS payloads. This issue affects: ebics-java/ebics-java-client versions prior to 1.2.
-[ TIME  ] 2022-04-14 08:15:00
-[ CVE   ] CVE-2022-1279
-[ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-1279
-2022-04-14 19:43:48 [INFO] : 
-==============================================
-[ TITLE ] A vulnerability classified as problematic was found in Ghostscript 9.55.0. This vulnerability affects the function chunk_free_object of the file gsmchunk.c. The manipulation with a malicious file leads to a memory corruption. The attack can be initiated remotely but requires user interaction. The exploit has been disclosed to the public as a POC and may be used. It is recommended to apply the patches to fix this issue.
-[ TIME  ] 2022-04-14 07:15:00
-[ CVE   ] CVE-2022-1350
-[ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-1350
-2022-04-14 19:43:49 [INFO] : [邮件] 正在推送威胁情报...
-2022-04-14 19:43:49 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
-2022-04-14 19:43:50 [INFO] : [邮件] 推送威胁情报成功
-2022-04-14 19:43:50 [INFO] : 正在提交变更...
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27446
+2022-04-15 01:09:59 [INFO] : [邮件] 正在推送威胁情报...
+2022-04-15 01:09:59 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
+2022-04-15 01:10:00 [INFO] : [邮件] 推送威胁情报成功
+2022-04-15 01:10:00 [INFO] : 正在提交变更...
