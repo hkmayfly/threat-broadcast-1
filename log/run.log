@@ -225,3 +225,189 @@
 2022-04-15 01:09:59 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
 2022-04-15 01:10:00 [INFO] : [邮件] 推送威胁情报成功
 2022-04-15 01:10:00 [INFO] : 正在提交变更...
+2022-04-15 01:10:05 [INFO] : 提交变更成功
+2022-04-15 14:50:25 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-15 14:50:25 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-04-15 14:50:25 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [1] 条
+2022-04-15 14:50:25 [INFO] : --------------------------------------------
+2022-04-15 14:50:25 [INFO] : 
+==============================================
+[ TITLE ] NGINX LDAP参考实现中存在代码执行漏洞
+[ TIME  ] 2022-04-15 09:46:35
+[ CVE   ] 
+[ SRC   ] 数字观星POC++
+[ URL   ] https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=5839
+2022-04-15 14:50:25 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-15 14:50:25 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-04-15 14:50:26 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-04-15 14:50:26 [INFO] : --------------------------------------------
+2022-04-15 14:50:26 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-15 14:50:26 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-04-15 14:50:50 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-04-15 14:50:50 [INFO] : --------------------------------------------
+2022-04-15 14:50:50 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-15 14:50:50 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-04-15 14:51:04 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-04-15 14:51:04 [INFO] : --------------------------------------------
+2022-04-15 14:51:04 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-15 14:51:04 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-04-15 14:51:04 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-04-15 14:51:04 [INFO] : --------------------------------------------
+2022-04-15 14:51:04 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-15 14:51:04 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-04-15 14:51:07 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [8] 条
+2022-04-15 14:51:07 [INFO] : --------------------------------------------
+2022-04-15 14:51:07 [INFO] : 
+==============================================
+[ TITLE ] ASUS RT-AC86U has improper user request handling, which allows an unauthenticated LAN attacker to cause a denial of service by sending particular request a server-to-client reply attempt.
+[ TIME  ] 2022-04-07 19:15:08 
+[ CVE   ] CVE-2022-25595
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25595
+2022-04-15 14:51:07 [INFO] : 
+==============================================
+[ TITLE ] Microprogram&acirc;&euro;&trade;s parking lot management system is vulnerable to sensitive information exposure. An unauthorized remote attacker can input specific URLs to acquire partial system configuration information.
+[ TIME  ] 2022-04-07 19:15:08 
+[ CVE   ] CVE-2022-25594
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25594
+2022-04-15 14:51:07 [INFO] : 
+==============================================
+[ TITLE ] Seyeon Tech Co., Ltd FlexWATCH FW3170-PS-E Network Video System 4.23-3000_GY allows attackers to access sensitive information.
+[ TIME  ] 2022-04-05 01:15:09 
+[ CVE   ] CVE-2022-25584
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25584
+2022-04-15 14:51:07 [INFO] : 
+==============================================
+[ TITLE ] ownCloud owncloud/android before 2.20 has Incorrect Access Control for physically proximate attackers.
+[ TIME  ] 2022-04-07 14:15:07 
+[ CVE   ] CVE-2022-25338
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25338
+2022-04-15 14:51:07 [INFO] : 
+==============================================
+[ TITLE ] In Expat (aka libexpat) before 2.4.5, there is an integer overflow in storeRawNames.
+[ TIME  ] 2022-02-18 05:15:08 
+[ CVE   ] CVE-2022-25315
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25315
+2022-04-15 14:51:07 [INFO] : 
+==============================================
+[ TITLE ] In Expat (aka libexpat) before 2.4.5, there is an integer overflow in copyString.
+[ TIME  ] 2022-02-18 05:15:08 
+[ CVE   ] CVE-2022-25314
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25314
+2022-04-15 14:51:07 [INFO] : 
+==============================================
+[ TITLE ] In Expat (aka libexpat) before 2.4.5, an attacker can trigger stack exhaustion in build_model via a large nesting depth in the DTD element.
+[ TIME  ] 2022-02-18 05:15:08 
+[ CVE   ] CVE-2022-25313
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25313
+2022-04-15 14:51:07 [INFO] : 
+==============================================
+[ TITLE ] Zoho ManageEngine ServiceDesk Plus before 13001 allows anyone to know the organisation's default currency name.
+[ TIME  ] 2022-04-05 19:15:08 
+[ CVE   ] CVE-2022-25245
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25245
+2022-04-15 14:51:07 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-15 14:51:07 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-04-15 14:51:07 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-04-15 14:51:07 [INFO] : --------------------------------------------
+2022-04-15 14:51:07 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-15 14:51:07 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-04-15 14:51:07 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-04-15 14:51:07 [INFO] : --------------------------------------------
+2022-04-15 14:51:07 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-15 14:51:07 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-04-15 14:51:08 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-04-15 14:51:08 [INFO] : --------------------------------------------
+2022-04-15 14:51:08 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-15 14:51:08 [INFO] : 正在获取 [红后] 威胁情报...
+2022-04-15 14:51:08 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-04-15 14:51:08 [INFO] : --------------------------------------------
+2022-04-15 14:51:08 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-15 14:51:08 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-04-15 14:51:11 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-04-15 14:51:11 [INFO] : --------------------------------------------
+2022-04-15 14:51:11 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-15 14:51:11 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-04-15 14:51:12 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [10] 条
+2022-04-15 14:51:12 [INFO] : --------------------------------------------
+2022-04-15 14:51:12 [INFO] : 
+==============================================
+[ TITLE ] OS command injection vulnerability exists in CENTUM VP R4.01.00 to R4.03.00, CENTUM VP Small R4.01.00 to R4.03.00, CENTUM VP Basic R4.01.00 to R4.03.00, and B/M9000 VP R6.01.01 to R6.03.02, which may allow an attacker who can access the computer where the affected product is installed to execute an arbitrary OS command by altering a file generated using Graphic Builder.
+[ TIME  ] 2022-04-15 02:15:00
+[ CVE   ] CVE-2022-27188
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27188
+2022-04-15 14:51:12 [INFO] : 
+==============================================
+[ TITLE ] Improper authentication vulnerability in the communication protocol provided by AD (Automation Design) server of CENTUM VP R6.01.10 to R6.09.00, CENTUM VP Small R6.01.10 to R6.09.00, CENTUM VP Basic R6.01.10 to R6.09.00, and B/M9000 VP R8.01.01 to R8.03.01 allows an attacker to use the functions provided by AD server. This may lead to leakage or tampering of data managed by AD server.
+[ TIME  ] 2022-04-15 02:15:00
+[ CVE   ] CVE-2022-26034
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-26034
+2022-04-15 14:51:12 [INFO] : 
+==============================================
+[ TITLE ] Metabase is an open source business intelligence and analytics application. In affected versions Metabase ships with an internal development endpoint `/_internal` that can allow for cross site scripting (XSS) attacks, potentially leading to phishing attempts with malicious links that could lead to account takeover. Users are advised to either upgrade immediately, or block access in your firewall to `/_internal` endpoints for Metabase. The following patches (or greater versions) are available: 0.42.4 and 1.42.4, 0.41.7 and 1.41.7, 0.40.8 and 1.40.8.
+[ TIME  ] 2022-04-14 22:15:00
+[ CVE   ] CVE-2022-24855
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24855
+2022-04-15 14:51:12 [INFO] : 
+==============================================
+[ TITLE ] Metabase is an open source business intelligence and analytics application. SQLite has an FDW-like feature called `ATTACH DATABASE`, which allows connecting multiple SQLite databases via the initial connection. If the attacker has SQL permissions to at least one SQLite database, then it can attach this database to a second database, and then it can query across all the tables. To be able to do that the attacker also needs to know the file path to the second database. Users are advised to upgrade as soon as possible. If you're unable to upgrade, you can modify your SQLIte connection strings to contain the url argument `?limit_attached=0`, which will disallow making connections to other SQLite databases. Only users making use of SQLite are affected.
+[ TIME  ] 2022-04-14 22:15:00
+[ CVE   ] CVE-2022-24854
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24854
+2022-04-15 14:51:12 [INFO] : 
+==============================================
+[ TITLE ] Metabase is an open source business intelligence and analytics application. Metabase has a proxy to load arbitrary URLs for JSON maps as part of our GeoJSON support. While we do validation to not return contents of arbitrary URLs, there is a case where a particularly crafted request could result in file access on windows, which allows enabling an `NTLM relay attack`, potentially allowing an attacker to receive the system password hash. If you use Windows and are on this version of Metabase, please upgrade immediately. The following patches (or greater versions) are available: 0.42.4 and 1.42.4, 0.41.7 and 1.41.7, 0.40.8 and 1.40.8.
+[ TIME  ] 2022-04-14 22:15:00
+[ CVE   ] CVE-2022-24853
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24853
+2022-04-15 14:51:12 [INFO] : 
+==============================================
+[ TITLE ] Discourse is an open source platform for community discussion. A category's group permissions settings can be viewed by anyone that has access to the category. As a result, a normal user is able to see whether a group has read/write permissions in the category even though the information should only be available to the users that can manage a category. This issue is patched in the latest stable, beta and tests-passed versions of Discourse. There are no workarounds for this problem.
+[ TIME  ] 2022-04-14 22:15:00
+[ CVE   ] CVE-2022-24850
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24850
+2022-04-15 14:51:12 [INFO] : 
+==============================================
+[ TITLE ] DisCatSharp is a Discord API wrapper for .NET. Users of versions 9.8.5, 9.8.6, 9.9.0 and previously published prereleases of 10.0.0 who have used either one of the two `RequireDisCatSharpDeveloperAttribute`s or the `BaseDiscordClient.LibraryDeveloperTeam` have potentially had their bot token sent to a web server not affiliated with Discord. This server is owned and operated by DisCatSharp's development team. The tokens were not logged, yet it is still advisable to reset the tokens of potentially affected bots. 9.9.1 has been released to patch the issue for the current stable release and the current 10.0.0 prereleases are also no longer affected. Users unable to upgrade should remove all uses of the two `RequireDisCatSharpDeveloperAttribute`s and all direct calls to `BaseDiscordClient.LibraryDeveloperTeam`.
+[ TIME  ] 2022-04-14 22:15:00
+[ CVE   ] CVE-2022-24849
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24849
+2022-04-15 14:51:12 [INFO] : 
+==============================================
+[ TITLE ] GeoWebCache is a tile caching server implemented in Java. The GeoWebCache disk quota mechanism can perform an unchecked JNDI lookup, which in turn can be used to perform class deserialization and result in arbitrary code execution. While in GeoWebCache the JNDI strings are provided via local configuration file, in GeoServer a user interface is provided to perform the same, that can be accessed remotely, and requires admin-level login to be used. These lookup are unrestricted in scope and can lead to code execution. The lookups are going to be restricted in GeoWebCache 1.21.0, 1.20.2, 1.19.3.
+[ TIME  ] 2022-04-14 22:15:00
+[ CVE   ] CVE-2022-24846
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24846
+2022-04-15 14:51:12 [INFO] : 
+==============================================
+[ TITLE ] Discourse is an open source platform for community discussion. In affected versions an attacker can poison the cache for anonymous (i.e. not logged in) users, such that the users are shown the crawler view of the site instead of the HTML page. This can lead to a partial denial-of-service. This issue is patched in the latest stable, beta and tests-passed versions of Discourse. There are no known workarounds for this issue.
+[ TIME  ] 2022-04-14 22:15:00
+[ CVE   ] CVE-2022-24824
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24824
+2022-04-15 14:51:12 [INFO] : 
+==============================================
+[ TITLE ] Authenticated (admin+ user) Stored Cross-Site Scripting (XSS) in Modern Events Calendar Lite (WordPress plugin) <= 6.5.1
+[ TIME  ] 2022-04-14 21:15:00
+[ CVE   ] CVE-2022-27848
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27848
+2022-04-15 14:51:12 [INFO] : [邮件] 正在推送威胁情报...
+2022-04-15 14:51:12 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
+2022-04-15 14:51:13 [INFO] : [邮件] 推送威胁情报成功
+2022-04-15 14:51:13 [INFO] : 正在提交变更...

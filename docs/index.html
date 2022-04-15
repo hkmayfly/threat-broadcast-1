@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-04-15 01:09:59 -->
+<!-- RELEASE TIME : 2022-04-15 14:51:12 -->
 <html lang="zh-cn">
 
  <head>
@@ -184,6 +184,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">2408aea41fba7b18240b0ba17d387fe6</td>
+       <td>CVE-2022-27188</td>
+       <td>2022-04-15 02:15:00 <img src="imgs/new.gif" /></td>
+       <td>OS command injection vulnerability exists in CENTUM VP R4.01.00 to R4.03.00, CENTUM VP Small R4.01.00 to R4.03.00, CENTUM VP Basic R4.01.00 to R4.03.00, and B/M9000 VP R6.01.01 to R6.03.02, which may allow an attacker who can access the computer where the affected product is installed to execute an arbitrary OS command by altering a file generated using Graphic Builder.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27188">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4071c7b7f426f2feb69d969190e476b0</td>
+       <td>CVE-2022-26034</td>
+       <td>2022-04-15 02:15:00 <img src="imgs/new.gif" /></td>
+       <td>Improper authentication vulnerability in the communication protocol provided by AD (Automation Design) server of CENTUM VP R6.01.10 to R6.09.00, CENTUM VP Small R6.01.10 to R6.09.00, CENTUM VP Basic R6.01.10 to R6.09.00, and B/M9000 VP R8.01.01 to R8.03.01 allows an attacker to use the functions provided by AD server. This may lead to leakage or tampering of data managed by AD server.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26034">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">93e1d1e451fb7c9410adbd6feea50f0e</td>
+       <td>CVE-2022-24855</td>
+       <td>2022-04-14 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>Metabase is an open source business intelligence and analytics application. In affected versions Metabase ships with an internal development endpoint `/_internal` that can allow for cross site scripting (XSS) attacks, potentially leading to phishing attempts with malicious links that could lead to account takeover. Users are advised to either upgrade immediately, or block access in your firewall to `/_internal` endpoints for Metabase. The following patches (or greater versions) are available: 0.42.4 and 1.42.4, 0.41.7 and 1.41.7, 0.40.8 and 1.40.8.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24855">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">70f8c38870a5b54dcca6697d8a6671c7</td>
+       <td>CVE-2022-24854</td>
+       <td>2022-04-14 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>Metabase is an open source business intelligence and analytics application. SQLite has an FDW-like feature called `ATTACH DATABASE`, which allows connecting multiple SQLite databases via the initial connection. If the attacker has SQL permissions to at least one SQLite database, then it can attach this database to a second database, and then it can query across all the tables. To be able to do that the attacker also needs to know the file path to the second database. Users are advised to upgrade as soon as possible. If you're unable to upgrade, you can modify your SQLIte connection strings to contain the url argument `?limit_attached=0`, which will disallow making connections to other SQLite databases. Only users making use of SQLite are affected.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24854">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ad303ee1547f13b3c37e57e0f606fcab</td>
+       <td>CVE-2022-24853</td>
+       <td>2022-04-14 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>Metabase is an open source business intelligence and analytics application. Metabase has a proxy to load arbitrary URLs for JSON maps as part of our GeoJSON support. While we do validation to not return contents of arbitrary URLs, there is a case where a particularly crafted request could result in file access on windows, which allows enabling an `NTLM relay attack`, potentially allowing an attacker to receive the system password hash. If you use Windows and are on this version of Metabase, please upgrade immediately. The following patches (or greater versions) are available: 0.42.4 and 1.42.4, 0.41.7 and 1.41.7, 0.40.8 and 1.40.8.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24853">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">38911c47dad6e90c0fbd1833c16fa721</td>
+       <td>CVE-2022-24850</td>
+       <td>2022-04-14 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>Discourse is an open source platform for community discussion. A category's group permissions settings can be viewed by anyone that has access to the category. As a result, a normal user is able to see whether a group has read/write permissions in the category even though the information should only be available to the users that can manage a category. This issue is patched in the latest stable, beta and tests-passed versions of Discourse. There are no workarounds for this problem.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24850">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f304474a414b112ed208d8b016f0c532</td>
+       <td>CVE-2022-24849</td>
+       <td>2022-04-14 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>DisCatSharp is a Discord API wrapper for .NET. Users of versions 9.8.5, 9.8.6, 9.9.0 and previously published prereleases of 10.0.0 who have used either one of the two `RequireDisCatSharpDeveloperAttribute`s or the `BaseDiscordClient.LibraryDeveloperTeam` have potentially had their bot token sent to a web server not affiliated with Discord. This server is owned and operated by DisCatSharp's development team. The tokens were not logged, yet it is still advisable to reset the tokens of potentially affected bots. 9.9.1 has been released to patch the issue for the current stable release and the current 10.0.0 prereleases are also no longer affected. Users unable to upgrade should remove all uses of the two `RequireDisCatSharpDeveloperAttribute`s and all direct calls to `BaseDiscordClient.LibraryDeveloperTeam`.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24849">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f5161541850fa44124b3fb1801a3f6c9</td>
+       <td>CVE-2022-24846</td>
+       <td>2022-04-14 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>GeoWebCache is a tile caching server implemented in Java. The GeoWebCache disk quota mechanism can perform an unchecked JNDI lookup, which in turn can be used to perform class deserialization and result in arbitrary code execution. While in GeoWebCache the JNDI strings are provided via local configuration file, in GeoServer a user interface is provided to perform the same, that can be accessed remotely, and requires admin-level login to be used. These lookup are unrestricted in scope and can lead to code execution. The lookups are going to be restricted in GeoWebCache 1.21.0, 1.20.2, 1.19.3.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24846">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">919e2ffaabef172703bdf8035f4fb17a</td>
+       <td>CVE-2022-24824</td>
+       <td>2022-04-14 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>Discourse is an open source platform for community discussion. In affected versions an attacker can poison the cache for anonymous (i.e. not logged in) users, such that the users are shown the crawler view of the site instead of the HTML page. This can lead to a partial denial-of-service. This issue is patched in the latest stable, beta and tests-passed versions of Discourse. There are no known workarounds for this issue.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24824">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2a45bb3aefc7d3165a22701682ae7d4f</td>
+       <td>CVE-2022-27848</td>
+       <td>2022-04-14 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>Authenticated (admin+ user) Stored Cross-Site Scripting (XSS) in Modern Events Calendar Lite (WordPress plugin) <= 6.5.1</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27848">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">4c8fd550283f1020057dc95a34b0c716</td>
        <td>CVE-2022-27458</td>
        <td>2022-04-14 13:15:00 <img src="imgs/new.gif" /></td>
@@ -341,86 +421,6 @@
        <td>2022-04-13 21:15:00</td>
        <td>JAI-EXT is an open-source project which aims to extend the Java Advanced Imaging (JAI) API. Programs allowing Jiffle script to be provided via network request can lead to a Remote Code Execution as the Jiffle script is compiled into Java code via Janino, and executed. In particular, this affects the downstream GeoServer project. Version 1.2.22 will contain a patch that disables the ability to inject malicious code into the resulting script. Users unable to upgrade may negate the ability to compile Jiffle scripts from the final application, by removing janino-x.y.z.jar from the classpath.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24816">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f2ffc3cd27bce2a1855491131f0b558c</td>
-       <td>CVE-2022-27479</td>
-       <td>2022-04-13 19:15:00</td>
-       <td>Apache Superset before 1.4.2 is vulnerable to SQL injection in chart data requests. Users should update to 1.4.2 or higher which addresses this issue.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27479">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3fed8091cebacb737a181c4df1a656ff</td>
-       <td>CVE-2022-24788</td>
-       <td>2022-04-13 19:15:00</td>
-       <td>Vyper is a pythonic Smart Contract Language for the ethereum virtual machine. Versions of vyper prior to 0.3.2 suffer from a potential buffer overrun. Importing a function from a JSON interface which returns `bytes` generates bytecode which does not clamp bytes length, potentially resulting in a buffer overrun. Users are advised to upgrade. There are no known workarounds for this issue.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24788">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d4946f49431a39deff8738ffa7d1d342</td>
-       <td>CVE-2022-29156</td>
-       <td>2022-04-13 07:15:00</td>
-       <td>drivers/infiniband/ulp/rtrs/rtrs-clt.c in the Linux kernel before 5.16.12 has a double free related to rtrs_clt_dev_release.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29156">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e27f1c27ed61db2c7b71dbbf066b0eeb</td>
-       <td>CVE-2022-22279</td>
-       <td>2022-04-13 06:15:00</td>
-       <td>** UNSUPPORTED WHEN ASSIGNED ** A post-authentication arbitrary file read vulnerability impacting end-of-life Secure Remote Access (SRA) products and older firmware versions of Secure Mobile Access (SMA) 100 series products, specifically the SRA appliances running all 8.x, 9.0.0.5-19sv and earlier versions and Secure Mobile Access (SMA) 100 series products running older firmware 9.0.0.9-26sv and earlier versions.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-22279">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b903e9e2a0c0e45ecc205af265cbe312</td>
-       <td>CVE-2022-26589</td>
-       <td>2022-04-13 00:15:00</td>
-       <td>A Cross-Site Request Forgery (CSRF) in Pluck CMS v4.7.15 allows attackers to delete arbitrary pages.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26589">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">88de7b9b5a8245fb323ef64694dc4b39</td>
-       <td>CVE-2022-26151</td>
-       <td>2022-04-13 00:15:00</td>
-       <td>Citrix XenMobile Server 10.12 through RP11, 10.13 through RP6, and 10.14 through RP4 allows Command Injection.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26151">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f5355a7cfdf1535f9417d91f69d0ea25</td>
-       <td>CVE-2021-44520</td>
-       <td>2022-04-13 00:15:00</td>
-       <td>In Citrix XenMobile Server through 10.12 RP9, there is an Authenticated Command Injection vulnerability, leading to remote code execution with root privileges.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-44520">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">76f1533785d34cff6b905d32f99bfef4</td>
-       <td>CVE-2022-1330</td>
-       <td>2022-04-12 21:15:00</td>
-       <td>stored xss due to unsantized anchor url in GitHub repository alvarotrigo/fullpage.js prior to 4.0.4. stored xss .</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1330">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">75c789c973801ccacded4d30be1381fa</td>
-       <td>CVE-2022-0436</td>
-       <td>2022-04-12 21:15:00</td>
-       <td>Path Traversal in GitHub repository gruntjs/grunt prior to 1.5.2.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-0436">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">17373b736b83c25d98dca7f21af8a189</td>
-       <td>CVE-2022-29052</td>
-       <td>2022-04-12 20:15:00</td>
-       <td>Jenkins Google Compute Engine Plugin 4.3.8 and earlier stores private keys unencrypted in cloud agent config.xml files on the Jenkins controller where they can be viewed by users with Extended Read permission, or access to the Jenkins controller file system.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29052">详情</a></td>
       </tr>
 
      </tbody>
@@ -1324,6 +1324,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">834e00d23cec0a1599cc78d1ab896c4f</td>
+       <td></td>
+       <td>2022-04-15 09:46:35 <img src="imgs/new.gif" /></td>
+       <td>NGINX LDAP参考实现中存在代码执行漏洞</td>
+       <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=5839">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">4506df8f1738ba788057ad7c5cc8352b</td>
        <td>CVE-2022-24491,CVE-2022-24497,CVE-2022-26809,CVE-2022-22008,CVE-2022-23257,CVE-2022-24537,CVE-2022-24500,CVE-2022-26919,CVE-2022-24541,CVE-2022-23259,CVE-2022-26904,CVE-2022-24474,CVE-2022-24542,CVE-2022-26914,CVE-2022-24481</td>
        <td>2022-04-13 11:53:33</td>
@@ -1553,14 +1561,6 @@
        <td>2022-02-16 15:11:18</td>
        <td>智跃软件 人力资源管理系统 GenerateEntityFromTable.aspx 存在SQL注入漏洞</td>
        <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=5458">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e19f604bf74c533da0ea92e5a0b2e27a</td>
-       <td></td>
-       <td>2022-02-16 15:05:09</td>
-       <td>云翌IP呼叫中心 CheckCti 存在SQL注入漏洞</td>
-       <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=5457">详情</a></td>
       </tr>
 
      </tbody>
@@ -2244,6 +2244,30 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">e15c0cd617b14bdea5813f71a6aa2874</td>
+       <td>CVE-2022-25595</td>
+       <td>2022-04-07 19:15:08 </td>
+       <td>ASUS RT-AC86U has improper user request handling, which allows an unauthenticated LAN attacker to cause a denial of service by sending particular request a server-to-client reply attempt.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25595">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">01a49682a0b7dacccf0bfad3e9b0d45c</td>
+       <td>CVE-2022-25594</td>
+       <td>2022-04-07 19:15:08 </td>
+       <td>Microprogram&acirc;&euro;&trade;s parking lot management system is vulnerable to sensitive information exposure. An unauthorized remote attacker can input specific URLs to acquire partial system configuration information.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25594">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f11630a2cd658cee0de3615af39e3deb</td>
+       <td>CVE-2022-25338</td>
+       <td>2022-04-07 14:15:07 </td>
+       <td>ownCloud owncloud/android before 2.20 has Incorrect Access Control for physically proximate attackers.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25338">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">b945743062fdea22f878e7c5456b4639</td>
        <td>CVE-2022-28468</td>
        <td>2022-04-05 20:15:09 </td>
@@ -2268,11 +2292,27 @@
       </tr>
 
       <tr>
+       <td scope="row">956ad0d6c89241b81bcdc516ab078c9b</td>
+       <td>CVE-2022-25245</td>
+       <td>2022-04-05 19:15:08 </td>
+       <td>Zoho ManageEngine ServiceDesk Plus before 13001 allows anyone to know the organisation's default currency name.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25245">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">748c8f0ddc0b9e84867ad2160697ca00</td>
        <td>CVE-2022-25356</td>
        <td>2022-04-05 02:15:07 </td>
        <td>Alt-N MDaemon Security Gateway through 8.5.0 allows SecurityGateway.dll?view=login XML Injection.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25356">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ae584bce860db94e301bc83e7cba4b8e</td>
+       <td>CVE-2022-25584</td>
+       <td>2022-04-05 01:15:09 </td>
+       <td>Seyeon Tech Co., Ltd FlexWATCH FW3170-PS-E Network Video System 4.23-3000_GY allows attackers to access sensitive information.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25584">详情</a></td>
       </tr>
 
       <tr>
@@ -2441,46 +2481,6 @@
        <td>2022-04-01 20:15:07 </td>
        <td>Dell Wyse Management Suite versions 2.0 through 3.5.2 contain an unrestricted file upload vulnerability. A malicious user with admin privileges can exploit this vulnerability in order to execute arbitrary code on the system.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-23155">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4e93261e2c11c9a6dce73545aa1628ac</td>
-       <td>CVE-2022-22404</td>
-       <td>2022-04-01 17:15:09 </td>
-       <td>IBM App Connect Enterprise Certified Container Dashboard UI (IBM App Connect Enterprise Certified Container 1.5, 2.0, 2.1, 3.0, and 3.1) may be vulnerable to denial of service due to excessive rate limiting.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22404">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e830a895771d88b32df94f4014b8c246</td>
-       <td>CVE-2022-25915</td>
-       <td>2022-03-31 09:15:11 </td>
-       <td>Improper access control vulnerability in ELECOM LAN routers (WRC-1167GST2 firmware v1.25 and prior, WRC-1167GST2A firmware v1.25 and prior, WRC-1167GST2H firmware v1.25 and prior, WRC-2533GS2-B firmware v1.52 and prior, WRC-2533GS2-W firmware v1.52 and prior, WRC-1750GS firmware v1.03 and prior, WRC-1750GSV firmware v2.11 and prior, WRC-1900GST firmware v1.03 and prior, WRC-2533GST firmware v1.03 and prior, WRC-2533GSTA firmware v1.03 and prior, WRC-2533GST2 firmware v1.25 and prior, WRC-2533GST2SP firmware v1.25 and prior, WRC-2533GST2-G firmware v1.25 and prior, and EDWRC-2533GST2 firmware v1.25 and prior) allows a network-adjacent authenticated attacker to bypass access restriction and to access the management screen of the product via unspecified vectors.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25915">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8d9c65f1488c66883ad8e2d7b94297b2</td>
-       <td>CVE-2022-28128</td>
-       <td>2022-03-31 08:15:08 </td>
-       <td>Untrusted search path vulnerability in AttacheCase ver.3.6.1.0 and earlier allows an attacker to gain privileges and execute arbitrary code via a Trojan horse DLL in an unspecified directory.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-28128">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">26fee1b5393b955029ccc005d0d97b51</td>
-       <td>CVE-2022-26019</td>
-       <td>2022-03-31 08:15:08 </td>
-       <td>Improper access control vulnerability in pfSense CE and pfSense Plus (pfSense CE software versions prior to 2.6.0 and pfSense Plus software versions prior to 22.01) allows a remote attacker with the privilege to change NTP GPS settings to rewrite existing files on the file system, which may result in arbitrary command execution.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26019">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">16e273f49cb58c5d5dcb65f6c5370240</td>
-       <td>CVE-2022-25348</td>
-       <td>2022-03-31 08:15:08 </td>
-       <td>Untrusted search path vulnerability in AttacheCase ver.4.0.2.7 and earlier allows an attacker to gain privileges and execute arbitrary code via a Trojan horse DLL in an unspecified directory.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25348">详情</a></td>
       </tr>
 
      </tbody>
