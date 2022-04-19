@@ -328,3 +328,203 @@
 2022-04-19 10:28:24 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
 2022-04-19 10:28:24 [INFO] : --------------------------------------------
 2022-04-19 10:28:24 [INFO] : 正在提交变更...
+2022-04-19 10:28:27 [INFO] : 提交变更成功
+2022-04-19 14:35:29 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-19 14:35:29 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-04-19 14:35:30 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-04-19 14:35:30 [INFO] : --------------------------------------------
+2022-04-19 14:35:30 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-19 14:35:30 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-04-19 14:35:30 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-04-19 14:35:30 [INFO] : --------------------------------------------
+2022-04-19 14:35:30 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-19 14:35:30 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-04-19 14:35:56 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [10] 条
+2022-04-19 14:35:56 [INFO] : --------------------------------------------
+2022-04-19 14:35:56 [INFO] : 
+==============================================
+[ TITLE ] radare2资源管理错误漏洞
+[ TIME  ] 2022-04-19 14:35:35
+[ CVE   ] CNVD-2022-30437 (CVE-2022-1284)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-30437
+2022-04-19 14:35:56 [INFO] : 
+==============================================
+[ TITLE ] zbzcms SQL注入漏洞
+[ TIME  ] 2022-04-19 14:35:37
+[ CVE   ] CNVD-2022-30430 (CVE-2022-27127)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-30430
+2022-04-19 14:35:56 [INFO] : 
+==============================================
+[ TITLE ] zbzcms跨站脚本漏洞
+[ TIME  ] 2022-04-19 14:35:39
+[ CVE   ] CNVD-2022-30431 (CVE-2022-27125)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-30431
+2022-04-19 14:35:56 [INFO] : 
+==============================================
+[ TITLE ] zbzcms任意文件上传漏洞
+[ TIME  ] 2022-04-19 14:35:42
+[ CVE   ] CNVD-2022-30432 (CVE-2022-27131)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-30432
+2022-04-19 14:35:56 [INFO] : 
+==============================================
+[ TITLE ] zbzcms SQL注入漏洞
+[ TIME  ] 2022-04-19 14:35:44
+[ CVE   ] CNVD-2022-30433 (CVE-2022-27126)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-30433
+2022-04-19 14:35:56 [INFO] : 
+==============================================
+[ TITLE ] zbzcms访问控制错误漏洞
+[ TIME  ] 2022-04-19 14:35:46
+[ CVE   ] CNVD-2022-30434 (CVE-2022-27128)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-30434
+2022-04-19 14:35:56 [INFO] : 
+==============================================
+[ TITLE ] zbzcms任意文件上传漏洞
+[ TIME  ] 2022-04-19 14:35:48
+[ CVE   ] CNVD-2022-30435 (CVE-2022-27129)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-30435
+2022-04-19 14:35:56 [INFO] : 
+==============================================
+[ TITLE ] zbzcms任意文件删除漏洞
+[ TIME  ] 2022-04-19 14:35:51
+[ CVE   ] CNVD-2022-30436 (CVE-2022-27133)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-30436
+2022-04-19 14:35:56 [INFO] : 
+==============================================
+[ TITLE ] radare2缓冲区溢出漏洞
+[ TIME  ] 2022-04-19 14:35:53
+[ CVE   ] CNVD-2022-30438 (CVE-2022-1244)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-30438
+2022-04-19 14:35:56 [INFO] : 
+==============================================
+[ TITLE ] radare2越界读取漏洞
+[ TIME  ] 2022-04-19 14:35:55
+[ CVE   ] CNVD-2022-30439 (CVE-2022-1207)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-30439
+2022-04-19 14:35:56 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-19 14:35:56 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-04-19 14:36:52 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-04-19 14:36:52 [INFO] : --------------------------------------------
+2022-04-19 14:36:52 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-19 14:36:52 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-04-19 14:36:53 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-04-19 14:36:53 [INFO] : --------------------------------------------
+2022-04-19 14:36:53 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-19 14:36:53 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-04-19 14:36:55 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [10] 条
+2022-04-19 14:36:55 [INFO] : --------------------------------------------
+2022-04-19 14:36:55 [INFO] : 
+==============================================
+[ TITLE ] Taiwan Secom Dr.ID Access Control system&acirc;&euro;&trade;s login page has a hard-coded credential in the source code. An unauthenticated remote attacker can use the hard-coded credential to acquire partial system information and modify system setting to cause partial disrupt of service.
+[ TIME  ] 2022-04-07 19:15:09 
+[ CVE   ] CVE-2022-26671
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26671
+2022-04-19 14:36:55 [INFO] : 
+==============================================
+[ TITLE ] D-Link DIR-878 has inadequate filtering for special characters in the webpage input field. An unauthenticated LAN attacker can perform command injection attack to execute arbitrary system commands to control the system or disrupt service.
+[ TIME  ] 2022-04-07 19:15:08 
+[ CVE   ] CVE-2022-26670
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26670
+2022-04-19 14:36:55 [INFO] : 
+==============================================
+[ TITLE ] PHP-Memcached v2.2.0 and below contains an improper NULL termination which allows attackers to execute CLRF injection.
+[ TIME  ] 2022-04-05 17:15:08 
+[ CVE   ] CVE-2022-26635
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26635
+2022-04-19 14:36:55 [INFO] : 
+==============================================
+[ TITLE ] Jellycms v3.8.1 and below was discovered to contain an arbitrary file upload vulnerability via \app.\admin\Controllers\db.php.
+[ TIME  ] 2022-04-05 18:15:07 
+[ CVE   ] CVE-2022-26630
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26630
+2022-04-19 14:36:55 [INFO] : 
+==============================================
+[ TITLE ] Bootstrap v3.1.11 and v3.3.7 was discovered to contain a cross-site scripting (XSS) vulnerability via the Title parameter in /vendor/views/add_product.php.
+[ TIME  ] 2022-04-08 09:15:11 
+[ CVE   ] CVE-2022-26624
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26624
+2022-04-19 14:36:55 [INFO] : 
+==============================================
+[ TITLE ] In Apache Hadoop, The unTar function uses unTarUsingJava function on Windows and the built-in tar utility on Unix and other OSes. As a result, a TAR entry may create a symlink under the expected extraction directory which points to an external directory. A subsequent TAR entry may extract an arbitrary file into the external directory using the symlink name. This however would be caught by the same targetDirPath check on Unix because of the getCanonicalPath call. However on Windows, getCanonicalPath doesn't resolve symbolic links, which bypasses the check. unpackEntries during TAR extraction follows symbolic links which allows writing outside expected base directory on Windows. This was addressed in Apache Hadoop 3.2.3
+[ TIME  ] 2022-04-07 19:15:08 
+[ CVE   ] CVE-2022-26612
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26612
+2022-04-19 14:36:55 [INFO] : 
+==============================================
+[ TITLE ] FANTEC GmbH MWiD25-DS Firmware v2.000.030 allows unauthenticated attackers to access and download arbitrary files via a crafted GET request.
+[ TIME  ] 2022-04-06 20:15:09 
+[ CVE   ] CVE-2022-26591
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26591
+2022-04-19 14:36:55 [INFO] : 
+==============================================
+[ TITLE ] A Cross-Site Request Forgery (CSRF) in IceHrm 31.0.0.OS allows attackers to delete arbitrary users or achieve account takeover via the app/service.php URI.
+[ TIME  ] 2022-04-08 21:15:08 
+[ CVE   ] CVE-2022-26588
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26588
+2022-04-19 14:36:55 [INFO] : 
+==============================================
+[ TITLE ] A potential buffer overflow vulnerability was identified in some internal functions of Zyxel VMG3312-T20A firmware version 5.30(ABFX.5)C0, which could be exploited by a local authenticated attacker to cause a denial of service.
+[ TIME  ] 2022-04-11 13:15:07 
+[ CVE   ] CVE-2022-26414
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26414
+2022-04-19 14:36:55 [INFO] : 
+==============================================
+[ TITLE ] A command injection vulnerability in the CGI program of Zyxel VMG3312-T20A firmware version 5.30(ABFX.5)C0 could allow a local authenticated attacker to execute arbitrary OS commands on a vulnerable device via a LAN interface.
+[ TIME  ] 2022-04-11 13:15:07 
+[ CVE   ] CVE-2022-26413
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26413
+2022-04-19 14:36:55 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-19 14:36:55 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-04-19 14:37:00 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-04-19 14:37:00 [INFO] : --------------------------------------------
+2022-04-19 14:37:00 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-19 14:37:00 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-04-19 14:37:01 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-04-19 14:37:01 [INFO] : --------------------------------------------
+2022-04-19 14:37:01 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-19 14:37:01 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-04-19 14:37:01 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-04-19 14:37:01 [INFO] : --------------------------------------------
+2022-04-19 14:37:01 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-19 14:37:01 [INFO] : 正在获取 [红后] 威胁情报...
+2022-04-19 14:37:01 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-04-19 14:37:01 [INFO] : --------------------------------------------
+2022-04-19 14:37:01 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-19 14:37:01 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-04-19 14:37:05 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-04-19 14:37:05 [INFO] : --------------------------------------------
+2022-04-19 14:37:05 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-19 14:37:05 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-04-19 14:37:06 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [1] 条
+2022-04-19 14:37:06 [INFO] : --------------------------------------------
+2022-04-19 14:37:06 [INFO] : 
+==============================================
+[ TITLE ] Selenium Server (Grid) before 4 allows CSRF because it permits non-JSON content types such as application/x-www-form-urlencoded, multipart/form-data, and text/plain.
+[ TIME  ] 2022-04-19 03:15:00
+[ CVE   ] CVE-2022-28108
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-28108
+2022-04-19 14:37:06 [INFO] : [邮件] 正在推送威胁情报...
+2022-04-19 14:37:06 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
+2022-04-19 14:37:07 [INFO] : [邮件] 推送威胁情报成功
+2022-04-19 14:37:07 [INFO] : 正在提交变更...
