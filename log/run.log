@@ -662,3 +662,245 @@
 2022-04-19 16:09:08 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
 2022-04-19 16:09:09 [INFO] : [邮件] 推送威胁情报成功
 2022-04-19 16:09:09 [INFO] : 正在提交变更...
+2022-04-19 16:09:15 [INFO] : 提交变更成功
+2022-04-19 18:11:57 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-19 18:11:57 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-04-19 18:11:58 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-04-19 18:11:58 [INFO] : --------------------------------------------
+2022-04-19 18:11:58 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-19 18:11:58 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-04-19 18:11:58 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-04-19 18:11:58 [INFO] : --------------------------------------------
+2022-04-19 18:11:58 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-19 18:11:58 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-04-19 18:12:20 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [1] 条
+2022-04-19 18:12:20 [INFO] : --------------------------------------------
+2022-04-19 18:12:20 [INFO] : 
+==============================================
+[ TITLE ] 武汉金同方科技有限公司月子会所ERP管理平台存在SQL注入漏洞
+[ TIME  ] 2022-04-19 18:12:00
+[ CVE   ] CNVD-2022-20213
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-20213
+2022-04-19 18:12:20 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-19 18:12:20 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-04-19 18:12:33 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-04-19 18:12:33 [INFO] : --------------------------------------------
+2022-04-19 18:12:33 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-19 18:12:33 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-04-19 18:12:34 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-04-19 18:12:34 [INFO] : --------------------------------------------
+2022-04-19 18:12:34 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-19 18:12:34 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-04-19 18:12:36 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [1] 条
+2022-04-19 18:12:36 [INFO] : --------------------------------------------
+2022-04-19 18:12:36 [INFO] : 
+==============================================
+[ TITLE ] IOMMU: RMRR (VT-d) and unity map (AMD-Vi) handling issues T[his CNA information record relates to multiple CVEs; the text explains which aspects/vulnerabilities correspond to which CVE.] Certain PCI devices in a system might be assigned Reserved Memory Regions (specified via Reserved Memory Region Reporting, &quot;RMRR&quot;) for Intel VT-d or Unity Mapping ranges for AMD-Vi. These are typically used for platform tasks such as legacy USB emulation. Since the precise purpose of these regions is unknown, once a device associated with such a region is active, the mappings of these regions need to remain continuouly accessible by the device. This requirement has been violated. Subsequent DMA or interrupts from the device may have unpredictable behaviour, ranging from IOMMU faults to memory corruption.
+[ TIME  ] 2022-04-05 13:15:07 
+[ CVE   ] CVE-2022-26361
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26361
+2022-04-19 18:12:36 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-19 18:12:36 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-04-19 18:12:36 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-04-19 18:12:36 [INFO] : --------------------------------------------
+2022-04-19 18:12:36 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-19 18:12:36 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-04-19 18:12:37 [INFO] : 得到 [绿盟] 最新威胁情报 [15] 条
+2022-04-19 18:12:37 [INFO] : --------------------------------------------
+2022-04-19 18:12:37 [INFO] : 
+==============================================
+[ TITLE ] Ubiquiti UniFi Network输入验证错误漏洞
+[ TIME  ] 2022-04-19 18:12:36
+[ CVE   ] CVE-2021-44530
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64327
+2022-04-19 18:12:37 [INFO] : 
+==============================================
+[ TITLE ] Oracle Financial Services Applications信息泄露漏洞
+[ TIME  ] 2022-04-19 18:12:36
+[ CVE   ] CVE-2021-35686
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64326
+2022-04-19 18:12:37 [INFO] : 
+==============================================
+[ TITLE ] Oracle MySQL Cluster拒绝服务漏洞
+[ TIME  ] 2022-04-19 18:12:36
+[ CVE   ] CVE-2022-21317
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64325
+2022-04-19 18:12:37 [INFO] : 
+==============================================
+[ TITLE ] Oracle MySQL Cluster拒绝服务漏洞
+[ TIME  ] 2022-04-19 18:12:36
+[ CVE   ] CVE-2022-21323
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64324
+2022-04-19 18:12:37 [INFO] : 
+==============================================
+[ TITLE ] Oracle MySQL Server拒绝服务漏洞
+[ TIME  ] 2022-04-19 18:12:36
+[ CVE   ] CVE-2022-21348
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64323
+2022-04-19 18:12:37 [INFO] : 
+==============================================
+[ TITLE ] Oracle MySQL Server拒绝服务漏洞
+[ TIME  ] 2022-04-19 18:12:36
+[ CVE   ] CVE-2022-21372
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64322
+2022-04-19 18:12:37 [INFO] : 
+==============================================
+[ TITLE ] Oracle MySQL Server拒绝服务漏洞
+[ TIME  ] 2022-04-19 18:12:36
+[ CVE   ] CVE-2022-21378
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64321
+2022-04-19 18:12:37 [INFO] : 
+==============================================
+[ TITLE ] Oracle MySQL Cluster拒绝服务漏洞
+[ TIME  ] 2022-04-19 18:12:36
+[ CVE   ] CVE-2022-21311
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64320
+2022-04-19 18:12:37 [INFO] : 
+==============================================
+[ TITLE ] Oracle MySQL Server信息泄露漏洞
+[ TIME  ] 2022-04-19 18:12:36
+[ CVE   ] CVE-2022-21245
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64319
+2022-04-19 18:12:37 [INFO] : 
+==============================================
+[ TITLE ] Allwinner Technology R818 SoC Android Q SDK整数溢出漏洞
+[ TIME  ] 2022-04-19 18:12:36
+[ CVE   ] CVE-2021-38787
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64318
+2022-04-19 18:12:37 [INFO] : 
+==============================================
+[ TITLE ] ASUS VivoMini/Mini PC输入验证错误漏洞
+[ TIME  ] 2022-04-19 18:12:36
+[ CVE   ] CVE-2022-21933
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64317
+2022-04-19 18:12:37 [INFO] : 
+==============================================
+[ TITLE ] IBM WebSphere Application Server Liberty信息泄露漏洞
+[ TIME  ] 2022-04-19 18:12:36
+[ CVE   ] CVE-2022-22310
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64316
+2022-04-19 18:12:37 [INFO] : 
+==============================================
+[ TITLE ] Cacti跨站脚本漏洞
+[ TIME  ] 2022-04-19 18:12:36
+[ CVE   ] CVE-2021-23225
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64315
+2022-04-19 18:12:37 [INFO] : 
+==============================================
+[ TITLE ] Hitachi Energy LinkOne跨站脚本漏洞
+[ TIME  ] 2022-04-19 18:12:36
+[ CVE   ] CVE-2021-40337
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64314
+2022-04-19 18:12:37 [INFO] : 
+==============================================
+[ TITLE ] Nlnet Labs ldns缓冲区溢出漏洞
+[ TIME  ] 2022-04-19 18:12:36
+[ CVE   ] CVE-2020-19861
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64313
+2022-04-19 18:12:37 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-19 18:12:37 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-04-19 18:12:37 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-04-19 18:12:37 [INFO] : --------------------------------------------
+2022-04-19 18:12:37 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-19 18:12:37 [INFO] : 正在获取 [红后] 威胁情报...
+2022-04-19 18:12:38 [INFO] : 得到 [红后] 最新威胁情报 [10] 条
+2022-04-19 18:12:38 [INFO] : --------------------------------------------
+2022-04-19 18:12:38 [INFO] : 
+==============================================
+[ TITLE ] Solarwinds Orion Platform 安全漏洞
+[ TIME  ] 2022-04-19 13:51:22
+[ CVE   ] CVE-2021-3109
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=c796f1e7a27547dc9c6403a2eed186f2
+2022-04-19 18:12:38 [INFO] : 
+==============================================
+[ TITLE ] Esri Arcgis Server 缓冲区错误漏洞
+[ TIME  ] 2022-04-19 13:51:18
+[ CVE   ] CVE-2021-29095
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=95b2eb1e8e5545e7ac589950166206ab
+2022-04-19 18:12:38 [INFO] : 
+==============================================
+[ TITLE ] SEO Panel 跨站脚本漏洞
+[ TIME  ] 2022-04-19 13:51:13
+[ CVE   ] CVE-2021-29010
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=c42f4b87537646a6a8e2a52cd84041c7
+2022-04-19 18:12:38 [INFO] : 
+==============================================
+[ TITLE ] SEO Panel 跨站脚本漏洞
+[ TIME  ] 2022-04-19 13:51:09
+[ CVE   ] CVE-2021-29008
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=1a50370e6c744ebeaed03a0c690af251
+2022-04-19 18:12:38 [INFO] : 
+==============================================
+[ TITLE ] Hashicorp Terraform 安全漏洞
+[ TIME  ] 2022-04-19 13:51:01
+[ CVE   ] CVE-2021-3153
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=8bee276f241d411e949fbd39c850408c
+2022-04-19 18:12:38 [INFO] : 
+==============================================
+[ TITLE ] Esri 多款产品缓冲区错误漏洞
+[ TIME  ] 2022-04-19 13:50:57
+[ CVE   ] CVE-2021-29097
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=63d47b1ea3be4e608142aaaef972650f
+2022-04-19 18:12:38 [INFO] : 
+==============================================
+[ TITLE ] Esri ArcGIS Server 资源管理错误漏洞
+[ TIME  ] 2022-04-19 13:50:53
+[ CVE   ] CVE-2021-29093
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=c8574161a26b4399bf4e51a44ab8364c
+2022-04-19 18:12:38 [INFO] : 
+==============================================
+[ TITLE ] Esri 多款产品缓冲区错误漏洞
+[ TIME  ] 2022-04-19 13:50:49
+[ CVE   ] CVE-2021-29098
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=258ccd3962ce43a688db373db6fe2a9b
+2022-04-19 18:12:38 [INFO] : 
+==============================================
+[ TITLE ] SEO Panel 跨站脚本漏洞
+[ TIME  ] 2022-04-19 13:50:45
+[ CVE   ] CVE-2021-29009
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=91a73b9e1ad940e08e630010ac440dfb
+2022-04-19 18:12:38 [INFO] : 
+==============================================
+[ TITLE ] Esri Arcgis Server 代码问题漏洞
+[ TIME  ] 2022-04-19 13:50:41
+[ CVE   ] CVE-2021-29094
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=fd2d9f1f69564fbb88ba91f21eb780a8
+2022-04-19 18:12:38 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-19 18:12:38 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-04-19 18:12:40 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-04-19 18:12:40 [INFO] : --------------------------------------------
+2022-04-19 18:12:40 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-19 18:12:40 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-04-19 18:12:41 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
+2022-04-19 18:12:41 [INFO] : --------------------------------------------
+2022-04-19 18:12:41 [INFO] : [邮件] 正在推送威胁情报...
+2022-04-19 18:12:41 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
+2022-04-19 18:12:42 [INFO] : [邮件] 推送威胁情报成功
+2022-04-19 18:12:42 [INFO] : 正在提交变更...
