@@ -260,3 +260,196 @@
 2022-04-20 01:22:55 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
 2022-04-20 01:22:57 [INFO] : [邮件] 推送威胁情报成功
 2022-04-20 01:22:57 [INFO] : 正在提交变更...
+2022-04-20 01:23:02 [INFO] : 提交变更成功
+2022-04-20 10:31:40 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-20 10:31:40 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-04-20 10:31:40 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-04-20 10:31:40 [INFO] : --------------------------------------------
+2022-04-20 10:31:40 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-20 10:31:40 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-04-20 10:31:41 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-04-20 10:31:41 [INFO] : --------------------------------------------
+2022-04-20 10:31:41 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-20 10:31:41 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-04-20 10:32:05 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-04-20 10:32:05 [INFO] : --------------------------------------------
+2022-04-20 10:32:05 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-20 10:32:05 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-04-20 10:32:57 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-04-20 10:32:57 [INFO] : --------------------------------------------
+2022-04-20 10:32:57 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-20 10:32:57 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-04-20 10:32:58 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-04-20 10:32:58 [INFO] : --------------------------------------------
+2022-04-20 10:32:58 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-20 10:32:58 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-04-20 10:33:00 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [10] 条
+2022-04-20 10:33:00 [INFO] : --------------------------------------------
+2022-04-20 10:33:00 [INFO] : 
+==============================================
+[ TITLE ] The One Click Demo Import WordPress plugin before 3.1.0 does not validate the imported file, allowing high privilege users such as admin to upload arbitrary files (such as PHP) even when FILE_MODS and FILE_EDIT are disallowed
+[ TIME  ] 2022-04-11 15:15:09 
+[ CVE   ] CVE-2022-1008
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-1008
+2022-04-20 10:33:00 [INFO] : 
+==============================================
+[ TITLE ] The Advanced Booking Calendar WordPress plugin before 1.7.1 does not sanitise and escape the room parameter before outputting it back in an admin page, leading to a Reflected Cross-Site Scripting issue
+[ TIME  ] 2022-04-11 15:15:08 
+[ CVE   ] CVE-2022-1007
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-1007
+2022-04-20 10:33:00 [INFO] : 
+==============================================
+[ TITLE ] The Advanced Booking Calendar WordPress plugin before 1.7.1 does not sanitise and escape the id parameter when editing Calendars, which could allow high privilege users such as admin to perform SQL injection attacks
+[ TIME  ] 2022-04-11 15:15:08 
+[ CVE   ] CVE-2022-1006
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-1006
+2022-04-20 10:33:00 [INFO] : 
+==============================================
+[ TITLE ] An authenticated user may be able to misuse parameters to inject arbitrary operating system commands into mySCADA myPRO versions 8.25.0 and prior.
+[ TIME  ] 2022-04-11 20:15:16 
+[ CVE   ] CVE-2022-0999
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-0999
+2022-04-20 10:33:00 [INFO] : 
+==============================================
+[ TITLE ] An unprivileged user could use the functionality of the NS WooCommerce Watermark WordPress plugin through 2.11.3 to load images that hide malware for example from passing malicious domains to hide their trace, by making them pass through the vulnerable domain.
+[ TIME  ] 2022-04-11 15:15:08 
+[ CVE   ] CVE-2022-0989
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-0989
+2022-04-20 10:33:00 [INFO] : 
+==============================================
+[ TITLE ] The Image optimization &amp; Lazy Load by Optimole WordPress plugin before 3.3.2 does not sanitise and escape its &quot;Lazyload background images for selectors&quot; settings, which could allow high privilege users such as admin to perform Cross-Site scripting attacks even when the unfiltered_html capability is disallowed.
+[ TIME  ] 2022-04-11 15:15:08 
+[ CVE   ] CVE-2022-0969
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-0969
+2022-04-20 10:33:00 [INFO] : 
+==============================================
+[ TITLE ] The Block Bad Bots and Stop Bad Bots Crawlers and Spiders and Anti Spam Protection WordPress plugin before 6.930 does not properly sanitise and escape the fingerprint parameter before using it in a SQL statement via the stopbadbots_grava_fingerprint AJAX action, available to unauthenticated users, leading to a SQL injection
+[ TIME  ] 2022-04-11 15:15:08 
+[ CVE   ] CVE-2022-0949
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-0949
+2022-04-20 10:33:00 [INFO] : 
+==============================================
+[ TITLE ] Cross-site Scripting (XSS) - Stored in GitHub repository autolab/autolab prior to 2.8.0.
+[ TIME  ] 2022-04-11 07:15:08 
+[ CVE   ] CVE-2022-0936
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-0936
+2022-04-20 10:33:00 [INFO] : 
+==============================================
+[ TITLE ] Host Header injection in password Reset in GitHub repository livehelperchat/livehelperchat prior to 3.97.
+[ TIME  ] 2022-04-07 19:15:08 
+[ CVE   ] CVE-2022-0935
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-0935
+2022-04-20 10:33:00 [INFO] : 
+==============================================
+[ TITLE ] Out-of-bounds Read error in tiffcp in libtiff 4.3.0 allows attackers to cause a denial-of-service via a crafted tiff file. For users that compile libtiff from sources, the fix is available with commit 408976c4.
+[ TIME  ] 2022-03-11 18:15:30 
+[ CVE   ] CVE-2022-0924
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-0924
+2022-04-20 10:33:00 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-20 10:33:00 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-04-20 10:33:00 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-04-20 10:33:00 [INFO] : --------------------------------------------
+2022-04-20 10:33:00 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-20 10:33:00 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-04-20 10:33:01 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-04-20 10:33:01 [INFO] : --------------------------------------------
+2022-04-20 10:33:01 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-20 10:33:01 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-04-20 10:33:01 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-04-20 10:33:01 [INFO] : --------------------------------------------
+2022-04-20 10:33:01 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-20 10:33:01 [INFO] : 正在获取 [红后] 威胁情报...
+2022-04-20 10:33:02 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-04-20 10:33:02 [INFO] : --------------------------------------------
+2022-04-20 10:33:02 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-20 10:33:02 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-04-20 10:33:05 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-04-20 10:33:05 [INFO] : --------------------------------------------
+2022-04-20 10:33:05 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-20 10:33:05 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-04-20 10:33:05 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [10] 条
+2022-04-20 10:33:05 [INFO] : --------------------------------------------
+2022-04-20 10:33:05 [INFO] : 
+==============================================
+[ TITLE ] next-auth v3 users before version 3.29.2 are impacted. next-auth version 4 users before version 4.3.2 are also impacted. Upgrading to 3.29.2 or 4.3.2 will patch this vulnerability. If you are not able to upgrade for any reason, you can add a configuration to your callbacks option. If you already have a `redirect` callback, make sure that you match the incoming `url` origin against the `baseUrl`.
+[ TIME  ] 2022-04-19 23:15:00
+[ CVE   ] CVE-2022-24858
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24858
+2022-04-20 10:33:05 [INFO] : 
+==============================================
+[ TITLE ] Incomplete fix for CVE-2021-3101. Hotdog, prior to v1.0.2, did not mimic the resource limits, device restrictions, or syscall filters of the target JVM process. This would allow a container to exhaust the resources of the host, modify devices, or make syscalls that would otherwise be blocked.
+[ TIME  ] 2022-04-19 23:15:00
+[ CVE   ] CVE-2022-0071
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-0071
+2022-04-20 10:33:05 [INFO] : 
+==============================================
+[ TITLE ] Incomplete fix for CVE-2021-3100. The Apache Log4j hotpatch package starting with log4j-cve-2021-44228-hotpatch-1.1-16 will now explicitly mimic the Linux capabilities and cgroups of the target Java process that the hotpatch is applied to.
+[ TIME  ] 2022-04-19 23:15:00
+[ CVE   ] CVE-2022-0070
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-0070
+2022-04-20 10:33:05 [INFO] : 
+==============================================
+[ TITLE ] Hotdog, prior to v1.0.1, did not mimic the capabilities or the SELinux label of the target JVM process. This would allow a container to gain full privileges on the host, bypassing restrictions set on the container.
+[ TIME  ] 2022-04-19 23:15:00
+[ CVE   ] CVE-2021-3101
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-3101
+2022-04-20 10:33:05 [INFO] : 
+==============================================
+[ TITLE ] The Apache Log4j hotpatch package before log4j-cve-2021-44228-hotpatch-1.1-12 didn’t mimic the permissions of the JVM being patched, allowing it to escalate privileges.
+[ TIME  ] 2022-04-19 23:15:00
+[ CVE   ] CVE-2021-3100
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-3100
+2022-04-20 10:33:05 [INFO] : 
+==============================================
+[ TITLE ] The CleanTalk AntiSpam plugin <= 5.173 for WordPress is vulnerable to Reflected Cross-Site Scripting (XSS) via the $_REQUEST['page'] parameter in`/lib/Cleantalk/ApbctWP/FindSpam/ListTable/Users.php`
+[ TIME  ] 2022-04-19 21:15:00
+[ CVE   ] CVE-2022-28222
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-28222
+2022-04-20 10:33:05 [INFO] : 
+==============================================
+[ TITLE ] The CleanTalk AntiSpam plugin <= 5.173 for WordPress is vulnerable to Reflected Cross-Site Scripting (XSS) via the $_REQUEST['page'] parameter in`/lib/Cleantalk/ApbctWP/FindSpam/ListTable/Comments.php`
+[ TIME  ] 2022-04-19 21:15:00
+[ CVE   ] CVE-2022-28221
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-28221
+2022-04-20 10:33:05 [INFO] : 
+==============================================
+[ TITLE ] Sensitive Information Exposure in E4J s.r.l. VikBooking Hotel Booking Engine & PMS plugin <= 1.5.3 on WordPress allows attackers to get the booking data by guessing / brute-forcing easy predictable booking IDs via search POST requests.
+[ TIME  ] 2022-04-19 21:15:00
+[ CVE   ] CVE-2022-27863
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27863
+2022-04-20 10:33:05 [INFO] : 
+==============================================
+[ TITLE ] Sensitive Information Exposure in E4J s.r.l. VikBooking Hotel Booking Engine & PMS plugin <= 1.5.3 on WordPress allows attackers to upload and execute dangerous file types (e.g. PHP shell) via the signature upload on the booking form.
+[ TIME  ] 2022-04-19 21:15:00
+[ CVE   ] CVE-2022-27862
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27862
+2022-04-20 10:33:05 [INFO] : 
+==============================================
+[ TITLE ] A Memory Corruption vulnerability may lead to code execution through maliciously crafted DLL files. It was fixed in PDFTron earlier than 9.0.7 version in Autodesk Navisworks 2022.
+[ TIME  ] 2022-04-19 21:15:00
+[ CVE   ] CVE-2022-27527
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27527
+2022-04-20 10:33:05 [INFO] : [邮件] 正在推送威胁情报...
+2022-04-20 10:33:05 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
+2022-04-20 10:33:06 [INFO] : [邮件] 推送威胁情报成功
+2022-04-20 10:33:06 [INFO] : 正在提交变更...

@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-04-20 01:22:55 -->
+<!-- RELEASE TIME : 2022-04-20 10:33:05 -->
 <html lang="zh-cn">
 
  <head>
@@ -200,6 +200,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">46e5b6dcc25b92095d7bad0b64f7fb0d</td>
+       <td>CVE-2022-24858</td>
+       <td>2022-04-19 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>next-auth v3 users before version 3.29.2 are impacted. next-auth version 4 users before version 4.3.2 are also impacted. Upgrading to 3.29.2 or 4.3.2 will patch this vulnerability. If you are not able to upgrade for any reason, you can add a configuration to your callbacks option. If you already have a `redirect` callback, make sure that you match the incoming `url` origin against the `baseUrl`.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24858">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">bd7127d33b879e5a0da072a98a9df24d</td>
+       <td>CVE-2022-0071</td>
+       <td>2022-04-19 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Incomplete fix for CVE-2021-3101. Hotdog, prior to v1.0.2, did not mimic the resource limits, device restrictions, or syscall filters of the target JVM process. This would allow a container to exhaust the resources of the host, modify devices, or make syscalls that would otherwise be blocked.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-0071">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ec6761ccb94a85ced29987c3751257cc</td>
+       <td>CVE-2022-0070</td>
+       <td>2022-04-19 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Incomplete fix for CVE-2021-3100. The Apache Log4j hotpatch package starting with log4j-cve-2021-44228-hotpatch-1.1-16 will now explicitly mimic the Linux capabilities and cgroups of the target Java process that the hotpatch is applied to.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-0070">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9a9489059ebd0368a2b01cf31fba97c1</td>
+       <td>CVE-2021-3101</td>
+       <td>2022-04-19 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Hotdog, prior to v1.0.1, did not mimic the capabilities or the SELinux label of the target JVM process. This would allow a container to gain full privileges on the host, bypassing restrictions set on the container.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-3101">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e6ab1c0f8e3b122334b76f4faedb2f05</td>
+       <td>CVE-2021-3100</td>
+       <td>2022-04-19 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Apache Log4j hotpatch package before log4j-cve-2021-44228-hotpatch-1.1-12 didn’t mimic the permissions of the JVM being patched, allowing it to escalate privileges.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-3100">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6db1b8e8588cc29c309636adddec6f0c</td>
+       <td>CVE-2022-28222</td>
+       <td>2022-04-19 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>The CleanTalk AntiSpam plugin <= 5.173 for WordPress is vulnerable to Reflected Cross-Site Scripting (XSS) via the $_REQUEST['page'] parameter in`/lib/Cleantalk/ApbctWP/FindSpam/ListTable/Users.php`</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-28222">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">191a14ba0912166493f7a7e4b51fccea</td>
+       <td>CVE-2022-28221</td>
+       <td>2022-04-19 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>The CleanTalk AntiSpam plugin <= 5.173 for WordPress is vulnerable to Reflected Cross-Site Scripting (XSS) via the $_REQUEST['page'] parameter in`/lib/Cleantalk/ApbctWP/FindSpam/ListTable/Comments.php`</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-28221">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">de5e91eb9499fb7ad48ad144dac91cda</td>
+       <td>CVE-2022-27863</td>
+       <td>2022-04-19 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>Sensitive Information Exposure in E4J s.r.l. VikBooking Hotel Booking Engine & PMS plugin <= 1.5.3 on WordPress allows attackers to get the booking data by guessing / brute-forcing easy predictable booking IDs via search POST requests.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27863">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b5dec8731578c70a6947a39d5fc118f9</td>
+       <td>CVE-2022-27862</td>
+       <td>2022-04-19 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>Sensitive Information Exposure in E4J s.r.l. VikBooking Hotel Booking Engine & PMS plugin <= 1.5.3 on WordPress allows attackers to upload and execute dangerous file types (e.g. PHP shell) via the signature upload on the booking form.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27862">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">19b9a78ca204c6aa87196b1ff79e350e</td>
+       <td>CVE-2022-27527</td>
+       <td>2022-04-19 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>A Memory Corruption vulnerability may lead to code execution through maliciously crafted DLL files. It was fixed in PDFTron earlier than 9.0.7 version in Autodesk Navisworks 2022.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27527">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">ef9b46c2378354af4945d947d0cbfc57</td>
        <td>CVE-2022-27927</td>
        <td>2022-04-19 13:15:00 <img src="imgs/new.gif" /></td>
@@ -357,86 +437,6 @@
        <td>2022-04-18 14:15:00</td>
        <td>Automatic Question Paper Generator v1.0 contains a Time-Based Blind SQL injection vulnerability via the id GET parameter.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26631">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">46b338af3010e6ce9368e6f4b68bcf8a</td>
-       <td>CVE-2022-28810</td>
-       <td>2022-04-18 13:15:00</td>
-       <td>Zoho ManageEngine ADSelfService Plus before 6122 allows an authenticated user to achieve remote code execution via executable CMD.EXE input in a password field, This only occurs if a certain password sync feature is enabled that uses passwords as script arguments.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-28810">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">462bbb416e7649ac78eab7d59a413349</td>
-       <td>CVE-2022-27908</td>
-       <td>2022-04-18 13:15:00</td>
-       <td>Zoho ManageEngine OpManager before 125588 (and before 125603) is vulnerable to authenticated SQL Injection in the Inventory Reports module.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27908">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4f8f2dd785314c9642cf5c676bf857a1</td>
-       <td>CVE-2022-1383</td>
-       <td>2022-04-18 01:15:00</td>
-       <td>Heap-based Buffer Overflow in GitHub repository radareorg/radare2 prior to 5.6.8. The bug causes the program reads data past the end of the intented buffer. Typically, this can allow attackers to read sensitive information from other memory locations or cause a crash.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1383">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">42a7344fbca0e57529fc5a09cda639ce</td>
-       <td>CVE-2022-1382</td>
-       <td>2022-04-18 01:15:00</td>
-       <td>NULL Pointer Dereference in GitHub repository radareorg/radare2 prior to 5.6.8. This vulnerability is capable of making the radare2 crash, thus affecting the availability of the system.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1382">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">26c5e97819a40283fc4a5842d96ad07e</td>
-       <td>CVE-2022-1381</td>
-       <td>2022-04-18 01:15:00</td>
-       <td>global heap buffer overflow in skip_range in GitHub repository vim/vim prior to 8.2. This vulnerability is capable of crashing software, Bypass Protection Mechanism, Modify Memory, and possible remote execution</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1381">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0bee4ede9c9dbae98a603af0b28b3fce</td>
-       <td>CVE-2022-1381</td>
-       <td>2022-04-18 01:15:00</td>
-       <td>global heap buffer overflow in skip_range in GitHub repository vim/vim prior to 8.2.4763. This vulnerability is capable of crashing software, Bypass Protection Mechanism, Modify Memory, and possible remote execution</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1381">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">13818fc19a441a339a13e45f297587b9</td>
-       <td>CVE-2022-28966</td>
-       <td>2022-04-16 16:15:00</td>
-       <td>Wasm3 0.5.0 has a heap-based buffer overflow in NewCodePage in m3_code.c (called indirectly from Compile_BranchTable in m3_compile.c).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-28966">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2db1f13218c9f0ea2467487c63b06044</td>
-       <td>CVE-2022-26777</td>
-       <td>2022-04-16 16:15:00</td>
-       <td>Zoho ManageEngine Remote Access Plus before 10.1.2137.15 allows guest users to view license details.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26777">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">72e9899832fa184d0d23ba0d53947f36</td>
-       <td>CVE-2022-26653</td>
-       <td>2022-04-16 16:15:00</td>
-       <td>Zoho ManageEngine Remote Access Plus before 10.1.2137.15 allows guest users to view domain details (such as the username and GUID of an administrator).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26653">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cf97c116c8d0ae300d62f8bd1d50f8d8</td>
-       <td>CVE-2022-1380</td>
-       <td>2022-04-16 12:15:00</td>
-       <td>Stored Cross Site Scripting vulnerability in Item name parameter in GitHub repository snipe/snipe-it prior to v5.4.3. The vulnerability is capable of stolen the user Cookie.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1380">详情</a></td>
       </tr>
 
      </tbody>
@@ -2324,6 +2324,14 @@
       </tr>
 
       <tr>
+       <td scope="row">562f158889a72a97bb03cf44e9029b22</td>
+       <td>CVE-2022-0999</td>
+       <td>2022-04-11 20:15:16 </td>
+       <td>An authenticated user may be able to misuse parameters to inject arbitrary operating system commands into mySCADA myPRO versions 8.25.0 and prior.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-0999">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">a78043d8c27875588e8f2714e124d247</td>
        <td>CVE-2021-40065</td>
        <td>2022-04-11 20:15:15 </td>
@@ -2348,6 +2356,54 @@
       </tr>
 
       <tr>
+       <td scope="row">7e498c0743865e116605c1ff738a57ef</td>
+       <td>CVE-2022-1008</td>
+       <td>2022-04-11 15:15:09 </td>
+       <td>The One Click Demo Import WordPress plugin before 3.1.0 does not validate the imported file, allowing high privilege users such as admin to upload arbitrary files (such as PHP) even when FILE_MODS and FILE_EDIT are disallowed</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-1008">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4afa5d7438a55e7511b1ca3a14c28ef8</td>
+       <td>CVE-2022-1007</td>
+       <td>2022-04-11 15:15:08 </td>
+       <td>The Advanced Booking Calendar WordPress plugin before 1.7.1 does not sanitise and escape the room parameter before outputting it back in an admin page, leading to a Reflected Cross-Site Scripting issue</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-1007">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">24b9b79c8ba5590e616996f2f59cc209</td>
+       <td>CVE-2022-1006</td>
+       <td>2022-04-11 15:15:08 </td>
+       <td>The Advanced Booking Calendar WordPress plugin before 1.7.1 does not sanitise and escape the id parameter when editing Calendars, which could allow high privilege users such as admin to perform SQL injection attacks</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-1006">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c10bd8ff8f31d8433782a6b4500a0afd</td>
+       <td>CVE-2022-0989</td>
+       <td>2022-04-11 15:15:08 </td>
+       <td>An unprivileged user could use the functionality of the NS WooCommerce Watermark WordPress plugin through 2.11.3 to load images that hide malware for example from passing malicious domains to hide their trace, by making them pass through the vulnerable domain.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-0989">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6f8569e27daeee2b45a754aac3848e26</td>
+       <td>CVE-2022-0969</td>
+       <td>2022-04-11 15:15:08 </td>
+       <td>The Image optimization &amp; Lazy Load by Optimole WordPress plugin before 3.3.2 does not sanitise and escape its &quot;Lazyload background images for selectors&quot; settings, which could allow high privilege users such as admin to perform Cross-Site scripting attacks even when the unfiltered_html capability is disallowed.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-0969">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a42d382f5d82a30a1a2a6cd7925d38b5</td>
+       <td>CVE-2022-0949</td>
+       <td>2022-04-11 15:15:08 </td>
+       <td>The Block Bad Bots and Stop Bad Bots Crawlers and Spiders and Anti Spam Protection WordPress plugin before 6.930 does not properly sanitise and escape the fingerprint parameter before using it in a SQL statement via the stopbadbots_grava_fingerprint AJAX action, available to unauthenticated users, leading to a SQL injection</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-0949">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">62f44e9ff3e7d5baba71862c03dbdff6</td>
        <td>CVE-2022-26414</td>
        <td>2022-04-11 13:15:07 </td>
@@ -2361,6 +2417,14 @@
        <td>2022-04-11 13:15:07 </td>
        <td>A command injection vulnerability in the CGI program of Zyxel VMG3312-T20A firmware version 5.30(ABFX.5)C0 could allow a local authenticated attacker to execute arbitrary OS commands on a vulnerable device via a LAN interface.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26413">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e505210b0db506091b4162874af299b0</td>
+       <td>CVE-2022-0936</td>
+       <td>2022-04-11 07:15:08 </td>
+       <td>Cross-site Scripting (XSS) - Stored in GitHub repository autolab/autolab prior to 2.8.0.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-0936">详情</a></td>
       </tr>
 
       <tr>
@@ -2433,70 +2497,6 @@
        <td>2022-04-08 09:15:12 </td>
        <td>Movie Seat Reservation v1 was discovered to contain a SQL injection vulnerability at /index.php?page=reserve via the id parameter.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-28001">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">359ef4a84f42eb62dcdababea88b36c0</td>
-       <td>CVE-2022-26624</td>
-       <td>2022-04-08 09:15:11 </td>
-       <td>Bootstrap v3.1.11 and v3.3.7 was discovered to contain a cross-site scripting (XSS) vulnerability via the Title parameter in /vendor/views/add_product.php.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26624">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7124111a3571f64e2851b7145e83b1b1</td>
-       <td>CVE-2022-28805</td>
-       <td>2022-04-08 06:15:07 </td>
-       <td>singlevar in lparser.c in Lua through 5.4.4 lacks a certain luaK_exp2anyregup call, leading to a heap-based buffer over-read that might affect a system that compiles untrusted Lua code.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-28805">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">dd84cbe4eedc6f043be4de16eccaf630</td>
-       <td>CVE-2022-28796</td>
-       <td>2022-04-08 05:15:07 </td>
-       <td>jbd2_journal_wait_updates in fs/jbd2/transaction.c in the Linux kernel before 5.17.1 has a use-after-free caused by a transaction_t race condition.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-28796">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ed845b765ea7fc6783734bad2e392650</td>
-       <td>CVE-2022-26671</td>
-       <td>2022-04-07 19:15:09 </td>
-       <td>Taiwan Secom Dr.ID Access Control system&acirc;&euro;&trade;s login page has a hard-coded credential in the source code. An unauthenticated remote attacker can use the hard-coded credential to acquire partial system information and modify system setting to cause partial disrupt of service.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26671">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e15c0cd617b14bdea5813f71a6aa2874</td>
-       <td>CVE-2022-25595</td>
-       <td>2022-04-07 19:15:08 </td>
-       <td>ASUS RT-AC86U has improper user request handling, which allows an unauthenticated LAN attacker to cause a denial of service by sending particular request a server-to-client reply attempt.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25595">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">01a49682a0b7dacccf0bfad3e9b0d45c</td>
-       <td>CVE-2022-25594</td>
-       <td>2022-04-07 19:15:08 </td>
-       <td>Microprogram&acirc;&euro;&trade;s parking lot management system is vulnerable to sensitive information exposure. An unauthorized remote attacker can input specific URLs to acquire partial system configuration information.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-25594">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ce5aca1f6da8baba56b4e195dcf2c3a4</td>
-       <td>CVE-2022-22519, control_runtime_system_toolkit, control_win_sl, development_system, embedded_target_visu_toolkit, hmi_sl, remote_target_visu_toolkit)</td>
-       <td>2022-04-07 19:15:08 </td>
-       <td>A remote, authenticated attacker can send a specific crafted HTTP or HTTPS requests causing a buffer over-read resulting in a crash of the webserver and the CODESYS Control runtime system.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22519, control_runtime_system_toolkit, control_win_sl, development_system, embedded_target_visu_toolkit, hmi_sl, remote_target_visu_toolkit)">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f065d44fc2db04d9d2340747612ab943</td>
-       <td>CVE-2022-22518</td>
-       <td>2022-04-07 19:15:08 </td>
-       <td>A bug in CmpUserMgr component can lead to only partially applied security policies. This can result in enabled, anonymous access to components part of the applied security policy.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22518">详情</a></td>
       </tr>
 
      </tbody>
