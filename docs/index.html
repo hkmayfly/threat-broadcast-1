@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-04-20 17:32:18 -->
+<!-- RELEASE TIME : 2022-04-20 20:41:32 -->
 <html lang="zh-cn">
 
  <head>
@@ -208,6 +208,46 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">04931d50c82db3c2f8cffc2fb24a1ef6</td>
+       <td>CVE-2022-29527</td>
+       <td>2022-04-20 10:15:00 <img src="imgs/new.gif" /></td>
+       <td>Amazon AWS amazon-ssm-agent before 3.1.1208.0 creates a world-writable sudoers file, which allows local attackers to inject Sudo rules and escalate privileges to root. This occurs in certain situations involving a race condition.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29527">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0129b7d66e25183d95d6c042bf09a77d</td>
+       <td>CVE-2022-28327</td>
+       <td>2022-04-20 10:15:00 <img src="imgs/new.gif" /></td>
+       <td>The generic P-256 feature in crypto/elliptic in Go before 1.17.9 and 1.18.x before 1.18.1 allows a panic via long scalar input.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-28327">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">fcdec69d78a0b02aa19a54eeda349b17</td>
+       <td>CVE-2022-27536</td>
+       <td>2022-04-20 10:15:00 <img src="imgs/new.gif" /></td>
+       <td>Certificate.Verify in crypto/x509 in Go 1.18.x before 1.18.1 can be caused to panic on macOS when presented with certain malformed certificates. This allows a remote TLS server to cause a TLS client to panic.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27536">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">97ddc31ce9ac397bb229be158d8958b5</td>
+       <td>CVE-2022-24675</td>
+       <td>2022-04-20 10:15:00 <img src="imgs/new.gif" /></td>
+       <td>encoding/pem in Go before 1.17.9 and 1.8.x before 1.8.1 has a Decode stack overflow via a large amount of PEM data.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24675">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">56c4f9734c75fb503a27774c7afebb16</td>
+       <td>CVE-2022-29266</td>
+       <td>2022-04-20 08:15:00 <img src="imgs/new.gif" /></td>
+       <td>In APache APISIX before 3.13.1, an attacker can obtain a plugin-configured secret via an error message response by sending an incorrect JSON Web Token to a route protected by the jwt-auth plugin. The error logic in the dependency library lua-resty-jwt enables sending an RS256 token to an endpoint that requires an HS256 token, with the original secret value included in the error response.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29266">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">84756194f67efaefa3eddf8ca8f73cb4</td>
        <td>CVE-2022-27629</td>
        <td>2022-04-20 02:15:00 <img src="imgs/new.gif" /></td>
@@ -405,46 +445,6 @@
        <td>2022-04-18 20:15:00</td>
        <td>Zoho ManageEngine ADSelfService Plus before 6121, ADAuditPlus 7060, Exchange Reporter Plus 5701, and ADManagerPlus 7131 allow NTLM Hash disclosure during certain storage-path configuration steps.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29457">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2f3e99aed4c139f12ef7d4eae5692104</td>
-       <td>CVE-2022-24863</td>
-       <td>2022-04-18 19:15:00</td>
-       <td>http-swagger is an open source wrapper to automatically generate RESTful API documentation with Swagger 2.0. In versions of http-swagger prior to 1.2.6 an attacker may perform a denial of service attack consisting of memory exhaustion on the host system. The cause of the memory exhaustion is down to improper handling of http methods. Users are advised to upgrade. Users unable to upgrade may to restrict the path prefix to the "GET" method as a workaround.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24863">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ba055eb1e9679f26b38b7bb580a9bf1b</td>
-       <td>CVE-2022-24859</td>
-       <td>2022-04-18 19:15:00</td>
-       <td>PyPDF2 is an open source python PDF library capable of splitting, merging, cropping, and transforming the pages of PDF files. In versions prior to 1.27.5 an attacker who uses this vulnerability can craft a PDF which leads to an infinite loop if the PyPDF2 if the code attempts to get the content stream. The reason is that the last while-loop in `ContentStream._readInlineImage` only terminates when it finds the `EI` token, but never actually checks if the stream has already ended. This issue has been resolved in version `1.27.5`. Users unable to upgrade should validate and PDFs prior to iterating over their content stream.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24859">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f30d017176652ebf4ff8e1fc7c4959b3</td>
-       <td>CVE-2022-1112</td>
-       <td>2022-04-18 18:15:00</td>
-       <td>The Autolinks WordPress plugin through 1.0.1 does not have CSRF check in place when updating its settings, and does not sanitise as well as escape them, which could allow attackers to perform Stored Cross-Site scripting against a logged in admin via a CSRF attack</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1112">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">24b49715d766cad86e3721e64b60a731</td>
-       <td>CVE-2022-1091</td>
-       <td>2022-04-18 18:15:00</td>
-       <td>The sanitisation step of the Safe SVG WordPress plugin before 1.9.10 can be bypassed by spoofing the content-type in the POST request to upload a file. Exploiting this vulnerability, an attacker will be able to perform the kinds of attacks that this plugin should prevent (mainly XSS, but depending on further use of uploaded SVG files potentially other XML attacks).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1091">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6b63da47bc00ecaddaa69cb7764de238</td>
-       <td>CVE-2022-1090</td>
-       <td>2022-04-18 18:15:00</td>
-       <td>The Good & Bad Comments WordPress plugin through 1.0.0 does not sanitise and escape its settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1090">详情</a></td>
       </tr>
 
      </tbody>
@@ -1000,6 +1000,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">9fe1e087a48e2a53dd44f4acee594e58</td>
+       <td>CNNVD-202204-3871 (CVE-2021-3100)</td>
+       <td>2022-04-19 20:41:22 <img src="imgs/new.gif" /></td>
+       <td>Amazon Linux AMI 安全漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3871">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">16f44999704309cfabfd2b47a0e70f3c</td>
+       <td>CNNVD-202204-3872 (CVE-2022-0070)</td>
+       <td>2022-04-19 20:41:20 <img src="imgs/new.gif" /></td>
+       <td>Amazon Linux 安全漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3872">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">37828c69ab68f765b2283faa9d316238</td>
+       <td>CNNVD-202204-3873 (CVE-2022-24858)</td>
+       <td>2022-04-19 20:41:19 <img src="imgs/new.gif" /></td>
+       <td>next-auth 安全漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3873">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9148af96e81623e8e429fdb3de573d40</td>
+       <td>CNNVD-202204-3874 (CVE-2021-3101)</td>
+       <td>2022-04-19 20:41:18 <img src="imgs/new.gif" /></td>
+       <td>Hotdog  安全漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3874">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a00bd7cd62b598d2c9dddf75cc0a68e0</td>
+       <td>CNNVD-202204-3875 (CVE-2022-1318)</td>
+       <td>2022-04-19 20:41:17 <img src="imgs/new.gif" /></td>
+       <td>Interlogix Hills ComNav 加密问题漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3875">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d514f60c6d599212a746927d16243e57</td>
+       <td>CNNVD-202204-3876 (CVE-2022-28748)</td>
+       <td>2022-04-19 20:41:15 <img src="imgs/new.gif" /></td>
+       <td>Linux kernel 安全漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3876">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ec6309894a65355b9a75191e9685106f</td>
+       <td>CNNVD-202204-3877 (CVE-2022-0071)</td>
+       <td>2022-04-19 20:41:14 <img src="imgs/new.gif" /></td>
+       <td>Hotdog  安全漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3877">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ae93d0fd4eb310af7d4177f2395297b4</td>
+       <td>CNNVD-202204-3878 (CVE-2022-26519)</td>
+       <td>2022-04-19 20:41:13 <img src="imgs/new.gif" /></td>
+       <td>Interlogix Hills ComNav 安全漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3878">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">50ea87481c99d68c3979a7410fad5f01</td>
+       <td>CNNVD-202204-3879 (CVE-2022-24860)</td>
+       <td>2022-04-19 20:41:11 <img src="imgs/new.gif" /></td>
+       <td>Databasir  安全漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3879">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">87b5402968330ee5b59bc13de0c66f34</td>
+       <td>CNNVD-202204-3880 (CVE-2022-1245)</td>
+       <td>2022-04-19 20:41:10 <img src="imgs/new.gif" /></td>
+       <td>Red Hat Keycloak 安全漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3880">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">76cf49cc6f5967ebaff83740c64cf5e6</td>
        <td>CNNVD-202204-3730 (CVE-2021-3971)</td>
        <td>2022-04-18 01:22:44</td>
@@ -1157,86 +1237,6 @@
        <td>2022-04-15 20:16:36</td>
        <td>WordPress Plugin MicroPayments 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3533">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">48226836d8e584a6080895efffe4d1cd</td>
-       <td>CNNVD-202204-3434 (CVE-2022-24824)</td>
-       <td>2022-04-14 01:57:50</td>
-       <td>Discourse 安全漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3434">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e2f8f342d33ea768e8a9cc694809229e</td>
-       <td>CNNVD-202204-3435 (CVE-2021-36205)</td>
-       <td>2022-04-14 01:57:48</td>
-       <td>Johnson Controls Metasys ADS/ADX/OAS Servers 安全漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3435">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">48654d4dd73a5c9f65abbb888f5ebf0d</td>
-       <td>CNNVD-202204-3436 (CVE-2022-24849)</td>
-       <td>2022-04-14 01:57:47</td>
-       <td>DisCatSharp 信息泄露漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3436">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1a6fbbcbf3e826143dac5a705d4fe8fb</td>
-       <td>CNNVD-202204-3437 (CVE-2022-24846)</td>
-       <td>2022-04-14 01:57:46</td>
-       <td>GeoWebCache 输入验证错误漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3437">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8e794e45e1d895f8fcf94e55c9b91d96</td>
-       <td>CNNVD-202204-3438 (CVE-2022-24850)</td>
-       <td>2022-04-14 01:57:45</td>
-       <td>Discourse 信息泄露漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3438">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7f345ef5377fe92be2368c75737228d2</td>
-       <td>CNNVD-202204-3439 (CVE-2022-24853)</td>
-       <td>2022-04-14 01:57:43</td>
-       <td>Metabase 信息泄露漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3439">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">893e7ed188887dd6e538e98ff552021a</td>
-       <td>CNNVD-202204-3440 (CVE-2022-24854)</td>
-       <td>2022-04-14 01:57:42</td>
-       <td>Metabase 安全漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3440">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">885fb85649734279c994288fe7bb0b97</td>
-       <td>CNNVD-202204-3441 (CVE-2022-24855)</td>
-       <td>2022-04-14 01:57:41</td>
-       <td>Metabase 跨站脚本漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3441">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b90718d0c4bf7545df100a40c0b2b973</td>
-       <td>CNNVD-202204-3442 (CVE-2022-1364)</td>
-       <td>2022-04-14 01:57:40</td>
-       <td>Google Chrome 安全漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3442">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cc7bbe91b70097cdd7139a9a5252dda7</td>
-       <td>CNNVD-202204-3443 (CVE-2022-20761)</td>
-       <td>2022-04-14 01:57:38</td>
-       <td>Cisco 1000 Series Connected Grid Router 安全漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-3443">详情</a></td>
       </tr>
 
      </tbody>
@@ -2404,11 +2404,51 @@
       </tr>
 
       <tr>
+       <td scope="row">563d92d11cf56defc247678d998a2aa6</td>
+       <td>CVE-2022-26095</td>
+       <td>2022-04-11 20:15:21 </td>
+       <td>Null pointer dereference vulnerability in parser_colr function in libsimba library prior to SMR Apr-2022 Release 1 allows out of bounds write by remote attacker.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26095">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2e9a139f6e0ff4d2eaf4cf989b4d3836</td>
+       <td>CVE-2022-26094</td>
+       <td>2022-04-11 20:15:21 </td>
+       <td>Null pointer dereference vulnerability in parser_auxC function in libsimba library prior to SMR Apr-2022 Release 1 allows out of bounds write by remote attacker.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26094">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">23e9cd86f536d81d7bfd884ef90bb2df</td>
+       <td>CVE-2022-26093</td>
+       <td>2022-04-11 20:15:21 </td>
+       <td>Null pointer dereference vulnerability in parser_irot function in libsimba library prior to SMR Apr-2022 Release 1 allows out of bounds write by remote attacker.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26093">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1e485a42c02bdf71aaaeb48b7cbfdd5e</td>
+       <td>CVE-2022-26092</td>
+       <td>2022-04-11 20:15:21 </td>
+       <td>Improper boundary check in Quram Agif library prior to SMR Apr-2022 Release 1 allows arbitrary code execution.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26092">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">242f61ac9551f4d9b6059e157b4e6622</td>
        <td>CVE-2022-24829</td>
        <td>2022-04-11 20:15:20 </td>
        <td>Garden is an automation platform for Kubernetes development and testing. In versions prior to 0.12.39 multiple endpoints did not require authentication. In some operating modes this allows for an attacker to gain access to the application erroneously. The configuration is leaked through the /api endpoint on the local server that is responsible for serving the Garden dashboard. At the moment, this server is accessible to 0.0.0.0 which makes it accessible to anyone on the same network (or anyone on the internet if they are on a public, static IP). This may lead to the ability to compromise credentials, secrets or environment variables. Users are advised to upgrade to version 0.12.39 as soon as possible. Users unable to upgrade should use a firewall blocking access to port 9777 from all untrusted network machines.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24829">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8868c80f065368734e2ac7cf890c50f4</td>
+       <td>CVE-2022-26091</td>
+       <td>2022-04-11 20:15:20 </td>
+       <td>Improper access control vulnerability in Knox Manage prior to SMR Apr-2022 Release 1 allows that physical attackers can bypass Knox Manage using a function key of hardware keyboard.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26091">详情</a></td>
       </tr>
 
       <tr>
@@ -2465,46 +2505,6 @@
        <td>2022-04-11 15:15:08 </td>
        <td>The Advanced Booking Calendar WordPress plugin before 1.7.1 does not sanitise and escape the id parameter when editing Calendars, which could allow high privilege users such as admin to perform SQL injection attacks</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-1006">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c10bd8ff8f31d8433782a6b4500a0afd</td>
-       <td>CVE-2022-0989</td>
-       <td>2022-04-11 15:15:08 </td>
-       <td>An unprivileged user could use the functionality of the NS WooCommerce Watermark WordPress plugin through 2.11.3 to load images that hide malware for example from passing malicious domains to hide their trace, by making them pass through the vulnerable domain.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-0989">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6f8569e27daeee2b45a754aac3848e26</td>
-       <td>CVE-2022-0969</td>
-       <td>2022-04-11 15:15:08 </td>
-       <td>The Image optimization &amp; Lazy Load by Optimole WordPress plugin before 3.3.2 does not sanitise and escape its &quot;Lazyload background images for selectors&quot; settings, which could allow high privilege users such as admin to perform Cross-Site scripting attacks even when the unfiltered_html capability is disallowed.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-0969">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a42d382f5d82a30a1a2a6cd7925d38b5</td>
-       <td>CVE-2022-0949</td>
-       <td>2022-04-11 15:15:08 </td>
-       <td>The Block Bad Bots and Stop Bad Bots Crawlers and Spiders and Anti Spam Protection WordPress plugin before 6.930 does not properly sanitise and escape the fingerprint parameter before using it in a SQL statement via the stopbadbots_grava_fingerprint AJAX action, available to unauthenticated users, leading to a SQL injection</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-0949">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">62f44e9ff3e7d5baba71862c03dbdff6</td>
-       <td>CVE-2022-26414</td>
-       <td>2022-04-11 13:15:07 </td>
-       <td>A potential buffer overflow vulnerability was identified in some internal functions of Zyxel VMG3312-T20A firmware version 5.30(ABFX.5)C0, which could be exploited by a local authenticated attacker to cause a denial of service.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26414">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5b8d860965bdc835320a7aeb85b6e8f0</td>
-       <td>CVE-2022-26413</td>
-       <td>2022-04-11 13:15:07 </td>
-       <td>A command injection vulnerability in the CGI program of Zyxel VMG3312-T20A firmware version 5.30(ABFX.5)C0 could allow a local authenticated attacker to execute arbitrary OS commands on a vulnerable device via a LAN interface.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26413">详情</a></td>
       </tr>
 
      </tbody>
