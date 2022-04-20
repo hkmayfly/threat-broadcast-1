@@ -646,3 +646,182 @@
 2022-04-20 14:37:28 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
 2022-04-20 14:37:29 [INFO] : [邮件] 推送威胁情报成功
 2022-04-20 14:37:29 [INFO] : 正在提交变更...
+2022-04-20 14:37:34 [INFO] : 提交变更成功
+2022-04-20 17:31:30 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-20 17:31:30 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-04-20 17:31:30 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [2] 条
+2022-04-20 17:31:30 [INFO] : --------------------------------------------
+2022-04-20 17:31:30 [INFO] : 
+==============================================
+[ TITLE ] Atlassian Bitbucket Data Center 远程代码执行漏洞
+[ TIME  ] 2022-04-20 15:53:37
+[ CVE   ] CVE-2022-26133
+[ SRC   ] 数字观星POC++
+[ URL   ] https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=5875
+2022-04-20 17:31:30 [INFO] : 
+==============================================
+[ TITLE ] Oracle WebLogic Server多个组件安全漏洞
+[ TIME  ] 2022-04-20 14:59:01
+[ CVE   ] CVE-2022-23305,CVE-2022-21420,CVE-2022-21441,CVE-2022-23437,CVE-2022-21453,CVE-2021-41184
+[ SRC   ] 数字观星POC++
+[ URL   ] https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=5874
+2022-04-20 17:31:30 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-20 17:31:30 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-04-20 17:31:31 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-04-20 17:31:31 [INFO] : --------------------------------------------
+2022-04-20 17:31:31 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-20 17:31:31 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-04-20 17:31:55 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [2] 条
+2022-04-20 17:31:55 [INFO] : --------------------------------------------
+2022-04-20 17:31:55 [INFO] : 
+==============================================
+[ TITLE ] RiteCMS任意文件上传漏洞
+[ TIME  ] 2022-04-20 17:31:35
+[ CVE   ] CNVD-2022-30787 (CVE-2021-46367)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-30787
+2022-04-20 17:31:55 [INFO] : 
+==============================================
+[ TITLE ] Maccms任意文件删除漏洞
+[ TIME  ] 2022-04-20 17:31:41
+[ CVE   ] CNVD-2022-30797 (CVE-2020-21363)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-30797
+2022-04-20 17:31:55 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-20 17:31:55 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-04-20 17:32:09 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-04-20 17:32:09 [INFO] : --------------------------------------------
+2022-04-20 17:32:09 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-20 17:32:09 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-04-20 17:32:10 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [1] 条
+2022-04-20 17:32:10 [INFO] : --------------------------------------------
+2022-04-20 17:32:10 [INFO] : 
+==============================================
+[ TITLE ] 2022-04 补丁日: Oracle多个产品漏洞安全风险通告
+[ TIME  ] 2022-04-20 16:39:02
+[ CVE   ] 
+[ SRC   ] 360 网络安全响应中心
+[ URL   ] https://cert.360.cn/warning/detail?id=4e6912c7385b6495b3b4e17f8c0d8a13
+2022-04-20 17:32:10 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-20 17:32:10 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-04-20 17:32:12 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
+2022-04-20 17:32:12 [INFO] : --------------------------------------------
+2022-04-20 17:32:12 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-20 17:32:12 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-04-20 17:32:13 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-04-20 17:32:13 [INFO] : --------------------------------------------
+2022-04-20 17:32:13 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-20 17:32:13 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-04-20 17:32:13 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-04-20 17:32:13 [INFO] : --------------------------------------------
+2022-04-20 17:32:13 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-20 17:32:13 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-04-20 17:32:13 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-04-20 17:32:13 [INFO] : --------------------------------------------
+2022-04-20 17:32:13 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-20 17:32:13 [INFO] : 正在获取 [红后] 威胁情报...
+2022-04-20 17:32:14 [INFO] : 得到 [红后] 最新威胁情报 [10] 条
+2022-04-20 17:32:14 [INFO] : --------------------------------------------
+2022-04-20 17:32:14 [INFO] : 
+==============================================
+[ TITLE ] Grandstream GRP261x VoIP phone 授权问题漏洞
+[ TIME  ] 2022-04-20 13:55:11
+[ CVE   ] CVE-2020-25218
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=ef3e414cf82849089c377d29ec70b947
+2022-04-20 17:32:14 [INFO] : 
+==============================================
+[ TITLE ] Samsung SMR 安全漏洞
+[ TIME  ] 2022-04-20 13:55:07
+[ CVE   ] CVE-2021-25372
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=60612e2941ab43029bf9b8c6fa17a6c8
+2022-04-20 17:32:14 [INFO] : 
+==============================================
+[ TITLE ] Samsung SMR 信息泄露漏洞
+[ TIME  ] 2022-04-20 13:55:02
+[ CVE   ] CVE-2021-25369
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=a0a0656495264f13931f05707bbdcaca
+2022-04-20 17:32:14 [INFO] : 
+==============================================
+[ TITLE ] Linux kernel 竞争条件问题漏洞
+[ TIME  ] 2022-04-20 13:54:58
+[ CVE   ] CVE-2021-29265
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=71627ead234d4067a471a20cf033e51f
+2022-04-20 17:32:14 [INFO] : 
+==============================================
+[ TITLE ] Grandstream GRP261x VoIP phone 命令注入漏洞
+[ TIME  ] 2022-04-20 13:54:55
+[ CVE   ] CVE-2020-25217
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=a742c458abbe4ffa8fbd2b758c9c880f
+2022-04-20 17:32:14 [INFO] : 
+==============================================
+[ TITLE ] GitLab 信息泄露漏洞
+[ TIME  ] 2022-04-20 13:54:51
+[ CVE   ] CVE-2021-22184
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=f77a705ffd6d4e41b2bfb518c865c89f
+2022-04-20 17:32:14 [INFO] : 
+==============================================
+[ TITLE ] Samsung SMR 安全漏洞
+[ TIME  ] 2022-04-20 13:54:46
+[ CVE   ] CVE-2021-25370
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=c80e856093774651b97873608b07ea8e
+2022-04-20 17:32:14 [INFO] : 
+==============================================
+[ TITLE ] Linux kernel 安全漏洞
+[ TIME  ] 2022-04-20 13:54:42
+[ CVE   ] CVE-2021-29264
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=3419ce30515746bb85f5b83be3508593
+2022-04-20 17:32:14 [INFO] : 
+==============================================
+[ TITLE ] OAuth2-Proxy 访问控制错误漏洞
+[ TIME  ] 2022-04-20 13:54:38
+[ CVE   ] CVE-2021-21411
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=4310e89dffea4763b948c21fe2392cf8
+2022-04-20 17:32:14 [INFO] : 
+==============================================
+[ TITLE ] GitLab 安全漏洞
+[ TIME  ] 2022-04-20 13:54:34
+[ CVE   ] CVE-2021-22194
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=8424212f11a04a3dafd59fe8c17ae5f6
+2022-04-20 17:32:14 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-20 17:32:14 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-04-20 17:32:17 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-04-20 17:32:17 [INFO] : --------------------------------------------
+2022-04-20 17:32:17 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-20 17:32:17 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-04-20 17:32:18 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [3] 条
+2022-04-20 17:32:18 [INFO] : --------------------------------------------
+2022-04-20 17:32:18 [INFO] : 
+==============================================
+[ TITLE ] Cross-site request forgery (CSRF) vulnerability in 'MicroPayments - Paid Author Subscriptions, Content, Downloads, Membership' versions prior to 1.9.6 allows a remote unauthenticated attacker to hijack the authentication of an administrator and perform unintended operation via unspecified vectors.
+[ TIME  ] 2022-04-20 02:15:00
+[ CVE   ] CVE-2022-27629
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-27629
+2022-04-20 17:32:18 [INFO] : 
+==============================================
+[ TITLE ] Databasir is a team-oriented relational database model document management platform. Databasir 1.01 has Use of Hard-coded Cryptographic Key vulnerability. An attacker can use hard coding to generate login credentials of any user and log in to the service background located at different IP addresses.
+[ TIME  ] 2022-04-20 00:16:00
+[ CVE   ] CVE-2022-24860
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24860
+2022-04-20 17:32:18 [INFO] : 
+==============================================
+[ TITLE ] On Windows, if Git LFS operates on a malicious repository with a `..exe` file as well as a file named `git.exe`, and `git.exe` is not found in `PATH`, the `..exe` program will be executed, permitting the attacker to execute arbitrary code. This does not affect Unix systems. Similarly, if the malicious repository contains files named `..exe` and `cygpath.exe`, and `cygpath.exe` is not found in `PATH`, the `..exe` program will be executed when certain Git LFS commands are run. More generally, if the current working directory contains any file with a base name of `.` and a file extension from `PATHEXT` (except `.bat` and `.cmd`), and also contains another file with the same base name as a program Git LFS intends to execute (such as `git`, `cygpath`, or `uname`) and any file extension from `PATHEXT` (including `.bat` and `.cmd`), then, on Windows, when Git LFS attempts to execute the intended program the `..exe`, `..com`, etc., file will be executed instead, but only if the intended program is not found in any directory listed in `PATH`. The vulnerability occurs because when Git LFS detects that the program it intends to run does not exist in any directory listed in `PATH` then Git LFS passes an empty string as the executable file path to the Go `os/exec` package, which contains a bug such that, on Windows, it prepends the name of the current working directory (i.e., `.`) to the empty string without adding a path separator, and as a result searches in that directory for a file with the base name `.` combined with any file extension from `PATHEXT`, executing the first one it finds. (The reason `..bat` and `..cmd` files are not executed in the same manner is that, although the Go `os/exec` package tries to execute them just as it does a `..exe` file, the Microsoft Win32 API `CreateProcess()` family of functions have an undocumented feature in that they apparently recognize when a caller is attempting to execute a batch script file and instead run the `cmd.exe` command interpreter, passing the full set of command line arguments as parameters. These are unchanged from the command line arguments set by Git LFS, and as such, the intended program's name is the first, resulting in a command line like `cmd.exe /c git`, which then fails.) Git LFS has resolved this vulnerability by always reporting an error when a program is not found in any directory listed in `PATH` rather than passing an empty string to the Go `os/exec` package in this case. The bug in the Go `os/exec` package has been reported to the Go project and is expected to be patched after this security advisory is published. The problem was introduced in version 2.12.1 and is patched in version 3.1.3. Users of affected versions should upgrade to version 3.1.3. There are currently no known workarounds at this time.
+[ TIME  ] 2022-04-20 00:16:00
+[ CVE   ] CVE-2022-24826
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24826
+2022-04-20 17:32:18 [INFO] : [邮件] 正在推送威胁情报...
+2022-04-20 17:32:18 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
+2022-04-20 17:32:19 [INFO] : [邮件] 推送威胁情报成功
+2022-04-20 17:32:19 [INFO] : 正在提交变更...
