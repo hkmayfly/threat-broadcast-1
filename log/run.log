@@ -355,3 +355,126 @@
 2022-04-21 10:24:26 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
 2022-04-21 10:24:27 [INFO] : [邮件] 推送威胁情报成功
 2022-04-21 10:24:27 [INFO] : 正在提交变更...
+2022-04-21 10:24:32 [INFO] : 提交变更成功
+2022-04-21 14:36:24 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-21 14:36:24 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-04-21 14:36:25 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-04-21 14:36:25 [INFO] : --------------------------------------------
+2022-04-21 14:36:25 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-21 14:36:25 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-04-21 14:36:25 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-04-21 14:36:25 [INFO] : --------------------------------------------
+2022-04-21 14:36:25 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-21 14:36:25 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-04-21 14:36:49 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-04-21 14:36:49 [INFO] : --------------------------------------------
+2022-04-21 14:36:49 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-21 14:36:49 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-04-21 14:37:59 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-04-21 14:37:59 [INFO] : --------------------------------------------
+2022-04-21 14:37:59 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-21 14:37:59 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-04-21 14:37:59 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-04-21 14:37:59 [INFO] : --------------------------------------------
+2022-04-21 14:37:59 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-21 14:37:59 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-04-21 14:38:02 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [10] 条
+2022-04-21 14:38:02 [INFO] : --------------------------------------------
+2022-04-21 14:38:02 [INFO] : 
+==============================================
+[ TITLE ] drivers/infiniband/ulp/rtrs/rtrs-clt.c in the Linux kernel before 5.16.12 has a double free related to rtrs_clt_dev_release.
+[ TIME  ] 2022-04-13 07:15:28 
+[ CVE   ] CVE-2022-29156
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29156
+2022-04-21 14:38:02 [INFO] : 
+==============================================
+[ TITLE ] The npm-dependency-versions package through 0.3.0 for Node.js allows command injection if an attacker is able to call dependencyVersions with a JSON object in which pkgs is a key, and there are shell metacharacters in a value.
+[ TIME  ] 2022-04-12 05:15:07 
+[ CVE   ] CVE-2022-29080
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29080
+2022-04-21 14:38:02 [INFO] : 
+==============================================
+[ TITLE ] Jenkins Google Compute Engine Plugin 4.3.8 and earlier stores private keys unencrypted in cloud agent config.xml files on the Jenkins controller where they can be viewed by users with Extended Read permission, or access to the Jenkins controller file system.
+[ TIME  ] 2022-04-12 20:15:09 
+[ CVE   ] CVE-2022-29052
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29052
+2022-04-21 14:38:02 [INFO] : 
+==============================================
+[ TITLE ] Missing permission checks in Jenkins Publish Over FTP Plugin 1.16 and earlier allow attackers with Overall/Read permission to connect to an FTP server using attacker-specified credentials.
+[ TIME  ] 2022-04-12 20:15:09 
+[ CVE   ] CVE-2022-29051
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29051
+2022-04-21 14:38:02 [INFO] : 
+==============================================
+[ TITLE ] A cross-site request forgery (CSRF) vulnerability in Jenkins Publish Over FTP Plugin 1.16 and earlier allows attackers to connect to an FTP server using attacker-specified credentials.
+[ TIME  ] 2022-04-12 20:15:09 
+[ CVE   ] CVE-2022-29050
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29050
+2022-04-21 14:38:02 [INFO] : 
+==============================================
+[ TITLE ] Jenkins promoted builds Plugin 873.v6149db_d64130 and earlier, except 3.10.1, does not validate the names of promotions defined in Job DSL, allowing attackers with Job/Configure permission to create a promotion with an unsafe name.
+[ TIME  ] 2022-04-12 20:15:09 
+[ CVE   ] CVE-2022-29049
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29049
+2022-04-21 14:38:02 [INFO] : 
+==============================================
+[ TITLE ] A cross-site request forgery (CSRF) vulnerability in Jenkins Subversion Plugin 2.15.3 and earlier allows attackers to connect to an attacker-specified URL.
+[ TIME  ] 2022-04-12 20:15:09 
+[ CVE   ] CVE-2022-29048
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29048
+2022-04-21 14:38:02 [INFO] : 
+==============================================
+[ TITLE ] Jenkins Pipeline: Shared Groovy Libraries Plugin 564.ve62a_4eb_b_e039 and earlier, except 2.21.3, allows attackers able to submit pull requests (or equivalent), but not able to commit directly to the configured SCM, to effectively change the Pipeline behavior by changing the definition of a dynamically retrieved library in their pull request, even if the Pipeline is configured to not trust them.
+[ TIME  ] 2022-04-12 20:15:09 
+[ CVE   ] CVE-2022-29047
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29047
+2022-04-21 14:38:02 [INFO] : 
+==============================================
+[ TITLE ] Jenkins Subversion Plugin 2.15.3 and earlier does not escape the name and description of List Subversion tags (and more) parameters on views displaying parameters, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers with Item/Configure permission.
+[ TIME  ] 2022-04-12 20:15:09 
+[ CVE   ] CVE-2022-29046
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29046
+2022-04-21 14:38:02 [INFO] : 
+==============================================
+[ TITLE ] Jenkins promoted builds Plugin 873.v6149db_d64130 and earlier, except 3.10.1, does not escape the name and description of Promoted Build parameters on views displaying parameters, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers with Item/Configure permission.
+[ TIME  ] 2022-04-12 20:15:09 
+[ CVE   ] CVE-2022-29045
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29045
+2022-04-21 14:38:02 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-21 14:38:02 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-04-21 14:38:02 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-04-21 14:38:02 [INFO] : --------------------------------------------
+2022-04-21 14:38:02 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-21 14:38:02 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-04-21 14:38:02 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-04-21 14:38:02 [INFO] : --------------------------------------------
+2022-04-21 14:38:02 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-21 14:38:02 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-04-21 14:38:02 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-04-21 14:38:02 [INFO] : --------------------------------------------
+2022-04-21 14:38:02 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-21 14:38:02 [INFO] : 正在获取 [红后] 威胁情报...
+2022-04-21 14:38:03 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-04-21 14:38:03 [INFO] : --------------------------------------------
+2022-04-21 14:38:03 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-21 14:38:03 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-04-21 14:38:06 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-04-21 14:38:06 [INFO] : --------------------------------------------
+2022-04-21 14:38:06 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-21 14:38:06 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-04-21 14:38:07 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
+2022-04-21 14:38:07 [INFO] : --------------------------------------------
+2022-04-21 14:38:07 [INFO] : [邮件] 正在推送威胁情报...
+2022-04-21 14:38:07 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
+2022-04-21 14:38:09 [INFO] : [邮件] 推送威胁情报成功
+2022-04-21 14:38:09 [INFO] : 正在提交变更...

@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-04-21 10:24:26 -->
+<!-- RELEASE TIME : 2022-04-21 14:38:07 -->
 <html lang="zh-cn">
 
  <head>
@@ -2268,6 +2268,78 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">cc6c8ee706e59fd5c6897cde1c583813</td>
+       <td>CVE-2022-29156</td>
+       <td>2022-04-13 07:15:28 </td>
+       <td>drivers/infiniband/ulp/rtrs/rtrs-clt.c in the Linux kernel before 5.16.12 has a double free related to rtrs_clt_dev_release.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29156">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">18cd979f613f0968a86e2760bc124cce</td>
+       <td>CVE-2022-29052</td>
+       <td>2022-04-12 20:15:09 </td>
+       <td>Jenkins Google Compute Engine Plugin 4.3.8 and earlier stores private keys unencrypted in cloud agent config.xml files on the Jenkins controller where they can be viewed by users with Extended Read permission, or access to the Jenkins controller file system.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29052">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4fc78d34de07583e5e8df723ab3e19bf</td>
+       <td>CVE-2022-29051</td>
+       <td>2022-04-12 20:15:09 </td>
+       <td>Missing permission checks in Jenkins Publish Over FTP Plugin 1.16 and earlier allow attackers with Overall/Read permission to connect to an FTP server using attacker-specified credentials.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29051">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e4ae184dd3925d2c117c3f5efe83ed7c</td>
+       <td>CVE-2022-29050</td>
+       <td>2022-04-12 20:15:09 </td>
+       <td>A cross-site request forgery (CSRF) vulnerability in Jenkins Publish Over FTP Plugin 1.16 and earlier allows attackers to connect to an FTP server using attacker-specified credentials.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29050">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">98a1d90ddb2e2d77d56070418fb25c6f</td>
+       <td>CVE-2022-29049</td>
+       <td>2022-04-12 20:15:09 </td>
+       <td>Jenkins promoted builds Plugin 873.v6149db_d64130 and earlier, except 3.10.1, does not validate the names of promotions defined in Job DSL, allowing attackers with Job/Configure permission to create a promotion with an unsafe name.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29049">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7514a71a6b7c27471341767425ee32c2</td>
+       <td>CVE-2022-29048</td>
+       <td>2022-04-12 20:15:09 </td>
+       <td>A cross-site request forgery (CSRF) vulnerability in Jenkins Subversion Plugin 2.15.3 and earlier allows attackers to connect to an attacker-specified URL.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29048">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">30dbf17cceaa2181fe2a2ea36bda2184</td>
+       <td>CVE-2022-29047</td>
+       <td>2022-04-12 20:15:09 </td>
+       <td>Jenkins Pipeline: Shared Groovy Libraries Plugin 564.ve62a_4eb_b_e039 and earlier, except 2.21.3, allows attackers able to submit pull requests (or equivalent), but not able to commit directly to the configured SCM, to effectively change the Pipeline behavior by changing the definition of a dynamically retrieved library in their pull request, even if the Pipeline is configured to not trust them.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29047">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1b16d6542b5f6b5be33e27cd02bf5e48</td>
+       <td>CVE-2022-29046</td>
+       <td>2022-04-12 20:15:09 </td>
+       <td>Jenkins Subversion Plugin 2.15.3 and earlier does not escape the name and description of List Subversion tags (and more) parameters on views displaying parameters, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers with Item/Configure permission.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29046">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7cceaabd9e9bae54e26af92e34804d33</td>
+       <td>CVE-2022-29045</td>
+       <td>2022-04-12 20:15:09 </td>
+       <td>Jenkins promoted builds Plugin 873.v6149db_d64130 and earlier, except 3.10.1, does not escape the name and description of Promoted Build parameters on views displaying parameters, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers with Item/Configure permission.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29045">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">462d83e5b71982a2b1bc05a257a80c09</td>
        <td>CVE-2022-22565</td>
        <td>2022-04-12 18:15:08 </td>
@@ -2356,6 +2428,14 @@
       </tr>
 
       <tr>
+       <td scope="row">25afd24aabab231f0d069e70a4b59117</td>
+       <td>CVE-2022-29080</td>
+       <td>2022-04-12 05:15:07 </td>
+       <td>The npm-dependency-versions package through 0.3.0 for Node.js allows command injection if an attacker is able to call dependencyVersions with a JSON object in which pkgs is a key, and there are shell metacharacters in a value.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29080">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">451feb78c0ab914d09d5eb630011f43d</td>
        <td>CVE-2022-24839</td>
        <td>2022-04-11 22:15:07 </td>
@@ -2425,86 +2505,6 @@
        <td>2022-04-11 20:15:21 </td>
        <td>Heap-based buffer overflow vulnerability in sheifd_create function of libsimba library prior to SMR Apr-2022 Release 1 allows code execution by remote attackers.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26098">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0d01b9f83b389fb13706336bc8a3bcfc</td>
-       <td>CVE-2022-26097</td>
-       <td>2022-04-11 20:15:21 </td>
-       <td>Null pointer dereference vulnerability in parser_unknown_property function in libsimba library prior to SMR Apr-2022 Release 1 allows out of bounds write by remote attacker.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26097">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d9d4af177dc38556949f531ea053ba0c</td>
-       <td>CVE-2022-26096</td>
-       <td>2022-04-11 20:15:21 </td>
-       <td>Null pointer dereference vulnerability in parser_ispe function in libsimba library prior to SMR Apr-2022 Release 1 allows out of bounds write by remote attacker.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26096">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">563d92d11cf56defc247678d998a2aa6</td>
-       <td>CVE-2022-26095</td>
-       <td>2022-04-11 20:15:21 </td>
-       <td>Null pointer dereference vulnerability in parser_colr function in libsimba library prior to SMR Apr-2022 Release 1 allows out of bounds write by remote attacker.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26095">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2e9a139f6e0ff4d2eaf4cf989b4d3836</td>
-       <td>CVE-2022-26094</td>
-       <td>2022-04-11 20:15:21 </td>
-       <td>Null pointer dereference vulnerability in parser_auxC function in libsimba library prior to SMR Apr-2022 Release 1 allows out of bounds write by remote attacker.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26094">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">23e9cd86f536d81d7bfd884ef90bb2df</td>
-       <td>CVE-2022-26093</td>
-       <td>2022-04-11 20:15:21 </td>
-       <td>Null pointer dereference vulnerability in parser_irot function in libsimba library prior to SMR Apr-2022 Release 1 allows out of bounds write by remote attacker.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26093">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1e485a42c02bdf71aaaeb48b7cbfdd5e</td>
-       <td>CVE-2022-26092</td>
-       <td>2022-04-11 20:15:21 </td>
-       <td>Improper boundary check in Quram Agif library prior to SMR Apr-2022 Release 1 allows arbitrary code execution.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26092">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">242f61ac9551f4d9b6059e157b4e6622</td>
-       <td>CVE-2022-24829</td>
-       <td>2022-04-11 20:15:20 </td>
-       <td>Garden is an automation platform for Kubernetes development and testing. In versions prior to 0.12.39 multiple endpoints did not require authentication. In some operating modes this allows for an attacker to gain access to the application erroneously. The configuration is leaked through the /api endpoint on the local server that is responsible for serving the Garden dashboard. At the moment, this server is accessible to 0.0.0.0 which makes it accessible to anyone on the same network (or anyone on the internet if they are on a public, static IP). This may lead to the ability to compromise credentials, secrets or environment variables. Users are advised to upgrade to version 0.12.39 as soon as possible. Users unable to upgrade should use a firewall blocking access to port 9777 from all untrusted network machines.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24829">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8868c80f065368734e2ac7cf890c50f4</td>
-       <td>CVE-2022-26091</td>
-       <td>2022-04-11 20:15:20 </td>
-       <td>Improper access control vulnerability in Knox Manage prior to SMR Apr-2022 Release 1 allows that physical attackers can bypass Knox Manage using a function key of hardware keyboard.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26091">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">23a4786efacb4741f735593aae39d6c4</td>
-       <td>CVE-2022-24815</td>
-       <td>2022-04-11 20:15:20 </td>
-       <td>JHipster is a development platform to quickly generate, develop, &amp; deploy modern web applications &amp; microservice architectures. SQL Injection vulnerability in entities for applications generated with the option &quot;reactive with Spring WebFlux&quot; enabled and an SQL database using r2dbc. Applications created without &quot;reactive with Spring WebFlux&quot; and applications with NoSQL databases are not affected. Users who have generated a microservice Gateway using the affected version may be impacted as Gateways are reactive by default. Currently, SQL injection is possible in the findAllBy(Pageable pageable, Criteria criteria) method of an entity repository class generated in these applications as the where clause using Criteria for queries are not sanitized and user input is passed on as it is by the criteria. This issue has been patched in v7.8.1. Users unable to upgrade should be careful when combining criterias and conditions as the root of the issue lies in the `EntityManager.java` class when creating the where clause via `Conditions.just(criteria.toString())`. `just` accepts the literal string provided. Criteria's `toString` method returns a plain string and this combination is vulnerable to sql injection as the string is not sanitized and will contain whatever used passed as input using any plain SQL.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-24815">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">536365a15fe393a71f3d32900e40e0df</td>
-       <td>CVE-2022-22572</td>
-       <td>2022-04-11 20:15:19 </td>
-       <td>A non-admin user with user management permission can escalate his privilege to admin user via password reset functionality. The vulnerability affects Incapptic Connect version &lt; 1.40.1.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22572">详情</a></td>
       </tr>
 
      </tbody>
