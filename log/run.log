@@ -162,3 +162,196 @@
 2022-04-21 00:48:01 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
 2022-04-21 00:48:03 [INFO] : [邮件] 推送威胁情报成功
 2022-04-21 00:48:03 [INFO] : 正在提交变更...
+2022-04-21 00:48:08 [INFO] : 提交变更成功
+2022-04-21 10:23:38 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-21 10:23:38 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-04-21 10:23:38 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-04-21 10:23:38 [INFO] : --------------------------------------------
+2022-04-21 10:23:38 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-21 10:23:38 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-04-21 10:23:39 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-04-21 10:23:39 [INFO] : --------------------------------------------
+2022-04-21 10:23:39 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-21 10:23:39 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-04-21 10:24:03 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-04-21 10:24:03 [INFO] : --------------------------------------------
+2022-04-21 10:24:03 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-21 10:24:03 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-04-21 10:24:16 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-04-21 10:24:16 [INFO] : --------------------------------------------
+2022-04-21 10:24:16 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-21 10:24:16 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-04-21 10:24:17 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-04-21 10:24:17 [INFO] : --------------------------------------------
+2022-04-21 10:24:17 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-21 10:24:17 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-04-21 10:24:19 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [10] 条
+2022-04-21 10:24:19 [INFO] : --------------------------------------------
+2022-04-21 10:24:19 [INFO] : 
+==============================================
+[ TITLE ] NXP LPC55S66JBD64, LPC55S66JBD100, LPC55S66JEV98, LPC55S69JBD64, LPC55S69JBD100, and LPC55S69JEV98 microcontrollers (ROM version 1B) have a buffer overflow in parsing SB2 updates before the signature is verified. This can allow an attacker to achieve non-persistent code execution via a crafted unsigned update.
+[ TIME  ] 2022-03-23 22:15:13 
+[ CVE   ] CVE-2022-22819
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22819
+2022-04-21 10:24:19 [INFO] : 
+==============================================
+[ TITLE ] If LimitXMLRequestBody is set to allow request bodies larger than 350MB (defaults to 1M) on 32 bit systems an integer overflow happens which later causes out of bounds writes. This issue affects Apache HTTP Server 2.4.52 and earlier.
+[ TIME  ] 2022-03-14 11:15:09 
+[ CVE   ] CVE-2022-22721
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22721
+2022-04-21 10:24:19 [INFO] : 
+==============================================
+[ TITLE ] Apache HTTP Server 2.4.52 and earlier fails to close inbound connection when errors are encountered discarding the request body, exposing the server to HTTP Request Smuggling
+[ TIME  ] 2022-03-14 11:15:09 
+[ CVE   ] CVE-2022-22720
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22720
+2022-04-21 10:24:19 [INFO] : 
+==============================================
+[ TITLE ] A carefully crafted request body can cause a read to a random memory area which could cause the process to crash. This issue affects Apache HTTP Server 2.4.52 and earlier.
+[ TIME  ] 2022-03-14 11:15:09 
+[ CVE   ] CVE-2022-22719
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22719
+2022-04-21 10:24:19 [INFO] : 
+==============================================
+[ TITLE ] A non-admin user with user management permission can escalate his privilege to admin user via password reset functionality. The vulnerability affects Incapptic Connect version &lt; 1.40.1.
+[ TIME  ] 2022-04-11 20:15:19 
+[ CVE   ] CVE-2022-22572
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22572
+2022-04-21 10:24:19 [INFO] : 
+==============================================
+[ TITLE ] An authenticated high privileged user can perform a stored XSS attack due to incorrect output encoding in Incapptic connect and affects all current versions.
+[ TIME  ] 2022-04-11 20:15:19 
+[ CVE   ] CVE-2022-22571
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22571
+2022-04-21 10:24:19 [INFO] : 
+==============================================
+[ TITLE ] Dell PowerScale OneFS, versions 9.0.0-9.3.0, contain an improper authorization of index containing sensitive information. An authenticated and privileged user could potentially exploit this vulnerability, leading to disclosure or modification of sensitive data.
+[ TIME  ] 2022-04-12 18:15:08 
+[ CVE   ] CVE-2022-22565
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22565
+2022-04-21 10:24:19 [INFO] : 
+==============================================
+[ TITLE ] Dell PowerScale OneFS, versions 8.2.0-9.3.0, contain a improper handling of missing values exploit. An unauthenticated network attacker could potentially exploit this denial-of-service vulnerability.
+[ TIME  ] 2022-04-12 18:15:08 
+[ CVE   ] CVE-2022-22562
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22562
+2022-04-21 10:24:19 [INFO] : 
+==============================================
+[ TITLE ] Dell PowerScale OneFS, versions 8.2.x-9.3.0.x, contain an improper restriction of excessive authentication attempts. An unauthenticated remote attacker could potentially exploit this vulnerability, leading to compromised accounts.
+[ TIME  ] 2022-04-12 18:15:08 
+[ CVE   ] CVE-2022-22561
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22561
+2022-04-21 10:24:19 [INFO] : 
+==============================================
+[ TITLE ] Dell EMC PowerScale OneFS 8.1.x - 9.1.x contain hard coded credentials. This allows a local user with knowledge of the credentials to login as the admin user to the backend ethernet switch of a PowerScale cluster. The attacker can exploit this vulnerability to take the switch offline.
+[ TIME  ] 2022-04-12 18:15:08 
+[ CVE   ] CVE-2022-22560
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-22560
+2022-04-21 10:24:19 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-21 10:24:19 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-04-21 10:24:20 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-04-21 10:24:20 [INFO] : --------------------------------------------
+2022-04-21 10:24:20 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-21 10:24:20 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-04-21 10:24:21 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-04-21 10:24:21 [INFO] : --------------------------------------------
+2022-04-21 10:24:21 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-21 10:24:21 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-04-21 10:24:21 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-04-21 10:24:21 [INFO] : --------------------------------------------
+2022-04-21 10:24:21 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-21 10:24:21 [INFO] : 正在获取 [红后] 威胁情报...
+2022-04-21 10:24:22 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-04-21 10:24:22 [INFO] : --------------------------------------------
+2022-04-21 10:24:22 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-21 10:24:22 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-04-21 10:24:25 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-04-21 10:24:25 [INFO] : --------------------------------------------
+2022-04-21 10:24:25 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-21 10:24:25 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-04-21 10:24:25 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [10] 条
+2022-04-21 10:24:25 [INFO] : --------------------------------------------
+2022-04-21 10:24:25 [INFO] : 
+==============================================
+[ TITLE ] gp_rtp_builder_do_hevc in ietf/rtp_pck_mpeg4.c in GPAC 2.0.0 has a heap-based buffer over-read, as demonstrated by MP4Box.
+[ TIME  ] 2022-04-20 23:15:00
+[ CVE   ] CVE-2022-29537
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-29537
+2022-04-21 10:24:25 [INFO] : 
+==============================================
+[ TITLE ] In GNOME Epiphany before 41.4 and 42.x before 42.2, an HTML document can trigger a client buffer overflow (in ephy_string_shorten in the UI process) via a long page title. The issue occurs because the number of bytes for a UTF-8 ellipsis character is not properly considered.
+[ TIME  ] 2022-04-20 23:15:00
+[ CVE   ] CVE-2022-29536
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-29536
+2022-04-21 10:24:25 [INFO] : 
+==============================================
+[ TITLE ] An issue was discovered in MISP before 2.4.158. In UsersController.php, password confirmation can be bypassed via vectors involving an "Accept: application/json" header.
+[ TIME  ] 2022-04-20 23:15:00
+[ CVE   ] CVE-2022-29534
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-29534
+2022-04-21 10:24:25 [INFO] : 
+==============================================
+[ TITLE ] An issue was discovered in MISP before 2.4.158. There is XSS in app/Controller/OrganisationsController.php in a situation with a "weird single checkbox page."
+[ TIME  ] 2022-04-20 23:15:00
+[ CVE   ] CVE-2022-29533
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-29533
+2022-04-21 10:24:25 [INFO] : 
+==============================================
+[ TITLE ] An issue was discovered in MISP before 2.4.158. There is XSS in the cerebrate view if one administrator puts a javascript: URL in the URL field, and another administrator clicks on it.
+[ TIME  ] 2022-04-20 23:15:00
+[ CVE   ] CVE-2022-29532
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-29532
+2022-04-21 10:24:25 [INFO] : 
+==============================================
+[ TITLE ] An issue was discovered in MISP before 2.4.158. There is stored XSS in the event graph via a tag name.
+[ TIME  ] 2022-04-20 23:15:00
+[ CVE   ] CVE-2022-29531
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-29531
+2022-04-21 10:24:25 [INFO] : 
+==============================================
+[ TITLE ] An issue was discovered in MISP before 2.4.158. There is stored XSS in the galaxy clusters.
+[ TIME  ] 2022-04-20 23:15:00
+[ CVE   ] CVE-2022-29530
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-29530
+2022-04-21 10:24:25 [INFO] : 
+==============================================
+[ TITLE ] An issue was discovered in MISP before 2.4.158. There is stored XSS via the LinOTP login field.
+[ TIME  ] 2022-04-20 23:15:00
+[ CVE   ] CVE-2022-29529
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-29529
+2022-04-21 10:24:25 [INFO] : 
+==============================================
+[ TITLE ] An issue was discovered in MISP before 2.4.158. PHAR deserialization can occur.
+[ TIME  ] 2022-04-20 23:15:00
+[ CVE   ] CVE-2022-29528
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-29528
+2022-04-21 10:24:25 [INFO] : 
+==============================================
+[ TITLE ] acs commons is an open source framework for AEM projects. ACS Commons version 5.1.x (and earlier) suffers from a Reflected Cross-site Scripting (XSS) vulnerability in /apps/acs-commons/content/page-compare.html` endpoint via the `a` and `b` GET parameters. User input submitted via these parameters is not validated or sanitized. An attacker must provide a link to someone with access to AEM Author, and could potentially exploit this vulnerability to inject malicious JavaScript content into vulnerable form fields and execute it within the context of the victim's browser. The exploitation of this issue requires user interaction in order to be successful. This issue has been resolved in 5.2.0. There are no known workarounds for this issue.
+[ TIME  ] 2022-04-20 21:15:00
+[ CVE   ] CVE-2022-24874
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24874
+2022-04-21 10:24:26 [INFO] : [邮件] 正在推送威胁情报...
+2022-04-21 10:24:26 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
+2022-04-21 10:24:27 [INFO] : [邮件] 推送威胁情报成功
+2022-04-21 10:24:27 [INFO] : 正在提交变更...
