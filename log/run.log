@@ -553,3 +553,343 @@
 2022-04-22 15:59:52 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
 2022-04-22 15:59:53 [INFO] : [邮件] 推送威胁情报成功
 2022-04-22 15:59:53 [INFO] : 正在提交变更...
+2022-04-22 15:59:58 [INFO] : 提交变更成功
+2022-04-22 20:23:50 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-22 20:23:50 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-04-22 20:23:51 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-04-22 20:23:51 [INFO] : --------------------------------------------
+2022-04-22 20:23:51 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-22 20:23:51 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-04-22 20:23:52 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-04-22 20:23:52 [INFO] : --------------------------------------------
+2022-04-22 20:23:52 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-22 20:23:52 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-04-22 20:24:16 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-04-22 20:24:16 [INFO] : --------------------------------------------
+2022-04-22 20:24:16 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-22 20:24:16 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-04-22 20:25:04 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [10] 条
+2022-04-22 20:25:04 [INFO] : --------------------------------------------
+2022-04-22 20:25:04 [INFO] : 
+==============================================
+[ TITLE ] Oracle Linux 安全漏洞
+[ TIME  ] 2022-04-21 20:24:25
+[ CVE   ] CNNVD-202204-4026 (CVE-2022-21439)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-4026
+2022-04-22 20:25:04 [INFO] : 
+==============================================
+[ TITLE ] Oracle Solaris 安全漏洞
+[ TIME  ] 2022-04-21 20:24:30
+[ CVE   ] CNNVD-202204-4025 (CVE-2022-21384)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-4025
+2022-04-22 20:25:04 [INFO] : 
+==============================================
+[ TITLE ] OWASP AntiSamy 安全漏洞
+[ TIME  ] 2022-04-21 20:24:34
+[ CVE   ] CNNVD-202204-4024 (CVE-2022-29577)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-4024
+2022-04-22 20:25:04 [INFO] : 
+==============================================
+[ TITLE ] Delta Electronics ASDA-Soft 缓冲区错误漏洞
+[ TIME  ] 2022-04-21 20:24:38
+[ CVE   ] CNNVD-202204-4023 (CVE-2022-1402)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-4023
+2022-04-22 20:25:04 [INFO] : 
+==============================================
+[ TITLE ] Delta Electronics ASDA-Soft 缓冲区错误漏洞
+[ TIME  ] 2022-04-21 20:24:46
+[ CVE   ] CNNVD-202204-4022 (CVE-2022-1403)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-4022
+2022-04-22 20:25:04 [INFO] : 
+==============================================
+[ TITLE ] HtmlUnit 安全漏洞
+[ TIME  ] 2022-04-21 20:24:51
+[ CVE   ] CNNVD-202204-4021 (CVE-2022-28366)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-4021
+2022-04-22 20:25:04 [INFO] : 
+==============================================
+[ TITLE ] OWASP AntiSamy 跨站脚本漏洞
+[ TIME  ] 2022-04-21 20:24:52
+[ CVE   ] CNNVD-202204-4020 (CVE-2022-28367)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-4020
+2022-04-22 20:25:04 [INFO] : 
+==============================================
+[ TITLE ] Johnson Controls Metasys system 代码问题漏洞
+[ TIME  ] 2022-04-21 20:24:53
+[ CVE   ] CNNVD-202204-4018 (CVE-2021-36203)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-4018
+2022-04-22 20:25:04 [INFO] : 
+==============================================
+[ TITLE ] Attendance and Payroll System 安全漏洞
+[ TIME  ] 2022-04-21 20:24:57
+[ CVE   ] CNNVD-202204-4017 (CVE-2022-28017)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-4017
+2022-04-22 20:25:04 [INFO] : 
+==============================================
+[ TITLE ] Attendance and Payroll System 安全漏洞
+[ TIME  ] 2022-04-21 20:25:03
+[ CVE   ] CNNVD-202204-4016 (CVE-2022-28016)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-4016
+2022-04-22 20:25:04 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-22 20:25:04 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-04-22 20:25:04 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-04-22 20:25:04 [INFO] : --------------------------------------------
+2022-04-22 20:25:04 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-22 20:25:04 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-04-22 20:25:06 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [3] 条
+2022-04-22 20:25:06 [INFO] : --------------------------------------------
+2022-04-22 20:25:06 [INFO] : 
+==============================================
+[ TITLE ] A vulnerability has been identified in SCALANCE X302-7 EEC (230V), SCALANCE X302-7 EEC (230V, coated), SCALANCE X302-7 EEC (24V), SCALANCE X302-7 EEC (24V, coated), SCALANCE X302-7 EEC (2x 230V), SCALANCE X302-7 EEC (2x 230V, coated), SCALANCE X302-7 EEC (2x 24V), SCALANCE X302-7 EEC (2x 24V, coated), SCALANCE X304-2FE, SCALANCE X306-1LD FE, SCALANCE X307-2 EEC (230V), SCALANCE X307-2 EEC (230V, coated), SCALANCE X307-2 EEC (24V), SCALANCE X307-2 EEC (24V, coated), SCALANCE X307-2 EEC (2x 230V), SCALANCE X307-2 EEC (2x 230V, coated), SCALANCE X307-2 EEC (2x 24V), SCALANCE X307-2 EEC (2x 24V, coated), SCALANCE X307-3, SCALANCE X307-3, SCALANCE X307-3LD, SCALANCE X307-3LD, SCALANCE X308-2, SCALANCE X308-2, SCALANCE X308-2LD, SCALANCE X308-2LD, SCALANCE X308-2LH, SCALANCE X308-2LH, SCALANCE X308-2LH+, SCALANCE X308-2LH+, SCALANCE X308-2M, SCALANCE X308-2M, SCALANCE X308-2M PoE, SCALANCE X308-2M PoE, SCALANCE X308-2M TS, SCALANCE X308-2M TS, SCALANCE X310, SCALANCE X310, SCALANCE X310FE, SCALANCE X310FE, SCALANCE X320-1 FE, SCALANCE X320-1-2LD FE, SCALANCE X408-2, SCALANCE XR324-12M (230V, ports on front), SCALANCE XR324-12M (230V, ports on front), SCALANCE XR324-12M (230V, ports on rear), SCALANCE XR324-12M (230V, ports on rear), SCALANCE XR324-12M (24V, ports on front), SCALANCE XR324-12M (24V, ports on front), SCALANCE XR324-12M (24V, ports on rear), SCALANCE XR324-12M (24V, ports on rear), SCALANCE XR324-12M TS (24V), SCALANCE XR324-12M TS (24V), SCALANCE XR324-4M EEC (100-240VAC/60-250VDC, ports on front), SCALANCE XR324-4M EEC (100-240VAC/60-250VDC, ports on front), SCALANCE XR324-4M EEC (100-240VAC/60-250VDC, ports on rear), SCALANCE XR324-4M EEC (100-240VAC/60-250VDC, ports on rear), SCALANCE XR324-4M EEC (24V, ports on front), SCALANCE XR324-4M EEC (24V, ports on front), SCALANCE XR324-4M EEC (24V, ports on rear), SCALANCE XR324-4M EEC (24V, ports on rear), SCALANCE XR324-4M EEC (2x 100-240VAC/60-250VDC, ports on front), SCALANCE XR324-4M EEC (2x 100-240VAC/60-250VDC, ports on front), SCALANCE XR324-4M EEC (2x 100-240VAC/60-250VDC, ports on rear), SCALANCE XR324-4M EEC (2x 100-240VAC/60-250VDC, ports on rear), SCALANCE XR324-4M EEC (2x 24V, ports on front), SCALANCE XR324-4M EEC (2x 24V, ports on front), SCALANCE XR324-4M EEC (2x 24V, ports on rear), SCALANCE XR324-4M EEC (2x 24V, ports on rear), SCALANCE XR324-4M PoE (230V, ports on front), SCALANCE XR324-4M PoE (230V, ports on rear), SCALANCE XR324-4M PoE (24V, ports on front), SCALANCE XR324-4M PoE (24V, ports on rear), SCALANCE XR324-4M PoE TS (24V, ports on front), SIPLUS NET SCALANCE X308-2. Affected devices do not properly validate if a certain SNMP key exists. An attacker could use this to trigger a reboot of an affected device by requesting specific SNMP information from the device.
+[ TIME  ] 2022-04-12 09:15:14 
+[ CVE   ] CVE-2022-26380
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26380
+2022-04-22 20:25:06 [INFO] : 
+==============================================
+[ TITLE ] A vulnerability has been identified in SCALANCE X302-7 EEC (230V), SCALANCE X302-7 EEC (230V, coated), SCALANCE X302-7 EEC (24V), SCALANCE X302-7 EEC (24V, coated), SCALANCE X302-7 EEC (2x 230V), SCALANCE X302-7 EEC (2x 230V, coated), SCALANCE X302-7 EEC (2x 24V), SCALANCE X302-7 EEC (2x 24V, coated), SCALANCE X304-2FE, SCALANCE X306-1LD FE, SCALANCE X307-2 EEC (230V), SCALANCE X307-2 EEC (230V, coated), SCALANCE X307-2 EEC (24V), SCALANCE X307-2 EEC (24V, coated), SCALANCE X307-2 EEC (2x 230V), SCALANCE X307-2 EEC (2x 230V, coated), SCALANCE X307-2 EEC (2x 24V), SCALANCE X307-2 EEC (2x 24V, coated), SCALANCE X307-3, SCALANCE X307-3, SCALANCE X307-3LD, SCALANCE X307-3LD, SCALANCE X308-2, SCALANCE X308-2, SCALANCE X308-2LD, SCALANCE X308-2LD, SCALANCE X308-2LH, SCALANCE X308-2LH, SCALANCE X308-2LH+, SCALANCE X308-2LH+, SCALANCE X308-2M, SCALANCE X308-2M, SCALANCE X308-2M PoE, SCALANCE X308-2M PoE, SCALANCE X308-2M TS, SCALANCE X308-2M TS, SCALANCE X310, SCALANCE X310, SCALANCE X310FE, SCALANCE X310FE, SCALANCE X320-1 FE, SCALANCE X320-1-2LD FE, SCALANCE X408-2, SCALANCE XR324-12M (230V, ports on front), SCALANCE XR324-12M (230V, ports on front), SCALANCE XR324-12M (230V, ports on rear), SCALANCE XR324-12M (230V, ports on rear), SCALANCE XR324-12M (24V, ports on front), SCALANCE XR324-12M (24V, ports on front), SCALANCE XR324-12M (24V, ports on rear), SCALANCE XR324-12M (24V, ports on rear), SCALANCE XR324-12M TS (24V), SCALANCE XR324-12M TS (24V), SCALANCE XR324-4M EEC (100-240VAC/60-250VDC, ports on front), SCALANCE XR324-4M EEC (100-240VAC/60-250VDC, ports on front), SCALANCE XR324-4M EEC (100-240VAC/60-250VDC, ports on rear), SCALANCE XR324-4M EEC (100-240VAC/60-250VDC, ports on rear), SCALANCE XR324-4M EEC (24V, ports on front), SCALANCE XR324-4M EEC (24V, ports on front), SCALANCE XR324-4M EEC (24V, ports on rear), SCALANCE XR324-4M EEC (24V, ports on rear), SCALANCE XR324-4M EEC (2x 100-240VAC/60-250VDC, ports on front), SCALANCE XR324-4M EEC (2x 100-240VAC/60-250VDC, ports on front), SCALANCE XR324-4M EEC (2x 100-240VAC/60-250VDC, ports on rear), SCALANCE XR324-4M EEC (2x 100-240VAC/60-250VDC, ports on rear), SCALANCE XR324-4M EEC (2x 24V, ports on front), SCALANCE XR324-4M EEC (2x 24V, ports on front), SCALANCE XR324-4M EEC (2x 24V, ports on rear), SCALANCE XR324-4M EEC (2x 24V, ports on rear), SCALANCE XR324-4M PoE (230V, ports on front), SCALANCE XR324-4M PoE (230V, ports on rear), SCALANCE XR324-4M PoE (24V, ports on front), SCALANCE XR324-4M PoE (24V, ports on rear), SCALANCE XR324-4M PoE TS (24V, ports on front), SIPLUS NET SCALANCE X308-2. Affected devices do not properly validate the URI of incoming HTTP GET requests. This could allow an unauthenticated remote attacker to crash affected devices.
+[ TIME  ] 2022-04-12 09:15:14 
+[ CVE   ] CVE-2022-26335
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26335
+2022-04-22 20:25:06 [INFO] : 
+==============================================
+[ TITLE ] Citrix XenMobile Server 10.12 through RP11, 10.13 through RP7, and 10.14 through RP4 allows Command Injection.
+[ TIME  ] 2022-04-13 00:15:19 
+[ CVE   ] CVE-2022-26151
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26151
+2022-04-22 20:25:06 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-22 20:25:06 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-04-22 20:25:07 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-04-22 20:25:07 [INFO] : --------------------------------------------
+2022-04-22 20:25:07 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-22 20:25:07 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-04-22 20:25:07 [INFO] : 得到 [绿盟] 最新威胁情报 [15] 条
+2022-04-22 20:25:07 [INFO] : --------------------------------------------
+2022-04-22 20:25:07 [INFO] : 
+==============================================
+[ TITLE ] Oracle WebLogic Server存在未明漏洞
+[ TIME  ] 2022-04-22 20:25:07
+[ CVE   ] CVE-2022-21453
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64384
+2022-04-22 20:25:07 [INFO] : 
+==============================================
+[ TITLE ] Oracle WebLogic Server存在未明漏洞
+[ TIME  ] 2022-04-22 20:25:07
+[ CVE   ] CVE-2022-21441
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64383
+2022-04-22 20:25:07 [INFO] : 
+==============================================
+[ TITLE ] Oracle GoldenGate存在未明漏洞
+[ TIME  ] 2022-04-22 20:25:07
+[ CVE   ] CVE-2022-21442
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64382
+2022-04-22 20:25:07 [INFO] : 
+==============================================
+[ TITLE ] Oracle Coherence存在未明漏洞
+[ TIME  ] 2022-04-22 20:25:07
+[ CVE   ] CVE-2022-21420
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64381
+2022-04-22 20:25:07 [INFO] : 
+==============================================
+[ TITLE ] Oracle FLEXCUBE Universal Banking存在未明漏洞
+[ TIME  ] 2022-04-22 20:25:07
+[ CVE   ] CVE-2022-21472
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64380
+2022-04-22 20:25:07 [INFO] : 
+==============================================
+[ TITLE ] Oracle Enterprise Manager Base Platform输入验证错误漏洞
+[ TIME  ] 2022-04-22 20:25:07
+[ CVE   ] CVE-2022-21469
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64379
+2022-04-22 20:25:07 [INFO] : 
+==============================================
+[ TITLE ] Oracle Banking Treasury Management存在未明漏洞
+[ TIME  ] 2022-04-22 20:25:07
+[ CVE   ] CVE-2022-21473
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64378
+2022-04-22 20:25:07 [INFO] : 
+==============================================
+[ TITLE ] Oracle Banking Trade Finance存在未明漏洞
+[ TIME  ] 2022-04-22 20:25:07
+[ CVE   ] CVE-2022-21474
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64377
+2022-04-22 20:25:07 [INFO] : 
+==============================================
+[ TITLE ] Oracle Banking Payments存在未明漏洞
+[ TIME  ] 2022-04-22 20:25:07
+[ CVE   ] CVE-2022-21475
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64376
+2022-04-22 20:25:07 [INFO] : 
+==============================================
+[ TITLE ] Oracle JDeveloper存在未明漏洞
+[ TIME  ] 2022-04-22 20:25:07
+[ CVE   ] CVE-2022-21445
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64375
+2022-04-22 20:25:07 [INFO] : 
+==============================================
+[ TITLE ] Oracle JD Edwards EnterpriseOne Tools存在未明漏洞
+[ TIME  ] 2022-04-22 20:25:07
+[ CVE   ] CVE-2022-21464
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64374
+2022-04-22 20:25:07 [INFO] : 
+==============================================
+[ TITLE ] Oracle JD Edwards EnterpriseOne Tools存在未明漏洞
+[ TIME  ] 2022-04-22 20:25:07
+[ CVE   ] CVE-2022-21409
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64373
+2022-04-22 20:25:07 [INFO] : 
+==============================================
+[ TITLE ] Oracle Communications Billing and Revenue Management存在未明漏洞
+[ TIME  ] 2022-04-22 20:25:07
+[ CVE   ] CVE-2022-21430
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64372
+2022-04-22 20:25:07 [INFO] : 
+==============================================
+[ TITLE ] Oracle Communications Billing and Revenue Management存在未明漏洞
+[ TIME  ] 2022-04-22 20:25:07
+[ CVE   ] CVE-2022-21424
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64371
+2022-04-22 20:25:07 [INFO] : 
+==============================================
+[ TITLE ] Oracle Communications Billing and Revenue Management存在未明漏洞
+[ TIME  ] 2022-04-22 20:25:07
+[ CVE   ] CVE-2022-21431
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64370
+2022-04-22 20:25:07 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-22 20:25:07 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-04-22 20:25:08 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-04-22 20:25:08 [INFO] : --------------------------------------------
+2022-04-22 20:25:08 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-22 20:25:08 [INFO] : 正在获取 [红后] 威胁情报...
+2022-04-22 20:25:08 [INFO] : 得到 [红后] 最新威胁情报 [9] 条
+2022-04-22 20:25:08 [INFO] : --------------------------------------------
+2022-04-22 20:25:08 [INFO] : 
+==============================================
+[ TITLE ] XStream 操作系统命令注入漏洞
+[ TIME  ] 2022-04-22 13:56:31
+[ CVE   ] CVE-2020-26217
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=6680ad3fa59d458385068dab62c6c5c6
+2022-04-22 20:25:08 [INFO] : 
+==============================================
+[ TITLE ] Oracle GraalVM 资源管理错误漏洞
+[ TIME  ] 2022-04-22 13:56:28
+[ CVE   ] CVE-2020-8277
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=7500a515e25249cfb135a5702e750a50
+2022-04-22 20:25:08 [INFO] : 
+==============================================
+[ TITLE ] Pixar OpenUSD 缓冲区错误漏洞
+[ TIME  ] 2022-04-22 13:56:24
+[ CVE   ] CVE-2020-6156
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=0e2a2134ddd84e2bb30569ba90ed1d8f
+2022-04-22 20:25:08 [INFO] : 
+==============================================
+[ TITLE ] Pixar OpenUSD 缓冲区错误漏洞
+[ TIME  ] 2022-04-22 13:56:19
+[ CVE   ] CVE-2020-6155
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=ba420a116f0c43a99c02e9c3f49cc85a
+2022-04-22 20:25:08 [INFO] : 
+==============================================
+[ TITLE ] Yargs Y18n 输入验证错误漏洞
+[ TIME  ] 2022-04-22 13:56:17
+[ CVE   ] CVE-2020-7774
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=2fa81f1c5d8e4a8ca262190c38d18ce7
+2022-04-22 20:25:08 [INFO] : 
+==============================================
+[ TITLE ] Pixar OpenUSD 缓冲区错误漏洞
+[ TIME  ] 2022-04-22 13:56:13
+[ CVE   ] CVE-2020-6148
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=3decaf2f33d04531a5a13ead53b091e3
+2022-04-22 20:25:08 [INFO] : 
+==============================================
+[ TITLE ] Pixar OpenUSD 缓冲区错误漏洞
+[ TIME  ] 2022-04-22 13:56:08
+[ CVE   ] CVE-2020-6150
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=4869d6ca07854ba38238d9c2242b4a0c
+2022-04-22 20:25:08 [INFO] : 
+==============================================
+[ TITLE ] Pixar OpenUSD 缓冲区错误漏洞
+[ TIME  ] 2022-04-22 13:56:04
+[ CVE   ] CVE-2020-6149
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=55e37e10834d44c8a101041c1f7620e5
+2022-04-22 20:25:08 [INFO] : 
+==============================================
+[ TITLE ] Pixar OpenUSD 缓冲区错误漏洞
+[ TIME  ] 2022-04-22 13:55:55
+[ CVE   ] CVE-2020-6147
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=1eefa4b3e2af4767831e9534b0a09d98
+2022-04-22 20:25:08 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-22 20:25:08 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-04-22 20:25:11 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-04-22 20:25:11 [INFO] : --------------------------------------------
+2022-04-22 20:25:11 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-22 20:25:11 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-04-22 20:25:12 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [4] 条
+2022-04-22 20:25:12 [INFO] : --------------------------------------------
+2022-04-22 20:25:12 [INFO] : 
+==============================================
+[ TITLE ] SQL injection in GridHelperService.php in GitHub repository pimcore/pimcore prior to 10.3.6. This vulnerability is capable of steal the data
+[ TIME  ] 2022-04-22 09:15:00
+[ CVE   ] CVE-2022-1429
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-1429
+2022-04-22 20:25:12 [INFO] : 
+==============================================
+[ TITLE ] ASUS RT-AX88U has a Format String vulnerability, which allows an unauthenticated remote attacker to write to arbitrary memory address and perform remote arbitrary code execution, arbitrary system operation or disrupt service.
+[ TIME  ] 2022-04-22 07:15:00
+[ CVE   ] CVE-2022-26674
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-26674
+2022-04-22 20:25:12 [INFO] : 
+==============================================
+[ TITLE ] ASUS RT-AX88U has insufficient filtering for special characters in the HTTP header parameter. A remote attacker with general user privilege can exploit this vulnerability to inject JavaScript and perform Stored Cross-Site Scripting (XSS) attacks.
+[ TIME  ] 2022-04-22 07:15:00
+[ CVE   ] CVE-2022-26673
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-26673
+2022-04-22 20:25:12 [INFO] : 
+==============================================
+[ TITLE ] ASUS WebStorage has a hardcoded API Token in the APP source code. An unauthenticated remote attacker can use this token to establish connections with the server and carry out login attempts to general user accounts. A successful login to a general user account allows the attacker to access, modify or delete this user account information.
+[ TIME  ] 2022-04-22 07:15:00
+[ CVE   ] CVE-2022-26672
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-26672
+2022-04-22 20:25:12 [INFO] : [邮件] 正在推送威胁情报...
+2022-04-22 20:25:12 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
+2022-04-22 20:25:13 [INFO] : [邮件] 推送威胁情报成功
+2022-04-22 20:25:13 [INFO] : 正在提交变更...
