@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-04-25 00:18:54 -->
+<!-- RELEASE TIME : 2022-04-25 10:31:15 -->
 <html lang="zh-cn">
 
  <head>
@@ -216,6 +216,30 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">bf5d4b29e6009ea94d2e7171a2e37e3e</td>
+       <td>CVE-2022-1452</td>
+       <td>2022-04-24 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>Out-of-bounds Read in r_bin_java_bootstrap_methods_attr_new function in GitHub repository radareorg/radare2 prior to 5.7.0. The bug causes the program reads data past the end 2f the intented buffer. Typically, this can allow attackers to read sensitive information from other memory locations or cause a crash. More details see [CWE-125: Out-of-bounds read](https://cwe.mitre.org/data/definitions/125.html).</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1452">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d2b176bacd363b77d3fb3d711d5c58a1</td>
+       <td>CVE-2022-1451</td>
+       <td>2022-04-24 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>Out-of-bounds Read in r_bin_java_constant_value_attr_new function in GitHub repository radareorg/radare2 prior to 5.7.0. The bug causes the program reads data past the end 2f the intented buffer. Typically, this can allow attackers to read sensitive information from other memory locations or cause a crash. More details see [CWE-125: Out-of-bounds read](https://cwe.mitre.org/data/definitions/125.html).</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1451">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">775e35838a118478c08968968ccc8434</td>
+       <td>CVE-2022-1445</td>
+       <td>2022-04-24 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>Stored Cross Site Scripting vulnerability in the checked_out_to parameter in GitHub repository snipe/snipe-it prior to 5.4.3. The vulnerability is capable of stolen the user Cookie.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1445">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">4649d0cffd83a8c94d951ae791edfd63</td>
        <td>CVE-2022-1444</td>
        <td>2022-04-23 22:15:00</td>
@@ -429,30 +453,6 @@
        <td>2022-04-21 02:15:00</td>
        <td>A reflected XSS issue exists in the Management Console of several WSO2 products. This affects API Manager 2.2.0, 2.5.0, 2.6.0, 3.0.0, 3.1.0, 3.2.0, and 4.0.0; API Manager Analytics 2.2.0, 2.5.0, and 2.6.0; API Microgateway 2.2.0; Data Analytics Server 3.2.0; Enterprise Integrator 6.2.0, 6.3.0, 6.4.0, 6.5.0, and 6.6.0; IS as Key Manager 5.5.0, 5.6.0, 5.7.0, 5.9.0, and 5.10.0; Identity Server 5.5.0, 5.6.0, 5.7.0, 5.9.0, 5.10.0, and 5.11.0; Identity Server Analytics 5.5.0 and 5.6.0; and WSO2 Micro Integrator 1.0.0.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29548">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">030bb59f7e105c112f9e0b87211e8816</td>
-       <td>CVE-2022-29547</td>
-       <td>2022-04-21 01:15:00</td>
-       <td>The CreateRedirect extension before 2022-04-14 for MediaWiki does not properly check whether the user has permissions to edit the target page. This could lead to an unauthorised (or blocked) user being able to edit a page.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29547">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6f4e6fff887c5a7dcd72bfa718655d93</td>
-       <td>CVE-2022-27926</td>
-       <td>2022-04-21 00:15:00</td>
-       <td>A reflected cross-site scripting (XSS) vulnerability in the /public/launchNewWindow.jsp component of Zimbra Collaboration (aka ZCS) 9.0 allows unauthenticated attackers to execute arbitrary web script or HTML via request parameters.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27926">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c22e13d9153b1f0e823233c578a63879</td>
-       <td>CVE-2022-27925</td>
-       <td>2022-04-21 00:15:00</td>
-       <td>Zimbra Collaboration (aka ZCS) 8.8.15 and 9.0 has mboximport functionality that receives a ZIP archive and extracts files from it. An authenticated user with administrator rights has the ability to upload arbitrary files to the system, leading to directory traversal.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27925">详情</a></td>
       </tr>
 
      </tbody>
@@ -914,6 +914,14 @@
       </tr>
 
       <tr>
+       <td scope="row">e305e974142bef2cb04e37f1d4bf226e</td>
+       <td>CNVD-2022-31938 (CVE-2021-45452)</td>
+       <td>2022-04-24 10:30:53 <img src="imgs/new.gif" /></td>
+       <td>Django路径遍历漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-31938">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">9d778bb4a2e89a2bd892473218afff03</td>
        <td>CNVD-2022-31552 (CVE-2021-25082)</td>
        <td>2022-04-24 02:48:31 <img src="imgs/new.gif" /></td>
@@ -983,14 +991,6 @@
        <td>2022-04-22 22:37:55</td>
        <td>Dell EMC密码存储漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-31754">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">edb8c66992e7d64887db43f5c9d54b8c</td>
-       <td>CNVD-2022-31756 (CVE-2022-1385)</td>
-       <td>2022-04-22 22:37:46</td>
-       <td>Mattermost访问控制错误漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-31756">详情</a></td>
       </tr>
 
      </tbody>
@@ -2404,6 +2404,22 @@
       </tr>
 
       <tr>
+       <td scope="row">04f15608a07a195bbe5e30d16ee51784</td>
+       <td>CVE-2022-27457</td>
+       <td>2022-04-14 13:15:12 </td>
+       <td>MariaDB Server v10.6.3 and below was discovered to contain an use-after-free in the component my_mb_wc_latin1 at /strings/ctype-latin1.c.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27457">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ad0cadda258c9a0fe655bb761628ba20</td>
+       <td>CVE-2022-27456</td>
+       <td>2022-04-14 13:15:12 </td>
+       <td>MariaDB Server v10.6.3 and below was discovered to contain an use-after-free in the component VDec::VDec at /sql/sql_type.cc.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27456">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">7f44e1defeaf9fec95a87ef2106ca17e</td>
        <td>CVE-2022-0023</td>
        <td>2022-04-13 19:15:09 </td>
@@ -2505,22 +2521,6 @@
        <td>2022-04-12 20:15:09 </td>
        <td>Jenkins Google Compute Engine Plugin 4.3.8 and earlier stores private keys unencrypted in cloud agent config.xml files on the Jenkins controller where they can be viewed by users with Extended Read permission, or access to the Jenkins controller file system.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29052">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4fc78d34de07583e5e8df723ab3e19bf</td>
-       <td>CVE-2022-29051</td>
-       <td>2022-04-12 20:15:09 </td>
-       <td>Missing permission checks in Jenkins Publish Over FTP Plugin 1.16 and earlier allow attackers with Overall/Read permission to connect to an FTP server using attacker-specified credentials.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29051">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e4ae184dd3925d2c117c3f5efe83ed7c</td>
-       <td>CVE-2022-29050</td>
-       <td>2022-04-12 20:15:09 </td>
-       <td>A cross-site request forgery (CSRF) vulnerability in Jenkins Publish Over FTP Plugin 1.16 and earlier allows attackers to connect to an FTP server using attacker-specified credentials.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29050">详情</a></td>
       </tr>
 
      </tbody>
