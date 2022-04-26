@@ -1,277 +1,332 @@
-2022-04-25 00:18:07 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-25 00:18:07 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
-2022-04-25 00:18:08 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
-2022-04-25 00:18:08 [INFO] : --------------------------------------------
-2022-04-25 00:18:08 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-25 00:18:08 [INFO] : 正在获取 [阿里云] 威胁情报...
-2022-04-25 00:18:08 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
-2022-04-25 00:18:08 [INFO] : --------------------------------------------
-2022-04-25 00:18:08 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-25 00:18:08 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
-2022-04-25 00:18:32 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
-2022-04-25 00:18:32 [INFO] : --------------------------------------------
-2022-04-25 00:18:32 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-25 00:18:32 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
-2022-04-25 00:18:46 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
-2022-04-25 00:18:46 [INFO] : --------------------------------------------
-2022-04-25 00:18:46 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-25 00:18:46 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
-2022-04-25 00:18:46 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
-2022-04-25 00:18:46 [INFO] : --------------------------------------------
-2022-04-25 00:18:46 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-25 00:18:46 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
-2022-04-25 00:18:49 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [1] 条
-2022-04-25 00:18:49 [INFO] : --------------------------------------------
-2022-04-25 00:18:49 [INFO] : 
+2022-04-26 13:49:09 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-26 13:49:09 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-04-26 13:49:10 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [1] 条
+2022-04-26 13:49:10 [INFO] : --------------------------------------------
+2022-04-26 13:49:10 [INFO] : 
 ==============================================
-[ TITLE ] MariaDB Server v10.6.3 and below was discovered to contain an use-after-free in the component Binary_string::free_buffer() at /sql/sql_string.h.
-[ TIME  ] 2022-04-14 13:15:12 
-[ CVE   ] CVE-2022-27458
-[ SRC   ] 美国国家漏洞数据库（NVD）
-[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27458
-2022-04-25 00:18:49 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-25 00:18:49 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
-2022-04-25 00:18:49 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
-2022-04-25 00:18:49 [INFO] : --------------------------------------------
-2022-04-25 00:18:49 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-25 00:18:49 [INFO] : 正在获取 [绿盟] 威胁情报...
-2022-04-25 00:18:49 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
-2022-04-25 00:18:49 [INFO] : --------------------------------------------
-2022-04-25 00:18:49 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-25 00:18:49 [INFO] : 正在获取 [奇安信] 威胁情报...
-2022-04-25 00:18:50 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
-2022-04-25 00:18:50 [INFO] : --------------------------------------------
-2022-04-25 00:18:50 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-25 00:18:50 [INFO] : 正在获取 [红后] 威胁情报...
-2022-04-25 00:18:51 [INFO] : 得到 [红后] 最新威胁情报 [4] 条
-2022-04-25 00:18:51 [INFO] : --------------------------------------------
-2022-04-25 00:18:51 [INFO] : 
+[ TITLE ] Ingress-nginx 信息泄露漏洞
+[ TIME  ] 2022-04-25 22:01:11
+[ CVE   ] CVE-2021-25746
+[ SRC   ] 数字观星POC++
+[ URL   ] https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=5953
+2022-04-26 13:49:10 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-26 13:49:10 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-04-26 13:49:10 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-04-26 13:49:10 [INFO] : --------------------------------------------
+2022-04-26 13:49:10 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-26 13:49:10 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-04-26 13:49:34 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [6] 条
+2022-04-26 13:49:34 [INFO] : --------------------------------------------
+2022-04-26 13:49:34 [INFO] : 
 ==============================================
-[ TITLE ] OpenSSL 加密问题漏洞
-[ TIME  ] 2022-04-24 13:53:45
-[ CVE   ] CVE-2020-1968
-[ SRC   ] 红后
-[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=9be21e5fc4a141838b9eaf5ca490fe96
-2022-04-25 00:18:51 [INFO] : 
-==============================================
-[ TITLE ] Nitro Software Nitro Pro 输入验证错误漏洞
-[ TIME  ] 2022-04-24 13:53:41
-[ CVE   ] CVE-2020-6113
-[ SRC   ] 红后
-[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=7c21366b3be0420a89bbf68c90013c47
-2022-04-25 00:18:51 [INFO] : 
-==============================================
-[ TITLE ] fsck.f2fs 安全漏洞
-[ TIME  ] 2022-04-24 13:53:37
-[ CVE   ] CVE-2020-6070
-[ SRC   ] 红后
-[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=fa5412d2d55843cfb268a9c6ac7c69af
-2022-04-25 00:18:51 [INFO] : 
-==============================================
-[ TITLE ] Accusoft ImageGear 内存损坏漏洞
-[ TIME  ] 2022-04-24 13:53:33
-[ CVE   ] CVE-2020-6151
-[ SRC   ] 红后
-[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=fd72d4a6b30947a1a5d90e57d652a33d
-2022-04-25 00:18:51 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-25 00:18:51 [INFO] : 正在获取 [斗象] 威胁情报...
-2022-04-25 00:18:53 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
-2022-04-25 00:18:53 [INFO] : --------------------------------------------
-2022-04-25 00:18:53 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-25 00:18:53 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
-2022-04-25 00:18:53 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
-2022-04-25 00:18:53 [INFO] : --------------------------------------------
-2022-04-25 00:18:54 [INFO] : [邮件] 正在推送威胁情报...
-2022-04-25 00:18:54 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
-2022-04-25 00:18:55 [INFO] : [邮件] 推送威胁情报成功
-2022-04-25 00:18:55 [INFO] : 正在提交变更...
-2022-04-25 00:19:00 [INFO] : 提交变更成功
-2022-04-25 10:30:23 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-25 10:30:23 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
-2022-04-25 10:30:23 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
-2022-04-25 10:30:23 [INFO] : --------------------------------------------
-2022-04-25 10:30:23 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-25 10:30:23 [INFO] : 正在获取 [阿里云] 威胁情报...
-2022-04-25 10:30:24 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
-2022-04-25 10:30:24 [INFO] : --------------------------------------------
-2022-04-25 10:30:24 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-25 10:30:24 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
-2022-04-25 10:30:54 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [1] 条
-2022-04-25 10:30:54 [INFO] : --------------------------------------------
-2022-04-25 10:30:54 [INFO] : 
-==============================================
-[ TITLE ] Django路径遍历漏洞
-[ TIME  ] 2022-04-24 10:30:53
-[ CVE   ] CNVD-2022-31938 (CVE-2021-45452)
+[ TITLE ] Laurent Rineau CGAL代码执行漏洞
+[ TIME  ] 2022-04-25 13:49:14
+[ CVE   ] CNVD-2022-32610 (CVE-2020-28624)
 [ SRC   ] 国家信息安全漏洞共享平台（CNVD）
-[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-31938
-2022-04-25 10:30:54 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-25 10:30:54 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
-2022-04-25 10:31:07 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
-2022-04-25 10:31:07 [INFO] : --------------------------------------------
-2022-04-25 10:31:07 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-25 10:31:07 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
-2022-04-25 10:31:07 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
-2022-04-25 10:31:07 [INFO] : --------------------------------------------
-2022-04-25 10:31:07 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-25 10:31:07 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
-2022-04-25 10:31:09 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [2] 条
-2022-04-25 10:31:09 [INFO] : --------------------------------------------
-2022-04-25 10:31:09 [INFO] : 
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-32610
+2022-04-26 13:49:34 [INFO] : 
 ==============================================
-[ TITLE ] MariaDB Server v10.6.3 and below was discovered to contain an use-after-free in the component my_mb_wc_latin1 at /strings/ctype-latin1.c.
-[ TIME  ] 2022-04-14 13:15:12 
-[ CVE   ] CVE-2022-27457
+[ TITLE ] Laurent Rineau CGAL代码执行漏洞
+[ TIME  ] 2022-04-25 13:49:16
+[ CVE   ] CNVD-2022-32609 (CVE-2020-28613)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-32609
+2022-04-26 13:49:34 [INFO] : 
+==============================================
+[ TITLE ] Laurent Rineau CGAL代码执行漏洞
+[ TIME  ] 2022-04-25 13:49:19
+[ CVE   ] CNVD-2022-32608 (CVE-2020-28610)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-32608
+2022-04-26 13:49:34 [INFO] : 
+==============================================
+[ TITLE ] Laurent Rineau CGAL代码执行漏洞
+[ TIME  ] 2022-04-25 13:49:21
+[ CVE   ] CNVD-2022-32607 (CVE-2020-28611)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-32607
+2022-04-26 13:49:34 [INFO] : 
+==============================================
+[ TITLE ] Laurent Rineau CGAL代码执行漏洞
+[ TIME  ] 2022-04-25 13:49:23
+[ CVE   ] CNVD-2022-32606 (CVE-2020-28608)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-32606
+2022-04-26 13:49:34 [INFO] : 
+==============================================
+[ TITLE ] Laurent Rineau CGAL代码执行漏洞
+[ TIME  ] 2022-04-25 13:49:25
+[ CVE   ] CNVD-2022-32605 (CVE-2020-28623)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-32605
+2022-04-26 13:49:34 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-26 13:49:34 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-04-26 13:49:48 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [3] 条
+2022-04-26 13:49:48 [INFO] : --------------------------------------------
+2022-04-26 13:49:48 [INFO] : 
+==============================================
+[ TITLE ] radare2 安全漏洞
+[ TIME  ] 2022-04-24 13:49:35
+[ CVE   ] CNNVD-202204-4293 (CVE-2022-1451)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-4293
+2022-04-26 13:49:48 [INFO] : 
+==============================================
+[ TITLE ] radare2 缓冲区错误漏洞
+[ TIME  ] 2022-04-24 13:49:37
+[ CVE   ] CNNVD-202204-4292 (CVE-2022-1452)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-4292
+2022-04-26 13:49:48 [INFO] : 
+==============================================
+[ TITLE ] snipe-it 跨站脚本漏洞
+[ TIME  ] 2022-04-24 13:49:38
+[ CVE   ] CNNVD-202204-4291 (CVE-2022-1445)
+[ SRC   ] 国家信息安全漏洞库（CNNVD）
+[ URL   ] http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202204-4291
+2022-04-26 13:49:48 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-26 13:49:48 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-04-26 13:49:48 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-04-26 13:49:48 [INFO] : --------------------------------------------
+2022-04-26 13:49:48 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-26 13:49:48 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-04-26 13:49:50 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [10] 条
+2022-04-26 13:49:50 [INFO] : --------------------------------------------
+2022-04-26 13:49:50 [INFO] : 
+==============================================
+[ TITLE ] A memory corruption vulnerability exists in the cgi.c unescape functionality of ArduPilot APWeb master branch 50b6b7ac - master branch 46177cb9. A specially-crafted HTTP request can lead to memory corruption. An attacker can send a network request to trigger this vulnerability.
+[ TIME  ] 2022-04-14 20:15:09 
+[ CVE   ] CVE-2022-28711
 [ SRC   ] 美国国家漏洞数据库（NVD）
-[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27457
-2022-04-25 10:31:09 [INFO] : 
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-28711
+2022-04-26 13:49:50 [INFO] : 
 ==============================================
-[ TITLE ] MariaDB Server v10.6.3 and below was discovered to contain an use-after-free in the component VDec::VDec at /sql/sql_type.cc.
-[ TIME  ] 2022-04-14 13:15:12 
-[ CVE   ] CVE-2022-27456
+[ TITLE ] Path traversal vulnerability in unzip method of InstallAgentCommonHelper in Galaxy store prior to version 4.5.40.5 allows attacker to access the file of Galaxy store.
+[ TIME  ] 2022-04-11 20:15:23 
+[ CVE   ] CVE-2022-28544
 [ SRC   ] 美国国家漏洞数据库（NVD）
-[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27456
-2022-04-25 10:31:09 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-25 10:31:09 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
-2022-04-25 10:31:10 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
-2022-04-25 10:31:10 [INFO] : --------------------------------------------
-2022-04-25 10:31:10 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-25 10:31:10 [INFO] : 正在获取 [绿盟] 威胁情报...
-2022-04-25 10:31:10 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
-2022-04-25 10:31:10 [INFO] : --------------------------------------------
-2022-04-25 10:31:10 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-25 10:31:10 [INFO] : 正在获取 [奇安信] 威胁情报...
-2022-04-25 10:31:11 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
-2022-04-25 10:31:11 [INFO] : --------------------------------------------
-2022-04-25 10:31:11 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-25 10:31:11 [INFO] : 正在获取 [红后] 威胁情报...
-2022-04-25 10:31:11 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
-2022-04-25 10:31:11 [INFO] : --------------------------------------------
-2022-04-25 10:31:11 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-25 10:31:11 [INFO] : 正在获取 [斗象] 威胁情报...
-2022-04-25 10:31:14 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
-2022-04-25 10:31:14 [INFO] : --------------------------------------------
-2022-04-25 10:31:14 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-25 10:31:14 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
-2022-04-25 10:31:14 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [3] 条
-2022-04-25 10:31:14 [INFO] : --------------------------------------------
-2022-04-25 10:31:14 [INFO] : 
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-28544
+2022-04-26 13:49:50 [INFO] : 
 ==============================================
-[ TITLE ] Out-of-bounds Read in r_bin_java_bootstrap_methods_attr_new function in GitHub repository radareorg/radare2 prior to 5.7.0. The bug causes the program reads data past the end 2f the intented buffer. Typically, this can allow attackers to read sensitive information from other memory locations or cause a crash. More details see [CWE-125: Out-of-bounds read](https://cwe.mitre.org/data/definitions/125.html).
-[ TIME  ] 2022-04-24 21:15:00
-[ CVE   ] CVE-2022-1452
-[ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-1452
-2022-04-25 10:31:14 [INFO] : 
-==============================================
-[ TITLE ] Out-of-bounds Read in r_bin_java_constant_value_attr_new function in GitHub repository radareorg/radare2 prior to 5.7.0. The bug causes the program reads data past the end 2f the intented buffer. Typically, this can allow attackers to read sensitive information from other memory locations or cause a crash. More details see [CWE-125: Out-of-bounds read](https://cwe.mitre.org/data/definitions/125.html).
-[ TIME  ] 2022-04-24 21:15:00
-[ CVE   ] CVE-2022-1451
-[ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-1451
-2022-04-25 10:31:14 [INFO] : 
-==============================================
-[ TITLE ] Stored Cross Site Scripting vulnerability in the checked_out_to parameter in GitHub repository snipe/snipe-it prior to 5.4.3. The vulnerability is capable of stolen the user Cookie.
-[ TIME  ] 2022-04-24 15:15:00
-[ CVE   ] CVE-2022-1445
-[ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-1445
-2022-04-25 10:31:15 [INFO] : [邮件] 正在推送威胁情报...
-2022-04-25 10:31:15 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
-2022-04-25 10:31:15 [INFO] : [邮件] 推送威胁情报成功
-2022-04-25 10:31:15 [INFO] : 正在提交变更...
-2022-04-25 10:31:21 [INFO] : 提交变更成功
-2022-04-25 17:08:28 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-25 17:08:28 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
-2022-04-25 17:08:28 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
-2022-04-25 17:08:28 [INFO] : --------------------------------------------
-2022-04-25 17:08:28 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-25 17:08:28 [INFO] : 正在获取 [阿里云] 威胁情报...
-2022-04-25 17:08:29 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
-2022-04-25 17:08:29 [INFO] : --------------------------------------------
-2022-04-25 17:08:29 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-25 17:08:29 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
-2022-04-25 17:08:50 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
-2022-04-25 17:08:50 [INFO] : --------------------------------------------
-2022-04-25 17:08:50 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-25 17:08:50 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
-2022-04-25 17:09:04 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
-2022-04-25 17:09:04 [INFO] : --------------------------------------------
-2022-04-25 17:09:04 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-25 17:09:04 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
-2022-04-25 17:09:04 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [1] 条
-2022-04-25 17:09:04 [INFO] : --------------------------------------------
-2022-04-25 17:09:04 [INFO] : 
-==============================================
-[ TITLE ] 安全事件周报 (04.18-04.24)
-[ TIME  ] 2022-04-25 16:24:24
-[ CVE   ] 
-[ SRC   ] 360 网络安全响应中心
-[ URL   ] https://cert.360.cn/warning/detail?id=8f6f5325f3334c3b2f5ca5a3e33cda3b
-2022-04-25 17:09:04 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-25 17:09:04 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
-2022-04-25 17:09:06 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [1] 条
-2022-04-25 17:09:06 [INFO] : --------------------------------------------
-2022-04-25 17:09:06 [INFO] : 
-==============================================
-[ TITLE ] Jenkins Node and Label parameter Plugin 1.10.3 and earlier does not escape the name and description of Node and Label parameters on views displaying parameters, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers with Item/Configure permission.
-[ TIME  ] 2022-04-12 20:15:09 
-[ CVE   ] CVE-2022-29044
+[ TITLE ] Path traversal vulnerability in Samsung Flow prior to version 4.8.07.4 allows local attackers to read arbitrary files as Samsung Flow permission.
+[ TIME  ] 2022-04-11 20:15:23 
+[ CVE   ] CVE-2022-28543
 [ SRC   ] 美国国家漏洞数据库（NVD）
-[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29044
-2022-04-25 17:09:06 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-25 17:09:06 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
-2022-04-25 17:09:07 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
-2022-04-25 17:09:07 [INFO] : --------------------------------------------
-2022-04-25 17:09:07 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-25 17:09:07 [INFO] : 正在获取 [绿盟] 威胁情报...
-2022-04-25 17:09:07 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
-2022-04-25 17:09:07 [INFO] : --------------------------------------------
-2022-04-25 17:09:07 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-25 17:09:07 [INFO] : 正在获取 [奇安信] 威胁情报...
-2022-04-25 17:09:08 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
-2022-04-25 17:09:08 [INFO] : --------------------------------------------
-2022-04-25 17:09:08 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-25 17:09:08 [INFO] : 正在获取 [红后] 威胁情报...
-2022-04-25 17:09:08 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
-2022-04-25 17:09:08 [INFO] : --------------------------------------------
-2022-04-25 17:09:08 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-25 17:09:08 [INFO] : 正在获取 [斗象] 威胁情报...
-2022-04-25 17:09:11 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
-2022-04-25 17:09:11 [INFO] : --------------------------------------------
-2022-04-25 17:09:11 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
-2022-04-25 17:09:11 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
-2022-04-25 17:09:12 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [4] 条
-2022-04-25 17:09:12 [INFO] : --------------------------------------------
-2022-04-25 17:09:12 [INFO] : 
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-28543
+2022-04-26 13:49:50 [INFO] : 
 ==============================================
-[ TITLE ] A SQL Injection vulnerability exists in UniverSIS UniverSIS-API through 1.2.1 via the $select parameter to multiple API endpoints. A remote authenticated attacker could send crafted SQL statements to a vulnerable endpoint (such as /api/students/me/messages/) to, for example, retrieve personal information or change grades.
-[ TIME  ] 2022-04-25 04:15:00
-[ CVE   ] CVE-2022-29603
-[ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-29603
-2022-04-25 17:09:12 [INFO] : 
+[ TITLE ] An issue in upload.csp of FANTEC GmbH MWiD25-DS Firmware v2.000.030 allows attackers to write files and reset the user passwords without having a valid session cookie.
+[ TIME  ] 2022-04-15 19:15:15 
+[ CVE   ] CVE-2022-28113
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-28113
+2022-04-26 13:49:50 [INFO] : 
 ==============================================
-[ TITLE ] Artifex Ghostscript through 9.26 mishandles .completefont. NOTE: this issue exists because of an incomplete fix for CVE-2019-3839.
-[ TIME  ] 2022-04-25 04:15:00
-[ CVE   ] CVE-2019-25059
-[ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2019-25059
-2022-04-25 17:09:12 [INFO] : 
+[ TITLE ] Selenium Selenium Grid (formerly Selenium Standalone Server) Fixed in 4.0.0-alpha-7 is affected by: DNS rebinding. The impact is: execute arbitrary code (remote). The component is: WebDriver endpoint of Selenium Grid / Selenium Standalone Server. The attack vector is: Triggered by browsing to to a malicious remote web server. The WebDriver endpoint of Selenium Server (Grid) is vulnerable to DNS rebinding. This can be used to execute arbitrary code on the machine.
+[ TIME  ] 2022-04-15 16:15:07 
+[ CVE   ] CVE-2022-28109
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-28109
+2022-04-26 13:49:50 [INFO] : 
 ==============================================
-[ TITLE ] HtmlUnit NekoHtml Parser before 2.61.0 suffers from a denial of service vulnerability. Crafted input associated with the parsing of Processing Instruction (PI) data leads to heap memory consumption. This is similar to CVE-2022-28366 but affects a much later version of the product.
-[ TIME  ] 2022-04-25 03:15:00
-[ CVE   ] CVE-2022-29546
-[ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-29546
-2022-04-25 17:09:12 [INFO] : 
+[ TITLE ] Directory Traversal vulnerability in file cn/roothub/store/FileSystemStorageService in function store in Roothub 2.6.0 allows remote attackers with low privlege to arbitrarily upload files via /common/upload API, which could lead to remote arbitrary code execution.
+[ TIME  ] 2022-04-13 15:15:09 
+[ CVE   ] CVE-2022-28052
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-28052
+2022-04-26 13:49:50 [INFO] : 
 ==============================================
-[ TITLE ] A heap-based buffer overflow exists in rippled before 1.8.5. The vulnerability allows attackers to cause a crash or execute commands remotely on a rippled node, which may lead to XRPL mainnet DoS or compromise. This exposes all digital assets from the Ripple Network to a security threat.
-[ TIME  ] 2022-04-25 03:15:00
-[ CVE   ] CVE-2022-29077
+[ TITLE ] NGINX NJS 0.7.2 was discovered to contain a NULL pointer dereference via the component njs_vmcode_array at /src/njs_vmcode.c.
+[ TIME  ] 2022-04-15 14:15:07 
+[ CVE   ] CVE-2022-28049
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-28049
+2022-04-26 13:49:50 [INFO] : 
+==============================================
+[ TITLE ] STB v2.27 was discovered to contain an integer shift of invalid size in the component stbi__jpeg_decode_block_prog_ac.
+[ TIME  ] 2022-04-15 14:15:07 
+[ CVE   ] CVE-2022-28048
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-28048
+2022-04-26 13:49:50 [INFO] : 
+==============================================
+[ TITLE ] Irzip v0.640 was discovered to contain a heap memory corruption via the component lrzip.c:initialise_control.
+[ TIME  ] 2022-04-15 14:15:07 
+[ CVE   ] CVE-2022-28044
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-28044
+2022-04-26 13:49:50 [INFO] : 
+==============================================
+[ TITLE ] stb_image.h v2.27 was discovered to contain an heap-based use-after-free via the function stbi__jpeg_huff_decode.
+[ TIME  ] 2022-04-15 14:15:07 
+[ CVE   ] CVE-2022-28042
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-28042
+2022-04-26 13:49:50 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-26 13:49:50 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-04-26 13:49:51 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-04-26 13:49:51 [INFO] : --------------------------------------------
+2022-04-26 13:49:51 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-26 13:49:51 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-04-26 13:49:51 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-04-26 13:49:51 [INFO] : --------------------------------------------
+2022-04-26 13:49:51 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-26 13:49:51 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-04-26 13:49:52 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-04-26 13:49:52 [INFO] : --------------------------------------------
+2022-04-26 13:49:52 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-26 13:49:52 [INFO] : 正在获取 [红后] 威胁情报...
+2022-04-26 13:49:53 [INFO] : 得到 [红后] 最新威胁情报 [10] 条
+2022-04-26 13:49:53 [INFO] : --------------------------------------------
+2022-04-26 13:49:53 [INFO] : 
+==============================================
+[ TITLE ] Dell NetWorker 安全漏洞
+[ TIME  ] 2022-04-26 05:40:49
+[ CVE   ] CVE-2021-21600
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=ac64b11056274d44beb7daba0d60fe7c
+2022-04-26 13:49:53 [INFO] : 
+==============================================
+[ TITLE ] Contiki 安全漏洞
+[ TIME  ] 2022-04-26 05:40:44
+[ CVE   ] CVE-2021-38387
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=db0fe3c44fc14c13ae0bba81a35407d0
+2022-04-26 13:49:53 [INFO] : 
+==============================================
+[ TITLE ] Xfig fig2dev 缓冲区错误漏洞
+[ TIME  ] 2022-04-26 05:40:40
+[ CVE   ] CVE-2020-21676
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=e1dfdb825e2f4be7883ab2467af65fa4
+2022-04-26 13:49:53 [INFO] : 
+==============================================
+[ TITLE ] Netgear NETGEAR 跨站请求伪造漏洞
+[ TIME  ] 2022-04-26 05:40:36
+[ CVE   ] CVE-2021-32122
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=3381e004f21349029a3a5bace64e1272
+2022-04-26 13:49:53 [INFO] : 
+==============================================
+[ TITLE ] 多款Netgear产品安全漏洞
+[ TIME  ] 2022-04-26 05:40:32
+[ CVE   ] CVE-2021-38516
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=f0c3621ca31b4bedaefbb0a509892987
+2022-04-26 13:49:53 [INFO] : 
+==============================================
+[ TITLE ] Netgear NETGEAR 命令注入漏洞
+[ TIME  ] 2022-04-26 05:40:27
+[ CVE   ] CVE-2021-38519
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=a77e7e81f5b54e1284d399118eecac23
+2022-04-26 13:49:53 [INFO] : 
+==============================================
+[ TITLE ] Netgear NETGEAR 命令注入漏洞
+[ TIME  ] 2022-04-26 05:40:23
+[ CVE   ] CVE-2021-38521
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=5e5bccef0f594fa68d42df3a7d586bf5
+2022-04-26 13:49:53 [INFO] : 
+==============================================
+[ TITLE ] NETGEAR R6400 缓冲区错误漏洞
+[ TIME  ] 2022-04-26 05:40:19
+[ CVE   ] CVE-2021-38523
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=808a7f2b00884595bd74ab41a2192d29
+2022-04-26 13:49:53 [INFO] : 
+==============================================
+[ TITLE ] Netgear RBR750命令注入漏洞
+[ TIME  ] 2022-04-26 05:40:14
+[ CVE   ] CVE-2021-38527
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=922dc812789a46f3b3feda22acb3ec79
+2022-04-26 13:49:53 [INFO] : 
+==============================================
+[ TITLE ] Netgear NETGEAR 安全漏洞
+[ TIME  ] 2022-04-26 05:40:10
+[ CVE   ] CVE-2021-38531
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=4a6bd34d9c1a4d7f9544f119c092b0fc
+2022-04-26 13:49:53 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-26 13:49:53 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-04-26 13:49:55 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-04-26 13:49:55 [INFO] : --------------------------------------------
+2022-04-26 13:49:55 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-26 13:49:55 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-04-26 13:49:58 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [10] 条
+2022-04-26 13:49:58 [INFO] : --------------------------------------------
+2022-04-26 13:49:58 [INFO] : 
+==============================================
+[ TITLE ] flask-session-captcha is a package which allows users to extend Flask by adding an image based captcha stored in a server side session. In versions prior to 1.2.1, he `captcha.validate()` function would return `None` if passed no value (e.g. by submitting an having an empty form). If implementing users were checking the return value to be **False**, the captcha verification check could be bypassed. Version 1.2.1 fixes the issue. Users can workaround the issue by not explicitly checking that the value is False. Checking the return value less explicitly should still work.
+[ TIME  ] 2022-04-25 22:15:00
+[ CVE   ] CVE-2022-24880
 [ SRC   ] Tenable (Nessus)
-[ URL   ] https://www.tenable.com/cve/CVE-2022-29077
-2022-04-25 17:09:12 [INFO] : [邮件] 正在推送威胁情报...
-2022-04-25 17:09:12 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
-2022-04-25 17:09:13 [INFO] : [邮件] 推送威胁情报成功
-2022-04-25 17:09:13 [INFO] : 正在提交变更...
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24880
+2022-04-26 13:49:58 [INFO] : 
+==============================================
+[ TITLE ] ESAPI (The OWASP Enterprise Security API) is a free, open source, web application security control library. Prior to version 2.3.0.0, the default implementation of `Validator.getValidDirectoryPath(String, String, File, boolean)` may incorrectly treat the tested input string as a child of the specified parent directory. This potentially could allow control-flow bypass checks to be defeated if an attack can specify the entire string representing the 'input' path. This vulnerability is patched in release 2.3.0.0 of ESAPI. As a workaround, it is possible to write one's own implementation of the Validator interface. However, maintainers do not recommend this.
+[ TIME  ] 2022-04-25 20:15:00
+[ CVE   ] CVE-2022-23457
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-23457
+2022-04-26 13:49:58 [INFO] : 
+==============================================
+[ TITLE ] A researcher reported a Directory Transversal Vulnerability in Serv-U 15.3. This may allow access to files relating to the Serv-U installation and server files. This issue has been resolved in Serv-U 15.3 Hotfix 1.
+[ TIME  ] 2022-04-25 20:15:00
+[ CVE   ] CVE-2021-35250
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2021-35250
+2022-04-26 13:49:58 [INFO] : 
+==============================================
+[ TITLE ] SQL Injection (SQLi) vulnerability in Don Crowther's 3xSocializer plugin <= 0.98.22 at WordPress possible for users with a low role like a subscriber or higher.
+[ TIME  ] 2022-04-25 17:15:00
+[ CVE   ] CVE-2022-29419
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-29419
+2022-04-26 13:49:58 [INFO] : 
+==============================================
+[ TITLE ] Authenticated (admin user role) Persistent Cross-Site Scripting (XSS) in Mark Daniels Night Mode plugin <= 1.0.0 on WordPress via vulnerable parameters: &ntmode_page_setting[enable-me], &ntmode_page_setting[bg-color], &ntmode_page_setting[txt-color], &ntmode_page_setting[anc_color].
+[ TIME  ] 2022-04-25 17:15:00
+[ CVE   ] CVE-2022-29418
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-29418
+2022-04-26 13:49:58 [INFO] : 
+==============================================
+[ TITLE ] Plugin Settings Update vulnerability in ShortPixel's ShortPixel Adaptive Images plugin <= 3.3.1 at WordPress allows an attacker with a low user role like a subscriber or higher to change the plugin settings.
+[ TIME  ] 2022-04-25 17:15:00
+[ CVE   ] CVE-2022-29417
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-29417
+2022-04-26 13:49:58 [INFO] : 
+==============================================
+[ TITLE ] Reflective Cross-Site Scripting vulnerability in WordPress Country Selector Plugin Version 1.6.5. The XSS payload executes whenever the user tries to access the country selector page with the specified payload as a part of the HTTP request
+[ TIME  ] 2022-04-25 17:15:00
+[ CVE   ] CVE-2022-28290
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-28290
+2022-04-26 13:49:58 [INFO] : 
+==============================================
+[ TITLE ] The package czproject/git-php before 4.0.3 are vulnerable to Command Injection via git argument injection. When calling the isRemoteUrlReadable($url, array $refs = NULL) function, both the url and refs parameters are passed to the git ls-remote subcommand in a way that additional flags can be set. The additional flags can be used to perform a command injection.
+[ TIME  ] 2022-04-25 17:15:00
+[ CVE   ] CVE-2022-25866
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-25866
+2022-04-26 13:49:58 [INFO] : 
+==============================================
+[ TITLE ] MP4Box is a component of GPAC-2.0.0, which is a widely-used third-party package on RPM Fusion. When MP4Box tries to parse a MP4 file, it calls the function `diST_box_read()` to read from video. In this function, it allocates a buffer `str` with fixed length. However, content read from `bs` is controllable by user, so is the length, which causes a buffer overflow.
+[ TIME  ] 2022-04-25 17:15:00
+[ CVE   ] CVE-2022-1441
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-1441
+2022-04-26 13:49:58 [INFO] : 
+==============================================
+[ TITLE ] An issue has been discovered in GitLab affecting all versions starting from 11.9 before 14.5.4, all versions starting from 14.6.0 before 14.6.4, all versions starting from 14.7.0 before 14.7.1. GitLab was not correctly handling bulk requests to delete existing packages from the package registries which could result in a Denial of Service under specific conditions.
+[ TIME  ] 2022-04-25 17:15:00
+[ CVE   ] CVE-2022-0477
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-0477
+2022-04-26 13:49:58 [INFO] : [邮件] 正在推送威胁情报...
+2022-04-26 13:49:58 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
+2022-04-26 13:49:59 [INFO] : [邮件] 推送威胁情报成功
+2022-04-26 13:49:59 [INFO] : 正在提交变更...
