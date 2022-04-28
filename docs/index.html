@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-04-28 10:17:01 -->
+<!-- RELEASE TIME : 2022-04-28 14:53:45 -->
 <html lang="zh-cn">
 
  <head>
@@ -232,6 +232,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">99439bbf9159c5dd68bbac6f760fad5e</td>
+       <td>CVE-2022-29869</td>
+       <td>2022-04-28 01:15:00 <img src="imgs/new.gif" /></td>
+       <td>cifs-utils through 6.14, with verbose logging, can cause an information leak when a file contains = (equal sign) characters but is not a valid credentials file.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29869">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">f9f836264675804a5496eb234afadb02</td>
        <td>CVE-2022-29859</td>
        <td>2022-04-27 23:15:00 <img src="imgs/new.gif" /></td>
@@ -461,14 +469,6 @@
        <td>2022-04-25 22:15:00</td>
        <td>flask-session-captcha is a package which allows users to extend Flask by adding an image based captcha stored in a server side session. In versions prior to 1.2.1, he `captcha.validate()` function would return `None` if passed no value (e.g. by submitting an having an empty form). If implementing users were checking the return value to be **False**, the captcha verification check could be bypassed. Version 1.2.1 fixes the issue. Users can workaround the issue by not explicitly checking that the value is False. Checking the return value less explicitly should still work.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24880">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3aba21e98c87afd36c2f4604a8717c29</td>
-       <td>CVE-2022-23457</td>
-       <td>2022-04-25 20:15:00</td>
-       <td>ESAPI (The OWASP Enterprise Security API) is a free, open source, web application security control library. Prior to version 2.3.0.0, the default implementation of `Validator.getValidDirectoryPath(String, String, File, boolean)` may incorrectly treat the tested input string as a child of the specified parent directory. This potentially could allow control-flow bypass checks to be defeated if an attack can specify the entire string representing the 'input' path. This vulnerability is patched in release 2.3.0.0 of ESAPI. As a workaround, it is possible to write one's own implementation of the Validator interface. However, maintainers do not recommend this.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23457">详情</a></td>
       </tr>
 
      </tbody>
@@ -770,6 +770,54 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">0fa98c6c3fd73fadaf5adc632e280b51</td>
+       <td>CNVD-2022-33154 (CVE-2022-27366)</td>
+       <td>2022-04-28 14:53:13 <img src="imgs/new.gif" /></td>
+       <td>CScms SQL注入漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-33154">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3db137a4386eee7c015d6e081ed6fb06</td>
+       <td>CNVD-2022-33126 (CVE-2022-26108)</td>
+       <td>2022-04-28 14:53:11 <img src="imgs/new.gif" /></td>
+       <td>SAP 3D Visual Enterprise Viewer输入验证错误漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-33126">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">efa5a6faf41af9c1effd36a8c9adcce4</td>
+       <td>CNVD-2022-33155 (CVE-2022-27365)</td>
+       <td>2022-04-28 14:53:09 <img src="imgs/new.gif" /></td>
+       <td>CScms SQL注入漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-33155">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f88ce7274c561a52940fdc885043985f</td>
+       <td>CNVD-2022-33127 (CVE-2022-26109)</td>
+       <td>2022-04-28 14:53:07 <img src="imgs/new.gif" /></td>
+       <td>SAP 3D Visual Enterprise Viewer输入验证错误漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-33127">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b138db7932e8871b94132eb63ec105d4</td>
+       <td>CNVD-2022-33128 (CVE-2022-26107)</td>
+       <td>2022-04-28 14:53:03 <img src="imgs/new.gif" /></td>
+       <td>SAP 3D Visual Enterprise Viewer输入验证错误漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-33128">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">eb609b7bd1cfe716cf811a2b0a1fbc28</td>
+       <td>CNVD-2022-33136 (CVE-2022-28008)</td>
+       <td>2022-04-28 14:53:01 <img src="imgs/new.gif" /></td>
+       <td>Attendance and Payroll System SQL注入漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-33136">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">6063808448b9440d76e32c190aea9f31</td>
        <td>CNVD-2022-32801 (CVE-2021-44508)</td>
        <td>2022-04-28 10:16:34 <img src="imgs/new.gif" /></td>
@@ -959,54 +1007,6 @@
        <td>2022-04-26 11:12:09</td>
        <td>Laurent Rineau CGAL代码执行漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-32768">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">df6a8bab09bf26e5ae63f1af1ae517da</td>
-       <td>CNVD-2022-32769 (CVE-2020-28618)</td>
-       <td>2022-04-26 11:12:07</td>
-       <td>Laurent Rineau CGAL代码执行漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-32769">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">28c4a2f3498bf4d43347ecd77054f01a</td>
-       <td>CNVD-2022-32770 (CVE-2020-28635)</td>
-       <td>2022-04-26 11:12:05</td>
-       <td>Laurent Rineau CGAL代码执行漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-32770">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a603845644e1bfaf64a10171740fbd79</td>
-       <td>CNVD-2022-32771 (CVE-2020-28628)</td>
-       <td>2022-04-26 11:12:03</td>
-       <td>Laurent Rineau CGAL代码执行漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-32771">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">98629f66209685f0707c96c113619167</td>
-       <td>CNVD-2022-32765 (CVE-2020-28603)</td>
-       <td>2022-04-26 11:12:01</td>
-       <td>Laurent Rineau CGAL代码执行漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-32765">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">608593c19c45ee63223b76d2330ffaed</td>
-       <td>CNVD-2022-32605 (CVE-2020-28623)</td>
-       <td>2022-04-25 13:49:25</td>
-       <td>Laurent Rineau CGAL代码执行漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-32605">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d0361eb412f3c76307e2b80bea787848</td>
-       <td>CNVD-2022-32606 (CVE-2020-28608)</td>
-       <td>2022-04-25 13:49:23</td>
-       <td>Laurent Rineau CGAL代码执行漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-32606">详情</a></td>
       </tr>
 
      </tbody>
@@ -2300,11 +2300,91 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">a6c0a805e23b3391c2affc76c1d7340f</td>
+       <td>CVE-2022-29534</td>
+       <td>2022-04-20 23:15:08 </td>
+       <td>An issue was discovered in MISP before 2.4.158. In UsersController.php, password confirmation can be bypassed via vectors involving an &quot;Accept: application/json&quot; header.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29534">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">53ea7a4c095eb8f95e83d9c0a1e23d8e</td>
+       <td>CVE-2022-29533</td>
+       <td>2022-04-20 23:15:08 </td>
+       <td>An issue was discovered in MISP before 2.4.158. There is XSS in app/Controller/OrganisationsController.php in a situation with a &quot;weird single checkbox page.&quot;</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29533">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">cc3261f3c9cbf98d13262c256f903919</td>
+       <td>CVE-2022-29532</td>
+       <td>2022-04-20 23:15:08 </td>
+       <td>An issue was discovered in MISP before 2.4.158. There is XSS in the cerebrate view if one administrator puts a javascript: URL in the URL field, and another administrator clicks on it.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29532">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e5ffde308bf280a2cb9cd6ef859196ea</td>
+       <td>CVE-2022-29531</td>
+       <td>2022-04-20 23:15:08 </td>
+       <td>An issue was discovered in MISP before 2.4.158. There is stored XSS in the event graph via a tag name.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29531">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">79c015b1d632f3c590a3b5e0b108fcf9</td>
+       <td>CVE-2022-29530</td>
+       <td>2022-04-20 23:15:08 </td>
+       <td>An issue was discovered in MISP before 2.4.158. There is stored XSS in the galaxy clusters.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29530">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">edff3d28564e2dd51d0fef7aab266261</td>
+       <td>CVE-2022-29529</td>
+       <td>2022-04-20 23:15:08 </td>
+       <td>An issue was discovered in MISP before 2.4.158. There is stored XSS via the LinOTP login field.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29529">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b2f71547be71d1ce784e2423119e922c</td>
+       <td>CVE-2022-29528</td>
+       <td>2022-04-20 23:15:08 </td>
+       <td>An issue was discovered in MISP before 2.4.158. PHAR deserialization can occur.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29528">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">f289648b0ddc87f2cf8896c56edba39c</td>
        <td>CVE-2022-1329</td>
        <td>2022-04-19 21:15:13 </td>
        <td>The Elementor Website Builder plugin for WordPress is vulnerable to unauthorized execution of several AJAX actions due to a missing capability check in the ~/core/app/modules/onboarding/module.php file that make it possible for attackers to modify site data in addition to uploading malicious files that can be used to obtain remote code execution, in versions 3.6.0 to 3.6.2.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-1329">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4b09331642091bedf0caf8791606bafe</td>
+       <td>CVE-2022-29464</td>
+       <td>2022-04-18 22:15:09 </td>
+       <td>Certain WSO2 products allow unrestricted file upload with resultant remote code execution. The attacker must use a /fileupload endpoint with a Content-Disposition directory traversal sequence to reach a directory under the web root, such as a ../../../../repository/deployment/server/webapps directory. This affects WSO2 API Manager 2.2.0 and above through 4.0.0; WSO2 Identity Server 5.2.0 and above through 5.11.0; WSO2 Identity Server Analytics 5.4.0, 5.4.1, 5.5.0, and 5.6.0; WSO2 Identity Server as Key Manager 5.3.0 and above through 5.10.0; and WSO2 Enterprise Integrator 6.2.0 and above through 6.6.0.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29464">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4d4733481747bf3da2b2281e1598725c</td>
+       <td>CVE-2022-29458</td>
+       <td>2022-04-18 21:15:07 </td>
+       <td>ncurses 6.3 before patch 20220416 has an out-of-bounds read and segmentation violation in convert_strings in tinfo/read_entry.c in the terminfo library.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29458">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">304359bc53b6e91e204a002862bf3011</td>
+       <td>CVE-2022-29457</td>
+       <td>2022-04-18 20:15:09 </td>
+       <td>Zoho ManageEngine ADSelfService Plus before 6121, ADAuditPlus 7060, Exchange Reporter Plus 5701, and ADManagerPlus 7131 allow NTLM Hash disclosure during certain storage-path configuration steps.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29457">详情</a></td>
       </tr>
 
       <tr>
@@ -2457,86 +2537,6 @@
        <td>2022-04-15 19:15:13 </td>
        <td>Windows DNS Server Information Disclosure Vulnerability.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26816">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">edb1ecbdb7860f81c015c7bf9f27c574</td>
-       <td>CVE-2022-26810</td>
-       <td>2022-04-15 19:15:13 </td>
-       <td>Windows File Server Resource Management Service Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-26827.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26810">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cd300ae230fb3b3f8a89fad71ac40a51</td>
-       <td>CVE-2022-26808</td>
-       <td>2022-04-15 19:15:13 </td>
-       <td>Windows File Explorer Elevation of Privilege Vulnerability.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26808">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">de7052c40eaaac91bdf881c908a9024b</td>
-       <td>CVE-2022-26793</td>
-       <td>2022-04-15 19:15:12 </td>
-       <td>Windows Print Spooler Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-26786, CVE-2022-26787, CVE-2022-26789, CVE-2022-26790, CVE-2022-26791, CVE-2022-26792, CVE-2022-26794, CVE-2022-26795, CVE-2022-26796, CVE-2022-26797, CVE-2022-26798, CVE-2022-26801, CVE-2022-26802, CVE-2022-26803.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26793">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5d8b20be07ed2354cee0d831b001efc7</td>
-       <td>CVE-2022-26792</td>
-       <td>2022-04-15 19:15:12 </td>
-       <td>Windows Print Spooler Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-26786, CVE-2022-26787, CVE-2022-26789, CVE-2022-26790, CVE-2022-26791, CVE-2022-26793, CVE-2022-26794, CVE-2022-26795, CVE-2022-26796, CVE-2022-26797, CVE-2022-26798, CVE-2022-26801, CVE-2022-26802, CVE-2022-26803.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26792">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d270329300e613eb87a4eb9012a58638</td>
-       <td>CVE-2022-26791</td>
-       <td>2022-04-15 19:15:12 </td>
-       <td>Windows Print Spooler Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-26786, CVE-2022-26787, CVE-2022-26789, CVE-2022-26790, CVE-2022-26792, CVE-2022-26793, CVE-2022-26794, CVE-2022-26795, CVE-2022-26796, CVE-2022-26797, CVE-2022-26798, CVE-2022-26801, CVE-2022-26802, CVE-2022-26803.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26791">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">47b60c82acb0967652100adfc6275c6b</td>
-       <td>CVE-2022-26790</td>
-       <td>2022-04-15 19:15:12 </td>
-       <td>Windows Print Spooler Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-26786, CVE-2022-26787, CVE-2022-26789, CVE-2022-26791, CVE-2022-26792, CVE-2022-26793, CVE-2022-26794, CVE-2022-26795, CVE-2022-26796, CVE-2022-26797, CVE-2022-26798, CVE-2022-26801, CVE-2022-26802, CVE-2022-26803.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26790">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a12a3b81923c9d90d4bc913114f70bdc</td>
-       <td>CVE-2022-26789</td>
-       <td>2022-04-15 19:15:12 </td>
-       <td>Windows Print Spooler Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-26786, CVE-2022-26787, CVE-2022-26790, CVE-2022-26791, CVE-2022-26792, CVE-2022-26793, CVE-2022-26794, CVE-2022-26795, CVE-2022-26796, CVE-2022-26797, CVE-2022-26798, CVE-2022-26801, CVE-2022-26802, CVE-2022-26803.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26789">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1019f257e2e22cda1476a5159fd5d876</td>
-       <td>CVE-2022-26787</td>
-       <td>2022-04-15 19:15:12 </td>
-       <td>Windows Print Spooler Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-26786, CVE-2022-26789, CVE-2022-26790, CVE-2022-26791, CVE-2022-26792, CVE-2022-26793, CVE-2022-26794, CVE-2022-26795, CVE-2022-26796, CVE-2022-26797, CVE-2022-26798, CVE-2022-26801, CVE-2022-26802, CVE-2022-26803.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26787">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">92fbb109267403e1b418236290015677</td>
-       <td>CVE-2022-26786</td>
-       <td>2022-04-15 19:15:12 </td>
-       <td>Windows Print Spooler Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-26787, CVE-2022-26789, CVE-2022-26790, CVE-2022-26791, CVE-2022-26792, CVE-2022-26793, CVE-2022-26794, CVE-2022-26795, CVE-2022-26796, CVE-2022-26797, CVE-2022-26798, CVE-2022-26801, CVE-2022-26802, CVE-2022-26803.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-26786">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f048e8a605155f4ff165f510465e2c0f</td>
-       <td>CVE-2022-28109</td>
-       <td>2022-04-15 16:15:07 </td>
-       <td>Selenium Selenium Grid (formerly Selenium Standalone Server) Fixed in 4.0.0-alpha-7 is affected by: DNS rebinding. The impact is: execute arbitrary code (remote). The component is: WebDriver endpoint of Selenium Grid / Selenium Standalone Server. The attack vector is: Triggered by browsing to to a malicious remote web server. The WebDriver endpoint of Selenium Server (Grid) is vulnerable to DNS rebinding. This can be used to execute arbitrary code on the machine.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-28109">详情</a></td>
       </tr>
 
      </tbody>
