@@ -705,8 +705,6 @@ pre	{
 	background: #f5f5f5;
 	line-height:1.4;
 	font-family:Consolas;
-        white-space: pre-wrap;
-        word-wrap: break-word;
 	}
 
 pre code {
