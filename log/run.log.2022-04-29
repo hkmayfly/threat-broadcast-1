@@ -1,0 +1,1045 @@
+2022-04-29 10:24:44 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 10:24:44 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-04-29 10:24:44 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-04-29 10:24:44 [INFO] : --------------------------------------------
+2022-04-29 10:24:44 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 10:24:44 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-04-29 10:24:45 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-04-29 10:24:45 [INFO] : --------------------------------------------
+2022-04-29 10:24:45 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 10:24:45 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-04-29 10:25:06 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [9] 条
+2022-04-29 10:25:06 [INFO] : --------------------------------------------
+2022-04-29 10:25:06 [INFO] : 
+==============================================
+[ TITLE ] Dell PowerScale OneFS安全绕过漏洞
+[ TIME  ] 2022-04-29 10:24:46
+[ CVE   ] CNVD-2022-32804 (CVE-2022-22563)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-32804
+2022-04-29 10:25:06 [INFO] : 
+==============================================
+[ TITLE ] Dell PowerScale OneFS拒绝服务漏洞
+[ TIME  ] 2022-04-29 10:24:48
+[ CVE   ] CNVD-2022-32805 (CVE-2022-26851)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-32805
+2022-04-29 10:25:06 [INFO] : 
+==============================================
+[ TITLE ] Dell PowerScale OneFS安全绕过漏洞
+[ TIME  ] 2022-04-29 10:24:50
+[ CVE   ] CNVD-2022-32806 (CVE-2022-26852)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-32806
+2022-04-29 10:25:06 [INFO] : 
+==============================================
+[ TITLE ] Dell PowerScale OneFS安全绕过漏洞
+[ TIME  ] 2022-04-29 10:24:53
+[ CVE   ] CNVD-2022-32807 (CVE-2022-26854)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-32807
+2022-04-29 10:25:06 [INFO] : 
+==============================================
+[ TITLE ] Dell PowerScale OneFS拒绝服务漏洞
+[ TIME  ] 2022-04-29 10:24:55
+[ CVE   ] CNVD-2022-32808 (CVE-2022-26855)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-32808
+2022-04-29 10:25:06 [INFO] : 
+==============================================
+[ TITLE ] Dell PowerScale OneFS权限提升漏洞
+[ TIME  ] 2022-04-29 10:24:57
+[ CVE   ] CNVD-2022-32809 (CVE-2022-24428)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-32809
+2022-04-29 10:25:06 [INFO] : 
+==============================================
+[ TITLE ] Wordpress插件Smart Product Review任意文件上传漏洞
+[ TIME  ] 2022-04-29 10:24:59
+[ CVE   ] CNVD-2022-32849
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-32849
+2022-04-29 10:25:06 [INFO] : 
+==============================================
+[ TITLE ] Dell PowerScale OneFS拒绝服务漏洞
+[ TIME  ] 2022-04-29 10:25:01
+[ CVE   ] CNVD-2022-32810 (CVE-2021-36305)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-32810
+2022-04-29 10:25:06 [INFO] : 
+==============================================
+[ TITLE ] Attendance and Payroll System SQL注入漏洞
+[ TIME  ] 2022-04-28 10:25:05
+[ CVE   ] CNVD-2022-33137 (CVE-2022-28013)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-33137
+2022-04-29 10:25:06 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 10:25:06 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-04-29 10:25:20 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-04-29 10:25:20 [INFO] : --------------------------------------------
+2022-04-29 10:25:20 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 10:25:20 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-04-29 10:25:22 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-04-29 10:25:22 [INFO] : --------------------------------------------
+2022-04-29 10:25:22 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 10:25:22 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-04-29 10:25:24 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [10] 条
+2022-04-29 10:25:24 [INFO] : --------------------------------------------
+2022-04-29 10:25:24 [INFO] : 
+==============================================
+[ TITLE ] Vulnerability in the Java VM component of Oracle Database Server. Supported versions that are affected are 12.1.0.2, 19c and 21c. Easily exploitable vulnerability allows low privileged attacker having Create Procedure privilege with network access via multiple protocols to compromise Java VM. Successful attacks of this vulnerability can result in unauthorized creation, deletion or modification access to critical data or all Java VM accessible data. CVSS 3.1 Base Score 6.5 (Integrity impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N).
+[ TIME  ] 2022-04-19 21:15:18 
+[ CVE   ] CVE-2022-21498
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-21498
+2022-04-29 10:25:24 [INFO] : 
+==============================================
+[ TITLE ] Vulnerability in the Oracle Web Services Manager product of Oracle Fusion Middleware (component: Web Services Security). Supported versions that are affected are 12.2.1.3.0 and 12.2.1.4.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Web Services Manager. Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized creation, deletion or modification access to critical data or all Oracle Web Services Manager accessible data as well as unauthorized access to critical data or complete access to all Oracle Web Services Manager accessible data. CVSS 3.1 Base Score 8.1 (Confidentiality and Integrity impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N).
+[ TIME  ] 2022-04-19 21:15:18 
+[ CVE   ] CVE-2022-21497
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-21497
+2022-04-29 10:25:24 [INFO] : 
+==============================================
+[ TITLE ] Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JNDI). Supported versions that are affected are Oracle Java SE: 7u331, 8u321, 11.0.14, 17.0.2, 18; Oracle GraalVM Enterprise Edition: 20.3.5, 21.3.1 and 22.0.0.2. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition. Successful attacks of this vulnerability can result in unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 5.3 (Integrity impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N).
+[ TIME  ] 2022-04-19 21:15:18 
+[ CVE   ] CVE-2022-21496
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-21496
+2022-04-29 10:25:24 [INFO] : 
+==============================================
+[ TITLE ] Vulnerability in the Oracle Solaris product of Oracle Systems (component: Kernel). The supported version that is affected is 11. Difficult to exploit vulnerability allows high privileged attacker with logon to the infrastructure where Oracle Solaris executes to compromise Oracle Solaris. Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle Solaris. CVSS 3.1 Base Score 4.0 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:U/C:N/I:N/A:H).
+[ TIME  ] 2022-04-19 21:15:18 
+[ CVE   ] CVE-2022-21494
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-21494
+2022-04-29 10:25:24 [INFO] : 
+==============================================
+[ TITLE ] Vulnerability in the Oracle Solaris product of Oracle Systems (component: Kernel). The supported version that is affected is 11. Easily exploitable vulnerability allows low privileged attacker with logon to the infrastructure where Oracle Solaris executes to compromise Oracle Solaris. Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Oracle Solaris, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle Solaris. CVSS 3.1 Base Score 5.9 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:N/A:H).
+[ TIME  ] 2022-04-19 21:15:18 
+[ CVE   ] CVE-2022-21493
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-21493
+2022-04-29 10:25:24 [INFO] : 
+==============================================
+[ TITLE ] Vulnerability in the Oracle Business Intelligence Enterprise Edition product of Oracle Fusion Middleware (component: Analytics Server). The supported version that is affected is 5.9.0.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Business Intelligence Enterprise Edition. Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Oracle Business Intelligence Enterprise Edition, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in unauthorized update, insert or delete access to some of Oracle Business Intelligence Enterprise Edition accessible data as well as unauthorized read access to a subset of Oracle Business Intelligence Enterprise Edition accessible data. CVSS 3.1 Base Score 6.1 (Confidentiality and Integrity impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N).
+[ TIME  ] 2022-04-19 21:15:18 
+[ CVE   ] CVE-2022-21492
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-21492
+2022-04-29 10:25:24 [INFO] : 
+==============================================
+[ TITLE ] Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (component: Core). The supported version that is affected is Prior to 6.1.34. Easily exploitable vulnerability allows low privileged attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox. Successful attacks of this vulnerability can result in takeover of Oracle VM VirtualBox. Note: This vulnerability applies to Windows systems only. CVSS 3.1 Base Score 7.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H).
+[ TIME  ] 2022-04-19 21:15:18 
+[ CVE   ] CVE-2022-21491
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-21491
+2022-04-29 10:25:24 [INFO] : 
+==============================================
+[ TITLE ] Vulnerability in the MySQL Cluster product of Oracle MySQL (component: Cluster: General). Supported versions that are affected are 7.4.35 and prior, 7.5.25 and prior, 7.6.21 and prior and 8.0.28 and prior. Difficult to exploit vulnerability allows high privileged attacker with access to the physical communication segment attached to the hardware where the MySQL Cluster executes to compromise MySQL Cluster. Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in takeover of MySQL Cluster. CVSS 3.1 Base Score 6.3 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:A/AC:H/PR:H/UI:R/S:U/C:H/I:H/A:H).
+[ TIME  ] 2022-04-19 21:15:18 
+[ CVE   ] CVE-2022-21490
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-21490
+2022-04-29 10:25:24 [INFO] : 
+==============================================
+[ TITLE ] Vulnerability in the MySQL Cluster product of Oracle MySQL (component: Cluster: General). Supported versions that are affected are 7.4.35 and prior, 7.5.25 and prior, 7.6.21 and prior and 8.0.28 and prior. Difficult to exploit vulnerability allows high privileged attacker with access to the physical communication segment attached to the hardware where the MySQL Cluster executes to compromise MySQL Cluster. Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in takeover of MySQL Cluster. CVSS 3.1 Base Score 6.3 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:A/AC:H/PR:H/UI:R/S:U/C:H/I:H/A:H).
+[ TIME  ] 2022-04-19 21:15:18 
+[ CVE   ] CVE-2022-21489
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-21489
+2022-04-29 10:25:24 [INFO] : 
+==============================================
+[ TITLE ] Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Libraries). Supported versions that are affected are Oracle Java SE: 7u331, 8u321, 11.0.14, 17.0.2, 18; Oracle GraalVM Enterprise Edition: 20.3.5, 21.3.1 and 22.0.0.2. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle Java SE, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 7.5 (Confidentiality impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).
+[ TIME  ] 2022-04-19 21:15:17 
+[ CVE   ] CVE-2022-21476
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-21476
+2022-04-29 10:25:24 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 10:25:24 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-04-29 10:25:24 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-04-29 10:25:24 [INFO] : --------------------------------------------
+2022-04-29 10:25:24 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 10:25:24 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-04-29 10:25:28 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-04-29 10:25:28 [INFO] : --------------------------------------------
+2022-04-29 10:25:28 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 10:25:28 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-04-29 10:25:28 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-04-29 10:25:28 [INFO] : --------------------------------------------
+2022-04-29 10:25:28 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 10:25:28 [INFO] : 正在获取 [红后] 威胁情报...
+2022-04-29 10:25:29 [INFO] : 得到 [红后] 最新威胁情报 [10] 条
+2022-04-29 10:25:29 [INFO] : --------------------------------------------
+2022-04-29 10:25:29 [INFO] : 
+==============================================
+[ TITLE ] OpenSC 安全漏洞
+[ TIME  ] 2022-04-28 20:39:40
+[ CVE   ] CVE-2021-42778
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=43b45f794cfc42b2be27e85992bd6575
+2022-04-29 10:25:29 [INFO] : 
+==============================================
+[ TITLE ] OpenSC 缓冲区错误漏洞
+[ TIME  ] 2022-04-28 20:39:35
+[ CVE   ] CVE-2021-42781
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=4a301013c455438f8700c21ab7da9634
+2022-04-29 10:25:29 [INFO] : 
+==============================================
+[ TITLE ] Autodesk AutoCAD 缓冲区错误漏洞
+[ TIME  ] 2022-04-28 20:39:31
+[ CVE   ] CVE-2022-27525
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=d8ad46814c6c48c58b333ade6b814b65
+2022-04-29 10:25:29 [INFO] : 
+==============================================
+[ TITLE ] Autodesk Design Review 缓冲区错误漏洞
+[ TIME  ] 2022-04-28 20:39:27
+[ CVE   ] CVE-2022-27526
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=60da8eb66e69428eabd671256cfd8be1
+2022-04-29 10:25:29 [INFO] : 
+==============================================
+[ TITLE ] OpenSC 资源管理错误漏洞
+[ TIME  ] 2022-04-28 20:39:23
+[ CVE   ] CVE-2021-42779
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=5df15071420747f887ac8a1f6f982973
+2022-04-29 10:25:29 [INFO] : 
+==============================================
+[ TITLE ] WSO2 API Manager代码问题漏洞
+[ TIME  ] 2022-04-28 20:39:19
+[ CVE   ] CVE-2022-29464
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=727ab663649b47f688b85de22836c699
+2022-04-29 10:25:29 [INFO] : 
+==============================================
+[ TITLE ] OpenSC 缓冲区错误漏洞
+[ TIME  ] 2022-04-28 20:39:15
+[ CVE   ] CVE-2021-42782
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=3bfbf8ad127e4624baa52e19e21be3c4
+2022-04-29 10:25:29 [INFO] : 
+==============================================
+[ TITLE ] Cisco Embedded Wireless Controller 安全漏洞
+[ TIME  ] 2022-04-28 20:39:11
+[ CVE   ] CVE-2022-20622
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=48465950b551475c9b6f3f13e3ab7dc9
+2022-04-29 10:25:29 [INFO] : 
+==============================================
+[ TITLE ] Autodesk AutoCAD 缓冲区错误漏洞
+[ TIME  ] 2022-04-28 20:39:07
+[ CVE   ] CVE-2022-27529
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=4a9f9329eec04daab96a39e77a7e881a
+2022-04-29 10:25:29 [INFO] : 
+==============================================
+[ TITLE ] Cisco IOS和IOS XE安全漏洞
+[ TIME  ] 2022-04-28 20:39:02
+[ CVE   ] CVE-2022-20678
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=bb6f07dd3f2a46d7b9b3f48e55a44d6e
+2022-04-29 10:25:29 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 10:25:29 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-04-29 10:25:38 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-04-29 10:25:38 [INFO] : --------------------------------------------
+2022-04-29 10:25:38 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 10:25:38 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-04-29 10:25:40 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [10] 条
+2022-04-29 10:25:40 [INFO] : --------------------------------------------
+2022-04-29 10:25:40 [INFO] : 
+==============================================
+[ TITLE ] Solar appScreener through 3.10.4, when a valid license is not present, allows XXE and SSRF attacks via a crafted XML document.
+[ TIME  ] 2022-04-28 21:15:00
+[ CVE   ] CVE-2022-24449
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24449
+2022-04-29 10:25:40 [INFO] : 
+==============================================
+[ TITLE ] The iot-manager microservice 1.0.0 in Northern.tech Mender Enterprise before 3.2.2 allows SSRF because the Azure IoT Hub integration provides several SSRF primitives that can execute cross-tenant actions via internal API endpoints.
+[ TIME  ] 2022-04-28 20:15:00
+[ CVE   ] CVE-2022-29556
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-29556
+2022-04-29 10:25:40 [INFO] : 
+==============================================
+[ TITLE ] The Deviceconnect microservice through 1.3.0 in Northern.tech Mender Enterprise before 3.2.2. allows Cross-Origin Websocket Hijacking.
+[ TIME  ] 2022-04-28 20:15:00
+[ CVE   ] CVE-2022-29555
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-29555
+2022-04-29 10:25:40 [INFO] : 
+==============================================
+[ TITLE ] Zoho ManageEngine Access Manager Plus before 4302, Password Manager Pro before 12007, and PAM360 before 5401 are vulnerable to access-control bypass on a few Rest API URLs (for SSOutAction. SSLAction. LicenseMgr. GetProductDetails. GetDashboard. FetchEvents. and Synchronize) via the ../RestAPI substring.
+[ TIME  ] 2022-04-28 20:15:00
+[ CVE   ] CVE-2022-29081
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-29081
+2022-04-29 10:25:40 [INFO] : 
+==============================================
+[ TITLE ] WBCE CMS 1.5.2 is vulnerable to Cross Site Scripting (XSS).
+[ TIME  ] 2022-04-28 20:15:00
+[ CVE   ] CVE-2022-28477
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-28477
+2022-04-29 10:25:40 [INFO] : 
+==============================================
+[ TITLE ] Limbas 4.3.36.1319 is vulnerable to Cross Site Scripting (XSS).
+[ TIME  ] 2022-04-28 20:15:00
+[ CVE   ] CVE-2022-28454
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-28454
+2022-04-29 10:25:40 [INFO] : 
+==============================================
+[ TITLE ] SQL Injection vulnerability in Victor CMS v1.0, via the user_name parameter to /includes/login.php.
+[ TIME  ] 2022-04-28 20:15:00
+[ CVE   ] CVE-2022-28060
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-28060
+2022-04-29 10:25:40 [INFO] : 
+==============================================
+[ TITLE ] org.xwiki.commons:xwiki-commons-xml is a common module used by other XWiki top level projects. Starting in version 2.7 and prior to versions 12.10.10, 13.4.4, and 13.8-rc-1, it is possible for a script to access any file accessing to the user running XWiki application server with XML External Entity Injection through the XML script service. The problem has been patched in versions 12.10.10, 13.4.4, and 13.8-rc-1. There is no easy workaround for fixing this vulnerability other than upgrading and being careful when giving Script rights.
+[ TIME  ] 2022-04-28 20:15:00
+[ CVE   ] CVE-2022-24898
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-24898
+2022-04-29 10:25:40 [INFO] : 
+==============================================
+[ TITLE ] Cross-Site Request Forgery (CSRF) leading to Stored Cross-Site Scripting (XSS) in Mufeng's Hermit ????? plugin <= 3.1.6 on WordPress via &title parameter.
+[ TIME  ] 2022-04-28 17:15:00
+[ CVE   ] CVE-2022-29413
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-29413
+2022-04-29 10:25:40 [INFO] : 
+==============================================
+[ TITLE ] Multiple Cross-Site Request Forgery (CSRF) vulnerabilities in Hermit ????? plugin <= 3.1.6 on WordPress allow attackers to delete cache, delete a source, create source.
+[ TIME  ] 2022-04-28 17:15:00
+[ CVE   ] CVE-2022-29412
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-29412
+2022-04-29 10:25:40 [INFO] : [邮件] 正在推送威胁情报...
+2022-04-29 10:25:40 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
+2022-04-29 10:25:41 [INFO] : [邮件] 推送威胁情报成功
+2022-04-29 10:25:41 [INFO] : 正在提交变更...
+2022-04-29 10:25:47 [INFO] : 提交变更成功
+2022-04-29 11:08:15 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:08:15 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-04-29 11:08:18 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-04-29 11:08:18 [INFO] : --------------------------------------------
+2022-04-29 11:08:18 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:08:18 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-04-29 11:08:19 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-04-29 11:08:19 [INFO] : --------------------------------------------
+2022-04-29 11:08:19 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:08:19 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-04-29 11:08:41 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-04-29 11:08:41 [INFO] : --------------------------------------------
+2022-04-29 11:08:41 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:08:41 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-04-29 11:08:54 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-04-29 11:08:54 [INFO] : --------------------------------------------
+2022-04-29 11:08:54 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:08:54 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-04-29 11:08:54 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-04-29 11:08:54 [INFO] : --------------------------------------------
+2022-04-29 11:08:54 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:08:54 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-04-29 11:08:58 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
+2022-04-29 11:08:58 [INFO] : --------------------------------------------
+2022-04-29 11:08:58 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:08:58 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-04-29 11:08:58 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-04-29 11:08:58 [INFO] : --------------------------------------------
+2022-04-29 11:08:58 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:08:58 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-04-29 11:08:59 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-04-29 11:08:59 [INFO] : --------------------------------------------
+2022-04-29 11:08:59 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:08:59 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-04-29 11:08:59 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-04-29 11:08:59 [INFO] : --------------------------------------------
+2022-04-29 11:08:59 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:08:59 [INFO] : 正在获取 [红后] 威胁情报...
+2022-04-29 11:09:00 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-04-29 11:09:00 [INFO] : --------------------------------------------
+2022-04-29 11:09:00 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:09:00 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-04-29 11:09:02 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-04-29 11:09:02 [INFO] : --------------------------------------------
+2022-04-29 11:09:02 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:09:02 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-04-29 11:09:03 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
+2022-04-29 11:09:03 [INFO] : --------------------------------------------
+2022-04-29 11:09:03 [INFO] : 正在提交变更...
+2022-04-29 11:09:07 [INFO] : 提交变更成功
+2022-04-29 11:13:30 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:13:30 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-04-29 11:13:30 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-04-29 11:13:30 [INFO] : --------------------------------------------
+2022-04-29 11:13:30 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:13:30 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-04-29 11:13:31 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-04-29 11:13:31 [INFO] : --------------------------------------------
+2022-04-29 11:13:31 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:13:31 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-04-29 11:13:55 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-04-29 11:13:55 [INFO] : --------------------------------------------
+2022-04-29 11:13:55 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:13:55 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-04-29 11:14:31 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:14:31 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-04-29 11:14:32 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-04-29 11:14:32 [INFO] : --------------------------------------------
+2022-04-29 11:14:32 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:14:32 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-04-29 11:14:32 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-04-29 11:14:32 [INFO] : --------------------------------------------
+2022-04-29 11:14:32 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:14:32 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-04-29 11:14:53 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-04-29 11:14:53 [INFO] : --------------------------------------------
+2022-04-29 11:14:53 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:14:53 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-04-29 11:15:07 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-04-29 11:15:07 [INFO] : --------------------------------------------
+2022-04-29 11:15:07 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:15:07 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-04-29 11:15:07 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-04-29 11:15:07 [INFO] : --------------------------------------------
+2022-04-29 11:15:07 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:15:07 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-04-29 11:15:10 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
+2022-04-29 11:15:10 [INFO] : --------------------------------------------
+2022-04-29 11:15:10 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:15:10 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-04-29 11:15:10 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-04-29 11:15:10 [INFO] : --------------------------------------------
+2022-04-29 11:15:10 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:15:10 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-04-29 11:15:11 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-04-29 11:15:11 [INFO] : --------------------------------------------
+2022-04-29 11:15:11 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:15:11 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-04-29 11:15:11 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-04-29 11:15:11 [INFO] : --------------------------------------------
+2022-04-29 11:15:11 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:15:11 [INFO] : 正在获取 [红后] 威胁情报...
+2022-04-29 11:15:12 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-04-29 11:15:12 [INFO] : --------------------------------------------
+2022-04-29 11:15:12 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:15:12 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-04-29 11:15:14 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-04-29 11:15:14 [INFO] : --------------------------------------------
+2022-04-29 11:15:14 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:15:14 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-04-29 11:15:15 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
+2022-04-29 11:15:15 [INFO] : --------------------------------------------
+2022-04-29 11:15:15 [INFO] : [邮件] 正在推送威胁情报...
+2022-04-29 11:15:15 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
+2022-04-29 11:15:16 [INFO] : [邮件] 推送威胁情报成功
+2022-04-29 11:15:16 [INFO] : 正在提交变更...
+2022-04-29 11:15:19 [INFO] : 提交变更成功
+2022-04-29 11:22:51 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:22:51 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-04-29 11:22:52 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-04-29 11:22:52 [INFO] : --------------------------------------------
+2022-04-29 11:22:52 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:22:52 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-04-29 11:22:53 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-04-29 11:22:53 [INFO] : --------------------------------------------
+2022-04-29 11:22:53 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:22:53 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-04-29 11:23:14 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-04-29 11:23:14 [INFO] : --------------------------------------------
+2022-04-29 11:23:14 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:23:14 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-04-29 11:23:27 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-04-29 11:23:27 [INFO] : --------------------------------------------
+2022-04-29 11:23:27 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:23:27 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-04-29 11:23:28 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-04-29 11:23:28 [INFO] : --------------------------------------------
+2022-04-29 11:23:28 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:23:28 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-04-29 11:23:33 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
+2022-04-29 11:23:33 [INFO] : --------------------------------------------
+2022-04-29 11:23:33 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:23:33 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-04-29 11:23:33 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-04-29 11:23:33 [INFO] : --------------------------------------------
+2022-04-29 11:23:33 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:23:33 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-04-29 11:23:34 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-04-29 11:23:34 [INFO] : --------------------------------------------
+2022-04-29 11:23:34 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:23:34 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-04-29 11:23:35 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-04-29 11:23:35 [INFO] : --------------------------------------------
+2022-04-29 11:23:35 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:23:35 [INFO] : 正在获取 [红后] 威胁情报...
+2022-04-29 11:23:35 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-04-29 11:23:35 [INFO] : --------------------------------------------
+2022-04-29 11:23:35 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:23:35 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-04-29 11:23:38 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-04-29 11:23:38 [INFO] : --------------------------------------------
+2022-04-29 11:23:38 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:23:38 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-04-29 11:23:39 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
+2022-04-29 11:23:39 [INFO] : --------------------------------------------
+2022-04-29 11:23:39 [INFO] : [邮件] 正在推送威胁情报...
+2022-04-29 11:23:39 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
+2022-04-29 11:23:40 [INFO] : [邮件] 推送威胁情报成功
+2022-04-29 11:23:40 [INFO] : 正在提交变更...
+2022-04-29 11:23:43 [INFO] : 提交变更成功
+2022-04-29 11:26:56 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:26:56 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-04-29 11:26:56 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-04-29 11:26:56 [INFO] : --------------------------------------------
+2022-04-29 11:26:56 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:26:56 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-04-29 11:26:57 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-04-29 11:26:57 [INFO] : --------------------------------------------
+2022-04-29 11:26:57 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:26:57 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-04-29 11:27:18 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-04-29 11:27:18 [INFO] : --------------------------------------------
+2022-04-29 11:27:18 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:27:18 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-04-29 11:27:32 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-04-29 11:27:32 [INFO] : --------------------------------------------
+2022-04-29 11:27:32 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:27:32 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-04-29 11:27:32 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-04-29 11:27:32 [INFO] : --------------------------------------------
+2022-04-29 11:27:32 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:27:32 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-04-29 11:27:35 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
+2022-04-29 11:27:35 [INFO] : --------------------------------------------
+2022-04-29 11:27:35 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:27:35 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-04-29 11:27:35 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-04-29 11:27:35 [INFO] : --------------------------------------------
+2022-04-29 11:27:35 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:27:35 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-04-29 11:27:35 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-04-29 11:27:35 [INFO] : --------------------------------------------
+2022-04-29 11:27:35 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:27:35 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-04-29 11:27:36 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-04-29 11:27:36 [INFO] : --------------------------------------------
+2022-04-29 11:27:36 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:27:36 [INFO] : 正在获取 [红后] 威胁情报...
+2022-04-29 11:27:36 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-04-29 11:27:36 [INFO] : --------------------------------------------
+2022-04-29 11:27:36 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:27:36 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-04-29 11:27:39 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-04-29 11:27:39 [INFO] : --------------------------------------------
+2022-04-29 11:27:39 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:27:39 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-04-29 11:27:40 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
+2022-04-29 11:27:40 [INFO] : --------------------------------------------
+2022-04-29 11:27:40 [INFO] : [邮件] 正在推送威胁情报...
+2022-04-29 11:27:40 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
+2022-04-29 11:27:41 [INFO] : [邮件] 推送威胁情报成功
+2022-04-29 11:27:41 [INFO] : 正在提交变更...
+2022-04-29 11:27:44 [INFO] : 提交变更成功
+2022-04-29 11:33:28 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:33:28 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-04-29 11:33:29 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-04-29 11:33:29 [INFO] : --------------------------------------------
+2022-04-29 11:33:29 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:33:29 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-04-29 11:33:30 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-04-29 11:33:30 [INFO] : --------------------------------------------
+2022-04-29 11:33:30 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:33:30 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-04-29 11:33:51 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-04-29 11:33:51 [INFO] : --------------------------------------------
+2022-04-29 11:33:51 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:33:51 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-04-29 11:34:05 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-04-29 11:34:05 [INFO] : --------------------------------------------
+2022-04-29 11:34:05 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:34:05 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-04-29 11:34:05 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-04-29 11:34:05 [INFO] : --------------------------------------------
+2022-04-29 11:34:05 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:34:05 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-04-29 11:34:08 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
+2022-04-29 11:34:08 [INFO] : --------------------------------------------
+2022-04-29 11:34:08 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:34:08 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-04-29 11:34:08 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-04-29 11:34:08 [INFO] : --------------------------------------------
+2022-04-29 11:34:08 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:34:08 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-04-29 11:34:09 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-04-29 11:34:09 [INFO] : --------------------------------------------
+2022-04-29 11:34:09 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:34:09 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-04-29 11:34:09 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-04-29 11:34:09 [INFO] : --------------------------------------------
+2022-04-29 11:34:09 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:34:09 [INFO] : 正在获取 [红后] 威胁情报...
+2022-04-29 11:34:09 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-04-29 11:34:09 [INFO] : --------------------------------------------
+2022-04-29 11:34:09 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:34:09 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-04-29 11:34:12 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-04-29 11:34:12 [INFO] : --------------------------------------------
+2022-04-29 11:34:12 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:34:12 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-04-29 11:34:13 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
+2022-04-29 11:34:13 [INFO] : --------------------------------------------
+2022-04-29 11:34:13 [INFO] : [邮件] 正在推送威胁情报...
+2022-04-29 11:34:13 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
+2022-04-29 11:34:15 [INFO] : [邮件] 推送威胁情报成功
+2022-04-29 11:34:15 [INFO] : 正在提交变更...
+2022-04-29 11:34:18 [INFO] : 提交变更成功
+2022-04-29 11:42:38 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:42:38 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-04-29 11:42:39 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-04-29 11:42:39 [INFO] : --------------------------------------------
+2022-04-29 11:42:39 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:42:39 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-04-29 11:42:39 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-04-29 11:42:39 [INFO] : --------------------------------------------
+2022-04-29 11:42:39 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:42:39 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-04-29 11:43:03 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [3] 条
+2022-04-29 11:43:03 [INFO] : --------------------------------------------
+2022-04-29 11:43:03 [INFO] : 
+==============================================
+[ TITLE ] OIC Exponent CMS跨站脚本漏洞
+[ TIME  ] 2022-04-29 11:42:53
+[ CVE   ] CNVD-2022-33602 (CVE-2022-23047)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-33602
+2022-04-29 11:43:03 [INFO] : 
+==============================================
+[ TITLE ] OIC Exponent CMS文件上传漏洞
+[ TIME  ] 2022-04-29 11:42:58
+[ CVE   ] CNVD-2022-33603 (CVE-2022-23048)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-33603
+2022-04-29 11:43:03 [INFO] : 
+==============================================
+[ TITLE ] OIC Exponent CMS跨站脚本漏洞
+[ TIME  ] 2022-04-29 11:43:00
+[ CVE   ] CNVD-2022-33604 (CVE-2022-23049)
+[ SRC   ] 国家信息安全漏洞共享平台（CNVD）
+[ URL   ] https://www.cnvd.org.cn/flaw/show/CNVD-2022-33604
+2022-04-29 11:43:03 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:43:03 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-04-29 11:43:18 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-04-29 11:43:18 [INFO] : --------------------------------------------
+2022-04-29 11:43:18 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:43:18 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-04-29 11:43:19 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-04-29 11:43:19 [INFO] : --------------------------------------------
+2022-04-29 11:43:19 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:43:19 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-04-29 11:43:21 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
+2022-04-29 11:43:21 [INFO] : --------------------------------------------
+2022-04-29 11:43:21 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:43:21 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-04-29 11:43:21 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-04-29 11:43:21 [INFO] : --------------------------------------------
+2022-04-29 11:43:21 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:43:21 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-04-29 11:43:22 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-04-29 11:43:22 [INFO] : --------------------------------------------
+2022-04-29 11:43:22 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:43:22 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-04-29 11:43:22 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-04-29 11:43:22 [INFO] : --------------------------------------------
+2022-04-29 11:43:22 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:43:22 [INFO] : 正在获取 [红后] 威胁情报...
+2022-04-29 11:43:22 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-04-29 11:43:22 [INFO] : --------------------------------------------
+2022-04-29 11:43:22 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:43:22 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-04-29 11:43:25 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-04-29 11:43:25 [INFO] : --------------------------------------------
+2022-04-29 11:43:25 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 11:43:25 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-04-29 11:43:26 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
+2022-04-29 11:43:26 [INFO] : --------------------------------------------
+2022-04-29 11:43:26 [INFO] : [邮件] 正在推送威胁情报...
+2022-04-29 11:43:26 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
+2022-04-29 11:43:27 [INFO] : [邮件] 推送威胁情报成功
+2022-04-29 11:43:27 [INFO] : 正在提交变更...
+2022-04-29 11:43:32 [INFO] : 提交变更成功
+2022-04-29 14:33:49 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 14:33:49 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-04-29 14:33:50 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-04-29 14:33:50 [INFO] : --------------------------------------------
+2022-04-29 14:33:50 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 14:33:50 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-04-29 14:33:50 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-04-29 14:33:50 [INFO] : --------------------------------------------
+2022-04-29 14:33:50 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 14:33:50 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-04-29 14:34:11 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-04-29 14:34:11 [INFO] : --------------------------------------------
+2022-04-29 14:34:11 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 14:34:11 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-04-29 14:34:27 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-04-29 14:34:27 [INFO] : --------------------------------------------
+2022-04-29 14:34:27 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 14:34:27 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-04-29 14:34:27 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-04-29 14:34:27 [INFO] : --------------------------------------------
+2022-04-29 14:34:27 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 14:34:27 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-04-29 14:34:29 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [10] 条
+2022-04-29 14:34:29 [INFO] : --------------------------------------------
+2022-04-29 14:34:29 [INFO] : 
+==============================================
+[ TITLE ] Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Optimizer). Supported versions that are affected are 8.0.28 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.9 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).
+[ TIME  ] 2022-04-19 21:15:16 
+[ CVE   ] CVE-2022-21452
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-21452
+2022-04-29 14:34:29 [INFO] : 
+==============================================
+[ TITLE ] Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Libraries). Supported versions that are affected are Oracle Java SE: 17.0.2 and 18; Oracle GraalVM Enterprise Edition: 21.3.1 and 22.0.0.2. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition. Successful attacks of this vulnerability can result in unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 7.5 (Integrity impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N).
+[ TIME  ] 2022-04-19 21:15:16 
+[ CVE   ] CVE-2022-21449
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-21449
+2022-04-29 14:34:29 [INFO] : 
+==============================================
+[ TITLE ] Vulnerability in the Oracle Solaris product of Oracle Systems (component: Utility). The supported version that is affected is 11. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Solaris. Successful attacks of this vulnerability can result in unauthorized creation, deletion or modification access to critical data or all Oracle Solaris accessible data as well as unauthorized read access to a subset of Oracle Solaris accessible data. CVSS 3.1 Base Score 8.2 (Confidentiality and Integrity impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:N).
+[ TIME  ] 2022-04-19 21:15:15 
+[ CVE   ] CVE-2022-21446
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-21446
+2022-04-29 14:34:29 [INFO] : 
+==============================================
+[ TITLE ] Vulnerability in the Oracle JDeveloper product of Oracle Fusion Middleware (component: ADF Faces). Supported versions that are affected are 12.2.1.3.0 and 12.2.1.4.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle JDeveloper. Successful attacks of this vulnerability can result in takeover of Oracle JDeveloper. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
+[ TIME  ] 2022-04-19 21:15:15 
+[ CVE   ] CVE-2022-21445
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-21445
+2022-04-29 14:34:29 [INFO] : 
+==============================================
+[ TITLE ] Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: DDL). Supported versions that are affected are 5.7.37 and prior and 8.0.28 and prior. Difficult to exploit vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.4 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H).
+[ TIME  ] 2022-04-19 21:15:15 
+[ CVE   ] CVE-2022-21444
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-21444
+2022-04-29 14:34:29 [INFO] : 
+==============================================
+[ TITLE ] Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Libraries). Supported versions that are affected are Oracle Java SE: 7u331, 8u321, 11.0.14, 17.0.2, 18; Oracle GraalVM Enterprise Edition: 20.3.5, 21.3.1 and 22.0.0.2. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM Enterprise Edition. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 3.7 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L).
+[ TIME  ] 2022-04-19 21:15:15 
+[ CVE   ] CVE-2022-21443
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-21443
+2022-04-29 14:34:29 [INFO] : 
+==============================================
+[ TITLE ] Vulnerability in Oracle GoldenGate (component: OGG Core Library). The supported version that is affected is Prior to 23.1. Easily exploitable vulnerability allows low privileged attacker with logon to the infrastructure where Oracle GoldenGate executes to compromise Oracle GoldenGate. While the vulnerability is in Oracle GoldenGate, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in takeover of Oracle GoldenGate. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H).
+[ TIME  ] 2022-04-19 21:15:15 
+[ CVE   ] CVE-2022-21442
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-21442
+2022-04-29 14:34:29 [INFO] : 
+==============================================
+[ TITLE ] Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 12.2.1.3.0, 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3/IIOP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle WebLogic Server. CVSS 3.1 Base Score 7.5 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H).
+[ TIME  ] 2022-04-19 21:15:15 
+[ CVE   ] CVE-2022-21441
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-21441
+2022-04-29 14:34:29 [INFO] : 
+==============================================
+[ TITLE ] Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Optimizer). Supported versions that are affected are 8.0.28 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server as well as unauthorized update, insert or delete access to some of MySQL Server accessible data. CVSS 3.1 Base Score 5.5 (Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:H).
+[ TIME  ] 2022-04-19 21:15:15 
+[ CVE   ] CVE-2022-21440
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-21440
+2022-04-29 14:34:29 [INFO] : 
+==============================================
+[ TITLE ] Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Optimizer). Supported versions that are affected are 8.0.28 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.9 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).
+[ TIME  ] 2022-04-19 21:15:15 
+[ CVE   ] CVE-2022-21438
+[ SRC   ] 美国国家漏洞数据库（NVD）
+[ URL   ] https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-21438
+2022-04-29 14:34:29 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 14:34:29 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-04-29 14:34:30 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-04-29 14:34:30 [INFO] : --------------------------------------------
+2022-04-29 14:34:30 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 14:34:30 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-04-29 14:34:30 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-04-29 14:34:30 [INFO] : --------------------------------------------
+2022-04-29 14:34:30 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 14:34:30 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-04-29 14:34:32 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-04-29 14:34:32 [INFO] : --------------------------------------------
+2022-04-29 14:34:32 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 14:34:32 [INFO] : 正在获取 [红后] 威胁情报...
+2022-04-29 14:34:32 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-04-29 14:34:32 [INFO] : --------------------------------------------
+2022-04-29 14:34:32 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 14:34:32 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-04-29 14:34:35 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-04-29 14:34:35 [INFO] : --------------------------------------------
+2022-04-29 14:34:35 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 14:34:35 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-04-29 14:34:36 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [5] 条
+2022-04-29 14:34:36 [INFO] : --------------------------------------------
+2022-04-29 14:34:36 [INFO] : 
+==============================================
+[ TITLE ] The Nimbus skin for MediaWiki through 1.37.2 (before 6f9c8fb868345701d9544a54d9752515aace39df) allows XSS in Advertise link messages.
+[ TIME  ] 2022-04-29 04:15:00
+[ CVE   ] CVE-2022-29907
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-29907
+2022-04-29 14:34:36 [INFO] : 
+==============================================
+[ TITLE ] The admin API module in the QuizGame extension for MediaWiki through 1.37.2 (before 665e33a68f6fa1167df99c0aa18ed0157cdf9f66) omits a check for the quizadmin user.
+[ TIME  ] 2022-04-29 04:15:00
+[ CVE   ] CVE-2022-29906
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-29906
+2022-04-29 14:34:36 [INFO] : 
+==============================================
+[ TITLE ] The FanBoxes extension for MediaWiki through 1.37.2 (before 027ffb0b9d6fe0d823810cf03f5b562a212162d4) allows Special:UserBoxes CSRF.
+[ TIME  ] 2022-04-29 04:15:00
+[ CVE   ] CVE-2022-29905
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-29905
+2022-04-29 14:34:36 [INFO] : 
+==============================================
+[ TITLE ] The SemanticDrilldown extension for MediaWiki through 1.37.2 (before e688bdba6434591b5dff689a45e4d53459954773) allows SQL injection with certain '-' and '_' constraints.
+[ TIME  ] 2022-04-29 04:15:00
+[ CVE   ] CVE-2022-29904
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-29904
+2022-04-29 14:34:36 [INFO] : 
+==============================================
+[ TITLE ] The Private Domains extension for MediaWiki through 1.37.2 (before 1ad65d4c1c199b375ea80988d99ab51ae068f766) allows CSRF for editing pages that store the extension's configuration. The attacker must trigger a POST request to Special:PrivateDomains.
+[ TIME  ] 2022-04-29 04:15:00
+[ CVE   ] CVE-2022-29903
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-29903
+2022-04-29 14:34:36 [INFO] : [邮件] 正在推送威胁情报...
+2022-04-29 14:34:36 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
+2022-04-29 14:34:37 [INFO] : [邮件] 推送威胁情报成功
+2022-04-29 14:34:37 [INFO] : 正在提交变更...
+2022-04-29 14:34:43 [INFO] : 提交变更成功
+2022-04-29 15:45:39 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 15:45:39 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-04-29 15:45:39 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-04-29 15:45:39 [INFO] : --------------------------------------------
+2022-04-29 15:45:39 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 15:45:39 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-04-29 15:45:40 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-04-29 15:45:40 [INFO] : --------------------------------------------
+2022-04-29 15:45:40 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 15:45:40 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-04-29 15:46:04 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-04-29 15:46:04 [INFO] : --------------------------------------------
+2022-04-29 15:46:04 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 15:46:04 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-04-29 15:46:19 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-04-29 15:46:19 [INFO] : --------------------------------------------
+2022-04-29 15:46:19 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 15:46:19 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-04-29 15:46:20 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-04-29 15:46:20 [INFO] : --------------------------------------------
+2022-04-29 15:46:20 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 15:46:20 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-04-29 15:46:26 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
+2022-04-29 15:46:26 [INFO] : --------------------------------------------
+2022-04-29 15:46:26 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 15:46:26 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-04-29 15:46:26 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-04-29 15:46:26 [INFO] : --------------------------------------------
+2022-04-29 15:46:26 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 15:46:26 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-04-29 15:46:26 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-04-29 15:46:26 [INFO] : --------------------------------------------
+2022-04-29 15:46:26 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 15:46:26 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-04-29 15:46:28 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-04-29 15:46:28 [INFO] : --------------------------------------------
+2022-04-29 15:46:28 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 15:46:28 [INFO] : 正在获取 [红后] 威胁情报...
+2022-04-29 15:46:28 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-04-29 15:46:28 [INFO] : --------------------------------------------
+2022-04-29 15:46:28 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 15:46:28 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-04-29 15:46:31 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-04-29 15:46:31 [INFO] : --------------------------------------------
+2022-04-29 15:46:31 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 15:46:31 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-04-29 15:46:32 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
+2022-04-29 15:46:32 [INFO] : --------------------------------------------
+2022-04-29 15:46:32 [INFO] : [邮件] 正在推送威胁情报...
+2022-04-29 15:46:32 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
+2022-04-29 15:46:33 [INFO] : [邮件] 推送威胁情报成功
+2022-04-29 15:46:33 [INFO] : 正在提交变更...
+2022-04-29 15:46:36 [INFO] : 提交变更成功
+2022-04-29 17:34:21 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 17:34:21 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-04-29 17:34:22 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-04-29 17:34:22 [INFO] : --------------------------------------------
+2022-04-29 17:34:22 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 17:34:22 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-04-29 17:34:23 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-04-29 17:34:23 [INFO] : --------------------------------------------
+2022-04-29 17:34:23 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 17:34:23 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-04-29 17:34:44 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-04-29 17:34:44 [INFO] : --------------------------------------------
+2022-04-29 17:34:44 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 17:34:44 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-04-29 17:34:57 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-04-29 17:34:57 [INFO] : --------------------------------------------
+2022-04-29 17:34:57 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 17:34:57 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-04-29 17:34:58 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-04-29 17:34:58 [INFO] : --------------------------------------------
+2022-04-29 17:34:58 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 17:34:58 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-04-29 17:35:00 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
+2022-04-29 17:35:00 [INFO] : --------------------------------------------
+2022-04-29 17:35:00 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 17:35:00 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-04-29 17:35:00 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-04-29 17:35:00 [INFO] : --------------------------------------------
+2022-04-29 17:35:00 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 17:35:00 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-04-29 17:35:01 [INFO] : 得到 [绿盟] 最新威胁情报 [15] 条
+2022-04-29 17:35:01 [INFO] : --------------------------------------------
+2022-04-29 17:35:01 [INFO] : 
+==============================================
+[ TITLE ] Oracle MySQL Server输入验证错误漏洞
+[ TIME  ] 2022-04-29 17:35:01
+[ CVE   ] CVE-2022-21425
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64596
+2022-04-29 17:35:01 [INFO] : 
+==============================================
+[ TITLE ] Oracle MySQL Server输入验证错误漏洞
+[ TIME  ] 2022-04-29 17:35:01
+[ CVE   ] CVE-2022-21457
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64595
+2022-04-29 17:35:01 [INFO] : 
+==============================================
+[ TITLE ] Oracle MySQL Server输入验证错误漏洞
+[ TIME  ] 2022-04-29 17:35:01
+[ CVE   ] CVE-2022-21440
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64594
+2022-04-29 17:35:01 [INFO] : 
+==============================================
+[ TITLE ] Oracle MySQL Server输入验证错误漏洞
+[ TIME  ] 2022-04-29 17:35:01
+[ CVE   ] CVE-2022-21459
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64593
+2022-04-29 17:35:01 [INFO] : 
+==============================================
+[ TITLE ] Oracle MySQL Server拒绝服务漏洞
+[ TIME  ] 2022-04-29 17:35:01
+[ CVE   ] CVE-2022-21462
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64592
+2022-04-29 17:35:01 [INFO] : 
+==============================================
+[ TITLE ] Oracle MySQL Server拒绝服务漏洞
+[ TIME  ] 2022-04-29 17:35:01
+[ CVE   ] CVE-2022-21451
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64591
+2022-04-29 17:35:01 [INFO] : 
+==============================================
+[ TITLE ] Oracle MySQL Server输入验证错误漏洞
+[ TIME  ] 2022-04-29 17:35:01
+[ CVE   ] CVE-2022-21460
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64590
+2022-04-29 17:35:01 [INFO] : 
+==============================================
+[ TITLE ] Oracle MySQL Server拒绝服务漏洞
+[ TIME  ] 2022-04-29 17:35:01
+[ CVE   ] CVE-2022-21444
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64589
+2022-04-29 17:35:01 [INFO] : 
+==============================================
+[ TITLE ] Oracle MySQL Server输入验证错误漏洞
+[ TIME  ] 2022-04-29 17:35:01
+[ CVE   ] CVE-2022-21478
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64588
+2022-04-29 17:35:01 [INFO] : 
+==============================================
+[ TITLE ] Oracle MySQL Server拒绝服务漏洞
+[ TIME  ] 2022-04-29 17:35:01
+[ CVE   ] CVE-2022-21413
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64587
+2022-04-29 17:35:01 [INFO] : 
+==============================================
+[ TITLE ] Oracle MySQL Server输入验证错误漏洞
+[ TIME  ] 2022-04-29 17:35:01
+[ CVE   ] CVE-2022-21479
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64586
+2022-04-29 17:35:01 [INFO] : 
+==============================================
+[ TITLE ] Oracle MySQL Server拒绝服务漏洞
+[ TIME  ] 2022-04-29 17:35:01
+[ CVE   ] CVE-2022-21417
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64585
+2022-04-29 17:35:01 [INFO] : 
+==============================================
+[ TITLE ] Oracle MySQL Server输入验证错误漏洞
+[ TIME  ] 2022-04-29 17:35:01
+[ CVE   ] CVE-2022-21418
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64584
+2022-04-29 17:35:01 [INFO] : 
+==============================================
+[ TITLE ] Oracle Agile PLM输入验证错误漏洞
+[ TIME  ] 2022-04-29 17:35:01
+[ CVE   ] CVE-2022-21467
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64583
+2022-04-29 17:35:01 [INFO] : 
+==============================================
+[ TITLE ] Oracle OSS Support Tools输入验证错误漏洞
+[ TIME  ] 2022-04-29 17:35:01
+[ CVE   ] CVE-2022-21405
+[ SRC   ] 绿盟
+[ URL   ] http://www.nsfocus.net/vulndb/64582
+2022-04-29 17:35:01 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 17:35:01 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-04-29 17:35:01 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-04-29 17:35:01 [INFO] : --------------------------------------------
+2022-04-29 17:35:01 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 17:35:01 [INFO] : 正在获取 [红后] 威胁情报...
+2022-04-29 17:35:02 [INFO] : 得到 [红后] 最新威胁情报 [0] 条
+2022-04-29 17:35:02 [INFO] : --------------------------------------------
+2022-04-29 17:35:02 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 17:35:02 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-04-29 17:35:05 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-04-29 17:35:05 [INFO] : --------------------------------------------
+2022-04-29 17:35:05 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-04-29 17:35:05 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-04-29 17:35:06 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
+2022-04-29 17:35:06 [INFO] : --------------------------------------------
+2022-04-29 17:35:06 [INFO] : [邮件] 正在推送威胁情报...
+2022-04-29 17:35:06 [INFO] : [邮件] 收件人清单： ['207176126@qq.com']
+2022-04-29 17:35:07 [INFO] : [邮件] 推送威胁情报成功
+2022-04-29 17:35:07 [INFO] : 正在提交变更...
+2022-04-29 17:35:12 [INFO] : 提交变更成功
