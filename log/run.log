@@ -2937,3 +2937,153 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/site-packages/requests/models.py", line 940, in raise_for_status
     raise HTTPError(http_error_msg, response=self)
 requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://api.github.com/graphql
+2022-05-01 14:00:05 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-05-01 14:00:05 [INFO] : 正在获取 [数字观星POC++] 威胁情报...
+2022-05-01 14:00:07 [INFO] : 得到 [数字观星POC++] 最新威胁情报 [0] 条
+2022-05-01 14:00:07 [INFO] : --------------------------------------------
+2022-05-01 14:00:07 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-05-01 14:00:07 [INFO] : 正在获取 [阿里云] 威胁情报...
+2022-05-01 14:00:08 [INFO] : 得到 [阿里云] 最新威胁情报 [0] 条
+2022-05-01 14:00:08 [INFO] : --------------------------------------------
+2022-05-01 14:00:08 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-05-01 14:00:08 [INFO] : 正在获取 [国家信息安全漏洞共享平台（CNVD）] 威胁情报...
+2022-05-01 14:00:31 [INFO] : 得到 [国家信息安全漏洞共享平台（CNVD）] 最新威胁情报 [0] 条
+2022-05-01 14:00:31 [INFO] : --------------------------------------------
+2022-05-01 14:00:31 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-05-01 14:00:31 [INFO] : 正在获取 [国家信息安全漏洞库（CNNVD）] 威胁情报...
+2022-05-01 14:00:56 [INFO] : 得到 [国家信息安全漏洞库（CNNVD）] 最新威胁情报 [0] 条
+2022-05-01 14:00:56 [INFO] : --------------------------------------------
+2022-05-01 14:00:56 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-05-01 14:00:56 [INFO] : 正在获取 [360 网络安全响应中心] 威胁情报...
+2022-05-01 14:00:58 [INFO] : 得到 [360 网络安全响应中心] 最新威胁情报 [0] 条
+2022-05-01 14:00:58 [INFO] : --------------------------------------------
+2022-05-01 14:00:58 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-05-01 14:00:58 [INFO] : 正在获取 [美国国家漏洞数据库（NVD）] 威胁情报...
+2022-05-01 14:00:58 [INFO] : 得到 [美国国家漏洞数据库（NVD）] 最新威胁情报 [0] 条
+2022-05-01 14:00:58 [INFO] : --------------------------------------------
+2022-05-01 14:00:58 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-05-01 14:00:58 [INFO] : 正在获取 [信息安全漏洞门户] 威胁情报...
+2022-05-01 14:01:00 [INFO] : 得到 [信息安全漏洞门户] 最新威胁情报 [0] 条
+2022-05-01 14:01:00 [INFO] : --------------------------------------------
+2022-05-01 14:01:00 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-05-01 14:01:00 [INFO] : 正在获取 [绿盟] 威胁情报...
+2022-05-01 14:01:01 [INFO] : 得到 [绿盟] 最新威胁情报 [0] 条
+2022-05-01 14:01:01 [INFO] : --------------------------------------------
+2022-05-01 14:01:01 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-05-01 14:01:01 [INFO] : 正在获取 [奇安信] 威胁情报...
+2022-05-01 14:01:07 [INFO] : 得到 [奇安信] 最新威胁情报 [0] 条
+2022-05-01 14:01:07 [INFO] : --------------------------------------------
+2022-05-01 14:01:07 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-05-01 14:01:07 [INFO] : 正在获取 [红后] 威胁情报...
+2022-05-01 14:01:08 [INFO] : 得到 [红后] 最新威胁情报 [10] 条
+2022-05-01 14:01:08 [INFO] : --------------------------------------------
+2022-05-01 14:01:08 [INFO] : 
+==============================================
+[ TITLE ] IBM Cognos Analytics 安全漏洞
+[ TIME  ] 2022-05-01 20:32:50
+[ CVE   ] CVE-2021-38886
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=6666818f267c495fad188b74e91a5d8b
+2022-05-01 14:01:08 [INFO] : 
+==============================================
+[ TITLE ] Microweber安全漏洞
+[ TIME  ] 2022-05-01 20:32:45
+[ CVE   ] CVE-2022-1439
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=f7453e4b359143fdb185991f07902b40
+2022-05-01 14:01:08 [INFO] : 
+==============================================
+[ TITLE ] IBM Maximo Asset Management 跨站脚本漏洞
+[ TIME  ] 2022-05-01 20:32:41
+[ CVE   ] CVE-2022-22435
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=b9665b0252e147068e0295974436c586
+2022-05-01 14:01:08 [INFO] : 
+==============================================
+[ TITLE ] IBM Cognos Analytics 安全漏洞
+[ TIME  ] 2022-05-01 20:32:38
+[ CVE   ] CVE-2021-20464
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=b32aefa88941408a82ea9979d8acf0fe
+2022-05-01 14:01:08 [INFO] : 
+==============================================
+[ TITLE ] Victor CMS 安全漏洞
+[ TIME  ] 2022-05-01 20:32:34
+[ CVE   ] CVE-2022-27478
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=ba08b4c51fd3423a8aaf9c577597e4a9
+2022-05-01 14:01:08 [INFO] : 
+==============================================
+[ TITLE ] IBM Cognos Analytics 安全漏洞
+[ TIME  ] 2022-05-01 20:32:30
+[ CVE   ] CVE-2021-38904
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=c68a9ac70ff14c1289ec0c97481245cd
+2022-05-01 14:01:08 [INFO] : 
+==============================================
+[ TITLE ] Atlassian Jira 授权问题漏洞
+[ TIME  ] 2022-05-01 20:32:26
+[ CVE   ] CVE-2022-0540
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=49015deb1be241afa58541acaa47b397
+2022-05-01 14:01:08 [INFO] : 
+==============================================
+[ TITLE ] IBM Cognos Analytics 跨站脚本漏洞
+[ TIME  ] 2022-05-01 20:32:22
+[ CVE   ] CVE-2021-38946
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=a78df5cb3d8843b1b9cee0918beb5940
+2022-05-01 14:01:08 [INFO] : 
+==============================================
+[ TITLE ] Oracle MySQL 输入验证错误漏洞
+[ TIME  ] 2022-05-01 20:32:18
+[ CVE   ] CVE-2022-21444
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=c77efe5efc0149e39a449526254483be
+2022-05-01 14:01:08 [INFO] : 
+==============================================
+[ TITLE ] vim 缓冲区错误漏洞
+[ TIME  ] 2022-05-01 20:32:13
+[ CVE   ] CVE-2022-1420
+[ SRC   ] 红后
+[ URL   ] https://redqueen.tj-un.com/IntelDetails.html?id=231c481b32494c70ab1b701c6a7eaa14
+2022-05-01 14:01:08 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-05-01 14:01:08 [INFO] : 正在获取 [斗象] 威胁情报...
+2022-05-01 14:01:15 [INFO] : 得到 [斗象] 最新威胁情报 [0] 条
+2022-05-01 14:01:15 [INFO] : --------------------------------------------
+2022-05-01 14:01:15 [INFO] : ++++++++++++++++++++++++++++++++++++++++++++
+2022-05-01 14:01:15 [INFO] : 正在获取 [Tenable (Nessus)] 威胁情报...
+2022-05-01 14:01:15 [INFO] : 得到 [Tenable (Nessus)] 最新威胁情报 [0] 条
+2022-05-01 14:01:15 [INFO] : --------------------------------------------
+2022-05-01 14:01:15 [INFO] : [邮件] 正在通过 Github Actions 推送威胁情报...
+2022-05-01 14:01:15 [ERROR] : 获取 Issue 的邮箱失败（国内 GraphQL 接口不稳定）
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 110, in load_issue_receivers
+    issues = _git.query_issues(gtk)
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/utils/_git.py", line 43, in query_issues
+    data = client.execute(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/site-packages/python_graphql_client/graphql_client.py", line 53, in execute
+    result.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://api.github.com/graphql
+2022-05-01 14:01:15 [ERROR] : Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 110, in load_issue_receivers
+    issues = _git.query_issues(gtk)
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/utils/_git.py", line 43, in query_issues
+    data = client.execute(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/site-packages/python_graphql_client/graphql_client.py", line 53, in execute
+    result.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://api.github.com/graphql
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 110, in load_issue_receivers
+    issues = _git.query_issues(gtk)
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/utils/_git.py", line 43, in query_issues
+    data = client.execute(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/site-packages/python_graphql_client/graphql_client.py", line 53, in execute
+    result.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://api.github.com/graphql
