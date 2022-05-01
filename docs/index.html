@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-05-01 18:31:37 -->
+<!-- RELEASE TIME : 2022-05-01 18:50:52 -->
 <html lang="zh-cn">
 
  <head>
@@ -232,6 +232,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">9cae8b2e8bf594e16c1a81bea4c2e8e9</td>
+       <td>CVE-2022-25301</td>
+       <td>2022-05-01 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>All versions of package jsgui-lang-essentials are vulnerable to Prototype Pollution due to allowing all Object attributes to be altered, including their magical attributes such as proto, constructor and prototype.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25301">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">054e21f30d0c5ee96b0ff31bfcb3fb62</td>
+       <td>CVE-2022-26068</td>
+       <td>2022-05-01 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>This affects the package pistacheio/pistache before 0.0.3.20220425. It is possible to traverse directories to fetch arbitrary files from the server.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26068">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ea874fd72ce38893b959df4a5c7e742d</td>
+       <td>CVE-2022-25850</td>
+       <td>2022-05-01 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>The package github.com/hoppscotch/proxyscotch before 1.0.0 are vulnerable to Server-side Request Forgery (SSRF) when interceptor mode is set to proxy. It occurs when an HTTP request is made by a backend server to an untrusted URL submitted by a user. It leads to a leakage of sensitive information from the server.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25850">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d39cbdc4ad5ab7197ec71fa59330c134</td>
+       <td>CVE-2022-25844</td>
+       <td>2022-05-01 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>The package angular after 1.7.0 are vulnerable to Regular Expression Denial of Service (ReDoS) by providing a custom locale rule that makes it possible to assign the parameter in posPre: ' '.repeat() of NUMBER_FORMATS.PATTERNS[1].posPre with a very high value. **Note:** 1) This package has been deprecated and is no longer maintained. 2) The vulnerable versions are 1.7.0 and higher.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25844">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">baa187583ba268a1070b95bc19ada71c</td>
+       <td>CVE-2022-25842</td>
+       <td>2022-05-01 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>All versions of package com.alibaba.oneagent:one-java-agent-plugin are vulnerable to Arbitrary File Write via Archive Extraction (Zip Slip) using a specially crafted archive that holds directory traversal filenames (e.g. ../../evil.exe). The attacker can overwrite executable files and either invoke them remotely or wait for the system or user to call them, thus achieving remote command execution on the victim’s machine.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25842">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0720a96b3673746d286774833433c35f</td>
+       <td>CVE-2022-25767</td>
+       <td>2022-05-01 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>All versions of package com.bstek.ureport:ureport2-console are vulnerable to Remote Code Execution by connecting to a malicious database server, causing arbitrary file read and deserialization of local gadgets.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25767">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8597c1015c37d69a230196c9e6f1e9f0</td>
+       <td>CVE-2022-25647</td>
+       <td>2022-05-01 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>The package com.google.code.gson:gson before 2.8.9 are vulnerable to Deserialization of Untrusted Data via the writeReplace() method in internal classes, which may lead to DoS attacks.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25647">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">07fcf04e2ef1c0cf2aec5b22fd39f5b1</td>
+       <td>CVE-2022-25645</td>
+       <td>2022-05-01 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>All versions of package dset are vulnerable to Prototype Pollution via 'dset/merge' mode, as the dset function checks for prototype pollution by validating if the top-level path contains __proto__, constructor or protorype. By crafting a malicious object, it is possible to bypass this check and achieve prototype pollution.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25645">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">aa88b17d3dff42fbc13f64681ff94ed9</td>
+       <td>CVE-2022-25349</td>
+       <td>2022-05-01 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>All versions of package materialize-css are vulnerable to Cross-site Scripting (XSS) due to improper escape of user input (such as &lt;not-a-tag /&gt;) that is being parsed as HTML/JavaScript, and inserted into the Document Object Model (DOM). This vulnerability can be exploited when the user-input is provided to the autocomplete component.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25349">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">adf2bd16bf1bf56f272994bac8f5d7ec</td>
+       <td>CVE-2022-24437</td>
+       <td>2022-05-01 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>The package git-pull-or-clone before 2.0.2 are vulnerable to Command Injection due to the use of the --upload-pack feature of git which is also supported for git clone. The source includes the use of the secure child process API spawn(). However, the outpath parameter passed to it may be a command-line argument to the git clone command and result in arbitrary command injection.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24437">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">924a9e72d21c0244dea0f219a9f0cf37</td>
        <td>CVE-2022-28481</td>
        <td>2022-05-01 15:15:00 <img src="imgs/new.gif" /></td>
@@ -389,86 +469,6 @@
        <td>2022-04-29 17:15:00</td>
        <td>USU Oracle Optimization before 5.17.5 lacks Polkit authentication, which allows smartcollector users to achieve root access via pkexec. NOTE: this is not an Oracle Corporation product.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29934">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ba36f455d86f5e306dac61e8f056184a</td>
-       <td>CVE-2022-29907</td>
-       <td>2022-04-29 04:15:00</td>
-       <td>The Nimbus skin for MediaWiki through 1.37.2 (before 6f9c8fb868345701d9544a54d9752515aace39df) allows XSS in Advertise link messages.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29907">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">14d221b17ea8704b16ce2e3b0b53d5d4</td>
-       <td>CVE-2022-29906</td>
-       <td>2022-04-29 04:15:00</td>
-       <td>The admin API module in the QuizGame extension for MediaWiki through 1.37.2 (before 665e33a68f6fa1167df99c0aa18ed0157cdf9f66) omits a check for the quizadmin user.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29906">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">584096b264caeb9dce3a0c96497f6380</td>
-       <td>CVE-2022-29905</td>
-       <td>2022-04-29 04:15:00</td>
-       <td>The FanBoxes extension for MediaWiki through 1.37.2 (before 027ffb0b9d6fe0d823810cf03f5b562a212162d4) allows Special:UserBoxes CSRF.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29905">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f4de3d25643db3c7d86587ea5cb6d91b</td>
-       <td>CVE-2022-29904</td>
-       <td>2022-04-29 04:15:00</td>
-       <td>The SemanticDrilldown extension for MediaWiki through 1.37.2 (before e688bdba6434591b5dff689a45e4d53459954773) allows SQL injection with certain '-' and '_' constraints.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29904">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">043a998afa541556bfd4ffd88d8e3c1d</td>
-       <td>CVE-2022-29903</td>
-       <td>2022-04-29 04:15:00</td>
-       <td>The Private Domains extension for MediaWiki through 1.37.2 (before 1ad65d4c1c199b375ea80988d99ab51ae068f766) allows CSRF for editing pages that store the extension's configuration. The attacker must trigger a POST request to Special:PrivateDomains.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29903">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d68bf461568164809bea7750453d6878</td>
-       <td>CVE-2022-24449</td>
-       <td>2022-04-28 21:15:00</td>
-       <td>Solar appScreener through 3.10.4, when a valid license is not present, allows XXE and SSRF attacks via a crafted XML document.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24449">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e7fba3896b63daef721e4af7949278f3</td>
-       <td>CVE-2022-29556</td>
-       <td>2022-04-28 20:15:00</td>
-       <td>The iot-manager microservice 1.0.0 in Northern.tech Mender Enterprise before 3.2.2 allows SSRF because the Azure IoT Hub integration provides several SSRF primitives that can execute cross-tenant actions via internal API endpoints.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29556">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a28be3a33314cfcb9124680d433a4233</td>
-       <td>CVE-2022-29555</td>
-       <td>2022-04-28 20:15:00</td>
-       <td>The Deviceconnect microservice through 1.3.0 in Northern.tech Mender Enterprise before 3.2.2. allows Cross-Origin Websocket Hijacking.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29555">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e875a90378a27849374e52cce34725a7</td>
-       <td>CVE-2022-29081</td>
-       <td>2022-04-28 20:15:00</td>
-       <td>Zoho ManageEngine Access Manager Plus before 4302, Password Manager Pro before 12007, and PAM360 before 5401 are vulnerable to access-control bypass on a few Rest API URLs (for SSOutAction. SSLAction. LicenseMgr. GetProductDetails. GetDashboard. FetchEvents. and Synchronize) via the ../RestAPI substring.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29081">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ac689cdacb92bf0058c37caa228da50d</td>
-       <td>CVE-2022-28477</td>
-       <td>2022-04-28 20:15:00</td>
-       <td>WBCE CMS 1.5.2 is vulnerable to Cross Site Scripting (XSS).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-28477">详情</a></td>
       </tr>
 
      </tbody>
