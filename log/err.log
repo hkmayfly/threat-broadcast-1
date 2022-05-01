@@ -1308,3 +1308,34 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/site-packages/requests/models.py", line 940, in raise_for_status
     raise HTTPError(http_error_msg, response=self)
 requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://api.github.com/graphql
+2022-05-01 17:35:58 [ERROR] : 获取 Issue 的邮箱失败（国内 GraphQL 接口不稳定）
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 110, in load_issue_receivers
+    issues = _git.query_issues(gtk)
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/utils/_git.py", line 43, in query_issues
+    data = client.execute(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/site-packages/python_graphql_client/graphql_client.py", line 53, in execute
+    result.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://api.github.com/graphql
+2022-05-01 17:35:58 [ERROR] : Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 110, in load_issue_receivers
+    issues = _git.query_issues(gtk)
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/utils/_git.py", line 43, in query_issues
+    data = client.execute(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/site-packages/python_graphql_client/graphql_client.py", line 53, in execute
+    result.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://api.github.com/graphql
+Traceback (most recent call last):
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/notice/mail.py", line 110, in load_issue_receivers
+    issues = _git.query_issues(gtk)
+  File "/home/runner/work/threat-broadcast-1/threat-broadcast-1/src/utils/_git.py", line 43, in query_issues
+    data = client.execute(
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/site-packages/python_graphql_client/graphql_client.py", line 53, in execute
+    result.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://api.github.com/graphql
