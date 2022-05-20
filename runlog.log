@@ -1,0 +1,22 @@
+DEBUG:Starting new HTTPS connection (1): www.cnvd.org.cn:443
+2022-05-21 02:00:02 [DEBUG] : Starting new HTTPS connection (1): www.cnvd.org.cn:443
+DEBUG:https://www.cnvd.org.cn:443 "GET / HTTP/1.1" 521 None
+2022-05-21 02:00:03 [DEBUG] : https://www.cnvd.org.cn:443 "GET / HTTP/1.1" 521 None
+DEBUG:no probers hit minimum threshold
+2022-05-21 02:00:03 [DEBUG] : no probers hit minimum threshold
+Traceback (most recent call last):
+  File "main.py", line 131, in <module>
+    main(*get_sys_args(sys.argv))
+  File "main.py", line 57, in main
+    srcs = [PocPlus(),AliCloud(),CNVD(),CNNVD(),Cert360(),NVD(),Vulhub(),Nsfocus(),QiAnXin(),RedQueen(),Vas(),Tenable()]
+  File "/root/project/threat-broadcast-1/src/crawler/cnvd.py", line 36, in __init__
+    self._set_cookie()
+  File "/root/project/threat-broadcast-1/src/crawler/cnvd.py", line 58, in _set_cookie
+    jsl_clearance_s = str(execjs.eval(jsl_clearance_s)).split('=')[1].split(';')[0]
+  File "/usr/local/python3/lib/python3.8/site-packages/execjs/__init__.py", line 51, in eval
+    return get().eval(source, cwd)
+  File "/usr/local/python3/lib/python3.8/site-packages/execjs/_runtimes.py", line 21, in get
+    return get_from_environment() or _find_available_runtime()
+  File "/usr/local/python3/lib/python3.8/site-packages/execjs/_runtimes.py", line 49, in _find_available_runtime
+    raise exceptions.RuntimeUnavailableError("Could not find an available JavaScript runtime.")
+execjs._exceptions.RuntimeUnavailableError: Could not find an available JavaScript runtime.

@@ -1,0 +1,71 @@
+{<src.crawler.tenable.Tenable object at 0x7f4504b1c7f0>: [
+==============================================
+[ TITLE ] HCL Domino is affected by an Insufficient Access Control vulnerability. An authenticated attacker with local access to the system could exploit this vulnerability to attain escalation of privileges, denial of service, or information disclosure.
+[ TIME  ] 2022-05-19 22:15:00
+[ CVE   ] CVE-2020-4107
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2020-4107
+[ INFO  ] HCL Domino is affected by an Insufficient Access Control vulnerability. An authenticated attacker with local access to the system could exploit this vulnerability to attain escalation of privileges, denial of service, or information disclosure., 
+==============================================
+[ TITLE ] Online Sports Complex Booking System 1.0 is vulnerable to SQL Injection via /scbs/classes/Users.php?f=save_client.
+[ TIME  ] 2022-05-19 21:15:00
+[ CVE   ] CVE-2022-29652
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-29652
+[ INFO  ] Online Sports Complex Booking System 1.0 is vulnerable to SQL Injection via /scbs/classes/Users.php?f=save_client., 
+==============================================
+[ TITLE ] Online Sports Complex Booking System 1.0 is vulnerable to SQL Injection via /classes/master.php?f=delete_ Facility.
+[ TIME  ] 2022-05-19 21:15:00
+[ CVE   ] CVE-2022-29304
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-29304
+[ INFO  ] Online Sports Complex Booking System 1.0 is vulnerable to SQL Injection via /classes/master.php?f=delete_ Facility., 
+==============================================
+[ TITLE ] Online Sports Complex Booking System 1.0 is vulnerable to SQL Injection via /scbs/classes/Users.php?f=delete_client.
+[ TIME  ] 2022-05-19 21:15:00
+[ CVE   ] CVE-2022-28962
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-28962
+[ INFO  ] Online Sports Complex Booking System 1.0 is vulnerable to SQL Injection via /scbs/classes/Users.php?f=delete_client., 
+==============================================
+[ TITLE ] Spip Web Framework v3.1.13 and below was discovered to contain multiple SQL injection vulnerabilities at /ecrire via the lier_trad and where parameters.
+[ TIME  ] 2022-05-19 21:15:00
+[ CVE   ] CVE-2022-28961
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-28961
+[ INFO  ] Spip Web Framework v3.1.13 and below was discovered to contain multiple SQL injection vulnerabilities at /ecrire via the lier_trad and where parameters., 
+==============================================
+[ TITLE ] A PHP injection vulnerability in Spip before v3.2.8 allows attackers to execute arbitrary PHP code via the _oups parameter at /ecrire.
+[ TIME  ] 2022-05-19 21:15:00
+[ CVE   ] CVE-2022-28960
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-28960
+[ INFO  ] A PHP injection vulnerability in Spip before v3.2.8 allows attackers to execute arbitrary PHP code via the _oups parameter at /ecrire., 
+==============================================
+[ TITLE ] Multiple cross-site scripting (XSS) vulnerabilities in the component /spip.php of Spip Web Framework v3.1.13 and below allows attackers to execute arbitrary web scripts or HTML.
+[ TIME  ] 2022-05-19 21:15:00
+[ CVE   ] CVE-2022-28959
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-28959
+[ INFO  ] Multiple cross-site scripting (XSS) vulnerabilities in the component /spip.php of Spip Web Framework v3.1.13 and below allows attackers to execute arbitrary web scripts or HTML., 
+==============================================
+[ TITLE ] An issue in the Unmarshal function in Go-Yaml v3 causes the program to crash when attempting to deserialize invalid input.
+[ TIME  ] 2022-05-19 20:15:00
+[ CVE   ] CVE-2022-28948
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-28948
+[ INFO  ] An issue in the Unmarshal function in Go-Yaml v3 causes the program to crash when attempting to deserialize invalid input., 
+==============================================
+[ TITLE ] An issue in the component ast/parser.go of Open Policy Agent v0.39.0 causes the application to incorrectly interpret every expression, causing a Denial of Service (DoS) via triggering out-of-range memory access.
+[ TIME  ] 2022-05-19 19:15:00
+[ CVE   ] CVE-2022-28946
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-28946
+[ INFO  ] An issue in the component ast/parser.go of Open Policy Agent v0.39.0 causes the application to incorrectly interpret every expression, causing a Denial of Service (DoS) via triggering out-of-range memory access., 
+==============================================
+[ TITLE ] An authenticated user with access to the Strapi admin panel can view private and sensitive data, such as email and password reset tokens, for API users if content types accessible to the authenticated user contain relationships to API users (from:users-permissions). There are many scenarios in which such details from API users can leak in the JSON response within the admin panel, either through a direct or indirect relationship. Access to this information enables a user to compromise these users’ accounts if the password reset API endpoints have been enabled. In a worst-case scenario, a low-privileged user could get access to a high-privileged API account, and could read and modify any data as well as block access to both the admin panel and API by revoking privileges for all other users.
+[ TIME  ] 2022-05-19 18:15:00
+[ CVE   ] CVE-2022-30618
+[ SRC   ] Tenable (Nessus)
+[ URL   ] https://www.tenable.com/cve/CVE-2022-30618
+[ INFO  ] An authenticated user with access to the Strapi admin panel can view private and sensitive data, such as email and password reset tokens, for API users if content types accessible to the authenticated user contain relationships to API users (from:users-permissions). There are many scenarios in which such details from API users can leak in the JSON response within the admin panel, either through a direct or indirect relationship. Access to this information enables a user to compromise these users’ accounts if the password reset API endpoints have been enabled. In a worst-case scenario, a low-privileged user could get access to a high-privileged API account, and could read and modify any data as well as block access to both the admin panel and API by revoking privileges for all other users.]}
