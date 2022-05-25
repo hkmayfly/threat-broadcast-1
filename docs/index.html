@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-05-25 01:22:01 -->
+<!-- RELEASE TIME : 2022-05-25 03:11:08 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,30 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">5cec5251b879b8bcf6a3528d35b03e2a</td>
+       <td>CVE-2022-29337</td>
+       <td>2022-05-24 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>C-DATA FD702XW-X-R430 v2.1.13_X001 was discovered to contain a command injection vulnerability via the va_cmd parameter in formlanipv6. This vulnerability allows attackers to execute arbitrary commands via a crafted HTTP request.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29337">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9f3c66a14d639172d5994abee51d0e80</td>
+       <td>CVE-2022-29334</td>
+       <td>2022-05-24 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue in H v1.0 allows attackers to bypass authentication via a session replay attack.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29334">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e3fc2858002302b5a7f048d098cf4514</td>
+       <td>CVE-2022-22497</td>
+       <td>2022-05-24 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>IBM Aspera Faspex 4.4.1 and 5.0.0 could allow unauthorized access due to an incorrectly computed security token. IBM X-Force ID: 226951.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-22497">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">e0f5f675fe1db2cd5e2d949ebd27e27d</td>
        <td>CVE-2022-29333</td>
        <td>2022-05-24 21:15:00 <img src="imgs/new.gif" /></td>
@@ -493,30 +517,6 @@
        <td>2022-05-24 15:15:00 <img src="imgs/new.gif" /></td>
        <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30457">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">593d0d969c092ca8ff09f295710135b9</td>
-       <td>CVE-2022-29567</td>
-       <td>2022-05-24 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>The default configuration of a TreeGrid component uses Object::toString as a key on the client-side and server communication in Vaadin 14.8.5 through 14.8.9, 22.0.6 through 22.0.14, 23.0.0.beta2 through 23.0.8 and 23.1.0.alpha1 through 23.1.0.alpha4, resulting in potential information disclosure of values that should not be available on the client-side.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29567">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9a343200c69a0808b8e42796eda69b16</td>
-       <td>CVE-2022-29246</td>
-       <td>2022-05-24 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Azure RTOS USBX is a USB host, device, and on-the-go (OTG) embedded stack. Prior to version 6.1.11, he USBX DFU UPLOAD functionality may be utilized to introduce a buffer overflow resulting in overwrite of memory contents. In particular cases this may allow an attacker to bypass security features or execute arbitrary code. The implementation of `ux_device_class_dfu_control_request` function does not assure that a buffer overflow will not occur during handling of the DFU UPLOAD command. When an attacker issues the `UX_SLAVE_CLASS_DFU_COMMAND_UPLOAD` control transfer request with `wLenght` larger than the buffer size (`UX_SLAVE_REQUEST_CONTROL_MAX_LENGTH`, 256 bytes), depending on the actual implementation of `dfu -> ux_slave_class_dfu_read`, a buffer overflow may occur. In example `ux_slave_class_dfu_read` may read 4096 bytes (or more up to 65k) to a 256 byte buffer ultimately resulting in an overflow. Furthermore in case an attacker has some control over the read flash memory, this may result in execution of arbitrary code and platform compromise. A fix  for this issue has been included in USBX release 6.1.11. As a workaround, align request and buffer size to assure that buffer boundaries are respected.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29246">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">68a4c2dba9f2e7e3f62df95a50f63b0b</td>
-       <td>CVE-2022-29242</td>
-       <td>2022-05-24 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>GOST engine is a reference implementation of the Russian GOST crypto algorithms for OpenSSL. TLS clients using GOST engine when ciphersuite `TLS_GOSTR341112_256_WITH_KUZNYECHIK_CTR_OMAC` is agreed and the server uses 512 bit GOST secret keys are vulnerable to buffer overflow. GOST engine version 3.0.1 contains a patch for this issue. Disabling ciphersuite `TLS_GOSTR341112_256_WITH_KUZNYECHIK_CTR_OMAC` is a possible workaround.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29242">详情</a></td>
       </tr>
 
      </tbody>
