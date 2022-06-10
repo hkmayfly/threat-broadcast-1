@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-06-10 04:01:07 -->
+<!-- RELEASE TIME : 2022-06-10 06:20:06 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,22 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">6172e254eb4b5da24f6351fcbb6270cf</td>
+       <td>CVE-2022-31043</td>
+       <td>2022-06-10 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>Guzzle is an open source PHP HTTP client. In affected versions `Authorization` headers on requests are sensitive information. On making a request using the `https` scheme to a server which responds with a redirect to a URI with the `http` scheme, we should not forward the `Authorization` header on. This is much the same as to how we don't forward on the header if the host changes. Prior to this fix, `https` to `http` downgrades did not result in the `Authorization` header being removed, only changes to the host. Affected Guzzle 7 users should upgrade to Guzzle 7.4.4 as soon as possible. Affected users using any earlier series of Guzzle should upgrade to Guzzle 6.5.7 or 7.4.4. Users unable to upgrade may consider an alternative approach which would be to use their own redirect middleware. Alternately users may simply disable redirects all together if redirects are not expected or required.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31043">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b2a419bc0a410b150de09495abcd5b3d</td>
+       <td>CVE-2022-31042</td>
+       <td>2022-06-10 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>Guzzle is an open source PHP HTTP client. In affected versions the `Cookie` headers on requests are sensitive information. On making a request using the `https` scheme to a server which responds with a redirect to a URI with the `http` scheme, or on making a request to a server which responds with a redirect to a a URI to a different host, we should not forward the `Cookie` header on. Prior to this fix, only cookies that were managed by our cookie middleware would be safely removed, and any `Cookie` header manually added to the initial request would not be stripped. We now always strip it, and allow the cookie middleware to re-add any cookies that it deems should be there. Affected Guzzle 7 users should upgrade to Guzzle 7.4.4 as soon as possible. Affected users using any earlier series of Guzzle should upgrade to Guzzle 6.5.7 or 7.4.4. Users unable to upgrade may consider an alternative approach to use your own redirect middleware, rather than ours. If you do not require or expect redirects to be followed, one should simply disable redirects all together.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31042">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">8179e0e7d09b4ca8cf99422c41110d9b</td>
        <td>CVE-2017-20028</td>
        <td>2022-06-09 23:15:00 <img src="imgs/new.gif" /></td>
@@ -501,22 +517,6 @@
        <td>2022-06-09 17:15:00 <img src="imgs/new.gif" /></td>
        <td>In Apache HTTP Server 2.4.53 and earlier, a malicious request to a lua script that calls r:parsebody(0) may cause a denial of service due to no default limit on possible input size.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29404">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d2b82e657450f0d19f3297db2fa607d5</td>
-       <td>CVE-2022-28615</td>
-       <td>2022-06-09 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>Apache HTTP Server 2.4.53 and earlier may crash or disclose information due to a read beyond bounds in ap_strcmp_match() when provided with an extremely large input buffer. While no code distributed with the server can be coerced into such a call, third-party modules or lua scripts that use ap_strcmp_match() may hypothetically be affected.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-28615">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">812da9986a20f89fbbdc053ae244625f</td>
-       <td>CVE-2022-28614</td>
-       <td>2022-06-09 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>The ap_rwrite() function in Apache HTTP Server 2.4.53 and earlier may read unintended memory if an attacker can cause the server to reflect very large input using ap_rwrite() or ap_rputs(), such as with mod_luas r:puts() function.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-28614">详情</a></td>
       </tr>
 
      </tbody>
@@ -898,6 +898,38 @@
       </tr>
 
       <tr>
+       <td scope="row">b7d616da7f963ad04f0507cf097857b8</td>
+       <td>CNVD-2022-44584 (CVE-2021-39666)</td>
+       <td>2022-06-10 06:19:17 <img src="imgs/new.gif" /></td>
+       <td>Google Android缓冲区溢出漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-44584">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">92b512abd56bfb29dc3924e315952fa5</td>
+       <td>CNVD-2022-44553 (CVE-2021-39805)</td>
+       <td>2022-06-10 06:19:12 <img src="imgs/new.gif" /></td>
+       <td>Google Android信息泄露漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-44553">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6bea19161a15bed19339a067c84b2913</td>
+       <td>CNVD-2022-44585 (CVE-2021-39664)</td>
+       <td>2022-06-10 06:19:08 <img src="imgs/new.gif" /></td>
+       <td>Google Android信息泄露漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-44585">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9d47528a7e1855aa5f71f2510f763c5c</td>
+       <td>CNVD-2022-44549 (CVE-2021-39809)</td>
+       <td>2022-06-10 06:19:03 <img src="imgs/new.gif" /></td>
+       <td>Google Android缓冲区溢出漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-44549">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">7c54f7bb66a22d04eece20495e7ab746</td>
        <td>CNVD-2022-44210 (CVE-2022-29210)</td>
        <td>2022-06-10 04:00:15 <img src="imgs/new.gif" /></td>
@@ -1023,38 +1055,6 @@
        <td>2022-06-08 16:23:52</td>
        <td>多款Adobe产品越界读取漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-43462">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">585b6c4520de21956cb5db9006dd40aa</td>
-       <td>CNVD-2022-43463 (CVE-2022-28258)</td>
-       <td>2022-06-08 16:23:50</td>
-       <td>多款Adobe产品越界读取漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-43463">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2e45c035eaef7a968c9b235340ced3e2</td>
-       <td>CNVD-2022-43464 (CVE-2022-28260)</td>
-       <td>2022-06-08 16:23:48</td>
-       <td>多款Adobe产品越界读取漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-43464">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2c02de3fb828cbae7c6a53dedb7d2847</td>
-       <td>CNVD-2022-43465 (CVE-2022-28261)</td>
-       <td>2022-06-08 16:23:45</td>
-       <td>多款Adobe产品越界读取漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-43465">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">273ae9c3059f39061dbffef62f0e406c</td>
-       <td>CNVD-2022-43466 (CVE-2022-28262)</td>
-       <td>2022-06-08 16:23:43</td>
-       <td>多款Adobe产品越界读取漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-43466">详情</a></td>
       </tr>
 
      </tbody>
@@ -1673,6 +1673,14 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">8b47000e1abfbacdadb7df6f09152d89</td>
+       <td>CVE-2022-26134</td>
+       <td>2022-06-03 05:48:38</td>
+       <td>Atlassian Confluence 远程代码执行漏洞(CVE-2022-26134)</td>
+       <td><a target="_blank" href="https://vas.riskivy.com/vuln-detail?id=3242">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">eebe93468b36d2ca24cf4b82136a5635</td>
        <td>CVE-2022-30190</td>
@@ -2841,6 +2849,15 @@
       </tr>
 
       <tr>
+       <td scope="row">29e9c3d24b815422ccfd73767d4e4e13</td>
+       <td>CVE-2022-0995</td>
+       <td>2022-03-26 06:18:54</td>
+       <td>Linux kernel 缓冲区错误漏洞（CVE-2022-0995）
+                        </td>
+       <td><a target="_blank" href="https://avd.aliyun.com/detail?id=AVD-2022-0995">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">82eee2bce2eca9c11bdc8da42a23a3d1</td>
        <td>AVD-2022-1117998</td>
        <td>2022-03-25 16:53:27</td>
@@ -2892,15 +2909,6 @@
        <td>Redis 沙盒逃逸漏洞（CVE-2022-0543）
                         </td>
        <td><a target="_blank" href="https://avd.aliyun.com/detail?id=AVD-2022-0543">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3dc397b4328d5ac6da27112359293098</td>
-       <td>CVE-2022-0847</td>
-       <td>2022-03-07 03:41:01</td>
-       <td>Dirty Pipe - Linux 内核本地提权漏洞（CVE-2022-0847）
-                        </td>
-       <td><a target="_blank" href="https://avd.aliyun.com/detail?id=AVD-2022-0847">详情</a></td>
       </tr>
 
      </tbody>
