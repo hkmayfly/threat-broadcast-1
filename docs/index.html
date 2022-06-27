@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-06-27 10:19:20 -->
+<!-- RELEASE TIME : 2022-06-27 11:15:39 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">108fc661f009fb44650b9203f5ddfb36</td>
+       <td>CVE-2022-2041</td>
+       <td>2022-06-27 09:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Brizy WordPress plugin before 2.4.2 does not sanitise and escape some element content, which could allow users with a role as low as Contributor to perform Stored Cross-Site Scripting attacks</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2041">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3cc293511e9429bcfad074fe0a3b50c6</td>
+       <td>CVE-2022-2040</td>
+       <td>2022-06-27 09:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Brizy WordPress plugin before 2.4.2 does not sanitise and escape some element URL, which could allow users with a role as low as Contributor to perform Stored Cross-Site Scripting attacks</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2040">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">da64a3354e243634063c3c1aa2886209</td>
+       <td>CVE-2022-1995</td>
+       <td>2022-06-27 09:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Malware Scanner WordPress plugin before 4.5.2 does not sanitise and escape some of its settings, leading to malicious users with administrator privileges to store malicious Javascript code leading to Cross-Site Scripting attacks when unfiltered_html is disallowed (for example in multisite setup)</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1995">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ded66726b6d45e6c34adde3315640c24</td>
+       <td>CVE-2022-1994</td>
+       <td>2022-06-27 09:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Login With OTP Over SMS, Email, WhatsApp and Google Authenticator WordPress plugin before 1.0.8 does not escape its settings, allowing high privilege users such as admin to perform Cross-Site Scripting attacks even when the unfiltered_html is disallowed</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1994">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">24663105adb53ba3da9196d50babb099</td>
+       <td>CVE-2022-1990</td>
+       <td>2022-06-27 09:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Nested Pages WordPress plugin before 3.1.21 does not escape and sanitize the some of its settings, which could allow high privilege users to perform Stored Cross-Site Scripting attacks when the unfiltered_html is disallowed</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1990">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3f9d9bb9a5a4920b9b65e397b6c823e8</td>
+       <td>CVE-2022-1977</td>
+       <td>2022-06-27 09:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Import Export All WordPress Images, Users & Post Types WordPress plugin before 6.5.3 does not fully validate the file to be imported via an URL before making an HTTP request to it, which could allow high privilege users such as admin to perform Blind SSRF attacks</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1977">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6628396aa9b9e4c4e4321ee7fad48955</td>
+       <td>CVE-2022-1971</td>
+       <td>2022-06-27 09:15:00 <img src="imgs/new.gif" /></td>
+       <td>The NextCellent Gallery WordPress plugin through 1.9.35 does not sanitise and escape some of its image settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks when the unfiltered_html capability is disallowed (for example in multisite setup)</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1971">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">932fc84ebb1eb09a709871a1735f3171</td>
+       <td>CVE-2022-1964</td>
+       <td>2022-06-27 09:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Easy SVG Support WordPress plugin before 3.3.0 does not sanitise uploaded SVG files, which could allow users with a role as low as Author to upload a malicious SVG containing XSS payloads</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1964">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">16d0fdc4dfd85593ffcf00c93663c175</td>
+       <td>CVE-2022-1960</td>
+       <td>2022-06-27 09:15:00 <img src="imgs/new.gif" /></td>
+       <td>The MyCSS WordPress plugin through 1.1 does not have CSRF check in place when updating its settings, which could allow attackers to make a logged in admin change them via a CSRF attack</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1960">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">224f767247fc2525f7394439c49493de</td>
+       <td>CVE-2022-1953</td>
+       <td>2022-06-27 09:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Product Configurator for WooCommerce WordPress plugin before 1.2.32 suffers from an arbitrary file deletion vulnerability via an AJAX action, accessible to unauthenticated users, which accepts user input that is being used in a path and passed to unlink() without validation first</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1953">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">2b765f9523c39901d7cfe28407892741</td>
        <td>CVE-2020-9754</td>
        <td>2022-06-27 02:15:00 <img src="imgs/new.gif" /></td>
@@ -437,86 +517,6 @@
        <td>2022-06-24 21:15:00</td>
        <td>The Zibal package in PyPI v1.0.0 was discovered to contain a code execution backdoor. This vulnerability allows attackers to access sensitive user information and digital currency keys, as well as escalate privileges.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34064">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">54d705bef83356a93e2202e85dbf0d76</td>
-       <td>CVE-2022-34061</td>
-       <td>2022-06-24 21:15:00</td>
-       <td>The Catly-Translate package in PyPI v0.0.3 to v0.0.5 was discovered to contain a code execution backdoor. This vulnerability allows attackers to access sensitive user information and digital currency keys, as well as escalate privileges.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34061">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">052fc9365469ac75faaca97ddbbb69b7</td>
-       <td>CVE-2022-34060</td>
-       <td>2022-06-24 21:15:00</td>
-       <td>The Togglee package in PyPI version v0.0.8 was discovered to contain a code execution backdoor. This vulnerability allows attackers to access sensitive user information and digital currency keys, as well as escalate privileges.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34060">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">84723dd69752d776383cf11f97c7bee2</td>
-       <td>CVE-2022-34059</td>
-       <td>2022-06-24 21:15:00</td>
-       <td>The Sixfab-Tool in PyPI v0.0.2 to v0.0.3 was discovered to contain a code execution backdoor via the request package. This vulnerability allows attackers to access sensitive user information and digital currency keys, as well as escalate privileges.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34059">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a6a43ee8b2971dc9736f46bb96cf1cd3</td>
-       <td>CVE-2022-34057</td>
-       <td>2022-06-24 21:15:00</td>
-       <td>The Scoptrial package in PyPI version v0.0.5 was discovered to contain a code execution backdoor via the request package. This vulnerability allows attackers to access sensitive user information and digital currency keys, as well as escalate privileges.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34057">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7a74c0522b0ed739d859d36f594985a7</td>
-       <td>CVE-2022-34056</td>
-       <td>2022-06-24 21:15:00</td>
-       <td>The Watertools package in PyPI v0.0.0 was discovered to contain a code execution backdoor via the request package. This vulnerability allows attackers to access sensitive user information and digital currency keys, as well as escalate privileges.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34056">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">79b5446f5c5fb1c366d0194c9d98044a</td>
-       <td>CVE-2022-34055</td>
-       <td>2022-06-24 21:15:00</td>
-       <td>The drxhello package in PyPI v0.0.1 was discovered to contain a code execution backdoor via the request package. This vulnerability allows attackers to access sensitive user information and digital currency keys, as well as escalate privileges.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34055">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f526dca2482237c962ebc939fb926ddf</td>
-       <td>CVE-2022-34054</td>
-       <td>2022-06-24 21:15:00</td>
-       <td>The Perdido package in PyPI v0.0.1 to v0.0.2 was discovered to contain a code execution backdoor via the request package. This vulnerability allows attackers to access sensitive user information and digital currency keys, as well as escalate privileges.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34054">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1efd748f4045922a5234f7e3bd2d2a8c</td>
-       <td>CVE-2022-33910</td>
-       <td>2022-06-24 17:15:00</td>
-       <td>An XSS vulnerability in MantisBT before 2.25.5 allows remote attackers to attach crafted SVG documents to issue reports or bugnotes. When a user or an admin clicks on the attachment, file_download.php opens the SVG document in a browser tab instead of downloading it as a file, causing the JavaScript code to execute.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-33910">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b453507c5bc985205e005aec86db26c3</td>
-       <td>CVE-2022-30028</td>
-       <td>2022-06-24 17:15:00</td>
-       <td>Dradis Professional Edition before 4.3.0 allows attackers to change an account password via reusing a password reset token.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30028">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ec754452269dbbe6785cadeaada63c5c</td>
-       <td>CVE-2022-29578</td>
-       <td>2022-06-24 17:15:00</td>
-       <td>Meridian Cooperative Utility Software versions 22.02 and 22.03 allows remote attackers to obtain sensitive information such as name, address, and daily energy usage.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29578">详情</a></td>
       </tr>
 
      </tbody>
