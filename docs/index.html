@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-07-27 17:48:05 -->
+<!-- RELEASE TIME : 2022-07-27 18:21:01 -->
 <html lang="zh-cn">
 
  <head>
@@ -2412,6 +2412,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">6121117c2c6905662ac0db242fe1e0bd</td>
+       <td>CVE-2022-35569</td>
+       <td>2022-07-20 18:15:08 </td>
+       <td>Blogifier v3.0 was discovered to contain an arbitrary file upload vulnerability at /api/storage/upload/PostImage. This vulnerability allows attackers to execute arbitrary web scripts or HTML via a crafted file.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-35569">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">dc8507edaaf2d77a592a4dcb2bd06433</td>
        <td>CVE-2022-36305</td>
        <td>2022-07-19 19:15:11 </td>
@@ -2641,14 +2649,6 @@
        <td>2022-07-15 16:15:14 </td>
        <td>Adobe Character Animator version 4.4.7 (and earlier) and 22.4 (and earlier) are affected by an out-of-bounds read vulnerability when parsing a crafted file, which could result in a read past the end of an allocated memory structure. An attacker could leverage this vulnerability to execute code in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34242">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">04a755ca08c27985e9efe232907945f7</td>
-       <td>CVE-2022-35409</td>
-       <td>2022-07-15 14:15:09 </td>
-       <td>An issue was discovered in Mbed TLS before 2.28.2 and 3.x before 3.2.0. In some configurations, an unauthenticated attacker can send an invalid ClientHello message to a DTLS server that causes a heap-based buffer over-read of up to 255 bytes. This can cause a server crash or possibly information disclosure based on error responses. Affected configurations have MBEDTLS_SSL_DTLS_CLIENT_PORT_REUSE enabled and MBEDTLS_SSL_IN_CONTENT_LEN less than a threshold that depends on the configuration: 258 bytes if using mbedtls_ssl_cookie_check, and possibly up to 571 bytes with a custom cookie check function.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-35409">详情</a></td>
       </tr>
 
      </tbody>
