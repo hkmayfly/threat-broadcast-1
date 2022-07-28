@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-07-28 17:48:40 -->
+<!-- RELEASE TIME : 2022-07-28 18:23:14 -->
 <html lang="zh-cn">
 
  <head>
@@ -2420,6 +2420,14 @@
       </tr>
 
       <tr>
+       <td scope="row">51bd49c5136b3d452f048a3f0a11428b</td>
+       <td>CVE-2022-30998</td>
+       <td>2022-07-22 17:15:08 </td>
+       <td>Multiple Authenticated (subscriber or higher user role) SQL Injection (SQLi) vulnerabilities in WooPlugins.co's Homepage Product Organizer for WooCommerce plugin &lt;= 1.1 at WordPress.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-30998">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">ae21abff39dfe758ee1ea89ed7cf2259</td>
        <td>CVE-2022-36131</td>
        <td>2022-07-22 13:15:08 </td>
@@ -2428,11 +2436,35 @@
       </tr>
 
       <tr>
+       <td scope="row">7612c2aaddcbda79d16395574e06f270</td>
+       <td>CVE-2022-30536</td>
+       <td>2022-07-21 18:15:08 </td>
+       <td>Authenticated Stored Cross-Site Scripting (XSS) vulnerability in Florent Maillefaud's WP Maintenance plugin &lt;= 6.0.7 at WordPress.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-30536">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">29c59abdbcd0c836ad7e6289a983a629</td>
        <td>CVE-2022-36313</td>
        <td>2022-07-21 16:15:09 </td>
        <td>An issue was discovered in the file-type package before 16.5.4 and 17.x before 17.1.3 for Node.js. A malformed MKV file could cause the file type detector to get caught in an infinite loop. This would make the application become unresponsive and could be used to cause a DoS attack.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-36313">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">fc53dc4122d4e83bcac17a09daf3b840</td>
+       <td>CVE-2022-30628</td>
+       <td>2022-07-21 16:15:09 </td>
+       <td>It was possible to download all receipts without authentication. Must first access the API https://XXXX.supersmart.me/services/v4/customer/signin to get a TOKEN. Then you can then access the API that provides invoice images based on the URL https://XXXX.supersmart.me/services/v4/invoiceImg?orderId=XXXXX</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-30628">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a3ab7a4c9b1a8ca7f7b21c87f75a1254</td>
+       <td>CVE-2022-31146</td>
+       <td>2022-07-21 04:15:11 </td>
+       <td>Wasmtime is a standalone runtime for WebAssembly. There is a bug in the Wasmtime's code generator, Cranelift, where functions using reference types may be incorrectly missing metadata required for runtime garbage collection. This means that if a GC happens at runtime then the GC pass will mistakenly think these functions do not have live references to GC'd values, reclaiming them and deallocating them. The function will then subsequently continue to use the values assuming they had not been GC'd, leading later to a use-after-free. This bug was introduced in the migration to the `regalloc2` register allocator that occurred in the Wasmtime 0.37.0 release on 2022-05-20. This bug has been patched and users should upgrade to Wasmtime version 0.38.2. Mitigations for this issue can be achieved by disabling the reference types proposal by passing `false` to `wasmtime::Config::wasm_reference_types` or downgrading to Wasmtime 0.36.0 or prior.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31146">详情</a></td>
       </tr>
 
       <tr>
@@ -2497,6 +2529,14 @@
        <td>2022-07-20 13:15:08 </td>
        <td>In JetBrains TeamCity before 2022.04.2 the private SSH key could be written to the build log in some cases</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-36321">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9f4ac2ac1554560675615586dcefb73f</td>
+       <td>CVE-2022-31144</td>
+       <td>2022-07-19 21:15:15 </td>
+       <td>Redis is an in-memory database that persists on disk. A specially crafted `XAUTOCLAIM` command on a stream key in a specific state may result with heap overflow, and potentially remote code execution. This problem affects versions on the 7.x branch prior to 7.0.4. The patch is released in version 7.0.4.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-31144">详情</a></td>
       </tr>
 
       <tr>
@@ -2588,6 +2628,14 @@
       </tr>
 
       <tr>
+       <td scope="row">d818640c9c1c58b0c07805fbf78fb008</td>
+       <td>CVE-2022-30570</td>
+       <td>2022-07-19 18:15:11 </td>
+       <td>The Column Based Security component of TIBCO Software Inc.'s TIBCO Data Virtualization and TIBCO Data Virtualization for AWS Marketplace contains an easily exploitable vulnerability that allows a low privileged attacker with network access to obtain read access to application information on the affected system. Affected releases are TIBCO Software Inc.'s TIBCO Data Virtualization: versions 8.5.2 and below and TIBCO Data Virtualization for AWS Marketplace: versions 8.5.2 and below.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-30570">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">d078a5711c537af472f662bd6c86c383</td>
        <td>CVE-2022-34023</td>
        <td>2022-07-19 17:15:08 </td>
@@ -2601,54 +2649,6 @@
        <td>2022-07-19 16:15:08 </td>
        <td>In grails-databinding in Grails before 3.3.15, 4.x before 4.1.1, 5.x before 5.1.9, and 5.2.x before 5.2.1 (at least when certain Java 8 configurations are used), data binding allows a remote attacker to execute code by gaining access to the class loader.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-35912">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a0517f8230e8a03326ce237479a20e08</td>
-       <td>CVE-2022-34640</td>
-       <td>2022-07-18 23:15:13 </td>
-       <td>The *tval of ecall/ebreak in CVA6 commit d315ddd0f1be27c1b3f27eb0b8daf471a952299a was discovered to be incorrect.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34640">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">805f1f8c886cf7aa90261b418fab9ff7</td>
-       <td>CVE-2022-34639</td>
-       <td>2022-07-18 23:15:12 </td>
-       <td>CVA6 commit d315ddd0f1be27c1b3f27eb0b8daf471a952299a treats non-standard fence instructions as illegal which can affect the function of the application.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34639">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">57d120a25ed3065d2b4ecb53c8fc68cb</td>
-       <td>CVE-2022-34637</td>
-       <td>2022-07-18 23:15:12 </td>
-       <td>CVA6 commit d315ddd0f1be27c1b3f27eb0b8daf471a952299a implements an incorrect exception type when an illegal virtual address is loaded.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34637">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">14174bff2a1ef77c8c5f6ce2dc049e4c</td>
-       <td>CVE-2022-34636</td>
-       <td>2022-07-18 23:15:12 </td>
-       <td>CVA6 commit d315ddd0f1be27c1b3f27eb0b8daf471a952299a and RISCV-Boom commit ad64c5419151e5e886daee7084d8399713b46b4b implements the incorrect exception type when a PMA violation occurs during address translation.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34636">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3976bb37e7cf9d2db07965f10449117f</td>
-       <td>CVE-2022-34635</td>
-       <td>2022-07-18 23:15:12 </td>
-       <td>The mstatus.sd field in CVA6 commit d315ddd0f1be27c1b3f27eb0b8daf471a952299a does not update when the mstatus.fs field is set to Dirty.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34635">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ba94aa42125fa0dc95c10e1211aae63c</td>
-       <td>CVE-2022-34634</td>
-       <td>2022-07-18 23:15:12 </td>
-       <td>CVA6 commit d315ddd0f1be27c1b3f27eb0b8daf471a952299a executes crafted or incorrectly formatted det instructions rather create an exception.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34634">详情</a></td>
       </tr>
 
      </tbody>
