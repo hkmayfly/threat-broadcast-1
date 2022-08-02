@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-08-02 20:19:55 -->
+<!-- RELEASE TIME : 2022-08-02 20:43:24 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">2784c2092d7c6b1ced832c3c453d8dde</td>
+       <td>CVE-2022-35924</td>
+       <td>2022-08-02 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>NextAuth.js is a complete open source authentication solution for Next.js applications. `next-auth` users who are using the `EmailProvider` either in versions before `4.10.3` or `3.29.10` are affected. If an attacker could forge a request that sent a comma-separated list of emails (eg.: `attacker@attacker.com,victim@victim.com`) to the sign-in endpoint, NextAuth.js would send emails to both the attacker and the victim's e-mail addresses. The attacker could then login as a newly created user with the email being `attacker@attacker.com,victim@victim.com`. This means that basic authorization like `email.endsWith("@victim.com")` in the `signIn` callback would fail to communicate a threat to the developer and would let the attacker bypass authorization, even with an `@attacker.com` address. This vulnerability has been patched in `v4.10.3` and `v3.29.10` by normalizing the email value that is sent to the sign-in endpoint before accessing it anywhere else. We also added a `normalizeIdentifier` callback on the `EmailProvider` configuration, where you can further tweak your requirements for what your system considers a valid e-mail address. (E.g.: strict RFC2821 compliance). Users are advised to upgrade. There are no known workarounds for this vulnerability. If for some reason you cannot upgrade, you can normalize the incoming request using Advanced Initialization.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-35924">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">595d953f663a9775a74f0f94f9f3a3f9</td>
        <td>CVE-2022-30572</td>
        <td>2022-08-02 17:15:00 <img src="imgs/new.gif" /></td>
@@ -509,14 +517,6 @@
        <td>2022-08-02 03:15:00 <img src="imgs/new.gif" /></td>
        <td>Pharmacy Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at editproduct.php.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34950">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">49b322389e0d41bb4367aa08ef783b3b</td>
-       <td>CVE-2022-34949</td>
-       <td>2022-08-02 03:15:00 <img src="imgs/new.gif" /></td>
-       <td>Pharmacy Management System v1.0 was discovered to contain multiple SQL injection vulnerabilities via the email or password parameter at login.php.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34949">详情</a></td>
       </tr>
 
      </tbody>
