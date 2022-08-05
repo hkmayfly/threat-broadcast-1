@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-08-05 12:33:07 -->
+<!-- RELEASE TIME : 2022-08-05 13:42:15 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,38 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">6f62712794193cc08b6b93cf4953ff74</td>
+       <td>CVE-2022-2667</td>
+       <td>2022-08-05 11:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability was found in SourceCodester Loan Management System and classified as critical. This issue affects some unknown processing of the file delete_lplan.php. The manipulation of the argument lplan_id leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-205619.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2667">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b9c44d7854808b4486a4b9f93f9133da</td>
+       <td>CVE-2022-2665</td>
+       <td>2022-08-05 11:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability classified as critical was found in SourceCodester Simple E-Learning System. Affected by this vulnerability is an unknown functionality of the file classroom.php. The manipulation of the argument post_id leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-205615.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2665">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4272d32a8c6d28e971640c6b3f1cee74</td>
+       <td>CVE-2022-2664</td>
+       <td>2022-08-05 11:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability classified as critical has been found in Private Cloud Management Platform. Affected is an unknown function of the file /management/api/rcx_management/global_config_query of the component POST Request Handler. The manipulation leads to improper authentication. It is possible to launch the attack remotely. VDB-205614 is the identifier assigned to this vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2664">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2477bc872253448d7a466e0ba6ccac13</td>
+       <td>CVE-2022-2636</td>
+       <td>2022-08-05 10:15:00 <img src="imgs/new.gif" /></td>
+       <td>Improper Input Validation in GitHub repository hestiacp/hestiacp prior to 1.6.6.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2636">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">57f15404f2b8dacae6b52c490ab1e8ed</td>
        <td>CVE-2022-2626</td>
        <td>2022-08-05 09:15:00 <img src="imgs/new.gif" /></td>
@@ -487,38 +519,6 @@
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-35240">详情</a></td>
       </tr>
 
-      <tr>
-       <td scope="row">f891c33f015309cb029876eda1cd496c</td>
-       <td>CVE-2022-31132</td>
-       <td>2022-08-04 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>Nextcloud Mail is an email application for the nextcloud personal cloud product. Affected versions shipped with a CSS minifier on the path `./vendor/cerdic/css-tidy/css_optimiser.php`. Access to the minifier is unrestricted and access may lead to Server-Side Request Forgery (SSRF). It is recommendet to upgrade to Mail 1.12.7 or Mail 1.13.6. Users unable to upgrade may manually delete the file located at `./vendor/cerdic/css-tidy/css_optimiser.php`</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31132">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7d7325aa178e4a178e225f2f37ae571b</td>
-       <td>CVE-2022-31120</td>
-       <td>2022-08-04 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>Nextcloud server is an open source personal cloud solution. The audit log is used to get a full trail of the actions which has been incompletely populated. In affected versions federated share events were not properly logged which would allow brute force attacks to go unnoticed. This behavior exacerbates the impact of CVE-2022-31118. It is recommended that the Nextcloud Server is upgraded to 22.2.7, 23.0.4 or 24.0.0. There are no workarounds available.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31120">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9dd0532bdd45d939f7039da3648fcdbd</td>
-       <td>CVE-2022-31118</td>
-       <td>2022-08-04 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>Nextcloud server is an open source personal cloud solution. In affected versions an attacker could brute force to find if federated sharing is being used and potentially try to brute force access tokens for federated shares (`a-zA-Z0-9` ^ 15). It is recommended that the Nextcloud Server is upgraded to 22.2.9, 23.0.6 or 24.0.2. Users unable to upgrade may disable federated sharing via the Admin Sharing settings in `index.php/settings/admin/sharing`.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31118">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">031a49921a8acb274e42dba3f7634d6c</td>
-       <td>CVE-2022-25168</td>
-       <td>2022-08-04 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Apache Hadoop's FileUtil.unTar(File, File) API does not escape the input file name before being passed to the shell. An attacker can inject arbitrary commands. This is only used in Hadoop 3.3 InMemoryAliasMap.completeBootstrapTransfer, which is only ever run by a local user. It has been used in Hadoop 2.x for yarn localization, which does enable remote code execution. It is used in Apache Spark, from the SQL command ADD ARCHIVE. As the ADD ARCHIVE command adds new binaries to the classpath, being able to execute shell scripts does not confer new permissions to the caller. SPARK-38305. "Check existence of file before untarring/zipping", which is included in 3.3.0, 3.1.4, 3.2.2, prevents shell commands being executed, regardless of which version of the hadoop libraries are in use. Users should upgrade to Apache Hadoop 2.10.2, 3.2.4, 3.3.3 or upper (including HADOOP-18136).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25168">详情</a></td>
-      </tr>
-
      </tbody>
     </table>
    </div>
@@ -576,6 +576,15 @@
        <td>RESERVED CVE CANDIDATE NUMBER...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-398310">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">01dbf20169ccf437f0bb9fcb3a87bcde</td>
+       <td>CVE-2021-32771</td>
+       <td>2022-08-04 13:41:01 <img src="imgs/new.gif" /></td>
+       <td>Contiki和Contiki-NG 安全漏洞
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-392753">详情</a></td>
       </tr>
 
       <tr>
@@ -792,15 +801,6 @@
        <td>Jenkins Bitbucket Server Integration Plugin跨站脚本漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-418933">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">951cbf9ee81ba637a90a30657cb5d1f0</td>
-       <td>CVE-2022-28134</td>
-       <td>2022-08-03 10:42:15</td>
-       <td>Jenkins Bitbucket Server Integration Plugin授权问题漏洞
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-418934">详情</a></td>
       </tr>
 
      </tbody>
