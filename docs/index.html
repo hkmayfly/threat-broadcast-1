@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-08-13 01:17:37 -->
+<!-- RELEASE TIME : 2022-08-13 03:10:44 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,22 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">dc3c007bfbe14e5fade3976ce5bc474e</td>
+       <td>CVE-2022-35949</td>
+       <td>2022-08-12 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>undici is an HTTP/1.1 client, written from scratch for Node.js.`undici` is vulnerable to SSRF (Server-side Request Forgery) when an application takes in **user input** into the `path/pathname` option of `undici.request`. If a user specifies a URL such as `http://127.0.0.1` or `//127.0.0.1` ```js const undici = require("undici") undici.request({origin: "http://example.com", pathname: "//127.0.0.1"}) ``` Instead of processing the request as `http://example.org//127.0.0.1` (or `http://example.org/http://127.0.0.1` when `http://127.0.0.1 is used`), it actually processes the request as `http://127.0.0.1/` and sends it to `http://127.0.0.1`. If a developer passes in user input into `path` parameter of `undici.request`, it can result in an _SSRF_ as they will assume that the hostname cannot change, when in actual fact it can change because the specified path parameter is combined with the base URL. This issue was fixed in `undici@5.8.1`. The best workaround is to validate user input before passing it to the `undici.request` call.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-35949">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2a329f4d699fefdb076e921ccf18b032</td>
+       <td>CVE-2022-35942</td>
+       <td>2022-08-12 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Improper input validation on the `contains` LoopBack filter may allow for arbitrary SQL injection. When the extended filter property `contains` is permitted to be interpreted by the Postgres connector, it is possible to inject arbitrary SQL which may affect the confidentiality and integrity of data stored on the connected database. A patch was released in version 5.5.1. This affects users who does any of the following: - Connect to the database via the DataSource with `allowExtendedProperties: true` setting OR - Uses the connector's CRUD methods directly OR - Uses the connector's other methods to interpret the LoopBack filter. Users who are unable to upgrade should do the following if applicable: - Remove `allowExtendedProperties: true` DataSource setting - Add `allowExtendedProperties: false` DataSource setting - When passing directly to the connector functions, manually sanitize the user input for the `contains` LoopBack filter beforehand.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-35942">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">baa76a0e244f09e5c74911872815e0ed</td>
        <td>CVE-2022-35956</td>
        <td>2022-08-12 21:15:00 <img src="imgs/new.gif" /></td>
@@ -501,22 +517,6 @@
        <td>2022-08-12 15:15:00 <img src="imgs/new.gif" /></td>
        <td>A stack overflow vulnerability exists in /goform/setAutoPing in Tenda W6 V1.0.0.9(4122), which allows an attacker to construct ping1 parameters and ping2 parameters for a stack overflow attack. An attacker can use this vulnerability to execute arbitrary code execution.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-35559">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">fc6326e22bc296ad84df509bd79017f6</td>
-       <td>CVE-2022-35558</td>
-       <td>2022-08-12 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>A stack overflow vulnerability exists in /goform/WifiMacFilterGet in Tenda W6 V1.0.0.9(4122) version, which can be exploited by attackers to cause a denial of service (DoS) via the index parameter.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-35558">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">96ece67e50a518ec9e23c375cc58bc38</td>
-       <td>CVE-2022-28636</td>
-       <td>2022-08-12 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>A potential local arbitrary code execution and a local denial of service (DoS) vulnerability within an isolated process were discovered in HPE Integrated Lights-Out 5 (iLO 5) firmware version(s): Prior to 2.71. An unprivileged user could locally exploit this vulnerability to potentially execute arbitrary code in an isolated process resulting in a complete loss of confidentiality, integrity, and availability within that process. In addition, an unprivileged user could exploit a denial of service (DoS) vulnerability in an isolated process resulting in a complete loss of availability within that process. A successful attack depends on conditions beyond the attackers control. HPE has provided a firmware update to resolve this vulnerability in HPE Integrated Lights-Out 5 (iLO 5).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-28636">详情</a></td>
       </tr>
 
      </tbody>
@@ -1018,6 +1018,14 @@
       </tr>
 
       <tr>
+       <td scope="row">296bf3bd12ca8fe25b37382ee0e221bd</td>
+       <td>CNVD-2022-56662 (CVE-2022-33930)</td>
+       <td>2022-08-12 03:09:35 <img src="imgs/new.gif" /></td>
+       <td>Dell Wyse Management Suite存在未明漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-56662">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">2cb557fca5e5d439d25712a23b98e230</td>
        <td>CNVD-2022-55727 (CVE-2022-1605)</td>
        <td>2022-08-11 17:45:52</td>
@@ -1047,14 +1055,6 @@
        <td>2022-08-11 16:25:18</td>
        <td>WordPress Filr plugin授权问题漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-55730">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">42c0e379a0de74d44eba6ad95fc5cb53</td>
-       <td>CNVD-2022-55731 (CVE-2022-1758)</td>
-       <td>2022-08-11 16:25:15</td>
-       <td>WordPress Genki Pre-Publish Reminder plugin跨站请求伪造漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-55731">详情</a></td>
       </tr>
 
      </tbody>
