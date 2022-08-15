@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-08-15 18:21:31 -->
+<!-- RELEASE TIME : 2022-08-15 19:36:26 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,62 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">b503e8e6bc34f935d536a19f687b2701</td>
+       <td>CVE-2022-36526</td>
+       <td>2022-08-15 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>D-Link GO-RT-AC750 GORTAC750_revA_v101b03 & GO-RT-AC750_revB_FWv200b02 is vulnerable to Authentication Bypass via function phpcgi_main in cgibin.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36526">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">09aa9b72586567562c4abc3715df8f28</td>
+       <td>CVE-2022-36525</td>
+       <td>2022-08-15 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>D-Link Go-RT-AC750 GORTAC750_revA_v101b03 & GO-RT-AC750_revB_FWv200b02 is vulnerable to Buffer Overflow via authenticationcgi_main.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36525">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">74865a6a69fa86bfb9d704f781d239e8</td>
+       <td>CVE-2022-36524</td>
+       <td>2022-08-15 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>D-Link GO-RT-AC750 GORTAC750_revA_v101b03 & GO-RT-AC750_revB_FWv200b02 is vulnerable to Static Default Credentials via /etc/init0.d/S80telnetd.sh.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36524">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">861b581e8f9f4f2388b859c6fa5bb09b</td>
+       <td>CVE-2022-36523</td>
+       <td>2022-08-15 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>D-Link Go-RT-AC750 GORTAC750_revA_v101b03 & GO-RT-AC750_revB_FWv200b02 is vulnerable to command injection via /htdocs/upnpinc/gena.php.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36523">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1547b22dc8b626943468076ba7ceffed</td>
+       <td>CVE-2022-35624</td>
+       <td>2022-08-15 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>In Nordic nRF5 SDK for Mesh 5.0, a heap overflow vulnerability can be triggered by sending a series of segmented packets with SegO > SegN</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-35624">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8f23f4e4a037e9d5078bb3c8c6390307</td>
+       <td>CVE-2022-35623</td>
+       <td>2022-08-15 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>In Nordic nRF5 SDK for Mesh 5.0, a heap overflow vulnerability can be triggered by sending a series of segmented control packets and access packets with the same SeqAuth</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-35623">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4c5870aefe26b4a9611c0020603f9f62</td>
+       <td>CVE-2022-2824</td>
+       <td>2022-08-15 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>Improper Access Control in GitHub repository openemr/openemr prior to 7.0.0.1.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2824">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">19569c0a0891f1cc1a7d447830cf6442</td>
        <td>CVE-2022-33991</td>
        <td>2022-08-15 13:15:00 <img src="imgs/new.gif" /></td>
@@ -461,62 +517,6 @@
        <td>2022-08-12 21:15:00</td>
        <td>Shield is an authentication and authorization framework for CodeIgniter 4. This vulnerability may allow [SameSite Attackers](https://canitakeyoursubdomain.name/) to bypass the [CodeIgniter4 CSRF protection](https://codeigniter4.github.io/userguide/libraries/security.html) mechanism with CodeIgniter Shield. For this attack to succeed, the attacker must have direct (or indirect, e.g., XSS) control over a subdomain site (e.g., `https://a.example.com/`) of the target site (e.g., `http://example.com/`). Upgrade to **CodeIgniter v4.2.3 or later** and **Shield v1.0.0-beta.2 or later**. As a workaround: set `Config\Security::$csrfProtection` to `'session,'`remove old session data right after login (immediately after ID and password match) and regenerate CSRF token right after login (immediately after ID and password match)</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-35943">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5f0a9a90354d03296b0ded3d7625778c</td>
-       <td>CVE-2022-38183</td>
-       <td>2022-08-12 20:15:00</td>
-       <td>In Gitea before 1.16.9, it was possible for users to add existing issues to projects. Due to improper access controls, an attacker could assign any issue to any project in Gitea (there was no permission check for fetching the issue). As a result, the attacker would get access to private issue titles.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-38183">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0b6eaa8841cd0d8942d84072c5674cff</td>
-       <td>CVE-2022-37397</td>
-       <td>2022-08-12 20:15:00</td>
-       <td>An issue was discovered in the YugabyteDB 2.6.1 when using LDAP-based authentication in YCQL with Microsoft’s Active Directory. When anonymous or unauthenticated LDAP binding is enabled, it allows bypass of authentication with an empty password.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-37397">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d0348ff858b3d765010a5a1d1a8b8fbc</td>
-       <td>CVE-2022-2804</td>
-       <td>2022-08-12 20:15:00</td>
-       <td>A vulnerability was found in SourceCodester Zoo Management System. It has been classified as critical. Affected is an unknown function of the file /pages/apply_vacancy.php. The manipulation of the argument filename leads to unrestricted upload. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-206250 is the identifier assigned to this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2804">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">59ab61ddcd507685fc042a46036ad7e2</td>
-       <td>CVE-2022-2803</td>
-       <td>2022-08-12 20:15:00</td>
-       <td>A vulnerability was found in SourceCodester Zoo Management System and classified as critical. This issue affects some unknown processing of the file /pages/animals.php. The manipulation of the argument class_id leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-206249 was assigned to this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2803">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">aabf1ba46a6846eb562845da719a6a80</td>
-       <td>CVE-2022-2802</td>
-       <td>2022-08-12 20:15:00</td>
-       <td>A vulnerability has been found in SourceCodester Gas Agency Management System and classified as critical. This vulnerability affects unknown code of the file gasmark/login.php. The manipulation of the argument username leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-206248.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2802">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">dc7cb39fa8ed249725c4c07f847b028a</td>
-       <td>CVE-2022-2801</td>
-       <td>2022-08-12 20:15:00</td>
-       <td>A vulnerability, which was classified as critical, was found in SourceCodester Automated Beer Parlour Billing System. This affects an unknown part of the component Login. The manipulation of the argument username leads to sql injection. It is possible to initiate the attack remotely. The associated identifier of this vulnerability is VDB-206247.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2801">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1ff9adf241ffa9fc1925a71691b59ed9</td>
-       <td>CVE-2022-2800</td>
-       <td>2022-08-12 20:15:00</td>
-       <td>A vulnerability, which was classified as problematic, has been found in SourceCodester Gym Management System. Affected by this issue is some unknown functionality. The manipulation leads to clickjacking. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-206246 is the identifier assigned to this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2800">详情</a></td>
       </tr>
 
      </tbody>
