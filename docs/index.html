@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-08-15 14:19:48 -->
+<!-- RELEASE TIME : 2022-08-15 14:42:38 -->
 <html lang="zh-cn">
 
  <head>
@@ -2412,6 +2412,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">d50c400a294e259471faef60bc0f536a</td>
+       <td>CVE-2022-36270</td>
+       <td>2022-08-10 20:16:01 </td>
+       <td>Clinic's Patient Management System v1.0 has arbitrary code execution via url: ip/pms/users.php.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-36270">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">5ef0b6df6238a1408545474c6121201d</td>
        <td>CVE-2022-30580</td>
        <td>2022-08-10 20:15:40 </td>
@@ -2556,11 +2564,51 @@
       </tr>
 
       <tr>
+       <td scope="row">9bdf379801a853f3c87bacec81abc75d</td>
+       <td>CVE-2022-36125</td>
+       <td>2022-08-09 07:15:07 </td>
+       <td>It is possible to crash (panic) an application by providing a corrupted data to be read. This issue affects Rust applications using Apache Avro Rust SDK prior to 0.14.0 (previously known as avro-rs). Users should update to apache-avro version 0.14.0 which addresses this issue.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-36125">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">536cc66444700f863a4a880c03708696</td>
+       <td>CVE-2022-36267</td>
+       <td>2022-08-08 15:15:09 </td>
+       <td>In Airspan AirSpot 5410 version 0.3.4.1-4 and under there exists a Unauthenticated remote command injection vulnerability. The ping functionality can be called without user authentication when crafting a malicious http request by injecting code in one of the parameters allowing for remote code execution. This vulnerability is exploited via the binary file /home/www/cgi-bin/diagnostics.cgi that accepts unauthenticated requests and unsanitized data. As a result, a malicious actor can craft a specific request and interact remotely with the device.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-36267">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">7d19793d81b1a97210069be93abd2563</td>
        <td>CVE-2022-35493</td>
        <td>2022-08-08 15:15:08 </td>
        <td>A Cross-site scripting (XSS) vulnerability in json search parse and the json response in wrteam.in, eShop - Multipurpose Ecommerce Store Website version 3.0.4 allows remote attackers to inject arbitrary web script or HTML via the get_products?search parameter.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-35493">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">853c2cc84bd4e8abd7aae20484dce332</td>
+       <td>CVE-2022-36266</td>
+       <td>2022-08-08 15:15:08 </td>
+       <td>In Airspan AirSpot 5410 version 0.3.4.1-4 and under there exists a stored XSS vulnerability. As the binary file /home/www/cgi-bin/login.cgi does not check if the user is authenticated, a malicious actor can craft a specific request on the login.cgi endpoint that contains a base32 encoded XSS payload that will be accepted and stored. A successful attack will results in the injection of malicious scripts into the user settings page.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-36266">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">61ec67d9d9cd04bc5bbe9c08c192a6b5</td>
+       <td>CVE-2022-36265</td>
+       <td>2022-08-08 15:15:08 </td>
+       <td>In Airspan AirSpot 5410 version 0.3.4.1-4 and under there exists a Hidden system command web page. After performing a reverse engineering of the firmware, it was discovered that a hidden page not listed in the administration management interface allows a user to execute Linux commands on the device with root privileges. An authenticated malicious threat actor can use this page to fully compromise the device.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-36265">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">fcfd1127094cdbc312289290b5b0b030</td>
+       <td>CVE-2022-36264</td>
+       <td>2022-08-08 15:15:08 </td>
+       <td>In Airspan AirSpot 5410 version 0.3.4.1-4 and under there exists an Unauthenticated remote Arbitrary File Upload vulnerability which allows overwriting arbitrary files. A malicious actor can remotely upload a file of their choice and overwrite any file in the system by manipulating the filename and append a relative path that will be interpreted during the upload process. Using this method, it is possible to rewrite any file in the system or upload a new file.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-36264">详情</a></td>
       </tr>
 
       <tr>
@@ -2601,54 +2649,6 @@
        <td>2022-08-06 18:15:08 </td>
        <td>Exim before 4.96 has an invalid free in pam_converse in auths/call_pam.c because store_free is not used after store_malloc.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-37451">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">848f40fdc8aa10c9b9766a634a007673</td>
-       <td>CVE-2022-32543</td>
-       <td>2022-08-05 22:15:11 </td>
-       <td>An integer overflow vulnerability exists in the way ESTsoft Alyac 2.5.8.544 parses OLE files. A specially-crafted OLE file can lead to a heap buffer overflow which can result in arbitrary code execution. An attacker can provide a malicious file to trigger this vulnerability.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-32543">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">dbe1d8a721f3e542bfeea3289cc0dc04</td>
-       <td>CVE-2022-28665</td>
-       <td>2022-08-05 22:15:11 </td>
-       <td>A memory corruption vulnerability exists in the httpd unescape functionality of FreshTomato 2022.1. A specially-crafted HTTP request can lead to memory corruption. An attacker can send a network request to trigger this vulnerability.The `freshtomato-arm` has a vulnerable URL-decoding feature that can lead to memory corruption.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-28665">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1d2794ca9d93fc346704d22d16d40580</td>
-       <td>CVE-2022-28664</td>
-       <td>2022-08-05 22:15:11 </td>
-       <td>A memory corruption vulnerability exists in the httpd unescape functionality of FreshTomato 2022.1. A specially-crafted HTTP request can lead to memory corruption. An attacker can send a network request to trigger this vulnerability.The `freshtomato-mips` has a vulnerable URL-decoding feature that can lead to memory corruption.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-28664">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9eebbeb17e95234f4d366e5082739c07</td>
-       <td>CVE-2022-27660</td>
-       <td>2022-08-05 22:15:11 </td>
-       <td>A denial of service vulnerability exists in the confctl_set_guest_wlan functionality of TCL LinkHub Mesh Wi-Fi MS1G_00_01.00_14. A specially-crafted network packet can lead to denial of service. An attacker can send packets to trigger this vulnerability.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27660">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">66a1b02edd3be25471c4bb3f8bc61d2b</td>
-       <td>CVE-2022-37450</td>
-       <td>2022-08-05 21:15:09 </td>
-       <td>Go Ethereum (aka geth) through 1.10.21 allows attackers to increase rewards by mining blocks in certain situations, and using a manipulation of time-difference values to achieve replacement of main-chain blocks, aka Riskless Uncle Making (RUM), as exploited in the wild in 2020 through 2022.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-37450">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">53108a6286ff5ef2249ca63de351785a</td>
-       <td>CVE-2022-37398</td>
-       <td>2022-08-05 17:15:08 </td>
-       <td>A stack-based buffer overflow vulnerability was found inside ADM when using WebDAV due to the lack of data size validation. An attacker can exploit this vulnerability to run arbitrary code. Affected ADM versions include: 3.5.9.RUE3 and below, 4.0.5.RVI1 and below as well as 4.1.0.RJD1 and below.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-37398">详情</a></td>
       </tr>
 
      </tbody>
