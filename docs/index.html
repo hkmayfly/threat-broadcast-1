@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-08-27 22:15:42 -->
+<!-- RELEASE TIME : 2022-08-27 23:41:47 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,30 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">58d617757dffa3f3c1eb9a7cae40edf2</td>
+       <td>CVE-2022-38794</td>
+       <td>2022-08-27 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>Zaver through 2020-12-15 allows directory traversal via the GET /.. substring.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-38794">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e6921dc722d2774abcc5c3dea0b98627</td>
+       <td>CVE-2022-38792</td>
+       <td>2022-08-27 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>The exotel (aka exotel-py) package in PyPI as of 0.1.6 includes a code execution backdoor inserted by a third party.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-38792">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">27d795e010880cbdd76fab5df6f3cbde</td>
+       <td>CVE-2022-38791</td>
+       <td>2022-08-27 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>In MariaDB before 10.9.2, compress_write in extra/mariabackup/ds_compress.cc does not release data_mutex upon a stream write failure, which allows local users to trigger a deadlock.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-38791">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">448a39725036f0506fa98feee8094d01</td>
        <td>CVE-2022-2787</td>
        <td>2022-08-27 12:15:00 <img src="imgs/new.gif" /></td>
@@ -493,30 +517,6 @@
        <td>2022-08-26 16:15:00 <img src="imgs/new.gif" /></td>
        <td>A Floating point exception (division-by-zero) flaw was found in Mupdf for zero width pages in muraster.c. It is fixed in Mupdf-1.20.0-rc1 upstream.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-4216">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7527d800992c2bbbc0b7cabb00877396</td>
-       <td>CVE-2021-4215</td>
-       <td>2022-08-26 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-4215">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8e1c3085980a9b9b06a9ade2b5307347</td>
-       <td>CVE-2021-3913</td>
-       <td>2022-08-26 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-3913">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c9a11e66c08560475a625454e724f4b6</td>
-       <td>CVE-2021-3864</td>
-       <td>2022-08-26 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>A flaw was found in the way the dumpable flag setting was handled when certain SUID binaries executed its descendants. The prerequisite is a SUID binary that sets real UID equal to effective UID, and real GID equal to effective GID. The descendant will then have a dumpable value set to 1. As a result, if the descendant process crashes and core_pattern is set to a relative value, its core dump is stored in the current directory with uid:gid permissions. An unprivileged local user with eligible root SUID binary could use this flaw to place core dumps into root-owned directories, potentially resulting in escalation of privileges.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-3864">详情</a></td>
       </tr>
 
      </tbody>
