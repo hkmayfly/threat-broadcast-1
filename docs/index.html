@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-09-03 01:46:02 -->
+<!-- RELEASE TIME : 2022-09-03 04:03:47 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,38 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">a9bd2ad68d38b3a0f2ab1dcf29ac81ad</td>
+       <td>CVE-2022-36754</td>
+       <td>2022-09-02 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Expense Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /Home/debit_credit_p.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36754">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9c113674495ba801c3dda04786fb2386</td>
+       <td>CVE-2020-29260</td>
+       <td>2022-09-02 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>libvncclient v0.9.13 was discovered to contain a memory leak via the function rfbClientCleanup().</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2020-29260">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">147bb53bf2f5a76ccf028b3d9b78fc38</td>
+       <td>CVE-2022-36647</td>
+       <td>2022-09-02 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>PKUVCL davs2 v1.6.205 was discovered to contain a global buffer overflow via the function parse_sequence_header() at source/common/header.cc:269.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36647">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3bd68524b461971e94673eba122752b6</td>
+       <td>CVE-2022-36642</td>
+       <td>2022-09-02 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>A local file disclosure vulnerability in /appConfig/userDB.json of Telos Alliance Omnia MPX Node through 1.5.0+r1 allows attackers to escalate privileges to root and execute arbitrary commands.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36642">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">295d1a584af43246a5662b4f4c1c4d92</td>
        <td>CVE-2022-36640</td>
        <td>2022-09-02 21:15:00 <img src="imgs/new.gif" /></td>
@@ -485,38 +517,6 @@
        <td>2022-09-02 07:15:00 <img src="imgs/new.gif" /></td>
        <td>In Apache Airflow prior to 2.3.4, an insecure umask was configured for numerous Airflow components when running with the `--daemon` flag which could result in a race condition giving world-writable files in the Airflow home directory and allowing local users to expose arbitrary file contents via the webserver.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-38170">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7f513111edee0c1a15577452079d707c</td>
-       <td>CVE-2022-38054</td>
-       <td>2022-09-02 07:15:00 <img src="imgs/new.gif" /></td>
-       <td>In Apache Airflow versions 2.2.4 through 2.3.3, the `database` webserver session backend was susceptible to session fixation.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-38054">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2da9c784ec6f4107dbaed791b352aab4</td>
-       <td>CVE-2022-29158</td>
-       <td>2022-09-02 07:15:00 <img src="imgs/new.gif" /></td>
-       <td>Apache OFBiz up to version 18.12.05 is vulnerable to Regular Expression Denial of Service (ReDoS) in the way it handles URLs provided by external, unauthenticated users. Upgrade to 18.12.06 or apply patches at https://issues.apache.org/jira/browse/OFBIZ-12599</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29158">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">60a85f2ff0400af471875092dde2cce0</td>
-       <td>CVE-2022-29063</td>
-       <td>2022-09-02 07:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Solr plugin of Apache OFBiz is configured by default to automatically make a RMI request on localhost, port 1099. In version 18.12.05 and earlier, by hosting a malicious RMI server on localhost, an attacker may exploit this behavior, at server start-up or on a server restart, in order to run arbitrary code. Upgrade to at least 18.12.06 or apply patches at https://issues.apache.org/jira/browse/OFBIZ-12646.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29063">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">310809dbed804781f2441a939cad763d</td>
-       <td>CVE-2022-25813</td>
-       <td>2022-09-02 07:15:00 <img src="imgs/new.gif" /></td>
-       <td>In Apache OFBiz, versions 18.12.05 and earlier, an attacker acting as an anonymous user of the ecommerce plugin, can insert a malicious content in a message “Subject” field from the "Contact us" page. Then a party manager needs to list the communications in the party component to activate the SSTI. A RCE is then possible.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25813">详情</a></td>
       </tr>
 
      </tbody>
