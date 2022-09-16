@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-09-16 02:00:20 -->
+<!-- RELEASE TIME : 2022-09-16 05:52:30 -->
 <html lang="zh-cn">
 
  <head>
@@ -2412,6 +2412,46 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">b0e8b8542aefb41928f1229fdc41b006</td>
+       <td>CVE-2022-40674</td>
+       <td>2022-09-14 11:15:54 </td>
+       <td>libexpat before 2.4.9 has a use-after-free in the doContent function in xmlparse.c.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40674">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">698af9b5d81d0aa753b40cdaab5bdcf2</td>
+       <td>CVE-2022-40673</td>
+       <td>2022-09-14 11:15:53 </td>
+       <td>KDiskMark before 3.1.0 lacks authorization checking for D-Bus methods such as Helper::flushPageCache.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40673">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8d1c9f3152dbdfb376621b533a804e39</td>
+       <td>CVE-2022-40626</td>
+       <td>2022-09-14 11:15:53 </td>
+       <td>An unauthenticated user can create a link with reflected Javascript code inside the backurl parameter and send it to other authenticated users in order to create a fake account with predefined login, password and role in Zabbix Frontend.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40626">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">18eea0b031c5d30ccda8226f5e39b7aa</td>
+       <td>CVE-2022-40635</td>
+       <td>2022-09-13 19:15:13 </td>
+       <td>Improper Control of Dynamically-Managed Code Resources vulnerability in Crafter Studio of Crafter CMS allows authenticated developers to execute OS commands via Groovy Sandbox Bypass.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40635">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f879215ccc98279cb034cad4df3ab07b</td>
+       <td>CVE-2022-40634</td>
+       <td>2022-09-13 19:15:13 </td>
+       <td>Improper Control of Dynamically-Managed Code Resources vulnerability in Crafter Studio of Crafter CMS allows authenticated developers to execute OS commands via FreeMarker SSTI.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40634">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">ba55def7ddba4288573d72e01ddd520c</td>
        <td>CVE-2022-39156</td>
        <td>2022-09-13 10:15:12 </td>
@@ -2609,46 +2649,6 @@
        <td>2022-09-09 05:15:07 </td>
        <td>An issue was discovered in the Linux kernel through 5.19.8. drivers/firmware/efi/capsule-loader.c has a race condition with a resultant use-after-free.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40307">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ab27bde446c93f4072fe9fee9de5da35</td>
-       <td>CVE-2022-40299</td>
-       <td>2022-09-09 01:15:07 </td>
-       <td>In Singular before 4.3.1, a predictable /tmp pathname is used (e.g., by sdb.cc), which allows local users to gain the privileges of other users via a procedure in a file under /tmp. NOTE: this CVE Record is about sdb.cc and similar files in the Singular interface that have predictable /tmp pathnames; this CVE Record is not about the lack of a safe temporary-file creation capability in the Singular language.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40299">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e46b047e39c508e910ab0b716496ef91</td>
-       <td>CVE-2022-40297</td>
-       <td>2022-09-09 00:15:08 </td>
-       <td>UBports Ubuntu Touch 16.04 allows the screen-unlock passcode to be used for a privileged shell via Sudo. This passcode is only four digits, far below typical length/complexity for a user account's password.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40297">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2d8a0b48a676ba6717cd7147fe81fd0b</td>
-       <td>CVE-2022-40281</td>
-       <td>2022-09-08 22:15:08 </td>
-       <td>An issue was discovered in Samsung TizenRT through 3.0_GBM (and 3.1_PRE). cyassl_connect_step2 in curl/vtls/cyassl.c has a missing X509_free after SSL_get_peer_certificate, leading to information disclosure.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40281">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3ee2be65b1fe696245c87d07d39e735c</td>
-       <td>CVE-2022-40280</td>
-       <td>2022-09-08 22:15:08 </td>
-       <td>An issue was discovered in Samsung TizenRT through 3.0_GBM (and 3.1_PRE). createDB in security/provisioning/src/provisioningdatabasemanager.c has a missing sqlite3_close after sqlite3_open_v2, leading to a denial of service.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40280">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d716ba005c16d7b34189a0e4e0b3c59e</td>
-       <td>CVE-2022-38260</td>
-       <td>2022-09-08 17:15:08 </td>
-       <td>Interview Management System v1.0 was discovered to contain a SQL injection vulnerability via the component /interview/delete.php?action=questiondelete&amp;id=.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38260">详情</a></td>
       </tr>
 
      </tbody>
