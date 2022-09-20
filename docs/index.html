@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-09-20 09:49:05 -->
+<!-- RELEASE TIME : 2022-09-20 11:42:18 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,62 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">9ed4d1e7de8a08340cf6d79cc9b291b4</td>
+       <td>CVE-2022-34917</td>
+       <td>2022-09-20 09:15:00 <img src="imgs/new.gif" /></td>
+       <td>A security vulnerability has been identified in Apache Kafka. It affects all releases since 2.8.0. The vulnerability allows malicious unauthenticated clients to allocate large amounts of memory on brokers. This can lead to brokers hitting OutOfMemoryException and causing denial of service. Example scenarios: - Kafka cluster without authentication: Any clients able to establish a network connection to a broker can trigger the issue. - Kafka cluster with SASL authentication: Any clients able to establish a network connection to a broker, without the need for valid SASL credentials, can trigger the issue. - Kafka cluster with TLS authentication: Only clients able to successfully authenticate via TLS can trigger the issue. We advise the users to upgrade the Kafka installations to one of the 3.2.3, 3.1.2, 3.0.2, 2.8.2 versions.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34917">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a935b9d403a45913928dce5bd67c2604</td>
+       <td>CVE-2022-39958</td>
+       <td>2022-09-20 07:15:00 <img src="imgs/new.gif" /></td>
+       <td>The OWASP ModSecurity Core Rule Set (CRS) is affected by a response body bypass to sequentially exfiltrate small and undetectable sections of data by repeatedly submitting an HTTP Range header field with a small byte range. A restricted resource, access to which would ordinarily be detected, may be exfiltrated from the backend, despite being protected by a web application firewall that uses CRS. Short subsections of a restricted resource may bypass pattern matching techniques and allow undetected access. The legacy CRS versions 3.0.x and 3.1.x are affected, as well as the currently supported versions 3.2.1 and 3.3.2. Integrators and users are advised to upgrade to 3.2.2 and 3.3.3 respectively and to configure a CRS paranoia level of 3 or higher.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39958">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f821a1bbe7dcead261d180ea40f49023</td>
+       <td>CVE-2022-39957</td>
+       <td>2022-09-20 07:15:00 <img src="imgs/new.gif" /></td>
+       <td>The OWASP ModSecurity Core Rule Set (CRS) is affected by a response body bypass. A client can issue an HTTP Accept header field containing an optional "charset" parameter in order to receive the response in an encoded form. Depending on the "charset", this response can not be decoded by the web application firewall. A restricted resource, access to which would ordinarily be detected, may therefore bypass detection. The legacy CRS versions 3.0.x and 3.1.x are affected, as well as the currently supported versions 3.2.1 and 3.3.2. Integrators and users are advised to upgrade to 3.2.2 and 3.3.3 respectively.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39957">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">86386d57b05276c9af7fc93e6806a8df</td>
+       <td>CVE-2022-39956</td>
+       <td>2022-09-20 07:15:00 <img src="imgs/new.gif" /></td>
+       <td>The OWASP ModSecurity Core Rule Set (CRS) is affected by a partial rule set bypass for HTTP multipart requests by submitting a payload that uses a character encoding scheme via the Content-Type or the deprecated Content-Transfer-Encoding multipart MIME header fields that will not be decoded and inspected by the web application firewall engine and the rule set. The multipart payload will therefore bypass detection. A vulnerable backend that supports these encoding schemes can potentially be exploited. The legacy CRS versions 3.0.x and 3.1.x are affected, as well as the currently supported versions 3.2.1 and 3.3.2. Integrators and users are advised upgrade to 3.2.2 and 3.3.3 respectively. The mitigation against these vulnerabilities depends on the installation of the latest ModSecurity version (v2.9.6 / v3.0.8).</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39956">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a4c969f095d9b7bcda4042a836d6c9e1</td>
+       <td>CVE-2022-39955</td>
+       <td>2022-09-20 07:15:00 <img src="imgs/new.gif" /></td>
+       <td>The OWASP ModSecurity Core Rule Set (CRS) is affected by a partial rule set bypass by submitting a specially crafted HTTP Content-Type header field that indicates multiple character encoding schemes. A vulnerable back-end can potentially be exploited by declaring multiple Content-Type "charset" names and therefore bypassing the configurable CRS Content-Type header "charset" allow list. An encoded payload can bypass CRS detection this way and may then be decoded by the backend. The legacy CRS versions 3.0.x and 3.1.x are affected, as well as the currently supported versions 3.2.1 and 3.3.2. Integrators and users are advised to upgrade to 3.2.2 and 3.3.3 respectively.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39955">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">15c146935b420fe9bacf3e5a3ec16afe</td>
+       <td>CVE-2022-3000</td>
+       <td>2022-09-20 07:15:00 <img src="imgs/new.gif" /></td>
+       <td>Cross-site Scripting (XSS) - Stored in GitHub repository yetiforcecompany/yetiforcecrm prior to 6.4.0.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3000">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2af7f57d066251f189cd9363755057f9</td>
+       <td>CVE-2022-2924</td>
+       <td>2022-09-20 06:15:00 <img src="imgs/new.gif" /></td>
+       <td>Cross-site Scripting (XSS) - Stored in GitHub repository yetiforcecompany/yetiforcecrm prior to 6.3.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2924">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">dd0da1514677f77aa3d418aa15bdd5c5</td>
        <td>CVE-2022-34746</td>
        <td>2022-09-20 02:15:00 <img src="imgs/new.gif" /></td>
@@ -461,62 +517,6 @@
        <td>2022-09-19 15:15:00 <img src="imgs/new.gif" /></td>
        <td>The d8s-dates for python, as distributed on PyPI, included a potential code-execution backdoor inserted by a third party. The backdoor is the democritus-hypothesis package. The affected version is 0.1.0</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40808">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c0df8479ccd78eb78d28f06f9ce85ee6</td>
-       <td>CVE-2022-40807</td>
-       <td>2022-09-19 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>The d8s-domains for python, as distributed on PyPI, included a potential code-execution backdoor inserted by a third party. The backdoor is the democritus-hypothesis package. The affected version is 0.1.0</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40807">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ffa7f1f2365e4cd82a9a26b94b803250</td>
-       <td>CVE-2022-40806</td>
-       <td>2022-09-19 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>The d8s-uuids for python, as distributed on PyPI, included a potential code-execution backdoor inserted by a third party. The backdoor is the democritus-hypothesis package. The affected version is 0.1.0</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40806">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">35c29dae5c3b7b2e44a7601b3844dcfa</td>
-       <td>CVE-2022-40805</td>
-       <td>2022-09-19 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>The d8s-urls for python 0.1.0, as distributed on PyPI, included a potential code-execution backdoor inserted by a third party. A potential code execution backdoor inserted by third parties is the democritus-hypothesis package.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40805">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b2801e60dbe6b18a16bdd8529aaf8c7f</td>
-       <td>CVE-2022-40427</td>
-       <td>2022-09-19 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>The d8s-domains for python, as distributed on PyPI, included a potential code-execution backdoor inserted by a third party. The backdoor is the democritus-networking package. The affected version is 0.1.0</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40427">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">59b0aed8d39ca96a0c2773419692e102</td>
-       <td>CVE-2022-40424</td>
-       <td>2022-09-19 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>The d8s-urls for python, as distributed on PyPI, included a potential code-execution backdoor inserted by a third party. A potential code execution backdoor inserted by third parties is the democritus-networking package. The affected version of d8s-urls is 0.1.0</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40424">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0473b3759e85ca642ef98134a051a73e</td>
-       <td>CVE-2022-40076</td>
-       <td>2022-09-19 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Tenda AC21 V16.03.08.15 is vulnerable to Buffer Overflow via /bin/httpd, function: fromSetWifiGusetBasic.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40076">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c1da682246f84e8eee7f8de1c8054589</td>
-       <td>CVE-2022-40075</td>
-       <td>2022-09-19 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Tenda AC21 V 16.03.08.15 is vulnerable to Buffer Overflow via /bin/httpd, form_fast_setting_wifi_set.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40075">详情</a></td>
       </tr>
 
      </tbody>
