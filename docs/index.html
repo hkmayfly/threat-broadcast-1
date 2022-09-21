@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-09-21 12:38:33 -->
+<!-- RELEASE TIME : 2022-09-21 13:53:14 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,62 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">5f561c541596f0d87cfab5f606faf8f4</td>
+       <td>CVE-2022-38178</td>
+       <td>2022-09-21 11:15:00 <img src="imgs/new.gif" /></td>
+       <td>By spoofing the target resolver with responses that have a malformed EdDSA signature, an attacker can trigger a small memory leak. It is possible to gradually erode available memory to the point where named crashes for lack of resources.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-38178">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4df48f4ae5ce61f11bdb941b5c5bad4b</td>
+       <td>CVE-2022-38177</td>
+       <td>2022-09-21 11:15:00 <img src="imgs/new.gif" /></td>
+       <td>By spoofing the target resolver with responses that have a malformed ECDSA signature, an attacker can trigger a small memory leak. It is possible to gradually erode available memory to the point where named crashes for lack of resources.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-38177">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ffba7f6bf7b811be18fad58a29a6aa16</td>
+       <td>CVE-2022-3080</td>
+       <td>2022-09-21 11:15:00 <img src="imgs/new.gif" /></td>
+       <td>By sending specific queries to the resolver, an attacker can cause named to crash.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3080">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">62f365411ad904658ac9bf7886e856e2</td>
+       <td>CVE-2022-2906</td>
+       <td>2022-09-21 11:15:00 <img src="imgs/new.gif" /></td>
+       <td>An attacker can leverage this flaw to gradually erode available memory to the point where named crashes for lack of resources. Upon restart the attacker would have to begin again, but nevertheless there is the potential to deny service.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2906">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9c0e564d20232768b5255e55cfa945a2</td>
+       <td>CVE-2022-2881</td>
+       <td>2022-09-21 11:15:00 <img src="imgs/new.gif" /></td>
+       <td>The underlying bug might cause read past end of the buffer and either read memory it should not read, or crash the process.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2881">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4b938b214f3dfcee2dfc3ca82150aede</td>
+       <td>CVE-2022-2795</td>
+       <td>2022-09-21 11:15:00 <img src="imgs/new.gif" /></td>
+       <td>By flooding the target resolver with queries exploiting this flaw an attacker can significantly impair the resolver's performance, effectively denying legitimate clients access to the DNS resolution service.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2795">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">619ade04ee0e3db1f8d32820a84cd397</td>
+       <td>CVE-2022-2872</td>
+       <td>2022-09-21 10:15:00 <img src="imgs/new.gif" /></td>
+       <td>Unrestricted Upload of File with Dangerous Type in GitHub repository octoprint/octoprint prior to 1.8.3.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2872">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">2bc5fe8e361969d516edcf48ddb8117d</td>
        <td>CVE-2022-0495</td>
        <td>2022-09-21 09:15:00 <img src="imgs/new.gif" /></td>
@@ -461,62 +517,6 @@
        <td>2022-09-20 21:15:00 <img src="imgs/new.gif" /></td>
        <td>A buffer overflow issue was addressed with improved memory handling. This issue is fixed in Safari 16, iOS 16, iOS 15.7 and iPadOS 15.7. Processing maliciously crafted web content may lead to arbitrary code execution.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32886">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">636f0ce70e9beeec31d83281c8647dd4</td>
-       <td>CVE-2022-32883</td>
-       <td>2022-09-20 21:15:00 <img src="imgs/new.gif" /></td>
-       <td>A logic issue was addressed with improved restrictions. This issue is fixed in macOS Monterey 12.6, iOS 15.7 and iPadOS 15.7, iOS 16, macOS Big Sur 11.7. An app may be able to read sensitive location information.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32883">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">78804996fc78449772c3c06515c330a9</td>
-       <td>CVE-2022-32882</td>
-       <td>2022-09-20 21:15:00 <img src="imgs/new.gif" /></td>
-       <td>This issue was addressed with improved checks. This issue is fixed in macOS Monterey 12.4, macOS Big Sur 11.6.6. An app may be able to bypass Privacy preferences.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32882">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">46c19597a03c635d7595f5eb0bffdead</td>
-       <td>CVE-2022-37972</td>
-       <td>2022-09-20 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>Microsoft Endpoint Configuration Manager Spoofing Vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-37972">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">951614925438d8d05001096837413206</td>
-       <td>CVE-2022-30579</td>
-       <td>2022-09-20 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Web Player component of TIBCO Software Inc.'s TIBCO Spotfire Analytics Platform for AWS Marketplace and TIBCO Spotfire Server contains a difficult to exploit vulnerability that allows a low privileged attacker with network access to execute blind Server Side Request Forgery (SSRF) on the affected system. Affected releases are TIBCO Software Inc.'s TIBCO Spotfire Analytics Platform for AWS Marketplace: version 12.0.0 and TIBCO Spotfire Server: version 12.0.0.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30579">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a06caece1c31b4873beb915a3778bfff</td>
-       <td>CVE-2022-41138</td>
-       <td>2022-09-20 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>In Zutty before 0.13, DECRQSS in text written to the terminal can achieve arbitrary code execution.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41138">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">10b668339fd75209d2049519994eb7f2</td>
-       <td>CVE-2022-40262</td>
-       <td>2022-09-20 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>A potential attacker can execute an arbitrary code at the time of the PEI phase and influence the subsequent boot stages. This can lead to the mitigations bypassing, physical memory contents disclosure, discovery of any secrets from any Virtual Machines (VMs) and bypassing memory isolation and confidential computing boundaries. Additionally, an attacker can build a payload which can be injected into the SMRAM memory. This issue affects: Module name: S3Resume2Pei SHA256: 7bb29f05534a8a1e010443213451425098faebd45948a4642db969b19d0253fc Module GUID: 89E549B0-7CFE-449D-9BA3-10D8B2312D71</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40262">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ce96c0d11583578da047eda94e8e8078</td>
-       <td>CVE-2022-40261</td>
-       <td>2022-09-20 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>An attacker can exploit this vulnerability to elevate privileges from ring 0 to ring -2, execute arbitrary code in System Management Mode - an environment more privileged than operating system (OS) and completely isolated from it. Running arbitrary code in SMM additionally bypasses SMM-based SPI flash protections against modifications, which can help an attacker to install a firmware backdoor/implant into BIOS. Such a malicious firmware code in BIOS could persist across operating system re-installs. Additionally, this vulnerability potentially could be used by malicious actors to bypass security mechanisms provided by UEFI firmware (for example, Secure Boot and some types of memory isolation for hypervisors). This issue affects: Module name: OverClockSmiHandler SHA256: a204699576e1a48ce915d9d9423380c8e4c197003baf9d17e6504f0265f3039c Module GUID: 4698C2BD-A903-410E-AD1F-5EEF3A1AE422</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40261">详情</a></td>
       </tr>
 
      </tbody>
