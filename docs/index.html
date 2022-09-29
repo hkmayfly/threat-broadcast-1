@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-09-29 14:27:40 -->
+<!-- RELEASE TIME : 2022-09-29 14:52:08 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,54 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">7b5ccf142ebfddf87a99d589c1624db0</td>
+       <td>CVE-2022-40890</td>
+       <td>2022-09-29 13:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability in /src/amf/amf-context.c in Open5GS 2.4.10 and earlier leads to AMF denial of service.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40890">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">38dc2c9f81a9bf115da31d487ee9ab53</td>
+       <td>CVE-2022-40363</td>
+       <td>2022-09-29 13:15:00 <img src="imgs/new.gif" /></td>
+       <td>A buffer overflow in the component nfc_device_load_mifare_ul_data of Flipper Devices Inc., Flipper Zero before v0.65.2 allows attackers to cause a Denial of Service (DoS) via a crafted NFC file.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40363">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7ec2f030a0024d20f1f29f63259992e8</td>
+       <td>CVE-2022-39250</td>
+       <td>2022-09-29 13:15:00 <img src="imgs/new.gif" /></td>
+       <td>Matrix JavaScript SDK is the Matrix Client-Server software development kit (SDK) for JavaScript. Prior to version 19.7.0, an attacker cooperating with a malicious homeserver could interfere with the verification flow between two users, injecting its own cross-signing user identity in place of one of the usersâ€™ identities. This would lead to the other device trusting/verifying the user identity under the control of the homeserver instead of the intended one. The vulnerability is a bug in the matrix-js-sdk, caused by checking and signing user identities and devices in two separate steps, and inadequately fixing the keys to be signed between those steps. Even though the attack is partly made possible due to the design decision of treating cross-signing user identities as Matrix devices on the server side (with their device ID set to the public part of the user identity key), no other examined implementations were vulnerable. Starting with version 19.7.0, the matrix-js-sdk has been modified to double check that the key signed is the one that was verified instead of just referencing the key by ID. An additional check has been made to report an error when one of the device ID matches a cross-signing key. As this attack requires coordination between a malicious homeserver and an attacker, those who trust their homeservers do not need a particular workaround.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39250">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">cc294e85874c1b539efc2ebfc0f154b7</td>
+       <td>CVE-2022-40475</td>
+       <td>2022-09-29 12:15:00 <img src="imgs/new.gif" /></td>
+       <td>TOTOLINK A860R V4.1.2cu.5182_B20201027 was discovered to contain a command injection via the component /cgi-bin/downloadFile.cgi.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40475">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e0aeb316b4452d85f68a55455cf5bbad</td>
+       <td>CVE-2022-40126</td>
+       <td>2022-09-29 12:15:00 <img src="imgs/new.gif" /></td>
+       <td>A misconfiguration in the Service Mode profile directory of Clash for Windows v0.19.9 allows attackers to escalate privileges and execute arbitrary commands when Service Mode is activated.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40126">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b6290a86f0107ae3ae9f7b7ab1728611</td>
+       <td>CVE-2022-3352</td>
+       <td>2022-09-29 12:15:00 <img src="imgs/new.gif" /></td>
+       <td>Use After Free in GitHub repository vim/vim prior to 9.0.0614.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3352">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">0edb9c16c8a3a9d1059c52d2770586ca</td>
        <td>CVE-2022-3355</td>
        <td>2022-09-29 10:15:00 <img src="imgs/new.gif" /></td>
@@ -469,54 +517,6 @@
        <td>2022-09-27 23:15:00</td>
        <td>An issue was discovered in EyesOfNetwork (EON) through 5.3.11. Unauthenticated SQL injection can occur.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41570">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">480a64a5ad63f5fef6a1750714a11dac</td>
-       <td>CVE-2022-40878</td>
-       <td>2022-09-27 23:15:00</td>
-       <td>In Exam Reviewer Management System 1.0, an authenticated attacker can upload a web-shell php file in profile page to achieve Remote Code Execution (RCE).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40878">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b5bf45321226310eb44ee39a1459c0a9</td>
-       <td>CVE-2022-40877</td>
-       <td>2022-09-27 23:15:00</td>
-       <td>Exam Reviewer Management System 1.0 is vulnerable to SQL Injection via the ‘id’ parameter.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40877">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">aaebf66cda7fadc3fcc6139f1b1fdef2</td>
-       <td>CVE-2022-40817</td>
-       <td>2022-09-27 23:15:00</td>
-       <td>Zammad 5.2.1 has a fine-grained permission model that allows to configure read-only access to tickets. However, agents were still wrongly able to perform some operations on such tickets, like adding and removing links, tags. and related answers. This issue has been fixed in 5.2.2.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40817">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">44efbf0070d60a4c9968ac5533b1437c</td>
-       <td>CVE-2022-40816</td>
-       <td>2022-09-27 23:15:00</td>
-       <td>Zammad 5.2.1 is vulnerable to Incorrect Access Control. Zammad's asset handling mechanism has logic to ensure that customer users are not able to see personal information of other users. This logic was not effective when used through a web socket connection, so that a logged-in attacker would be able to fetch personal data of other users by querying the Zammad API. This issue is fixed in , 5.2.2.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40816">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f8a61342ceb72c98b2b3de4e23a0aecd</td>
-       <td>CVE-2022-40354</td>
-       <td>2022-09-27 23:15:00</td>
-       <td>Online Tours & Travels Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /admin/update_booking.php.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40354">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1f901bb42afb9f441107d7fe7287c8de</td>
-       <td>CVE-2022-40353</td>
-       <td>2022-09-27 23:15:00</td>
-       <td>Online Tours & Travels Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /admin/up_booking.php.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40353">详情</a></td>
       </tr>
 
      </tbody>
