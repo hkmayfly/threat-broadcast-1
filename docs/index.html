@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-10-06 21:45:32 -->
+<!-- RELEASE TIME : 2022-10-06 23:53:16 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,38 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">ea648f230d03f29f840ff3d33b6d9ef4</td>
+       <td>CVE-2022-41355</td>
+       <td>2022-10-06 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Online Leave Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /leave_system/classes/Master.php?f=delete_department.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41355">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b9efa7eaf687dc0598f5d328df97a4a0</td>
+       <td>CVE-2022-39284</td>
+       <td>2022-10-06 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>CodeIgniter is a PHP full-stack web framework. In versions prior to 4.2.7 setting `$secure` or `$httponly` value to `true` in `Config\Cookie` is not reflected in `set_cookie()` or `Response::setCookie()`. As a result cookie values are erroneously exposed to scripts. It should be noted that this vulnerability does not affect session cookies. Users are advised to upgrade to v4.2.7 or later. Users unable to upgrade are advised to manually construct their cookies either by setting the options in code or by constructing Cookie objects. Examples of each workaround are available in the linked GHSA.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39284">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">56a413a86c4bc35239fb0ae6a53f99f2</td>
+       <td>CVE-2022-39279</td>
+       <td>2022-10-06 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>discourse-chat is a plugin for the Discourse message board which adds chat functionality. In versions prior to 0.9 some places render a chat channel's name and description in an unsafe way, allowing staff members to cause an cross site scripting (XSS) attack by inserting unsafe HTML into them. Version 0.9 has addressed this issue. Users are advised to upgrade. There are no known workarounds for this issue.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39279">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3f94f0cb742f63815c517e156221f92a</td>
+       <td>CVE-2022-27810</td>
+       <td>2022-10-06 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>It was possible to trigger an infinite recursion condition in the error handler when Hermes executed specific maliciously formed JavaScript. This condition was only possible to trigger in dev-mode (when asserts were enabled). This issue affects Hermes versions prior to v0.12.0.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27810">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">18800074cb6ca81682cdaeca472182e5</td>
        <td>CVE-2022-41528</td>
        <td>2022-10-06 19:15:00 <img src="imgs/new.gif" /></td>
@@ -485,38 +517,6 @@
        <td>2022-10-03 01:15:00</td>
        <td>Microsoft Exchange Server Elevation of Privilege Vulnerability.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41040">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">18fbd7dda7e6f731474cb89c4218e782</td>
-       <td>CVE-2022-42004</td>
-       <td>2022-10-02 05:15:00</td>
-       <td>In FasterXML jackson-databind before 2.13.4, resource exhaustion can occur because of a lack of a check in BeanDeserializer._deserializeFromArray to prevent use of deeply nested arrays. An application is vulnerable only with certain customized choices for deserialization.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42004">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">db40630b04a2d352b1666951237fd0b6</td>
-       <td>CVE-2022-42003</td>
-       <td>2022-10-02 05:15:00</td>
-       <td>In FasterXML jackson-databind before 2.14.0-rc1, resource exhaustion can occur because of a lack of a check in primitive value deserializers to avoid deep wrapper array nesting, when the UNWRAP_SINGLE_VALUE_ARRAYS feature is enabled.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42003">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">bb3249e1d3878f1b628618e771de69ae</td>
-       <td>CVE-2022-42002</td>
-       <td>2022-10-01 00:15:00</td>
-       <td>SonicJS through 0.6.0 allows file overwrite. It has the following mutations that are used for updating files: fileCreate and fileUpdate. Both of these mutations can be called without any authentication to overwrite any files on a SonicJS application, leading to Arbitrary File Write and Delete.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42002">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">277a71759b937ece09488476a8f6a188</td>
-       <td>CVE-2022-39268</td>
-       <td>2022-09-30 21:15:00</td>
-       <td>### Impact In a CSRF attack, an innocent end user is tricked by an attacker into submitting a web request that they did not intend. This may cause actions to be performed on the website that can include inadvertent client or server data leakage, change of session state, or manipulation of an end user's account. ### Patch Upgrade to v2022.09.10 to patch this vulnerability. ### Workarounds Rebuild and redeploy the Orchest `auth-server` with this commit: https://github.com/orchest/orchest/commit/c2587a963cca742c4a2503bce4cfb4161bf64c2d ### References https://en.wikipedia.org/wiki/Cross-site_request_forgery https://cwe.mitre.org/data/definitions/352.html ### For more information If you have any questions or comments about this advisory: * Open an issue in https://github.com/orchest/orchest * Email us at rick@orchest.io</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39268">详情</a></td>
       </tr>
 
      </tbody>
