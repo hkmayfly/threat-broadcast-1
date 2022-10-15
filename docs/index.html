@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-10-15 05:34:13 -->
+<!-- RELEASE TIME : 2022-10-15 06:31:04 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,22 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">c482c930df2bcfed40a51013edf78ee7</td>
+       <td>CVE-2022-42961</td>
+       <td>2022-10-15 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in wolfSSL before 5.5.0. A fault injection attack on RAM via Rowhammer leads to ECDSA key disclosure. Users performing signing operations with private ECC keys, such as in server-side TLS connections, might leak faulty ECC signatures. These signatures can be processed via an advanced technique for ECDSA key recovery. (In 5.5.0 and later, WOLFSSL_CHECK_SIG_FAULTS can be used to address the vulnerability.)</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42961">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2de94a72dda7702c8f36ecb6bebfb190</td>
+       <td>CVE-2017-20149</td>
+       <td>2022-10-15 02:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Mikrotik RouterOS web server allows memory corruption in releases before Stable 6.38.5 and Long-term 6.37.5, aka Chimay-Red. A remote and unauthenticated user can trigger the vulnerability by sending a crafted HTTP request. An attacker can use this vulnerability to execute arbitrary code on the affected system, as exploited in the wild in mid-2017 and later.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2017-20149">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">5fbcbbbfccb546721c77007b9c7bd53d</td>
        <td>CVE-2022-41436</td>
        <td>2022-10-14 21:15:00 <img src="imgs/new.gif" /></td>
@@ -501,22 +517,6 @@
        <td>2022-10-14 17:15:00 <img src="imgs/new.gif" /></td>
        <td>Simple Cold Storage Management System v1.0 is vulnerable to SQL Injection via /csms/classes/Master.php?f=delete_storage.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42232">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">52ce2f0e8d1cd9373155326ae45ed864</td>
-       <td>CVE-2022-41308</td>
-       <td>2022-10-14 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>A maliciously crafted PKT file when consumed through SubassemblyComposer.exe application could lead to memory corruption vulnerability by read access violation. This vulnerability in conjunction with other vulnerabilities could lead to code execution in the context of the current process.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41308">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">fdd7f2a61e5d37ad7459c7f8bd734d6b</td>
-       <td>CVE-2022-41307</td>
-       <td>2022-10-14 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>A maliciously crafted PKT file when consumed through SubassemblyComposer.exe application could lead to memory corruption vulnerability by read access violation. This vulnerability in conjunction with other vulnerabilities could lead to code execution in the context of the current process.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41307">详情</a></td>
       </tr>
 
      </tbody>
