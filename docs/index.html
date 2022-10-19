@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-10-19 12:41:16 -->
+<!-- RELEASE TIME : 2022-10-19 13:57:01 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">ab46332513733055ef4debc9e53bef0c</td>
+       <td>CVE-2022-39253</td>
+       <td>2022-10-19 11:15:00 <img src="imgs/new.gif" /></td>
+       <td>Git is an open source, scalable, distributed revision control system. Versions prior to 2.30.6, 2.31.5, 2.32.4, 2.33.5, 2.34.5, 2.35.5, 2.36.3, and 2.37.4 are subject to exposure of sensitive information to a malicious actor. When performing a local clone (where the source and target of the clone are on the same volume), Git copies the contents of the source's `$GIT_DIR/objects` directory into the destination by either creating hardlinks to the source contents, or copying them (if hardlinks are disabled via `--no-hardlinks`). A malicious actor could convince a victim to clone a repository with a symbolic link pointing at sensitive information on the victim's machine. This can be done either by having the victim clone a malicious repository on the same machine, or having them clone a malicious repository embedded as a bare repository via a submodule from any source, provided they clone with the `--recurse-submodules` option. Git does not create symbolic links in the `$GIT_DIR/objects` directory. The problem has been patched in the versions published on 2022-10-18, and backported to v2.30.x. Potential workarounds: Avoid cloning untrusted repositories using the `--local` optimization when on a shared machine, either by passing the `--no-local` option to `git clone` or cloning from a URL that uses the `file://` scheme. Alternatively, avoid cloning repositories from untrusted sources with `--recurse-submodules` or run `git config --global protocol.file.allow user`.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39253">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">608195764e5c4209278f152ec297e411</td>
+       <td>CVE-2022-39233</td>
+       <td>2022-10-19 11:15:00 <img src="imgs/new.gif" /></td>
+       <td>Tuleap is a Free & Open Source Suite to improve management of software developments and collaboration. In versions 12.9.99.228 and above, prior to 14.0.99.24, authorizations are not properly verified when updating the branch prefix used by the GitLab repository integration. Authenticated users can change the branch prefix of any of the GitLab repository integration they can see vie the REST endpoint `PATCH /gitlab_repositories/{id}`. This action should be restricted to Git administrators. This issue is patched in Tuleap Community Edition 14.0.99.24 and Tuleap Enterprise Edition 14.0-3. There are no known workarounds.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39233">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5cf75e17b102088b5309770fe89fa518</td>
+       <td>CVE-2022-33217</td>
+       <td>2022-10-19 11:15:00 <img src="imgs/new.gif" /></td>
+       <td>Memory corruption in Qualcomm IPC due to buffer copy without checking the size of input while starting communication with a compromised kernel. in Snapdragon Mobile</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-33217">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">01f4bcaa30bddf2ddec8acbaa8288987</td>
+       <td>CVE-2022-33214</td>
+       <td>2022-10-19 11:15:00 <img src="imgs/new.gif" /></td>
+       <td>Memory corruption in display due to time-of-check time-of-use of metadata reserved size in Snapdragon Auto, Snapdragon Compute, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Wearables</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-33214">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">42a171f9f8da7d1eb28bf81f89051aed</td>
+       <td>CVE-2022-33210</td>
+       <td>2022-10-19 11:15:00 <img src="imgs/new.gif" /></td>
+       <td>Memory corruption in automotive multimedia due to use of out-of-range pointer offset while parsing command request packet with a very large type value. in Snapdragon Auto</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-33210">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3d41e37aaed1188533d1adddc05c627a</td>
+       <td>CVE-2022-25750</td>
+       <td>2022-10-19 11:15:00 <img src="imgs/new.gif" /></td>
+       <td>Memory corruption in BTHOST due to double free while music playback and calls over bluetooth headset in Snapdragon Mobile</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25750">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a9f77bc72b3b25f3d93b865461c0c4e3</td>
+       <td>CVE-2022-25749</td>
+       <td>2022-10-19 11:15:00 <img src="imgs/new.gif" /></td>
+       <td>Transient Denial-of-Service in WLAN due to buffer over-read while parsing MDNS frames. in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer Electronics Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon IoT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables, Snapdragon Wired Infrastructure and Networking</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25749">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1ab3856325fee27e85e0275609c15e5b</td>
+       <td>CVE-2022-25748</td>
+       <td>2022-10-19 11:15:00 <img src="imgs/new.gif" /></td>
+       <td>Memory corruption in WLAN due to integer overflow to buffer overflow while parsing GTK frames. in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer Electronics Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon IoT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables, Snapdragon Wired Infrastructure and Networking</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25748">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a55c475b7d88da5f4e4c799a1e853f96</td>
+       <td>CVE-2022-25736</td>
+       <td>2022-10-19 11:15:00 <img src="imgs/new.gif" /></td>
+       <td>Denial of service in WLAN due to out-of-bound read happens while processing VHT action frame in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer Electronics Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables, Snapdragon Wired Infrastructure and Networking</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25736">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6613f8e3da7926d1573864ab1b75562f</td>
+       <td>CVE-2022-25723</td>
+       <td>2022-10-19 11:15:00 <img src="imgs/new.gif" /></td>
+       <td>Memory corruption in multimedia due to use after free during callback registration failure in Snapdragon Mobile</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25723">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">610fc5d1b07185a5f4e9137ca9adec42</td>
        <td>CVE-2022-3606</td>
        <td>2022-10-19 09:15:00 <img src="imgs/new.gif" /></td>
@@ -437,86 +517,6 @@
        <td>2022-10-18 21:15:00 <img src="imgs/new.gif" /></td>
        <td>Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (component: Core). Supported versions that are affected are Prior to 6.1.40. Difficult to exploit vulnerability allows unauthenticated attacker with network access via VRDP to compromise Oracle VM VirtualBox. Successful attacks of this vulnerability can result in takeover of Oracle VM VirtualBox. CVSS 3.1 Base Score 8.1 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H).</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39426">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e4b069918690facf3d86f7b2fca82c1a</td>
-       <td>CVE-2022-39425</td>
-       <td>2022-10-18 21:15:00 <img src="imgs/new.gif" /></td>
-       <td>Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (component: Core). Supported versions that are affected are Prior to 6.1.40. Difficult to exploit vulnerability allows unauthenticated attacker with network access via VRDP to compromise Oracle VM VirtualBox. Successful attacks of this vulnerability can result in takeover of Oracle VM VirtualBox. CVSS 3.1 Base Score 8.1 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39425">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">06189e065cac2e1469793075f05b10a5</td>
-       <td>CVE-2022-42188</td>
-       <td>2022-10-18 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>In Lavalite 9.0.0, the XSRF-TOKEN cookie is vulnerable to path traversal attacks, enabling read access to arbitrary files on the server.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42188">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ab86aa3a98b31e759787315fd9bbd5c1</td>
-       <td>CVE-2022-39198</td>
-       <td>2022-10-18 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>A deserialization vulnerability existed in dubbo hessian-lite 3.2.12 and its earlier versions, which could lead to malicious code execution. This issue affects Apache Dubbo 2.7.x version 2.7.17 and prior versions; Apache Dubbo 3.0.x version 3.0.11 and prior versions; Apache Dubbo 3.1.x version 3.1.0 and prior versions.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39198">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">300744a926f0854d2955f6ac8096251e</td>
-       <td>CVE-2022-43260</td>
-       <td>2022-10-18 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Tenda AC18 V15.03.05.19(6318) was discovered to contain a stack overflow via the time parameter in the fromSetSysTime function.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43260">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">44e4c990bc3dc34848668472da7c180f</td>
-       <td>CVE-2022-43259</td>
-       <td>2022-10-18 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Tenda AC15 V15.03.05.18 was discovered to contain a stack overflow via the timeZone parameter in the form_fast_setting_wifi_set function.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43259">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">88b92cda6c7e0707c861f07efc502472</td>
-       <td>CVE-2022-41547</td>
-       <td>2022-10-18 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Mobile Security Framework (MobSF) v0.9.2 and below was discovered to contain a local file inclusion (LFI) vulnerability in the StaticAnalyzer/views.py script. This vulnerability allows attackers to read arbitrary files via a crafted HTTP request.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41547">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">83639b78a138ab9a03425cc96167eb40</td>
-       <td>CVE-2022-41544</td>
-       <td>2022-10-18 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>GetSimple CMS v3.3.16 was discovered to contain a remote code execution (RCE) vulnerability via the edited_file parameter in admin/theme-edit.php.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41544">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cd4bd0aaba1d54d8c9e4cd058bc9e90d</td>
-       <td>CVE-2022-41541</td>
-       <td>2022-10-18 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>TP-Link AX10v1 V1_211117 allows attackers to execute a replay attack by using a previously transmitted encrypted authentication message and valid authentication token. Attackers are able to login to the web application as an admin user.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41541">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c5f838f194fb5fe60d4f4d3514d6b261</td>
-       <td>CVE-2022-41540</td>
-       <td>2022-10-18 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>The web app client of TP-Link AX10v1 V1_211117 uses hard-coded cryptographic keys when communicating with the router. Attackers who are able to intercept the communications between the web client and router through a man-in-the-middle attack can then obtain the sequence key via a brute-force attack, and access sensitive information.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41540">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">39042976830b714fd4dbb7ae5a820c61</td>
-       <td>CVE-2022-41537</td>
-       <td>2022-10-18 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Online Tours & Travels Management System v1.0 was discovered to contain an arbitrary file upload vulnerability via the component /user_operations/profile.php. This vulnerability allows attackers to execute arbitrary code via a crafted PHP file.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41537">详情</a></td>
       </tr>
 
      </tbody>
