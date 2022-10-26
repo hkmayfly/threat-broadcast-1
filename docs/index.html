@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-10-26 22:19:05 -->
+<!-- RELEASE TIME : 2022-10-26 23:20:05 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,62 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">a886364fdc808d918aed07d6a4b71030</td>
+       <td>CVE-2022-40703</td>
+       <td>2022-10-26 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>CWE-302 Authentication Bypass by Assumed-Immutable Data in AliveCor Kardia App version 5.17.1-754993421 and prior on Android allows an unauthenticated attacker with physical access to the Android device containing the app to bypass application authentication and alter information in the app.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40703">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f067e19b9c56da9eed4f79bd6d8fb5c5</td>
+       <td>CVE-2022-3363</td>
+       <td>2022-10-26 21:15:00 <img src="imgs/new.gif" /></td>
+       <td>Business Logic Errors in GitHub repository ikus060/rdiffweb prior to 2.5.0a7.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3363">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">cca64bbdc10610174338fc8ab2626db6</td>
+       <td>CVE-2022-39355</td>
+       <td>2022-10-26 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Discourse Patreon enables syncronization between Discourse Groups and Patreon rewards. On sites with Patreon login enabled, an improper authentication vulnerability could be used to take control of a victim's forum account. This vulnerability is patched in commit number 846d012151514b35ce42a1636c7d70f6dcee879e of the discourse-patreon plugin. Out of an abundance of caution, any Discourse accounts which have logged in with an unverified-email Patreon account will be logged out and asked to verify their email address on their next login. As a workaround, disable the patreon integration and log out all users with associated Patreon accounts.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39355">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d4b748dd882da3659e0213e074a64b2c</td>
+       <td>CVE-2022-39348</td>
+       <td>2022-10-26 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Twisted is an event-based framework for internet applications. Started with version 0.9.4, when the host header does not match a configured host `twisted.web.vhost.NameVirtualHost` will return a `NoResource` resource which renders the Host header unescaped into the 404 response allowing HTML and script injection. In practice this should be very difficult to exploit as being able to modify the Host header of a normal HTTP request implies that one is already in a privileged position. This issue was fixed in version 22.10.0rc1. There are no known workarounds.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39348">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">09d0cffbb8afe9ab3b49914b1583b091</td>
+       <td>CVE-2022-39286</td>
+       <td>2022-10-26 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>Jupyter Core is a package for the core common functionality of Jupyter projects. Jupyter Core prior to version 4.11.2 contains an arbitrary code execution vulnerability in `jupyter_core` that stems from `jupyter_core` executing untrusted files in CWD. This vulnerability allows one user to run code as another. Version 4.11.2 contains a patch for this issue. There are no known workarounds.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39286">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">537438bcd3f8acb8ced61f7aef02db93</td>
+       <td>CVE-2022-3705</td>
+       <td>2022-10-26 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability was found in vim and classified as problematic. Affected by this issue is the function qf_update_buffer of the file quickfix.c of the component autocmd Handler. The manipulation leads to use after free. The attack may be launched remotely. Upgrading to version 9.0.0805 is able to address this issue. The name of the patch is d0fab10ed2a86698937e3c3fed2f10bd9bb5e731. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-212324.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3705">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">30aae0347a84155f4d1a0df529c1f436</td>
+       <td>CVE-2022-3704</td>
+       <td>2022-10-26 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability classified as problematic has been found in Ruby on Rails. This affects an unknown part of the file actionpack/lib/action_dispatch/middleware/templates/routes/_table.html.erb. The manipulation leads to cross site scripting. It is possible to initiate the attack remotely. The name of the patch is be177e4566747b73ff63fd5f529fab564e475ed4. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-212319.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3704">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">29ba110dc0b76385feda5a0649ac41c0</td>
        <td>CVE-2022-43003</td>
        <td>2022-10-26 19:15:00 <img src="imgs/new.gif" /></td>
@@ -461,62 +517,6 @@
        <td>2022-10-26 15:15:00 <img src="imgs/new.gif" /></td>
        <td>Multiple vulnerabilities in Cisco TelePresence Collaboration Endpoint (CE) Software and Cisco RoomOS Software could allow an attacker to conduct path traversal attacks, view sensitive data, or write arbitrary files on an affected device. For more information about these vulnerabilities, see the Details section of this advisory.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-20953">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cb8614d300e7805212b52167014e5acb</td>
-       <td>CVE-2022-20933</td>
-       <td>2022-10-26 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability in the Cisco AnyConnect VPN server of Cisco Meraki MX and Cisco Meraki Z3 Teleworker Gateway devices could allow an unauthenticated, remote attacker to cause a denial of service (DoS) condition on an affected device. This vulnerability is due to insufficient validation of client-supplied parameters while establishing an SSL VPN session. An attacker could exploit this vulnerability by crafting a malicious request and sending it to the affected device. A successful exploit could allow the attacker to cause the Cisco AnyConnect VPN server to crash and restart, resulting in the failure of the established SSL VPN connections and forcing remote users to initiate a new VPN connection and re-authenticate. A sustained attack could prevent new SSL VPN connections from being established. Note: When the attack traffic stops, the Cisco AnyConnect VPN server recovers gracefully without requiring manual intervention. Cisco Meraki has released software updates that address this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-20933">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9a9a5c838332c309a5d2df55ebec6623</td>
-       <td>CVE-2022-20822</td>
-       <td>2022-10-26 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability in the web-based management interface of Cisco Identity Services Engine (ISE) could allow an authenticated, remote attacker to read and delete files on an affected device. This vulnerability is due to insufficient validation of user-supplied input. An attacker could exploit this vulnerability by sending a crafted HTTP request that contains certain character sequences to an affected system. A successful exploit could allow the attacker to read or delete specific files on the device that their configured administrative level should not have access to. Cisco plans to release software updates that address this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-20822">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8917101367d49b9c4afa5364c95e4fe1</td>
-       <td>CVE-2022-20811</td>
-       <td>2022-10-26 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Multiple vulnerabilities in Cisco TelePresence Collaboration Endpoint (CE) Software and Cisco RoomOS Software could allow an attacker to conduct path traversal attacks, view sensitive data, or write arbitrary files on an affected device. For more information about these vulnerabilities, see the Details section of this advisory.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-20811">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6e9aa185733587e6c5fc76800715b378</td>
-       <td>CVE-2022-20776</td>
-       <td>2022-10-26 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Multiple vulnerabilities in Cisco TelePresence Collaboration Endpoint (CE) Software and Cisco RoomOS Software could allow an attacker to conduct path traversal attacks, view sensitive data, or write arbitrary files on an affected device. For more information about these vulnerabilities, see the Details section of this advisory.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-20776">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7ad8a37f4c298bb6182da1a3862536e2</td>
-       <td>CVE-2022-43749</td>
-       <td>2022-10-26 10:15:00 <img src="imgs/new.gif" /></td>
-       <td>Improper privilege management vulnerability in summary report management in Synology Presto File Server before 2.1.2-1601 allows remote authenticated users to bypass security constraint via unspecified vectors.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43749">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">de0c7a224b2b6839d1f7b58fe0613c1f</td>
-       <td>CVE-2022-43748</td>
-       <td>2022-10-26 10:15:00 <img src="imgs/new.gif" /></td>
-       <td>Improper limitation of a pathname to a restricted directory ('Path Traversal') vulnerability in file operation management in Synology Presto File Server before 2.1.2-1601 allows remote attackers to write arbitrary files via unspecified vectors.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43748">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9bae2f507f2b9190a0ded0caeecbaaa4</td>
-       <td>CVE-2022-29823</td>
-       <td>2022-10-26 10:15:00 <img src="imgs/new.gif" /></td>
-       <td>Feather-Sequalize cleanQuery method uses insecure recursive logic to filter unsupported keys from the query object. This results in a Remote Code Execution (RCE) with privileges of application.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29823">详情</a></td>
       </tr>
 
      </tbody>
