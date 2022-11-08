@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-11-08 01:23:55 -->
+<!-- RELEASE TIME : 2022-11-08 03:14:03 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">3ef38361b105cd645a21dc013628a770</td>
+       <td>CVE-2022-43359</td>
+       <td>2022-11-07 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Gifdec commit 1dcbae19363597314f6623010cc80abad4e47f7c was discovered to contain an out-of-bounds read in the function read_image_data. This vulnerability is triggered when parsing a crafted Gif file.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43359">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">f223d5d9ca910779729316d5b8c45c13</td>
        <td>CVE-2022-43049</td>
        <td>2022-11-07 22:15:00 <img src="imgs/new.gif" /></td>
@@ -509,14 +517,6 @@
        <td>2022-11-07 11:15:00 <img src="imgs/new.gif" /></td>
        <td>Cross-site Scripting (XSS) - DOM in GitHub repository jgraph/drawio prior to 20.5.2.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3873">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">66ad16cce1fd017d903af14bfbae8071</td>
-       <td>CVE-2022-37865</td>
-       <td>2022-11-07 11:15:00 <img src="imgs/new.gif" /></td>
-       <td>With Apache Ivy 2.4.0 an optional packaging attribute has been introduced that allows artifacts to be unpacked on the fly if they used pack200 or zip packaging. For artifacts using the "zip", "jar" or "war" packaging Ivy prior to 2.5.1 doesn't verify the target path when extracting the archive. An archive containing absolute paths or paths that try to traverse "upwards" using ".." sequences can then write files to any location on the local fie system that the user executing Ivy has write access to. Ivy users of version 2.4.0 to 2.5.0 should upgrade to Ivy 2.5.1.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-37865">详情</a></td>
       </tr>
 
      </tbody>
