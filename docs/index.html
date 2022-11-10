@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-11-10 01:25:22 -->
+<!-- RELEASE TIME : 2022-11-10 03:15:25 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">a1a0dcfd222f307256c4925bbf7b780b</td>
+       <td>CVE-2022-39368</td>
+       <td>2022-11-10 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>Eclipse Californium is a Java implementation of RFC7252 - Constrained Application Protocol for IoT Cloud services. In versions prior to 3.7.0, and 2.7.4, Californium is vulnerable to a Denial of Service. Failing handshakes don't cleanup counters for throttling, causing the threshold to be reached without being released again. This results in permanently dropping records. The issue was reported for certificate based handshakes, but may also affect PSK based handshakes. It generally affects client and server as well. This issue is patched in version 3.7.0 and 2.7.4. There are no known workarounds. main: commit 726bac57659410da463dcf404b3e79a7312ac0b9 2.7.x: commit 5648a0c27c2c2667c98419254557a14bac2b1f3f</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39368">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">34823ac0799f69457e257e4f54a032d6</td>
+       <td>CVE-2022-3819</td>
+       <td>2022-11-10 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>An improper authorization issue in GitLab CE/EE affecting all versions from 15.0 prior to 15.3.5, 15.4 prior to 15.4.4, and 15.5 prior to 15.5.2 allows a malicious users to set emojis on internal notes they don't have access to.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3819">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">39cbeafbf8fc4def883b7d9b569037a8</td>
+       <td>CVE-2022-3818</td>
+       <td>2022-11-10 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>An uncontrolled resource consumption issue when parsing URLs in GitLab CE/EE affecting all versions prior to 15.3.5, 15.4 prior to 15.4.4, and 15.5 prior to 15.5.2 allows an attacker to cause performance issues and potentially a denial of service on the GitLab instance.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3818">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">644f59c6622b175cf92c42f9f1f7d33a</td>
+       <td>CVE-2022-3793</td>
+       <td>2022-11-10 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>An improper authorization issue in GitLab CE/EE affecting all versions from 14.4 prior to 15.3.5, 15.4 prior to 15.4.4, and 15.5 prior to 15.5.2 allows an attacker to read variables set directly in a GitLab CI/CD configuration file they don't have access to.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3793">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">92561e00ecdaddabeeb0788399eeaa88</td>
+       <td>CVE-2022-3726</td>
+       <td>2022-11-10 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>Lack of sand-boxing of OpenAPI documents in GitLab CE/EE affecting all versions from 12.6 prior to 15.3.5, 15.4 prior to 15.4.4, and 15.5 prior to 15.5.2 allows an attacker to trick a user to click on the Swagger OpenAPI viewer and issue HTTP requests that affect the victim's account.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3726">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8afc0ae9993da3f7022184daca8ff6d8</td>
+       <td>CVE-2022-3706</td>
+       <td>2022-11-10 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>Improper authorization in GitLab CE/EE affecting all versions from 7.14 prior to 15.3.5, 15.4 prior to 15.4.4, and 15.5 prior to 15.5.2 allows a user retrying a job in a downstream pipeline to take ownership of the retried jobs in the upstream pipeline even if the user doesn't have access to that project.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3706">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5f972386fa7e1f3d241de21cc140185f</td>
+       <td>CVE-2022-3413</td>
+       <td>2022-11-10 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>Incorrect authorization during display of Audit Events in GitLab EE affecting all versions from 14.5 prior to 15.3.5, 15.4 prior to 15.4.4, and 15.5 prior to 15.5.2, allowed Developers to view the project's Audit Events and Developers or Maintainers to view the group's Audit Events. These should have been restricted to Project Maintainers, Group Owners, and above.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3413">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">47f6128186556702f8361ccbb9198437</td>
+       <td>CVE-2022-39307</td>
+       <td>2022-11-09 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Grafana is an open-source platform for monitoring and observability. When using the forget password on the login page, a POST request is made to the `/api/user/password/sent-reset-email` URL. When the username or email does not exist, a JSON response contains a “user not found” message. This leaks information to unauthenticated users and introduces a security risk. This issue has been patched in 9.2.4 and backported to 8.5.15. There are no known workarounds.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39307">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b880cec188fa652e9c798a5e8c0952f3</td>
+       <td>CVE-2022-3486</td>
+       <td>2022-11-09 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>An open redirect vulnerability in GitLab EE/CE affecting all versions from 9.3 prior to 15.3.5, 15.4 prior to 15.4.4, and 15.5 prior to 15.5.2, allows an attacker to redirect users to an arbitrary location if they trust the URL.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3486">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">87b78a41cddeee80b3ed3852d0f0291f</td>
+       <td>CVE-2022-3483</td>
+       <td>2022-11-09 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue has been discovered in GitLab CE/EE affecting all versions starting from 12.1 before 15.3.5, all versions starting from 15.4 before 15.4.4, all versions starting from 15.5 before 15.5.2. A malicious maintainer could exfiltrate a Datadog integration's access token by modifying the integration URL such that authenticated requests are sent to an attacker controlled server.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3483">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">3a369347b092d15dd6cd0a4075e4aa2c</td>
        <td>CVE-2022-44590</td>
        <td>2022-11-09 22:15:00 <img src="imgs/new.gif" /></td>
@@ -437,86 +517,6 @@
        <td>2022-11-09 18:15:00 <img src="imgs/new.gif" /></td>
        <td>An out-of-bounds write vulnerability exists in the PICT parsing pctwread_14841 functionality of Accusoft ImageGear 20.0. A specially-crafted malformed file can lead to memory corruption. An attacker can provide a malicious file to trigger this vulnerability.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32588">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">aa23d8f9eea400e915f563a61768fe6d</td>
-       <td>CVE-2022-30543</td>
-       <td>2022-11-09 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>A leftover debug code vulnerability exists in the console infct functionality of InHand Networks InRouter302 V3.5.45. A specially-crafted series of network requests can lead to execution of privileged operations. An attacker can send a sequence of requests to trigger this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-30543">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4e798993e28ac2dbda0331d8afbb2019</td>
-       <td>CVE-2022-29888</td>
-       <td>2022-11-09 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>A leftover debug code vulnerability exists in the httpd port 4444 upload.cgi functionality of InHand Networks InRouter302 V3.5.45. A specially-crafted HTTP request can lead to arbitrary file deletion. An attacker can send an HTTP request to trigger this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29888">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">fdec94da4b9c75fc1a3af3f0ed227c09</td>
-       <td>CVE-2022-29481</td>
-       <td>2022-11-09 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>A leftover debug code vulnerability exists in the console nvram functionality of InHand Networks InRouter302 V3.5.45. A specially-crafted series of network requests can lead to disabling security features. An attacker can send a sequence of requests to trigger this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-29481">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1f3283c8123628fe3d0c02719b16282d</td>
-       <td>CVE-2022-28689</td>
-       <td>2022-11-09 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>A leftover debug code vulnerability exists in the console support functionality of InHand Networks InRouter302 V3.5.45. A specially-crafted network request can lead to arbitrary command execution. An attacker can send a sequence of requests to trigger this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-28689">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">893f6652ca909f41c95e4b13c64d1f8d</td>
-       <td>CVE-2022-26023</td>
-       <td>2022-11-09 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>A leftover debug code vulnerability exists in the console verify functionality of InHand Networks InRouter302 V3.5.45. A specially-crafted series of network requests can lead to disabling security features. An attacker can send a sequence of requests to trigger this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26023">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3bb1737ba4dee1c1b21e2a38a22caa4f</td>
-       <td>CVE-2022-25932</td>
-       <td>2022-11-09 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>The firmware of InHand Networks InRouter302 V3.5.45 introduces fixes for TALOS-2022-1472 and TALOS-2022-1474. The fixes are incomplete. An attacker can still perform, respectively, a privilege escalation and an information disclosure vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25932">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">68502c169ee540183d7e37f6ddf5b179</td>
-       <td>CVE-2022-0031</td>
-       <td>2022-11-09 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>A local privilege escalation (PE) vulnerability in the Palo Alto Networks Cortex XSOAR engine software running on a Linux operating system allows a local attacker with shell access to the engine to execute programs with elevated privileges.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-0031">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">13a253228270df0afcd9acbe0086b55c</td>
-       <td>CVE-2021-34579</td>
-       <td>2022-11-09 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>In Phoenix Contact: FL MGUARD DM version 1.12.0 and 1.13.0 access to the Apache web server being installed as part of the FL MGUARD DM on Microsoft Windows does not require login credentials even if configured during installation.Attackers with network access to the Apache web server can download and therefore read mGuard configuration profiles (“ATV profiles”). Such configuration profiles may contain sensitive information, e.g. private keys associated with IPsec VPN connections.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-34579">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9aea6fac962c57c38d6766c1e8f084a3</td>
-       <td>CVE-2021-34577</td>
-       <td>2022-11-09 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>In the Kaden PICOFLUX AiR water meter an adversary can read the values through wireless M-Bus mode 5 with a hardcoded shared key while being adjacent to the device.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-34577">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e82dbe923b5278c1e514aa8b266c27fa</td>
-       <td>CVE-2022-43488</td>
-       <td>2022-11-09 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross-Site Request Forgery (CSRF) vulnerability in Advanced Dynamic Pricing for WooCommerce plugin <= 4.1.5 on WordPress leading to rule type migration.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43488">详情</a></td>
       </tr>
 
      </tbody>
@@ -1420,6 +1420,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">78a7c315c52241a9ec8aa7e669e3177e</td>
+       <td>CVE-2022-27510</td>
+       <td>2022-11-10 10:23:40 <img src="imgs/new.gif" /></td>
+       <td>Citrix Gateway和Citrix ADC身份认证绕过漏洞</td>
+       <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7746">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">8cc30ca117bad2e7ddf3f4e26fc29c1e</td>
        <td>CVE-2022-39327,CVE-2022-41040,CVE-2022-41080,CVE-2022-38015,CVE-2022-37967,CVE-2022-37966,CVE-2022-41044,CVE-2022-41088,CVE-2022-41118,CVE-2022-41128,CVE-2022-41091,CVE-2022-41073,CVE-2022-41125,CVE-2022-41082</td>
        <td>2022-11-09 15:48:29 <img src="imgs/new.gif" /></td>
@@ -1649,14 +1657,6 @@
        <td>2022-10-08 10:47:33</td>
        <td>Apache Commons JXPath 存在代码执行漏洞</td>
        <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7586">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">31165ae7ae25d3419a1d9f2d2e882e05</td>
-       <td>CVE-2022-41040</td>
-       <td>2022-09-30 18:18:55</td>
-       <td>Microsoft Exchange 远程代码执行漏洞(ProxyNotShell)</td>
-       <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7582">详情</a></td>
       </tr>
 
      </tbody>
@@ -2444,6 +2444,14 @@
       </tr>
 
       <tr>
+       <td scope="row">2ccb6d4c5416afc36de6ceb0f43aaba3</td>
+       <td>CVE-2022-42494</td>
+       <td>2022-11-08 19:15:16 </td>
+       <td>Server Side Request Forgery (SSRF) vulnerability in All in One SEO Pro plugin &lt;= 4.2.5.1 on WordPress.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-42494">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">30cf01df9bace49b121933bfb2669faf</td>
        <td>CVE-2022-44321</td>
        <td>2022-11-08 15:15:12 </td>
@@ -2620,6 +2628,14 @@
       </tr>
 
       <tr>
+       <td scope="row">ab1f995c22cee8c37707ddef151c336a</td>
+       <td>CVE-2022-42707</td>
+       <td>2022-11-06 17:15:10 </td>
+       <td>In Mahara 21.04 before 21.04.7, 21.10 before 21.10.5, 22.04 before 22.04.3, and 22.10 before 22.10.0, embedded images are accessible without a sufficient permission check under certain conditions.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-42707">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">9e06bb9c7938db9c94ba2bc9b5c1a70b</td>
        <td>CVE-2022-3721</td>
        <td>2022-11-04 13:15:10 </td>
@@ -2633,22 +2649,6 @@
        <td>2022-11-04 07:15:09 </td>
        <td>The Handy Tip macro in Stiltsoft Handy Macros for Confluence Server/Data Center 3.x before 3.5.5 allows remote attackers to inject arbitrary HTML or JavaScript via a Cross-Site Scripting (XSS) vulnerability.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-44724">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">da48f4c2281dc880de4f568aa203d53c</td>
-       <td>CVE-2022-44628</td>
-       <td>2022-11-03 20:15:34 </td>
-       <td>Auth. (admin+) Stored Cross-Site Scripting (XSS) vulnerability in JumpDEMAND Inc. 4ECPS Web Forms plugin &lt;= 0.2.17 on WordPress.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-44628">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">dad66aff0eff42c6b34036c839c022b1</td>
-       <td>CVE-2022-44627</td>
-       <td>2022-11-03 20:15:34 </td>
-       <td>Cross-Site Request Forgery (CSRF) vulnerability in David Cole Simple SEO plugin &lt;= 1.8.12 on WordPress allows attackers to create or delete sitemaps.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-44627">详情</a></td>
       </tr>
 
      </tbody>
