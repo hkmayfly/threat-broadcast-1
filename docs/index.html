@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-11-10 09:42:01 -->
+<!-- RELEASE TIME : 2022-11-10 14:32:05 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,70 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">68b1bc6a93f4eaca4cc3c534488d51f7</td>
+       <td>CVE-2022-42787</td>
+       <td>2022-11-10 12:15:00 <img src="imgs/new.gif" /></td>
+       <td>Multiple W&T products of the Comserver Series use a small number space for allocating sessions ids. An unathenticated remote attacker can brute force the session id and gets access to an account on the the device.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42787">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">448cd688e1b4c0b37ebdf08674b4a11e</td>
+       <td>CVE-2022-42786</td>
+       <td>2022-11-10 12:15:00 <img src="imgs/new.gif" /></td>
+       <td>Multiple W&T Products of the ComServer Series are prone to an XSS attack. An authenticated remote Attacker can execute arbitrary web scripts or HTML via a crafted payload injected into the title of the configuration webpage</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42786">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">342d7e8cbc21ccf410a9856dcc6f4f94</td>
+       <td>CVE-2022-45130</td>
+       <td>2022-11-10 06:15:00 <img src="imgs/new.gif" /></td>
+       <td>Plesk Obsidian allows a CSRF attack, e.g., via the /api/v2/cli/commands REST API to change an Admin password. NOTE: Obsidian is a specific version of the Plesk product: version numbers were used through version 12, and then the convention was changed so that versions are identified by names ("Obsidian"), not numbers.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45130">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">65e2bd43d7344b9e21477b32e7bde6e8</td>
+       <td>CVE-2022-45129</td>
+       <td>2022-11-10 06:15:00 <img src="imgs/new.gif" /></td>
+       <td>Payara before 2022-11-04, when deployed to the root context, allows attackers to visit META-INF and WEB-INF, a different vulnerability than CVE-2022-37422. This affects Payara Platform Community before 4.1.2.191.38, 5.x before 5.2022.4, and 6.x before 6.2022.1, and Payara Platform Enterprise before 5.45.0.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45129">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">33cc5673c964fbb618ba17292700ee39</td>
+       <td>CVE-2022-3867</td>
+       <td>2022-11-10 06:15:00 <img src="imgs/new.gif" /></td>
+       <td>HashiCorp Nomad and Nomad Enterprise 1.4.0 up to 1.4.1 event stream subscribers using a token with TTL receive updates until token garbage is collected. Fixed in 1.4.2.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3867">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5460e460b8eaff5fa62141876a6b289b</td>
+       <td>CVE-2022-3866</td>
+       <td>2022-11-10 06:15:00 <img src="imgs/new.gif" /></td>
+       <td>HashiCorp Nomad and Nomad Enterprise 1.4.0 up to 1.4.1 workload identity token can list non-sensitive metadata for paths under nomad/ that belong to other jobs in the same namespace. Fixed in 1.4.2.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3866">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d5abe841442ae2a1fec38932b42d5429</td>
+       <td>CVE-2022-39398</td>
+       <td>2022-11-10 01:15:00 <img src="imgs/new.gif" /></td>
+       <td>tasklists is a tasklists plugin for GLPI (Kanban). Versions prior to 2.0.3 are vulnerable to Cross-site Scripting. Cross-site Scripting (XSS) - Create XSS in task content (when add it). This issue is patched in version 2.0.3. There are no known workarounds.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39398">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">272525086f237b8c88c55756975195cf</td>
+       <td>CVE-2022-39396</td>
+       <td>2022-11-10 01:15:00 <img src="imgs/new.gif" /></td>
+       <td>Parse Server is an open source backend that can be deployed to any infrastructure that can run Node.js. Versions prior to 4.10.18, and prior to 5.3.1 on the 5.X branch, are vulnerable to Remote Code Execution via prototype pollution. An attacker can use this prototype pollution sink to trigger a remote code execution through the MongoDB BSON parser. This issue is patched in version 5.3.1 and in 4.10.18. There are no known workarounds.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39396">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">a1a0dcfd222f307256c4925bbf7b780b</td>
        <td>CVE-2022-39368</td>
        <td>2022-11-10 00:15:00 <img src="imgs/new.gif" /></td>
@@ -455,70 +519,6 @@
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42965">详情</a></td>
       </tr>
 
-      <tr>
-       <td scope="row">ea9bf23cf18a526c6f4e5c20fdbc4325</td>
-       <td>CVE-2022-42964</td>
-       <td>2022-11-09 20:15:00 <img src="imgs/new.gif" /></td>
-       <td>An exponential ReDoS (Regular Expression Denial of Service) can be triggered in the pymatgen PyPI package, when an attacker is able to supply arbitrary input to the GaussianInput.from_string method</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42964">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">36333003434bb9397f716e81ed140072</td>
-       <td>CVE-2022-3450</td>
-       <td>2022-11-09 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>Use after free in Peer Connection in Google Chrome prior to 106.0.5249.119 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3450">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">bce6fd4cee01c9e81a947a1a6c70d3c1</td>
-       <td>CVE-2022-3449</td>
-       <td>2022-11-09 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>Use after free in Safe Browsing in Google Chrome prior to 106.0.5249.119 allowed an attacker who convinced a user to install a malicious extension to potentially exploit heap corruption via a crafted Chrome Extension. (Chromium security severity: High)</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3449">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8e6b8d81f9acde0ade729c36549432ce</td>
-       <td>CVE-2022-3448</td>
-       <td>2022-11-09 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>Use after free in Permissions API in Google Chrome prior to 106.0.5249.119 allowed a remote attacker who convinced a user to engage in specific UI gestures to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3448">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1ca8962559ebe261d0f191315bf7c66e</td>
-       <td>CVE-2022-3447</td>
-       <td>2022-11-09 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>Inappropriate implementation in Custom Tabs in Google Chrome on Android prior to 106.0.5249.119 allowed a remote attacker to spoof the contents of the Omnibox (URL bar) via a crafted HTML page. (Chromium security severity: High)</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3447">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">45fc45a495ba874b5c8266a368cf865d</td>
-       <td>CVE-2022-3446</td>
-       <td>2022-11-09 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>Heap buffer overflow in WebSQL in Google Chrome prior to 106.0.5249.119 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3446">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">21d3b10516c631150a582a75aa6af3af</td>
-       <td>CVE-2022-3445</td>
-       <td>2022-11-09 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>Use after free in Skia in Google Chrome prior to 106.0.5249.119 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3445">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">499b872967072c5dc839901775eb397f</td>
-       <td>CVE-2022-32588</td>
-       <td>2022-11-09 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>An out-of-bounds write vulnerability exists in the PICT parsing pctwread_14841 functionality of Accusoft ImageGear 20.0. A specially-crafted malformed file can lead to memory corruption. An attacker can provide a malicious file to trigger this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32588">详情</a></td>
-      </tr>
-
      </tbody>
     </table>
    </div>
@@ -533,6 +533,15 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">c8515f10759432b2189e6dbc35df11b9</td>
+       <td>VHN-429783</td>
+       <td>2022-11-10 14:31:56 <img src="imgs/new.gif" /></td>
+       <td>Chrome...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-429783">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">741b5662c09529d5dbf380a7138ec4b9</td>
        <td>VHN-429774</td>
@@ -792,15 +801,6 @@
        <td>Red Hat Security Advisory 2022-7821-01...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-429747">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d69347802961b548bde7d28f33144ebc</td>
-       <td>VHN-429748</td>
-       <td>2022-11-08 15:43:29</td>
-       <td>Red Hat Security Advisory 2022-7822-01...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-429748">详情</a></td>
       </tr>
 
      </tbody>
@@ -1904,6 +1904,62 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">7aa48ec41c63323b2ea847e0992b3b42</td>
+       <td>CVE-2022-44793</td>
+       <td>2022-11-10 20:33:45 <img src="imgs/new.gif" /></td>
+       <td>NET-SNMP NET-SNMP Vulnerability</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=0fad592d8b46448691a63329b0290f2c">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">476b7c85646c309e69950b9fda5955d1</td>
+       <td>CVE-2022-20937</td>
+       <td>2022-11-10 20:33:40 <img src="imgs/new.gif" /></td>
+       <td>CISCO IDENTITY_SERVICES_ENGINE Vulnerability</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=adefef3d64864d95ab16d3440036b6bf">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f0f997404f8f666f6132451168f28c7b</td>
+       <td>CVE-2022-2188</td>
+       <td>2022-11-10 20:33:36 <img src="imgs/new.gif" /></td>
+       <td>MCAFEE DATA_EXCHANGE_LAYER Vulnerability</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=3471cbcef6304997af80495a4092cce8">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">728ba1b17cdfe8ea8b52e4e66df79e81</td>
+       <td>CVE-2022-43568</td>
+       <td>2022-11-10 20:33:31 <img src="imgs/new.gif" /></td>
+       <td>SPLUNK Multiple product Vulnerability</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=52a6c6e4465844f1a775d680bd8c5192">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1ee0cc83a0c569b99724a0508b1274ec</td>
+       <td>CVE-2022-3869</td>
+       <td>2022-11-10 20:33:24 <img src="imgs/new.gif" /></td>
+       <td>FROXLOR FROXLOR Vulnerability</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=bbe963d6dedc4173b3850c962e459791">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6813deb45dd2e7101348e8ba23755bab</td>
+       <td>CVE-2022-20951</td>
+       <td>2022-11-10 20:33:13 <img src="imgs/new.gif" /></td>
+       <td>CISCO BROADWORKS_MESSAGING_SERVER Vulnerability</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=ed3e8a20d75d42fa801fc206c2b3c6c8">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6511e4366dba00d11ae87d150daa4505</td>
+       <td>CVE-2022-39277</td>
+       <td>2022-11-10 20:32:55 <img src="imgs/new.gif" /></td>
+       <td>GLPI-PROJECT GLPI Vulnerability</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=625307d438884979bb1ed89cd4e0ec29">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">498fbc2ba7bc37b3060f08e5fe2bf3fe</td>
        <td>CVE-2022-30608</td>
        <td>2022-11-09 20:37:31 <img src="imgs/new.gif" /></td>
@@ -2085,62 +2141,6 @@
        <td>2022-11-06 20:34:05</td>
        <td>GLPI-PROJECT GLPI Vulnerability</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=544a9c1254bb4f39a85b5f99d7243471">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b80b559db73f0fad6338c08a906e8adb</td>
-       <td>CVE-2022-39375</td>
-       <td>2022-11-06 20:34:00</td>
-       <td>GLPI-PROJECT GLPI Vulnerability</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=3394cf7ce36246cca2a77e7de45684c8">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f4bca4bbce4cc848db2138fa66e52f07</td>
-       <td>CVE-2022-38372</td>
-       <td>2022-11-06 20:33:54</td>
-       <td>FORTINET FORTITESTER Vulnerability</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=72acd70ea5ec43f1880531f6b108bbcd">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">90091a41b4c8644f4b02cc506f5ed2cc</td>
-       <td>CVE-2022-39234</td>
-       <td>2022-11-06 20:33:43</td>
-       <td>GLPI-PROJECT GLPI Vulnerability</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=961830b8e9864830b0e0aa0008efeab5">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b33dfac37e8abf0dfc4066365b0db66f</td>
-       <td>CVE-2022-39276</td>
-       <td>2022-11-06 20:33:38</td>
-       <td>GLPI-PROJECT GLPI Vulnerability</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=16ee8bb3b0f5498298b4e40c29f6fe3d">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c41eee32e8b9f7e225331303d818d277</td>
-       <td>CVE-2022-44622</td>
-       <td>2022-11-06 20:33:32</td>
-       <td>JETBRAINS TEAMCITY Vulnerability</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=2754abf36c56401c8cd634af98abd7fa">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9286863c930234e792990b7a38576dea</td>
-       <td>CVE-2022-44624</td>
-       <td>2022-11-06 20:33:27</td>
-       <td>JETBRAINS TEAMCITY Vulnerability</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=ac81ef9de22443e589beee52a15c23d5">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c461fa4d3abf6e16a57b9d6699f4788a</td>
-       <td>CVE-2022-43995</td>
-       <td>2022-11-05 20:46:26</td>
-       <td>SUDO_PROJECT SUDO Vulnerability</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=83dd304e6c6c451592c4747b6fd0d2f4">详情</a></td>
       </tr>
 
      </tbody>
