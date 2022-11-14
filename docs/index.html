@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-11-14 11:38:37 -->
+<!-- RELEASE TIME : 2022-11-14 12:37:34 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,70 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">31da6ef994f380a8b98329eabd97abe1</td>
+       <td>CVE-2022-40127</td>
+       <td>2022-11-14 10:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability in Example Dags of Apache Airflow allows an attacker with UI access who can trigger DAGs, to execute arbitrary commands via manually provided run_id parameter. This issue affects Apache Airflow Apache Airflow versions prior to 2.4.0.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40127">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d970ce6c25a6e42651d165b1e10ec815</td>
+       <td>CVE-2022-27949</td>
+       <td>2022-11-14 10:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability in UI of Apache Airflow allows an attacker to view unmasked secrets in rendered template values for tasks which were not executed (for example when they were depending on past and previous instances of the task failed). This issue affects Apache Airflow prior to 2.3.1.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-27949">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0bf71477cf191237c5a72f5f1ae46352</td>
+       <td>CVE-2022-45184</td>
+       <td>2022-11-14 08:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Web Server in Ironman Software PowerShell Universal v3.x and v2.x allows for directory traversal outside of the configuration directory, which allows a remote attacker with administrator privilege to create, delete, update, and display files outside of the configuration directory via a crafted HTTP request to particular endpoints in the web server. Patched Versions are 3.5.3 and 3.4.7.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45184">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">db0a373576f361b4f99b1d6ed0ed6f03</td>
+       <td>CVE-2022-45183</td>
+       <td>2022-11-14 08:15:00 <img src="imgs/new.gif" /></td>
+       <td>Escalation of privileges in the Web Server in Ironman Software PowerShell Universal 2.x and 3.x allows an attacker with a valid app token to retrieve other app tokens by ID via an HTTP web request. Patched Versions are 3.5.3, 3.4.7, and 2.12.6.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45183">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9625a09f2f0746f69310457315cb6429</td>
+       <td>CVE-2022-37290</td>
+       <td>2022-11-14 08:15:00 <img src="imgs/new.gif" /></td>
+       <td>GNOME Nautilus 42.2 allows a NULL pointer dereference and get_basename application crash via a pasted ZIP archive.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-37290">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">81217f56b6a57b54568eac15b06f8869</td>
+       <td>CVE-2022-45199</td>
+       <td>2022-11-14 07:15:00 <img src="imgs/new.gif" /></td>
+       <td>Pillow before 9.3.0 allows denial of service via SAMPLESPERPIXEL.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45199">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7c214787a719fbd2c83479fd7352e876</td>
+       <td>CVE-2022-45198</td>
+       <td>2022-11-14 07:15:00 <img src="imgs/new.gif" /></td>
+       <td>Pillow before 9.2.0 performs Improper Handling of Highly Compressed GIF Data (Data Amplification).</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45198">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a1601745a40b9e7ac00f004c93cc7df8</td>
+       <td>CVE-2022-31630</td>
+       <td>2022-11-14 07:15:00 <img src="imgs/new.gif" /></td>
+       <td>In PHP versions prior to 7.4.33, 8.0.25 and 8.2.12, when using imageloadfont() function in gd extension, it is possible to supply a specially crafted font file, such as if the loaded font is used with imagechar() function, the read outside allocated buffer will be used. This can lead to crashes or disclosure of confidential information.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31630">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">7ce44e0b7531dadeafd5d1033e4df674</td>
        <td>CVE-2021-38828</td>
        <td>2022-11-14 02:15:00 <img src="imgs/new.gif" /></td>
@@ -453,70 +517,6 @@
        <td>2022-11-12 05:15:00</td>
        <td>** UNSUPPORTED WHEN ASSIGNED ** A security filter misconfiguration exists in VMware Hyperic Server 5.8.6. Exploitation of this vulnerability enables a malicious party to bypass some authentication requirements when issuing requests to Hyperic Server. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-38651">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9add81a7bb8364f4b5809e7000cbd825</td>
-       <td>CVE-2022-38650</td>
-       <td>2022-11-12 05:15:00</td>
-       <td>** UNSUPPORTED WHEN ASSIGNED ** A remote unauthenticated insecure deserialization vulnerability exists in VMware Hyperic Server 5.8.6. Exploitation of this vulnerability enables a malicious party to run arbitrary code or malware within Hyperic Server and the host operating system with the privileges of the Hyperic server process. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-38650">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5dc32c3aef4259f96ffed0f3215c52dc</td>
-       <td>CVE-2022-43672</td>
-       <td>2022-11-12 04:15:00</td>
-       <td>Zoho ManageEngine Password Manager Pro before 12122, PAM360 before 5711, and Access Manager Plus before 4306 allow SQL Injection (in a different software component relative to CVE-2022-43671.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43672">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f69809561bfbf1db602b10293d077b34</td>
-       <td>CVE-2022-43671</td>
-       <td>2022-11-12 04:15:00</td>
-       <td>Zoho ManageEngine Password Manager Pro before 12122, PAM360 before 5711, and Access Manager Plus before 4306 allow SQL Injection.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43671">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">106601c243b8f9cac0f3761d18f7957e</td>
-       <td>CVE-2022-41339</td>
-       <td>2022-11-12 04:15:00</td>
-       <td>In Zoho ManageEngine Mobile Device Manager Plus before 10.1.2207.5, the User Administration module allows privilege escalation.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41339">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">eaac12b097479cecf8c826702134f549</td>
-       <td>CVE-2022-40773</td>
-       <td>2022-11-12 04:15:00</td>
-       <td>Zoho ManageEngine ServiceDesk Plus MSP before 10609 and SupportCenter Plus before 11025 are vulnerable to privilege escalation. This allows users to obtain sensitive data during an export of requests from the list view.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40773">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e54b563021891599dc9027b7c518dba0</td>
-       <td>CVE-2022-45194</td>
-       <td>2022-11-12 00:15:00</td>
-       <td>CBRN-Analysis before 22 allows XXE attacks via am mws XML document, leading to NTLMv2-SSP hash disclosure.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45194">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">fe0ee3acac7d332b076c9eca6a65eae8</td>
-       <td>CVE-2022-45193</td>
-       <td>2022-11-12 00:15:00</td>
-       <td>CBRN-Analysis before 22 has weak file permissions under Public Profile, leading to disclosure of file contents or privilege escalation.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45193">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">249dcfaac5e2f1158ea622ed0335d004</td>
-       <td>CVE-2022-41905</td>
-       <td>2022-11-11 21:15:00</td>
-       <td>WsgiDAV is a generic and extendable WebDAV server based on WSGI. Implementations using this library with directory browsing enabled may be susceptible to Cross Site Scripting (XSS) attacks. This issue has been patched, users can upgrade to version 4.1.0. As a workaround, set `dir_browser.enable = False` in the configuration.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41905">详情</a></td>
       </tr>
 
      </tbody>
