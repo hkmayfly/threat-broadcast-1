@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-11-18 23:15:57 -->
+<!-- RELEASE TIME : 2022-11-19 01:21:50 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">94b19125f235b796cee9fe59b1e09666</td>
+       <td>CVE-2022-41911</td>
+       <td>2022-11-18 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>TensorFlow is an open source platform for machine learning. When printing a tensor, we get it's data as a `const char*` array (since that's the underlying storage) and then we typecast it to the element type. However, conversions from `char` to `bool` are undefined if the `char` is not `0` or `1`, so sanitizers/fuzzers will crash. The issue has been patched in GitHub commit `1be74370327`. The fix will be included in TensorFlow 2.11.0. We will also cherrypick this commit on TensorFlow 2.10.1, TensorFlow 2.9.3, and TensorFlow 2.8.4, as these are also affected and still in supported range.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41911">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f2ee438162976f6a3e9ece1854f319e1</td>
+       <td>CVE-2022-41909</td>
+       <td>2022-11-18 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>TensorFlow is an open source platform for machine learning. An input `encoded` that is not a valid `CompositeTensorVariant` tensor will trigger a segfault in `tf.raw_ops.CompositeTensorVariantToComponents`. We have patched the issue in GitHub commits bf594d08d377dc6a3354d9fdb494b32d45f91971 and 660ce5a89eb6766834bdc303d2ab3902aef99d3d. The fix will be included in TensorFlow 2.11. We will also cherrypick this commit on TensorFlow 2.10.1, 2.9.3, and TensorFlow 2.8.4, as these are also affected and still in supported range.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41909">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ffdedbcaa9ee1b447a3638eee70568e6</td>
+       <td>CVE-2022-41908</td>
+       <td>2022-11-18 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>TensorFlow is an open source platform for machine learning. An input `token` that is not a UTF-8 bytestring will trigger a `CHECK` fail in `tf.raw_ops.PyFunc`. We have patched the issue in GitHub commit 9f03a9d3bafe902c1e6beb105b2f24172f238645. The fix will be included in TensorFlow 2.11. We will also cherrypick this commit on TensorFlow 2.10.1, 2.9.3, and TensorFlow 2.8.4, as these are also affected and still in supported range.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41908">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a4ce0332f60fbf6ddecdfa9c597a269f</td>
+       <td>CVE-2022-41907</td>
+       <td>2022-11-18 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>TensorFlow is an open source platform for machine learning. When `tf.raw_ops.ResizeNearestNeighborGrad` is given a large `size` input, it overflows. We have patched the issue in GitHub commit 00c821af032ba9e5f5fa3fe14690c8d28a657624. The fix will be included in TensorFlow 2.11. We will also cherrypick this commit on TensorFlow 2.10.1, 2.9.3, and TensorFlow 2.8.4, as these are also affected and still in supported range.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41907">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b5a223d262cd86192e163fdbbd677cff</td>
+       <td>CVE-2022-41901</td>
+       <td>2022-11-18 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>TensorFlow is an open source platform for machine learning. An input `sparse_matrix` that is not a matrix with a shape with rank 0 will trigger a `CHECK` fail in `tf.raw_ops.SparseMatrixNNZ`. We have patched the issue in GitHub commit f856d02e5322821aad155dad9b3acab1e9f5d693. The fix will be included in TensorFlow 2.11. We will also cherrypick this commit on TensorFlow 2.10.1, 2.9.3, and TensorFlow 2.8.4, as these are also affected and still in supported range.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41901">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">48deac33dee112f16cf3f1f53d88f9ba</td>
+       <td>CVE-2022-41900</td>
+       <td>2022-11-18 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>TensorFlow is an open source platform for machine learning. The security vulnerability results in FractionalMax(AVG)Pool with illegal pooling_ratio. Attackers using Tensorflow can exploit the vulnerability. They can access heap memory which is not in the control of user, leading to a crash or remote code execution. We have patched the issue in GitHub commit 216525144ee7c910296f5b05d214ca1327c9ce48. The fix will be included in TensorFlow 2.11.0. We will also cherry pick this commit on TensorFlow 2.10.1.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41900">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">590733b80113360083e3d2c30c2a97d5</td>
+       <td>CVE-2022-41899</td>
+       <td>2022-11-18 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>TensorFlow is an open source platform for machine learning. Inputs `dense_features` or `example_state_data` not of rank 2 will trigger a `CHECK` fail in `SdcaOptimizer`. We have patched the issue in GitHub commit 80ff197d03db2a70c6a111f97dcdacad1b0babfa. The fix will be included in TensorFlow 2.11. We will also cherrypick this commit on TensorFlow 2.10.1, 2.9.3, and TensorFlow 2.8.4, as these are also affected and still in supported range.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41899">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3af568f527282bf20556f88057ea8dc9</td>
+       <td>CVE-2022-41898</td>
+       <td>2022-11-18 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>TensorFlow is an open source platform for machine learning. If `SparseFillEmptyRowsGrad` is given empty inputs, TensorFlow will crash. We have patched the issue in GitHub commit af4a6a3c8b95022c351edae94560acc61253a1b8. The fix will be included in TensorFlow 2.11. We will also cherrypick this commit on TensorFlow 2.10.1, 2.9.3, and TensorFlow 2.8.4, as these are also affected and still in supported range.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41898">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e7fdd645c0f9d6beb5cb6bbea72403ff</td>
+       <td>CVE-2022-41897</td>
+       <td>2022-11-18 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>TensorFlow is an open source platform for machine learning. If `FractionMaxPoolGrad` is given outsize inputs `row_pooling_sequence` and `col_pooling_sequence`, TensorFlow will crash. We have patched the issue in GitHub commit d71090c3e5ca325bdf4b02eb236cfb3ee823e927. The fix will be included in TensorFlow 2.11. We will also cherrypick this commit on TensorFlow 2.10.1, 2.9.3, and TensorFlow 2.8.4, as these are also affected and still in supported range.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41897">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">854001af73cfb4710872940d1284cfda</td>
+       <td>CVE-2022-41896</td>
+       <td>2022-11-18 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>TensorFlow is an open source platform for machine learning. If `ThreadUnsafeUnigramCandidateSampler` is given input `filterbank_channel_count` greater than the allowed max size, TensorFlow will crash. We have patched the issue in GitHub commit 39ec7eaf1428e90c37787e5b3fbd68ebd3c48860. The fix will be included in TensorFlow 2.11. We will also cherrypick this commit on TensorFlow 2.10.1, 2.9.3, and TensorFlow 2.8.4, as these are also affected and still in supported range.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41896">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">3ab73ae2e24abbf3d7c6b25470575788</td>
        <td>CVE-2022-43673</td>
        <td>2022-11-18 20:15:00 <img src="imgs/new.gif" /></td>
@@ -439,86 +519,6 @@
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-24939">详情</a></td>
       </tr>
 
-      <tr>
-       <td scope="row">9650bbba9f38940bd2b3ed98d8d6a702</td>
-       <td>CVE-2022-45375</td>
-       <td>2022-11-17 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>Auth. Stored Cross-Site Scripting (XSS) vulnerability in iFeature Slider plugin <= 1.2 on WordPress.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45375">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">602055d875108af3f8d74ddacd0f5053</td>
-       <td>CVE-2022-45077</td>
-       <td>2022-11-17 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>Auth. (subscriber+) PHP Object Injection vulnerability in Betheme theme <= 26.5.1.4 on WordPress.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45077">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">42f0f09c34c69e1dee703b358a1b62ce</td>
-       <td>CVE-2022-45069</td>
-       <td>2022-11-17 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>Auth. (contributor+) Privilege Escalation vulnerability in Crowdsignal Dashboard plugin <= 3.0.9 on WordPress.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45069">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">12b2d785509853ca69fe8a6cdb375e0b</td>
-       <td>CVE-2022-45066</td>
-       <td>2022-11-17 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>Auth. (subscriber+) Broken Access Control vulnerability in WooSwipe WooCommerce Gallery plugin <= 2.0.1 on WordPress.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45066">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9470652a69186a41abc4d81036a076a8</td>
-       <td>CVE-2022-44736</td>
-       <td>2022-11-17 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>Auth. (admin+) Stored Cross-Site Scripting (XSS) vulnerability in Chameleon plugin <= 1.4.3 on WordPress.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-44736">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">68e796e8ff1e2ffbbcaca8f4384231d2</td>
-       <td>CVE-2022-44591</td>
-       <td>2022-11-17 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>Auth. (admin+) Stored Cross-Site Scripting (XSS) vulnerability in Anthologize plugin <= 0.8.0 on WordPress.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-44591">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4a6abda1be35c17ea2fb12b6810fa57c</td>
-       <td>CVE-2022-44577</td>
-       <td>2022-11-17 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>Auth. CSV Injection vulnerability in Export Users With Meta plugin <= 0.6.8 on WordPress.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-44577">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7ecacc7db0010bdbea8ee35c75a03f48</td>
-       <td>CVE-2022-43506</td>
-       <td>2022-11-17 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>SQL Injection in HandlerTag_KID.ashx in Delta Electronics DIAEnergie versions prior to v1.9.02.001 allows an attacker to inject SQL queries via Network</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43506">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5ed1f3ac3a294a44923e1a7396dc2108</td>
-       <td>CVE-2022-43457</td>
-       <td>2022-11-17 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>SQL Injection in HandlerPage_KID.ashx in Delta Electronics DIAEnergie versions prior to v1.9.02.001 allows an attacker to inject SQL queries via Network</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43457">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7340359888b77a5f4ba34197610fd214</td>
-       <td>CVE-2022-45072</td>
-       <td>2022-11-17 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross-Site Request Forgery (CSRF) vulnerability in WPML Multilingual CMS premium plugin <= 4.5.13 on WordPress.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45072">详情</a></td>
-      </tr>
-
      </tbody>
     </table>
    </div>
@@ -581,7 +581,7 @@
       <tr>
        <td scope="row">c248afb0ead15d28171cbd8ec95ba680</td>
        <td>CVE-2022-20422</td>
-       <td>2022-11-17 14:38:58 <img src="imgs/new.gif" /></td>
+       <td>2022-11-17 14:38:58</td>
        <td>RESERVED CVE CANDIDATE NUMBER...
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-404975">详情</a></td>
@@ -590,7 +590,7 @@
       <tr>
        <td scope="row">1879b35649e72f2d6d9be057b7ef1b47</td>
        <td>CVE-2022-20426</td>
-       <td>2022-11-17 10:41:36 <img src="imgs/new.gif" /></td>
+       <td>2022-11-17 10:41:36</td>
        <td>Google Android资源管理错误漏洞（CNVD-2022-78149）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-404979">详情</a></td>
@@ -599,7 +599,7 @@
       <tr>
        <td scope="row">bc00fccd016a958f6ae6cc80ad3b6557</td>
        <td>CVE-2022-20446</td>
-       <td>2022-11-17 10:41:36 <img src="imgs/new.gif" /></td>
+       <td>2022-11-17 10:41:36</td>
        <td>Google Android缺少授权漏洞（CNVD-2022-78152）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-404999">详情</a></td>
@@ -608,7 +608,7 @@
       <tr>
        <td scope="row">21cda6e26e934b06abde020f036798af</td>
        <td>CVE-2022-20447</td>
-       <td>2022-11-17 10:41:36 <img src="imgs/new.gif" /></td>
+       <td>2022-11-17 10:41:36</td>
        <td>Google Android资源管理错误漏洞（CNVD-2022-78148）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-405000">详情</a></td>
@@ -617,7 +617,7 @@
       <tr>
        <td scope="row">a472764b72685fdb57fca0f9bc79c5dd</td>
        <td>CVE-2022-20451</td>
-       <td>2022-11-17 10:41:36 <img src="imgs/new.gif" /></td>
+       <td>2022-11-17 10:41:36</td>
        <td>Google Android缺少授权漏洞（CNVD-2022-78153）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-405004">详情</a></td>
@@ -626,7 +626,7 @@
       <tr>
        <td scope="row">8d13253d00673b692572c9bfad30c241</td>
        <td>CVE-2022-20453</td>
-       <td>2022-11-17 10:41:36 <img src="imgs/new.gif" /></td>
+       <td>2022-11-17 10:41:36</td>
        <td>Google Android路径遍历漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-405006">详情</a></td>
@@ -635,7 +635,7 @@
       <tr>
        <td scope="row">9160780b5fd1c4c9acbd243b9c95680b</td>
        <td>CVE-2022-20454</td>
-       <td>2022-11-17 10:41:36 <img src="imgs/new.gif" /></td>
+       <td>2022-11-17 10:41:36</td>
        <td>Google Android输入验证错误漏洞（CNVD-2022-78150）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-405007">详情</a></td>
@@ -644,7 +644,7 @@
       <tr>
        <td scope="row">d71561a7942a25ff1ecc6874d5aae75f</td>
        <td>CVE-2022-20457</td>
-       <td>2022-11-17 10:41:36 <img src="imgs/new.gif" /></td>
+       <td>2022-11-17 10:41:36</td>
        <td>Google Android输入验证错误漏洞（CNVD-2022-78151）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-405010">详情</a></td>
@@ -653,7 +653,7 @@
       <tr>
        <td scope="row">af14aa5f53eddb172378f88ad6c00619</td>
        <td>CVE-2022-20462</td>
-       <td>2022-11-17 10:41:36 <img src="imgs/new.gif" /></td>
+       <td>2022-11-17 10:41:36</td>
        <td>Google Android缓冲区溢出漏洞（CNVD-2022-78147）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-405015">详情</a></td>
@@ -662,7 +662,7 @@
       <tr>
        <td scope="row">9dace1ae2a6f3bbd4d29d4bcee73efc6</td>
        <td>CVE-2022-20940</td>
-       <td>2022-11-17 10:41:36 <img src="imgs/new.gif" /></td>
+       <td>2022-11-17 10:41:36</td>
        <td>Cisco Firepower Threat Defense信息泄露漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-405493">详情</a></td>
@@ -671,7 +671,7 @@
       <tr>
        <td scope="row">fd2d356a532306a1b1bba81f5d41cb0d</td>
        <td>CVE-2022-20949</td>
-       <td>2022-11-17 10:41:36 <img src="imgs/new.gif" /></td>
+       <td>2022-11-17 10:41:36</td>
        <td>Cisco Firepower Threat Defense资源管理错误漏洞（CNVD-2022-78144）
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-405502">详情</a></td>
@@ -932,7 +932,7 @@
       <tr>
        <td scope="row">f8d02d8c57b4ac4c464e6530ce78b6c8</td>
        <td>CNVD-2022-78154 (CVE-2022-3887)</td>
-       <td>2022-11-17 18:44:11 <img src="imgs/new.gif" /></td>
+       <td>2022-11-17 18:44:11</td>
        <td>Google Chrome资源管理错误漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-78154">详情</a></td>
       </tr>
@@ -940,7 +940,7 @@
       <tr>
        <td scope="row">279c38c601b3ffe44d5e4f99524421b2</td>
        <td>CNVD-2022-78145 (CVE-2022-43074)</td>
-       <td>2022-11-17 18:44:09 <img src="imgs/new.gif" /></td>
+       <td>2022-11-17 18:44:09</td>
        <td>AyaCMS任意文件上传漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-78145">详情</a></td>
       </tr>
@@ -948,7 +948,7 @@
       <tr>
        <td scope="row">b07083d0378b50ba35996550db2d731f</td>
        <td>CNVD-2022-78209 (CVE-2022-3886)</td>
-       <td>2022-11-17 18:44:07 <img src="imgs/new.gif" /></td>
+       <td>2022-11-17 18:44:07</td>
        <td>Google Chrome资源管理错误漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-78209">详情</a></td>
       </tr>
@@ -956,7 +956,7 @@
       <tr>
        <td scope="row">e7dc7861f188aa426bf85c7a4fe64628</td>
        <td>CNVD-2022-78210 (CVE-2022-3885)</td>
-       <td>2022-11-17 18:44:02 <img src="imgs/new.gif" /></td>
+       <td>2022-11-17 18:44:02</td>
        <td>Google Chrome资源管理错误漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-78210">详情</a></td>
       </tr>
@@ -964,7 +964,7 @@
       <tr>
        <td scope="row">045b4ebd3e2364f0d4cd3b62da668b13</td>
        <td>CNVD-2022-78211 (CVE-2022-39328)</td>
-       <td>2022-11-17 18:44:00 <img src="imgs/new.gif" /></td>
+       <td>2022-11-17 18:44:00</td>
        <td>Grafana竞争条件漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-78211">详情</a></td>
       </tr>
@@ -972,7 +972,7 @@
       <tr>
        <td scope="row">08a211ef0904190844605bba72ed338c</td>
        <td>CNVD-2022-78212 (CVE-2022-39307)</td>
-       <td>2022-11-17 18:43:58 <img src="imgs/new.gif" /></td>
+       <td>2022-11-17 18:43:58</td>
        <td>Grafana账户枚举漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-78212">详情</a></td>
       </tr>
@@ -980,7 +980,7 @@
       <tr>
        <td scope="row">f60ec0907fd020419ea265e00727ef84</td>
        <td>CNVD-2022-78143 (CVE-2022-43320)</td>
-       <td>2022-11-17 10:16:28 <img src="imgs/new.gif" /></td>
+       <td>2022-11-17 10:16:28</td>
        <td>FeehiCMS跨站脚本漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-78143">详情</a></td>
       </tr>
@@ -988,7 +988,7 @@
       <tr>
        <td scope="row">8936ef25be79fffba22060eb528b9491</td>
        <td>CNVD-2022-78142 (CVE-2022-20940)</td>
-       <td>2022-11-17 10:16:26 <img src="imgs/new.gif" /></td>
+       <td>2022-11-17 10:16:26</td>
        <td>Cisco Firepower Threat Defense信息泄露漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-78142">详情</a></td>
       </tr>
@@ -996,7 +996,7 @@
       <tr>
        <td scope="row">07826884a342299bb2593b71afb90b92</td>
        <td>CNVD-2022-78140 (CVE-2022-44559)</td>
-       <td>2022-11-17 10:16:24 <img src="imgs/new.gif" /></td>
+       <td>2022-11-17 10:16:24</td>
        <td>Huawei HarmonyOS权限提升漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-78140">详情</a></td>
       </tr>
@@ -1004,7 +1004,7 @@
       <tr>
        <td scope="row">74894b682777b4df5fcca4876fc290ac</td>
        <td>CNVD-2022-78139 (CVE-2022-35637)</td>
-       <td>2022-11-17 10:16:22 <img src="imgs/new.gif" /></td>
+       <td>2022-11-17 10:16:22</td>
        <td>IBM DB2拒绝服务漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-78139">详情</a></td>
       </tr>
@@ -1012,7 +1012,7 @@
       <tr>
        <td scope="row">731a1c8ac6cbc81c920fa505fdda747c</td>
        <td>CNVD-2022-78138 (CVE-2022-3966)</td>
-       <td>2022-11-17 10:16:19 <img src="imgs/new.gif" /></td>
+       <td>2022-11-17 10:16:19</td>
        <td>WordPress Plugin Ultimate Member存在未明漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-78138">详情</a></td>
       </tr>
@@ -1020,7 +1020,7 @@
       <tr>
        <td scope="row">321396f5ef692fbb13fb11a84b8217ad</td>
        <td>CNVD-2022-78136 (CVE-2022-38387)</td>
-       <td>2022-11-17 10:16:17 <img src="imgs/new.gif" /></td>
+       <td>2022-11-17 10:16:17</td>
        <td>IBM Cloud Pak for Security存在未明漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-78136">详情</a></td>
       </tr>
@@ -1028,7 +1028,7 @@
       <tr>
        <td scope="row">d929a68af66edce9de03d2b1eea3e6b6</td>
        <td>CNVD-2022-78135 (CVE-2022-36776)</td>
-       <td>2022-11-17 10:16:15 <img src="imgs/new.gif" /></td>
+       <td>2022-11-17 10:16:15</td>
        <td>IBM Cloud Pak for Security存在未明漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-78135">详情</a></td>
       </tr>
@@ -1036,7 +1036,7 @@
       <tr>
        <td scope="row">faacbd8eff4cc5a36d5167a1d99036d7</td>
        <td>CNVD-2022-77995 (CVE-2022-24510)</td>
-       <td>2022-11-17 09:38:48 <img src="imgs/new.gif" /></td>
+       <td>2022-11-17 09:38:48</td>
        <td>Microsoft Office Visio远程代码执行漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-77995">详情</a></td>
       </tr>
@@ -1044,7 +1044,7 @@
       <tr>
        <td scope="row">8924ffcbb81acfce780daf509b3230e4</td>
        <td>CNVD-2022-77996 (CVE-2022-24509)</td>
-       <td>2022-11-17 09:38:46 <img src="imgs/new.gif" /></td>
+       <td>2022-11-17 09:38:46</td>
        <td>Microsoft Office Visio远程代码执行漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-77996">详情</a></td>
       </tr>
@@ -1052,7 +1052,7 @@
       <tr>
        <td scope="row">b9464f7f1dbd9b1e9c8f5c4f2e7ce6e7</td>
        <td>CNVD-2022-78026 (CVE-2022-23282)</td>
-       <td>2022-11-17 09:38:43 <img src="imgs/new.gif" /></td>
+       <td>2022-11-17 09:38:43</td>
        <td>Microsoft Paint 3D远程代码执行漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-78026">详情</a></td>
       </tr>
@@ -1430,7 +1430,7 @@
       <tr>
        <td scope="row">1127500cb5ea18fd3b8f86e133615fb7</td>
        <td>CVE-2022-41800</td>
-       <td>2022-11-17 19:18:43 <img src="imgs/new.gif" /></td>
+       <td>2022-11-17 19:18:43</td>
        <td>BIG-IP 安全特性绕过漏洞</td>
        <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7789">详情</a></td>
       </tr>
@@ -1438,7 +1438,7 @@
       <tr>
        <td scope="row">d4ee2f69bfe9b98377d25cca3f8218d5</td>
        <td>CVE-2022-41622</td>
-       <td>2022-11-17 19:16:45 <img src="imgs/new.gif" /></td>
+       <td>2022-11-17 19:16:45</td>
        <td>BIG-IP 和 BIG-IQ 跨站请求伪造漏洞</td>
        <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7788">详情</a></td>
       </tr>
@@ -2414,7 +2414,7 @@
       <tr>
        <td scope="row">6c815a0a1dc548777c8337c2a4eb1323</td>
        <td>CVE-2022-4053</td>
-       <td>2022-11-17 17:15:14  <img src="imgs/new.gif" /></td>
+       <td>2022-11-17 17:15:14 </td>
        <td>A vulnerability was found in Student Attendance Management System. It has been classified as problematic. Affected is an unknown function of the file createClass.php. The manipulation of the argument className leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-213846 is the identifier assigned to this vulnerability.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-4053">详情</a></td>
       </tr>
@@ -2422,7 +2422,7 @@
       <tr>
        <td scope="row">b69ce30721f8e141a1464d63da481032</td>
        <td>CVE-2022-4052</td>
-       <td>2022-11-17 17:15:14  <img src="imgs/new.gif" /></td>
+       <td>2022-11-17 17:15:14 </td>
        <td>A vulnerability was found in Student Attendance Management System and classified as critical. This issue affects some unknown processing of the file /Admin/createClass.php. The manipulation of the argument Id leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-213845 was assigned to this vulnerability.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-4052">详情</a></td>
       </tr>
