@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-11-25 07:13:50 -->
+<!-- RELEASE TIME : 2022-11-25 07:36:43 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,70 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">250a8c734a6f7e34376db8fd7ea8ffa3</td>
+       <td>CVE-2022-40282</td>
+       <td>2022-11-25 05:15:00 <img src="imgs/new.gif" /></td>
+       <td>The web server of Hirschmann BAT-C2 before 09.13.01.00R04 allows authenticated command injection. This allows an authenticated attacker to pass commands to the shell of the system because the dir parameter of the FsCreateDir Ajax function is not sufficiently sanitized. The vendor's ID is BSECV-2022-21.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40282">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ebfca81c8476b04a91bdacf0f583d70c</td>
+       <td>CVE-2022-2721</td>
+       <td>2022-11-25 05:15:00 <img src="imgs/new.gif" /></td>
+       <td>In affected versions of Octopus Server it is possible for target discovery to print certain values marked as sensitive to log files in plaint-text in when verbose logging is enabled.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2721">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">20930a84e12ae2fe8a5930a647a0f443</td>
+       <td>CVE-2022-45888</td>
+       <td>2022-11-25 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in the Linux kernel through 6.0.9. drivers/char/xillybus/xillyusb.c has a race condition and use-after-free during physical removal of a USB device.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45888">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0db8002f0643b7358cf06edfdead1cd6</td>
+       <td>CVE-2022-45887</td>
+       <td>2022-11-25 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in the Linux kernel through 6.0.9. drivers/media/usb/ttusb-dec/ttusb_dec.c has a memory leak because of the lack of a dvb_frontend_detach call.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45887">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5a4c7434ef39ffb54d5c9a24759f8582</td>
+       <td>CVE-2022-45886</td>
+       <td>2022-11-25 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in the Linux kernel through 6.0.9. drivers/media/dvb-core/dvb_net.c has a .disconnect versus dvb_device_open race condition that leads to a use-after-free.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45886">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1e33ecbd5ee214f259f393b8e8cf88a6</td>
+       <td>CVE-2022-45885</td>
+       <td>2022-11-25 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in the Linux kernel through 6.0.9. drivers/media/dvb-core/dvb_frontend.c has a race condition that can cause a use-after-free when a device is disconnected.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45885">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f3d7ee26fa74c8f59314772a7ef26717</td>
+       <td>CVE-2022-45884</td>
+       <td>2022-11-25 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in the Linux kernel through 6.0.9. drivers/media/dvb-core/dvbdev.c has a use-after-free, related to dvb_register_device dynamically allocating fops.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45884">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a4a2ef3cc8fba58406a1c7601babc284</td>
+       <td>CVE-2022-4135</td>
+       <td>2022-11-25 01:15:00 <img src="imgs/new.gif" /></td>
+       <td>Heap buffer overflow in GPU in Google Chrome prior to 107.0.5304.121 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: High)</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-4135">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">d03c455a02074f0e336417a5ab991fad</td>
        <td>CVE-2022-29833</td>
        <td>2022-11-25 00:15:00 <img src="imgs/new.gif" /></td>
@@ -453,70 +517,6 @@
        <td>2022-11-23 03:15:00</td>
        <td>An issue was discovered in Insyde InsydeH2O with kernel 5.0 through 5.5. A stack buffer overflow vulnerability in the MebxConfiguration driver leads to arbitrary code execution. Control of a UEFI variable under the OS can cause this overflow when read by BIOS code.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36337">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d8e117196e5d7209946efde74e49ba6f</td>
-       <td>CVE-2022-34830</td>
-       <td>2022-11-23 03:15:00</td>
-       <td>An Arm product family through 2022-06-29 has a TOCTOU Race Condition that allows non-privileged user to make improper GPU processing operations to gain access to already freed memory.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34830">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4fd1bee52e1628bf87438a65286dda19</td>
-       <td>CVE-2022-42095</td>
-       <td>2022-11-23 02:15:00</td>
-       <td>Backdrop CMS version 1.23.0 was discovered to contain a stored cross-site scripting (XSS) vulnerability via the Page content.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42095">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">47b1241d1111939be2db55d828b9d0eb</td>
-       <td>CVE-2022-38145</td>
-       <td>2022-11-23 02:15:00</td>
-       <td>Silverstripe silverstripe/framework through 4.11 allows XSS (issue 1 of 3) via remote attackers adding a Javascript payload to a page's meta description and get it executed in the versioned history compare view.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-38145">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7d30a8bd41bed8bf2ef3d8d85b5e3c53</td>
-       <td>CVE-2022-37772</td>
-       <td>2022-11-23 02:15:00</td>
-       <td>Maarch RM 2.8.3 solution contains an improper restriction of excessive authentication attempts due to excessive verbose responses from the application. An unauthenticated remote attacker could potentially exploit this vulnerability, leading to compromised accounts.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-37772">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d9a26d176cf899f2c421f00de013cf0e</td>
-       <td>CVE-2022-43751</td>
-       <td>2022-11-23 00:15:00</td>
-       <td>McAfee Total Protection prior to version 16.0.49 contains an uncontrolled search path element vulnerability due to the use of a variable pointing to a subdirectory that may be controllable by an unprivileged user. This may have allowed the unprivileged user to execute arbitrary code with system privileges.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43751">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5ee7373fc99d4ac61ffbdea1aa26f15b</td>
-       <td>CVE-2022-40870</td>
-       <td>2022-11-23 00:15:00</td>
-       <td>The Web Client of Parallels Remote Application Server v18.0 is vulnerable to Host Header Injection attacks. This vulnerability allows attackers to execute arbitrary commands via a crafted payload injected into the Host header.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40870">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6ec81f9b6831f4359afe24daf21ded1e</td>
-       <td>CVE-2022-40303</td>
-       <td>2022-11-23 00:15:00</td>
-       <td>An issue was discovered in libxml2 before 2.10.3. When parsing a multi-gigabyte XML document with the XML_PARSE_HUGE parser option enabled, several integer counters can overflow. This results in an attempt to access an array at a negative 2GB offset, typically leading to a segmentation fault.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40303">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">11ebb1f353921af1eaaa000dfb0de1cf</td>
-       <td>CVE-2022-38724</td>
-       <td>2022-11-23 00:15:00</td>
-       <td>Silverstripe silverstripe/framework through 4.11.0, silverstripe/assets through 1.11.0, and silverstripe/asset-admin through 1.11.0 allow XSS.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-38724">详情</a></td>
       </tr>
 
      </tbody>
