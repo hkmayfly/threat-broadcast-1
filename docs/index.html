@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-12-31 04:38:30 -->
+<!-- RELEASE TIME : 2022-12-31 07:11:24 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">77233ad17045cedda59b0acefd9a59d5</td>
+       <td>CVE-2022-48195</td>
+       <td>2022-12-31 01:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in Mellium mellium.im/sasl before 0.3.1. When performing SCRAM-based SASL authentication, if the remote end advertises support for channel binding, no random nonce is generated (instead, the nonce is empty). This causes authentication to fail in the best case, but (if paired with a remote end that does not validate the length of the nonce) could lead to insufficient randomness being used during authentication.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-48195">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">a68a868420ce5eec3a76cffd0fcfef9c</td>
        <td>CVE-2022-4864</td>
        <td>2022-12-30 23:15:00 <img src="imgs/new.gif" /></td>
@@ -509,14 +517,6 @@
        <td>2022-12-30 12:15:00 <img src="imgs/new.gif" /></td>
        <td>A vulnerability was found in Chris92de AdminServ. It has been declared as problematic. This vulnerability affects unknown code of the file resources/core/adminserv.php. The manipulation of the argument text leads to cross site scripting. The attack can be initiated remotely. The name of the patch is 3ed17dab3b4d6e8bf1c82ddfbf882314365e9cd7. It is recommended to apply a patch to fix this issue. VDB-217042 is the identifier assigned to this vulnerability.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2020-36637">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">03fe7def10105f8430797e773a8ff7c3</td>
-       <td>CVE-2018-25060</td>
-       <td>2022-12-30 12:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability was found in Macaron csrf and classified as problematic. Affected by this issue is some unknown functionality of the file csrf.go. The manipulation of the argument Generate leads to sensitive cookie without secure attribute. The attack may be launched remotely. The name of the patch is dadd1711a617000b70e5e408a76531b73187031c. It is recommended to apply a patch to fix this issue. VDB-217058 is the identifier assigned to this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2018-25060">详情</a></td>
       </tr>
 
      </tbody>
