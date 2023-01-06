@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-01-06 04:39:59 -->
+<!-- RELEASE TIME : 2023-01-06 08:17:54 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,38 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">b4746a32136c1c45f9eccc32480eea64</td>
+       <td>CVE-2022-25923</td>
+       <td>2023-01-06 05:15:00 <img src="imgs/new.gif" /></td>
+       <td>Versions of the package exec-local-bin before 1.2.0 are vulnerable to Command Injection via the theProcess() functionality due to improper user-input sanitization.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25923">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">64ab7c530e741b7c4ad5939590cd6bd8</td>
+       <td>CVE-2022-42979</td>
+       <td>2023-01-06 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>Information disclosure due to an insecure hostname validation in the RYDE application 5.8.43 for Android and iOS allows attackers to take over an account via a deep link.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42979">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">44467f1d42d765ff1269b18aa452e5e7</td>
+       <td>CVE-2022-44870</td>
+       <td>2023-01-06 03:15:00 <img src="imgs/new.gif" /></td>
+       <td>A reflected cross-site scripting (XSS) vulnerability in maccms10 v2022.1000.3032 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Name parameter under the AD Management module.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-44870">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ecb7b1bad46b8c8a1578fc822af0f33e</td>
+       <td>CVE-2022-40049</td>
+       <td>2023-01-06 03:15:00 <img src="imgs/new.gif" /></td>
+       <td>SQL injection vulnerability in sourcecodester Theme Park Ticketing System 1.0 allows remote attackers to view sensitive information via the id parameter to the /tpts/manage_user.php page.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40049">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">8706893bd4136b8cfc7287fc90a0fa91</td>
        <td>CVE-2022-44541</td>
        <td>2023-01-06 00:15:00 <img src="imgs/new.gif" /></td>
@@ -485,38 +517,6 @@
        <td>2023-01-05 19:15:00 <img src="imgs/new.gif" /></td>
        <td>The Swifty Page Manager plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 3.0.1. This is due to missing or incorrect nonce validation on several AJAX actions handling page creation and deletion among other things. This makes it possible for unauthenticated attackers to invoke those functions, via forged request granted they can trick a site administrator into performing an action such as clicking on a link.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0088">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">14c58c74c6cee1edd0de064a5ed55847</td>
-       <td>CVE-2023-0087</td>
-       <td>2023-01-05 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Swifty Page Manager plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘spm_plugin_options_page_tree_max_width’ parameter in versions up to, and including, 3.0.1 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0087">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5782e0894e3840dd510a4c8ab3840f95</td>
-       <td>CVE-2022-23549</td>
-       <td>2023-01-05 19:15:00 <img src="imgs/new.gif" /></td>
-       <td>Discourse is an option source discussion platform. Prior to version 2.8.14 on the `stable` branch and version 2.9.0.beta15 on the `beta` and `tests-passed` branches, users can create posts with raw body longer than the `max_length` site setting by including html comments that are not counted toward the character limit. This issue is patched in versions 2.8.14 and 2.9.0.beta16. There are no known workarounds.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23549">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f25dc7b626c44c2d2eda75655a9384bf</td>
-       <td>CVE-2022-46168</td>
-       <td>2023-01-05 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>Discourse is an option source discussion platform. Prior to version 2.8.14 on the `stable` branch and version 2.9.0.beta15 on the `beta` and `tests-passed` branches, recipients of a group SMTP email could see the email addresses of all other users inside the group SMTP topic. Most of the time this is not an issue as they are likely already familiar with one another's email addresses. This issue is patched in versions 2.8.14 and 2.9.0.beta15. The fix is that someone sending emails out via group SMTP to non-staged users masks those emails with blind carbon copy (BCC). Staged users are ones that have likely only interacted with the group via email, and will likely include other people who were CC'd on the original email to the group. As a workaround, disable group SMTP for any groups that have it enabled.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-46168">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b7c89e9d47b034d1573ff1a2b626d33d</td>
-       <td>CVE-2022-4435</td>
-       <td>2023-01-05 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>A buffer over-read vulnerability was reported in the ThinkPadX13s BIOS LenovoRemoteConfigUpdateDxe driver that could allow a local attacker with elevated privileges to cause information disclosure.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-4435">详情</a></td>
       </tr>
 
      </tbody>
