@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-01-28 01:08:50 -->
+<!-- RELEASE TIME : 2023-01-28 02:32:38 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">4e9f3e1b3177209990c5fda3b132f08a</td>
+       <td>CVE-2023-23627</td>
+       <td>2023-01-28 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>Sanitize is an allowlist-based HTML and CSS sanitizer. Versions 5.0.0 and later, prior to 6.0.1, are vulnerable to Cross-site Scripting. When Sanitize is configured with a custom allowlist that allows `noscript` elements, attackers are able to include arbitrary HTML, resulting in XSS (cross-site scripting) or other undesired behavior when that HTML is rendered in a browser. The default configurations do not allow `noscript` elements and are not vulnerable. This issue only affects users who are using a custom config that adds `noscript` to the element allowlist. This issue has been patched in version 6.0.1. Users who are unable to upgrade can prevent this issue by using one of Sanitize's default configs or by ensuring that their custom config does not include `noscript` in the element allowlist.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23627">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d33833a8502cc4f127df12ec85fddbae</td>
+       <td>CVE-2023-23624</td>
+       <td>2023-01-28 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>Discourse is an open-source discussion platform. Prior to version 3.0.1 on the `stable` branch and version 3.1.0.beta2 on the `beta` and `tests-passed` branches, someone can use the `exclude_tag param` to filter out topics and deduce which ones were using a specific hidden tag. This affects any Discourse site using hidden tags in public categories. This issue is patched in version 3.0.1 on the `stable` branch and version 3.1.0.beta2 on the `beta` and `tests-passed` branches. As a workaround, secure any categories that are using hidden tags, change any existing hidden tags to not include private data, or remove any hidden tags currently in use.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23624">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b5fcf17730e3677e104e4c67b2910ea7</td>
+       <td>CVE-2023-23621</td>
+       <td>2023-01-28 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>Discourse is an open-source discussion platform. Prior to version 3.0.1 on the `stable` branch and version 3.1.0.beta2 on the `beta` and `tests-passed` branches, a malicious user can cause a regular expression denial of service using a carefully crafted user agent. This issue is patched in version 3.0.1 on the `stable` branch and version 3.1.0.beta2 on the `beta` and `tests-passed` branches. There are no known workarounds.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23621">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">56de8bea5dea61f832dc3f2846a3a654</td>
+       <td>CVE-2023-23620</td>
+       <td>2023-01-28 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>Discourse is an open-source discussion platform. Prior to version 3.0.1 on the `stable` branch and 3.1.0.beta2 on the `beta` and `tests-passed` branches, the contents of latest/top routes for restricted tags can be accessed by unauthorized users. This issue is patched in version 3.0.1 on the `stable` branch and 3.1.0.beta2 on the `beta` and `tests-passed` branches. There are no known workarounds.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23620">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">fa0af8fad996f6d4955a7451040337d9</td>
+       <td>CVE-2023-23617</td>
+       <td>2023-01-28 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>OpenMage LTS is an e-commerce platform. Versions prior to 19.4.22 and 20.0.19 contain an infinite loop in malicious code filter in certain conditions. Versions 19.4.22 and 20.0.19 have a fix for this issue. There are no known workarounds.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23617">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a1ee8552040587f726371f3a9cc93b8c</td>
+       <td>CVE-2023-23616</td>
+       <td>2023-01-28 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>Discourse is an open-source discussion platform. Prior to version 3.0.1 on the `stable` branch and 3.1.0.beta2 on the `beta` and `tests-passed` branches, when submitting a membership request, there is no character limit for the reason provided with the request. This could potentially allow a user to flood the database with a large amount of data. However it is unlikely this could be used as part of a DoS attack, as the paths reading back the reasons are only available to administrators. Starting in version 3.0.1 on the `stable` branch and 3.1.0.beta2 on the `beta` and `tests-passed` branches, a limit of 280 characters has been introduced for membership requests.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23616">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0bdd89dcaed941ba72c54662677c5784</td>
+       <td>CVE-2023-22737</td>
+       <td>2023-01-28 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>wire-server provides back end services for Wire, a team communication and collaboration platform. Prior to version 2022-12-09, every member of a Conversation can remove a Bot from a Conversation due to a missing permissions check. Only Conversation admins should be able to remove Bots. Regular Conversations are not allowed to do so. The issue is fixed in wire-server 2022-12-09 and is already deployed on all Wire managed services. On-premise instances of wire-server need to be updated to 2022-12-09/Chart 4.29.0, so that their backends are no longer affected. There are no known workarounds.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-22737">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">00402464cb927cc979f95a2fdb8719f6</td>
+       <td>CVE-2023-0047</td>
+       <td>2023-01-27 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during 2023. Notes: none.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0047">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e4c9a702b5558fa5503a45755f251db2</td>
+       <td>CVE-2022-39324</td>
+       <td>2023-01-27 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Grafana is an open-source platform for monitoring and observability. Prior to versions 8.5.16 and 9.2.8, malicious user can create a snapshot and arbitrarily choose the `originalUrl` parameter by editing the query, thanks to a web proxy. When another user opens the URL of the snapshot, they will be presented with the regular web interface delivered by the trusted Grafana server. The `Open original dashboard` button no longer points to the to the real original dashboard but to the attacker’s injected URL. This issue is fixed in versions 8.5.16 and 9.2.8.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39324">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">87eda04ff97d98f7656dcabd326a254b</td>
+       <td>CVE-2022-23552</td>
+       <td>2023-01-27 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Grafana is an open-source platform for monitoring and observability. Starting with the 8.1 branch and prior to versions 8.5.16, 9.2.10, and 9.3.4, Grafana had a stored XSS vulnerability affecting the core plugin GeoMap. The stored XSS vulnerability was possible because SVG files weren't properly sanitized and allowed arbitrary JavaScript to be executed in the context of the currently authorized user of the Grafana instance. An attacker needs to have the Editor role in order to change a panel to include either an external URL to a SVG-file containing JavaScript, or use the `data:` scheme to load an inline SVG-file containing JavaScript. This means that vertical privilege escalation is possible, where a user with Editor role can change to a known password for a user having Admin role if the user with Admin role executes malicious JavaScript viewing a dashboard. Users may upgrade to version 8.5.16, 9.2.10, or 9.3.4 to receive a fix.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23552">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">fc06eb9133b9ae30bc6bac4247b17c0e</td>
        <td>CVE-2023-0558</td>
        <td>2023-01-27 22:15:00 <img src="imgs/new.gif" /></td>
@@ -437,86 +517,6 @@
        <td>2023-01-27 18:15:00 <img src="imgs/new.gif" /></td>
        <td>Adobe Acrobat Reader versions 22.003.20282 (and earlier), 22.003.20281 (and earlier) and 20.005.30418 (and earlier) are affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-22241">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9cb2e9e82a40329c9ed1a3cbdba34e60</td>
-       <td>CVE-2023-22240</td>
-       <td>2023-01-27 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>Adobe Acrobat Reader versions 22.003.20282 (and earlier), 22.003.20281 (and earlier) and 20.005.30418 (and earlier) are affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-22240">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">995163f03c435de3d807e2315d358d2d</td>
-       <td>CVE-2022-48013</td>
-       <td>2023-01-27 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>Opencats v0.9.7 was discovered to contain a stored cross-site scripting (XSS) vulnerability in the component /opencats/index.php?m=calendar. This vulnerability allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Description or Title text fields.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-48013">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">be2f515efeac550e7adaa3899a1bb4c3</td>
-       <td>CVE-2022-48012</td>
-       <td>2023-01-27 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>Opencats v0.9.7 was discovered to contain a reflected cross-site scripting (XSS) vulnerability via the component /opencats/index.php?m=settings&a=ajax_tags_upd.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-48012">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">87ccf753b47870d3eefa2a988f9f67a5</td>
-       <td>CVE-2022-48011</td>
-       <td>2023-01-27 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>Opencats v0.9.7 was discovered to contain a SQL injection vulnerability via the importID parameter in the Import viewerrors function.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-48011">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3e615077d05963a44fa1a7d2b9f26bdf</td>
-       <td>CVE-2022-48010</td>
-       <td>2023-01-27 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>LimeSurvey v5.4.15 was discovered to contain a stored cross-site scripting (XSS) vulnerability in the component /index.php/surveyAdministration/rendersidemenulink?subaction=surveytexts. This vulnerability allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Description or Welcome-message text fields.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-48010">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0f0c079f23c620fd4dee3a6a5ce99120</td>
-       <td>CVE-2022-48008</td>
-       <td>2023-01-27 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>An arbitrary file upload vulnerability in the plugin manager of LimeSurvey v5.4.15 allows attackers to execute arbitrary code via a crafted PHP file.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-48008">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7205426550c0e57dbb0c40a36b80b53e</td>
-       <td>CVE-2022-48007</td>
-       <td>2023-01-27 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>A stored cross-site scripting (XSS) vulnerability in identification.php of Piwigo v13.4.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the User-Agent.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-48007">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">bb468da1ff26f8b7fbeccc47ad202f8b</td>
-       <td>CVE-2022-46244</td>
-       <td>2023-01-27 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during 2022. Notes: none.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-46244">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b2556da3d31c40d5a9f16215847919de</td>
-       <td>CVE-2021-21395</td>
-       <td>2023-01-27 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>Magneto LTS (Long Term Support) is a community developed alternative to the Magento CE official releases. Versions prior to 19.4.22 and 20.0.19 are vulnerable to Cross-Site Request Forgery. The password reset form is vulnerable to CSRF between the time the reset password link is clicked and user submits new password. This issue is patched in versions 19.4.22 and 20.0.19. There are no workarounds.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-21395">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ca941d1f5419a328380dd3453e17a622</td>
-       <td>CVE-2022-48073</td>
-       <td>2023-01-27 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>Phicomm K2 v22.6.534.263 was discovered to store the root and admin passwords in plaintext.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-48073">详情</a></td>
       </tr>
 
      </tbody>
@@ -2580,6 +2580,14 @@
       </tr>
 
       <tr>
+       <td scope="row">d012501ebeb438d58fdef7f0b6bec521</td>
+       <td>CVE-2021-4314</td>
+       <td>2023-01-18 16:15:11 </td>
+       <td>It is possible to manipulate the JWT token without the knowledge of the JWT secret and authenticate without valid JWT token as any user. This is happening only in the situation when zOSMF doesn&acirc;&euro;&trade;t have the APAR PH12143 applied. This issue affects: 1.16 versions to 1.19. What happens is that the services using the ZAAS client or the API ML API to query will be deceived into believing the information in the JWT token is valid when it isn&acirc;&euro;&trade;t. It&acirc;&euro;&trade;s possible to use this to persuade the southbound service that different user is authenticated.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-4314">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">d3f7592c5b291eb70e8e54de82a9dfed</td>
        <td>CVE-2022-47881</td>
        <td>2023-01-18 15:15:11 </td>
@@ -2665,14 +2673,6 @@
        <td>2023-01-18 00:15:16 </td>
        <td>Vulnerability in the MySQL Server product of Oracle MySQL (component: InnoDB).  Supported versions that are affected are 8.0.31 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server as well as  unauthorized update, insert or delete access to some of MySQL Server accessible data. CVSS 3.1 Base Score 5.5 (Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:H).</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-21880">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cbf8096323892506faf57ce56374c0ad</td>
-       <td>CVE-2023-21879</td>
-       <td>2023-01-18 00:15:16 </td>
-       <td>Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Optimizer).  Supported versions that are affected are 8.0.31 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.9 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-21879">详情</a></td>
       </tr>
 
      </tbody>
