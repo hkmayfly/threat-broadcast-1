@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-01-28 06:16:41 -->
+<!-- RELEASE TIME : 2023-01-28 07:12:19 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,22 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">fdab71b5336c13ea78d501ae101aa132</td>
+       <td>CVE-2023-23629</td>
+       <td>2023-01-28 02:15:00 <img src="imgs/new.gif" /></td>
+       <td>Metabase is an open source data analytics platform. Affected versions are subject to Improper Privilege Management. As intended, recipients of dashboards subscriptions can view the data as seen by the creator of that subscription. This allows someone with greater access to data to create a dashboard subscription, add people with fewer data privileges, and all recipients of that subscription receive the same data: the charts shown in the email would abide by the privileges of the user who created the subscription. The issue is users with fewer privileges who can view a dashboard are able to add themselves to a dashboard subscription created by someone with additional data privileges, and thus get access to more data via email. This issue is patched in versions 0.43.7.1, 1.43.7.1, 0.44.6.1, 1.44.6.1, 0.45.2.1, and 1.45.2.1. On Metabase instances running Enterprise Edition, admins can disable the "Subscriptions and Alerts" permission for groups that have restricted data permissions, as a workaround.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23629">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">da786015c2a08de85639a3fd51e47ca0</td>
+       <td>CVE-2023-23628</td>
+       <td>2023-01-28 02:15:00 <img src="imgs/new.gif" /></td>
+       <td>Metabase is an open source data analytics platform. Affected versions are subject to Exposure of Sensitive Information to an Unauthorized Actor. Sandboxed users shouldn't be able to view data about other Metabase users anywhere in the Metabase application. However, when a sandbox user views the settings for a dashboard subscription, and another user has added users to that subscription, the sandboxed user is able to view the list of recipients for that subscription. This issue is patched in versions 0.43.7.1, 1.43.7.1, 0.44.6.1, 1.44.6.1, 0.45.2.1, and 1.45.2.1. There are no workarounds.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23628">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">4e9f3e1b3177209990c5fda3b132f08a</td>
        <td>CVE-2023-23627</td>
        <td>2023-01-28 00:15:00 <img src="imgs/new.gif" /></td>
@@ -501,22 +517,6 @@
        <td>2023-01-27 19:15:00 <img src="imgs/new.gif" /></td>
        <td>OpenMage LTS is an e-commerce platform. Prior to versions 19.4.22 and 20.0.19, Magento admin users with access to the customer media could execute code on the server. Versions 19.4.22 and 20.0.19 contain a patch for this issue.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-41143">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">37fa459eb1388ab1469b32dcb298ccff</td>
-       <td>CVE-2023-22242</td>
-       <td>2023-01-27 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>Adobe Acrobat Reader versions 22.003.20282 (and earlier), 22.003.20281 (and earlier) and 20.005.30418 (and earlier) are affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-22242">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">24bb057c2ec326843675ea8b689e14cf</td>
-       <td>CVE-2023-22241</td>
-       <td>2023-01-27 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>Adobe Acrobat Reader versions 22.003.20282 (and earlier), 22.003.20281 (and earlier) and 20.005.30418 (and earlier) are affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-22241">详情</a></td>
       </tr>
 
      </tbody>
