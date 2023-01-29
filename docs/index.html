@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-01-29 21:11:53 -->
+<!-- RELEASE TIME : 2023-01-29 22:12:55 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,22 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">3fecaa24877343a70ea73444fefca278</td>
+       <td>CVE-2016-15022</td>
+       <td>2023-01-29 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability was found in mosbth cimage up to 0.7.18. It has been declared as problematic. Affected by this vulnerability is an unknown functionality of the file check_system.php. The manipulation of the argument $_SERVER['SERVER_SOFTWARE'] leads to cross site scripting. The attack can be launched remotely. Upgrading to version 0.7.19 is able to address this issue. The name of the patch is 401478c8393989836beeddfeac5ce44570af162b. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-219715.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2016-15022">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c89fce608558858ceb8f53f91ccd7f05</td>
+       <td>CVE-2009-10003</td>
+       <td>2023-01-29 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability was found in capnsquarepants wordcraft up to 0.6. It has been classified as problematic. Affected is an unknown function of the file tag.php. The manipulation of the argument tag leads to cross site scripting. It is possible to launch the attack remotely. Upgrading to version 0.7 is able to address this issue. The name of the patch is be23028633e8105de92f387036871c03f34d3124. It is recommended to upgrade the affected component. VDB-219714 is the identifier assigned to this vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2009-10003">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">04ee9f054491bcfd0516ebd685339e2a</td>
        <td>CVE-2023-0571</td>
        <td>2023-01-29 18:15:00 <img src="imgs/new.gif" /></td>
@@ -501,22 +517,6 @@
        <td>2023-01-27 22:15:00</td>
        <td>There is a stored cross-site scripting vulnerability in Pandora FMS v765 in the network maps editing functionality. An attacker could modify a network map, including on purpose the name of an XSS payload. Once created, if a user with admin privileges clicks on the edited network maps, the XSS payload will be executed. The exploitation of this vulnerability could allow an atacker to steal the value of the admin user´s cookie.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43980">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">015ae963233cc42865c3693014cce63e</td>
-       <td>CVE-2022-43979</td>
-       <td>2023-01-27 22:15:00</td>
-       <td>There is a Path Traversal that leads to a Local File Inclusion in Pandora FMS v764. A function is called to check that the parameter that the user has inserted does not contain malicious characteres, but this check is insufficient. An attacker could insert an absolute path to overcome the heck, thus being able to incluse any PHP file that resides on the disk. The exploitation of this vulnerability could lead to a remote code execution.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43979">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6a36e0b39c2e581d74a707260d39007c</td>
-       <td>CVE-2022-43978</td>
-       <td>2023-01-27 22:15:00</td>
-       <td>There is an improper authentication vulnerability in Pandora FMS v764. The application verifies that the user has a valid session when he is not trying to do a login. Since the secret is static in generatePublicHash function, an attacker with knowledge of a valid session can abuse this in order to pass the authentication check.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-43978">详情</a></td>
       </tr>
 
      </tbody>
