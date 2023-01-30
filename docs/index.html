@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-01-30 01:04:53 -->
+<!-- RELEASE TIME : 2023-01-30 02:28:46 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,22 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">809590feaf1dfc1ca1518faf1190c91b</td>
+       <td>CVE-2023-0572</td>
+       <td>2023-01-29 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Unchecked Error Condition in GitHub repository froxlor/froxlor prior to 2.0.10.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0572">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">92cfdc88a55e21f1bb5c1a403562e0e6</td>
+       <td>CVE-2021-46873</td>
+       <td>2023-01-29 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>WireGuard, such as WireGuard 0.5.3 on Windows, does not fully account for the possibility that an adversary might be able to set a victim's system time to a future value, e.g., because unauthenticated NTP is used. This can lead to an outcome in which one static private key becomes permanently useless.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-46873">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">0560ffe880f0b35c44fb46dbab5ed22e</td>
        <td>CVE-2023-24065</td>
        <td>2023-01-29 22:15:00 <img src="imgs/new.gif" /></td>
@@ -501,22 +517,6 @@
        <td>2023-01-27 23:15:00</td>
        <td>Grafana is an open-source platform for monitoring and observability. Starting with the 8.1 branch and prior to versions 8.5.16, 9.2.10, and 9.3.4, Grafana had a stored XSS vulnerability affecting the core plugin GeoMap. The stored XSS vulnerability was possible because SVG files weren't properly sanitized and allowed arbitrary JavaScript to be executed in the context of the currently authorized user of the Grafana instance. An attacker needs to have the Editor role in order to change a panel to include either an external URL to a SVG-file containing JavaScript, or use the `data:` scheme to load an inline SVG-file containing JavaScript. This means that vertical privilege escalation is possible, where a user with Editor role can change to a known password for a user having Admin role if the user with Admin role executes malicious JavaScript viewing a dashboard. Users may upgrade to version 8.5.16, 9.2.10, or 9.3.4 to receive a fix.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23552">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">fc06eb9133b9ae30bc6bac4247b17c0e</td>
-       <td>CVE-2023-0558</td>
-       <td>2023-01-27 22:15:00</td>
-       <td>The ContentStudio plugin for WordPress is vulnerable to authorization bypass due to an unsecure token check that is susceptible to type juggling in versions up to, and including, 1.2.5. This makes it possible for unauthenticated attackers to execute functions intended for use by users with proper API keys.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0558">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b95810e3eb90d455aab38268fbc0a7b4</td>
-       <td>CVE-2023-0557</td>
-       <td>2023-01-27 22:15:00</td>
-       <td>The ContentStudio plugin for WordPress is vulnerable to Sensitive Information Exposure in versions up to, and including, 1.2.5. This could allow unauthenticated attackers to obtain a nonce needed for the creation of posts.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0557">详情</a></td>
       </tr>
 
      </tbody>
@@ -882,6 +882,14 @@
       </tr>
 
       <tr>
+       <td scope="row">6fd1151a923e656840b3c65c3614b2da</td>
+       <td>CNVD-2023-05214</td>
+       <td>2023-01-29 02:27:59 <img src="imgs/new.gif" /></td>
+       <td>易居房产系统后台管理存在逻辑缺陷漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-05214">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">d71e3563e5999522c3c6f7d5ddc961d2</td>
        <td>CNVD-2023-04628 (CVE-2021-25038)</td>
        <td>2023-01-28 08:16:33</td>
@@ -1047,14 +1055,6 @@
        <td>2023-01-20 01:09:48</td>
        <td>Google Chrome安全绕过漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-04548">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">27756011e13cde7bd963542e98d4c136</td>
-       <td>CNVD-2023-04556 (CVE-2022-4182)</td>
-       <td>2023-01-20 01:09:45</td>
-       <td>Google Chrome安全绕过漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-04556">详情</a></td>
       </tr>
 
      </tbody>
