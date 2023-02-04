@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-02-04 21:12:15 -->
+<!-- RELEASE TIME : 2023-02-04 22:12:44 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">ec4eedd0444fbc85a54b5cb281f2bf58</td>
+       <td>CVE-2023-25193</td>
+       <td>2023-02-04 20:15:00 <img src="imgs/new.gif" /></td>
+       <td>hb-ot-layout-gsubgpos.hh in HarfBuzz through 6.0.0 allows attackers to trigger O(n^2) growth via consecutive marks during the process of looking back for base glyphs when attaching marks.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-25193">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">161c38cee172d2cbecdd226ed8de1e7e</td>
        <td>CVE-2023-0678</td>
        <td>2023-02-04 13:15:00 <img src="imgs/new.gif" /></td>
@@ -509,14 +517,6 @@
        <td>2023-02-03 20:15:00 <img src="imgs/new.gif" /></td>
        <td>Parse Server is an open source backend that can be deployed to any infrastructure that can run Node.js. Parse Server uses the request header `x-forwarded-for` to determine the client IP address. If Parse Server doesn't run behind a proxy server, then a client can set this header and Parse Server will trust the value of the header. The incorrect client IP address will be used by various features in Parse Server. This allows to circumvent the security mechanism of the Parse Server option `masterKeyIps` by setting an allowed IP address as the `x-forwarded-for` header value. This issue has been patched in version 5.4.1. The mechanism to determine the client IP address has been rewritten. The correct IP address determination now requires to set the Parse Server option `trustProxy`.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-22474">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2eb2e4393fc08ea8412adf606868be16</td>
-       <td>CVE-2013-10016</td>
-       <td>2023-02-03 20:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability was found in fanzila WebFinance 0.5 and classified as critical. This issue affects some unknown processing of the file htdocs/admin/save_taxes.php. The manipulation of the argument id leads to sql injection. The name of the patch is 306f170ca2a8203ae3d8f51fb219ba9e05b945e1. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-220055.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2013-10016">详情</a></td>
       </tr>
 
      </tbody>
