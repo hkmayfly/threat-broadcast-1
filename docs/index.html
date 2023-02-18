@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-02-18 01:10:57 -->
+<!-- RELEASE TIME : 2023-02-18 02:33:45 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,38 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">dd5f8a8b0b616924d7653ed02b9d78af</td>
+       <td>CVE-2021-32846</td>
+       <td>2023-02-17 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>HyperKit is a toolkit for embedding hypervisor capabilities in an application. In versions 0.20210107, function `pci_vtsock_proc_tx` in `virtio-sock` can lead to to uninitialized memory use. In this situation, there is a check for the return value to be less or equal to `VTSOCK_MAXSEGS`, but that check is not sufficient because the function can return `-1` if it finds an error it cannot recover from. Moreover, the negative return value will be used by `iovec_pull` in a while condition that can further lead to more corruption because the function is not designed to handle a negative `iov_len`. This issue may lead to a guest crashing the host causing a denial of service and, under certain circumstance, memory corruption. This issue is fixed in commit af5eba2360a7351c08dfd9767d9be863a50ebaba.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-32846">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5bfd6e15551362ace70fde412eb3dd0a</td>
+       <td>CVE-2021-32845</td>
+       <td>2023-02-17 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>HyperKit is a toolkit for embedding hypervisor capabilities in an application. In versions 0.20210107 and prior of HyperKit, the implementation of `qnotify` at `pci_vtrnd_notify` fails to check the return value of `vq_getchain`. This leads to `struct iovec iov;` being uninitialized and used to read memory in `len = (int) read(sc->vrsc_fd, iov.iov_base, iov.iov_len);` when an attacker is able to make `vq_getchain` fail. This issue may lead to a guest crashing the host causing a denial of service and, under certain circumstance, memory corruption. This issue is fixed in commit 41272a980197917df8e58ff90642d14dec8fe948.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-32845">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">fd531955ec22d8000a6a2cd21bfc162b</td>
+       <td>CVE-2021-32844</td>
+       <td>2023-02-17 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>HyperKit is a toolkit for embedding hypervisor capabilities in an application. In versions 0.20210107 and prior of HyperKit, ` vi_pci_write` has is a call to `vc_cfgwrite` that does not check for null which when called makes the host crash. This issue may lead to a guest crashing the host causing a denial of service. This issue is fixed in commit 451558fe8aaa8b24e02e34106e3bb9fe41d7ad13.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-32844">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0cf4d795524c04bb70a1aa3d0a2ba846</td>
+       <td>CVE-2021-32843</td>
+       <td>2023-02-17 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>HyperKit is a toolkit for embedding hypervisor capabilities in an application. In versions 0.20210107 and prior of HyperKit, `virtio.c` has is a call to `vc_cfgread` that does not check for null which when called makes the host crash. This issue may lead to a guest crashing the host causing a denial of service. This issue is fixed in commit df0e46c7dbfd81a957d85e449ba41b52f6f7beb4.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-32843">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">b27672ed618bc3368864c2019e0255f3</td>
        <td>CVE-2023-24769</td>
        <td>2023-02-17 22:15:00 <img src="imgs/new.gif" /></td>
@@ -485,38 +517,6 @@
        <td>2023-02-17 18:15:00 <img src="imgs/new.gif" /></td>
        <td>File Upload Vulnerability in Yupoxion BearAdmin before commit 10176153528b0a914eb4d726e200fd506b73b075 allows attacker to execute arbitrary remote code via the Upfile function of the extend/tools/Ueditor endpoint.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-35261">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2c2f465530de4fef2e833f27d7adb956</td>
-       <td>CVE-2021-34182</td>
-       <td>2023-02-17 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>An issue in ttyd v.1.6.3 allows attacker to execute arbitrary code via default configuration permissions.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-34182">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">27dfc34001502b2055a98d6a086a3cda</td>
-       <td>CVE-2021-34164</td>
-       <td>2023-02-17 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>Permissions vulnerability in LIZHIFAKA v.2.2.0 allows authenticated attacker to execute arbitrary commands via the set password function in the admin/index/email location.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-34164">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d5039b4be5570e43b20e8cc5eefba5d4</td>
-       <td>CVE-2021-33983</td>
-       <td>2023-02-17 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>Buffer Overflow vulnerability in Dvidelabs flatcc v.0.6.0 allows local attacker to execute arbitrary code via the fltacc execution of the error_ref_sym function.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-33983">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1cbdd53a0a6a9855fa9dcbffa5fe5276</td>
-       <td>CVE-2023-23007</td>
-       <td>2023-02-17 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>An issue was discovered in ESPCMS P8.21120101 after logging in to the background, there is a SQL injection vulnerability in the function node where members are added.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23007">详情</a></td>
       </tr>
 
      </tbody>
