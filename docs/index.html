@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-02-28 20:16:06 -->
+<!-- RELEASE TIME : 2023-02-28 21:13:33 -->
 <html lang="zh-cn">
 
  <head>
@@ -2508,11 +2508,27 @@
       </tr>
 
       <tr>
+       <td scope="row">27422782fe4470ce812792b50218697f</td>
+       <td>CVE-2022-29514</td>
+       <td>2023-02-16 21:15:11 </td>
+       <td>Improper access control in the Intel(R) SUR software before version 2.4.8902 may allow an unauthenticated user to potentially enable escalation of privilege via network access.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29514">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">7d272f43e0f2e5cf8234592fc6666698</td>
        <td>CVE-2023-0866</td>
        <td>2023-02-16 20:15:15 </td>
        <td>Heap-based Buffer Overflow in GitHub repository gpac/gpac prior to 2.3.0-DEV.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-0866">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">60ed6359515bc9bc7bae3b4267ac4e41</td>
+       <td>CVE-2022-29054</td>
+       <td>2023-02-16 19:15:12 </td>
+       <td>A missing cryptographic steps vulnerability [CWE-325] in the functions that encrypt the DHCP and DNS keys in Fortinet FortiOS version 7.2.0, 7.0.0 through 7.0.5, 6.4.0 through 6.4.9, 6.2.x and 6.0.x may allow an attacker in possession of the encrypted key to decipher it.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29054">详情</a></td>
       </tr>
 
       <tr>
@@ -2588,6 +2604,14 @@
       </tr>
 
       <tr>
+       <td scope="row">ad2f6584914a1ed713b2659a7f1ad5cb</td>
+       <td>CVE-2022-29557</td>
+       <td>2023-02-15 00:15:10 </td>
+       <td>LexisNexis Firco Compliance Link 3.7 allows CSRF.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-29557">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">8d6d3a0af046dfb785291a9e453ad317</td>
        <td>CVE-2023-21778</td>
        <td>2023-02-14 21:15:11 </td>
@@ -2657,30 +2681,6 @@
        <td>2023-02-14 20:15:14 </td>
        <td>Microsoft Publisher Security Features Bypass Vulnerability</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-21715">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">33bdd2b1bc7a92b27354ac602ef25dd8</td>
-       <td>CVE-2023-21714</td>
-       <td>2023-02-14 20:15:14 </td>
-       <td>Microsoft Office Information Disclosure Vulnerability</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-21714">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">dd4750ec31b96767c9c9fa8427a74cec</td>
-       <td>CVE-2023-25725</td>
-       <td>2023-02-14 19:15:11 </td>
-       <td>HAProxy before 2.7.3 may allow a bypass of access control because HTTP/1 headers are inadvertently lost in some situations, aka &quot;request smuggling.&quot; The HTTP header parsers in HAProxy may accept empty header field names, which could be used to truncate the list of HTTP headers and thus make some headers disappear after being parsed and processed for HTTP/1.0 and HTTP/1.1. For HTTP/2 and HTTP/3, the impact is limited because the headers disappear before being parsed and processed, as if they had not been sent by the client. The fixed versions are 2.7.3, 2.6.9, 2.5.12, 2.4.22, 2.2.29, and 2.0.31.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-25725">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">824d702024849d17f16cafdaeb9fee2c</td>
-       <td>CVE-2023-25567</td>
-       <td>2023-02-14 18:15:13 </td>
-       <td>GSS-NTLMSSP, a mechglue plugin for the GSSAPI library that implements NTLM authentication, has an out-of-bounds read when decoding target information prior to version 1.2.0. The length of the `av_pair` is not checked properly for two of the elements which can trigger an out-of-bound read. The out-of-bounds read can be triggered via the main `gss_accept_sec_context` entry point and could cause a denial-of-service if the memory is unmapped. The issue is fixed in version 1.2.0.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-25567">详情</a></td>
       </tr>
 
      </tbody>
