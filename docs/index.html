@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-02-28 23:36:43 -->
+<!-- RELEASE TIME : 2023-03-01 01:19:02 -->
 <html lang="zh-cn">
 
  <head>
@@ -28,7 +28,7 @@
       <tr>
        <td scope="row">0b4545f346ae941fb86499887e937bfa</td>
        <td></td>
-       <td>2023-02-27 06:56:34 <img src="imgs/new.gif" /></td>
+       <td>2023-02-27 06:56:34</td>
        <td>安全事件周报 (02.20-02.26)</td>
        <td><a target="_blank" href="https://cert.360.cn/warning/detail?id=cac2c0ab8515d9851b511e619dc674e0">详情</a></td>
       </tr>
@@ -2532,6 +2532,46 @@
       </tr>
 
       <tr>
+       <td scope="row">ef0f8038cd01f1b35f501e8780a329e5</td>
+       <td>CVE-2022-27489</td>
+       <td>2023-02-16 19:15:12 </td>
+       <td>A improper neutralization of special elements used in an os command ('os command injection') in Fortinet FortiExtender 7.0.0 through 7.0.3, 5.3.2, 4.2.4 and below allows attacker to execute unauthorized code or commands via crafted HTTP requests.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27489">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">09953228bdaee77cf5df7e934534fdde</td>
+       <td>CVE-2022-27897</td>
+       <td>2023-02-16 16:15:12 </td>
+       <td>Palantir Gotham versions prior to 3.22.11.2 included an unauthenticated endpoint that would load portions of maliciously crafted zip files to memory. An attacker could repeatedly upload a malicious zip file, which would allow them to exhaust memory resources on the dispatch server.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27897">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">37e20924a16df87c3c42b4524f8b9da7</td>
+       <td>CVE-2022-27892</td>
+       <td>2023-02-16 16:15:12 </td>
+       <td>Palantir Gotham versions prior to 3.22.11.2 included an unauthenticated endpoint that would have allowed an attacker to exhaust the memory of the Gotham dispatch service.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27892">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4d991ad2e501a646694733e099e133f5</td>
+       <td>CVE-2022-27891</td>
+       <td>2023-02-16 16:15:12 </td>
+       <td>Palantir Gotham included an unauthenticated endpoint that listed all active usernames on the stack with an active session. The affected services have been patched and automatically deployed to all Apollo-managed Gotham instances. It is highly recommended that customers upgrade all affected services to the latest version. This issue affects: Palantir Gotham versions prior to 103.30221005.0.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27891">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e9bb5c9ab690fd85480c7d02dd9c7aaa</td>
+       <td>CVE-2022-27890</td>
+       <td>2023-02-16 16:15:11 </td>
+       <td>It was discovered that the sls-logging was not verifying hostnames in TLS certificates due to a misuse of the javax.net.ssl.SSLSocketFactory API. A malicious attacker in a privileged network position could abuse this to perform a man-in-the-middle attack. A successful man-in-the-middle attack would allow them to intercept, read, or modify network communications to and from the affected service. In the case of AtlasDB, the vulnerability was mitigated by other network controls such as two-way TLS when deployed as part of a Palantir platform. Palantir still recommends upgrading to a non-vulnerable version out of an abundance of caution.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-27890">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">87d873b639d2b8764ee97944b7df6e95</td>
        <td>CVE-2023-0862</td>
        <td>2023-02-16 10:15:11 </td>
@@ -2641,46 +2681,6 @@
        <td>2023-02-14 20:15:14 </td>
        <td>Microsoft OneNote Spoofing Vulnerability</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-21721">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5c71080dd3e740b769b22f516d332c12</td>
-       <td>CVE-2023-21720</td>
-       <td>2023-02-14 20:15:14 </td>
-       <td>Microsoft Edge (Chromium-based) Tampering Vulnerability</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-21720">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1d1bfa89534425aa6d0e7c14b5769cc9</td>
-       <td>CVE-2023-21718</td>
-       <td>2023-02-14 20:15:14 </td>
-       <td>Microsoft SQL ODBC Driver Remote Code Execution Vulnerability</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-21718">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">44380bc0e646edf84344c5289a8814c2</td>
-       <td>CVE-2023-21717</td>
-       <td>2023-02-14 20:15:14 </td>
-       <td>Microsoft SharePoint Server Elevation of Privilege Vulnerability</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-21717">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c412d5d4c0e6eddcb7ec0ef88de4d7c1</td>
-       <td>CVE-2023-21716</td>
-       <td>2023-02-14 20:15:14 </td>
-       <td>Microsoft Word Remote Code Execution Vulnerability</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-21716">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">83168e30f6fb1b74296d5940e8178010</td>
-       <td>CVE-2023-21715</td>
-       <td>2023-02-14 20:15:14 </td>
-       <td>Microsoft Publisher Security Features Bypass Vulnerability</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-21715">详情</a></td>
       </tr>
 
      </tbody>
