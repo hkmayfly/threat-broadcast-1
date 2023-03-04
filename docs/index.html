@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-03-04 01:09:37 -->
+<!-- RELEASE TIME : 2023-03-04 02:34:36 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">3120e77b32a8bc6cf297e96d7c1ccd5a</td>
+       <td>CVE-2023-26490</td>
+       <td>2023-03-04 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>mailcow is a dockerized email package, with multiple containers linked in one bridged network. The Sync Job feature - which can be made available to standard users by assigning them the necessary permission - suffers from a shell command injection. A malicious user can abuse this vulnerability to obtain shell access to the Docker container running dovecot. The imapsync Perl script implements all the necessary functionality for this feature, including the XOAUTH2 authentication mechanism. This code path creates a shell command to call openssl. However, since different parts of the specified user password are included without any validation, one can simply execute additional shell commands. Notably, the default ACL for a newly-created mailcow account does not include the necessary permission. The Issue has been fixed within the 2023-03 Update (March 3rd 2023). As a temporary workaround the Syncjob ACL can be removed from all mailbox users, preventing from creating or changing existing Syncjobs.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26490">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">98a99860b7896988cf4c3a7e712ca5b2</td>
+       <td>CVE-2023-26487</td>
+       <td>2023-03-04 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>Vega is a visualization grammar, a declarative format for creating, saving, and sharing interactive visualization designs.`lassoAppend' function accepts 3 arguments and internally invokes `push` function on the 1st argument specifying array consisting of 2nd and 3rd arguments as `push` call argument. The type of the 1st argument is supposed to be an array, but it's not enforced. This makes it possible to specify any object with a `push` function as the 1st argument, `push` function can be set to any function that can be access via `event.view` (no all such functions can be exploited due to invalid context or signature, but some can, e.g. `console.log`). The issue is that`lassoAppend` doesn't enforce proper types of its arguments. This issue opens various XSS vectors, but exact impact and severity depends on the environment (e.g. Core JS `setImmediate` polyfill basically allows `eval`-like functionality). This issue was patched in 5.23.0.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26487">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e4aeec296e2eacfd1af9f153266658bc</td>
+       <td>CVE-2023-26486</td>
+       <td>2023-03-04 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>Vega is a visualization grammar, a declarative format for creating, saving, and sharing interactive visualization designs. The Vega `scale` expression function has the ability to call arbitrary functions with a single controlled argument. The scale expression function passes a user supplied argument group to getScale, which is then used as if it were an internal context. The context.scales[name].value is accessed from group and called as a function back in scale. This can be exploited to escape the Vega expression sandbox in order to execute arbitrary JavaScript. This issue has been fixed in version 5.13.1.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26486">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">146c7e1fc2aac7d86612b3c6f11c81e3</td>
+       <td>CVE-2023-23929</td>
+       <td>2023-03-04 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>vantage6 is a privacy preserving federated learning infrastructure for secure insight exchange. Currently, the refresh token is valid indefinitely. The refresh token should get a validity of 24-48 hours. A fix was released in version 3.8.0.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23929">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">cf965166887922bcab63010d09670452</td>
+       <td>CVE-2021-36689</td>
+       <td>2023-03-04 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue discovered in com.samourai.wallet.PinEntryActivity.java in Streetside Samourai Wallet 0.99.96i allows attackers to view sensitive information and decrypt data via a brute force attack that uses a recovered samourai.dat file. The PIN is 5 to 8 digits, which may be insufficient in this situation.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-36689">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5bbebfa3d0a528f8d36cec6b018455b3</td>
+       <td>CVE-2023-27290</td>
+       <td>2023-03-03 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Docker based datastores for IBM Instana (IBM Observability with Instana 239-0 through 239-2, 241-0 through 241-2, and 243-0) do not currently require authentication. Due to this, an attacker within the network could access the datastores with read/write access. IBM X-Force ID: 248737.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-27290">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">dab5e3eaa841da9e55f1319daa411ede</td>
+       <td>CVE-2023-26779</td>
+       <td>2023-03-03 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>CleverStupidDog yf-exam v 1.8.0 is vulnerable to Deserialization which can lead to remote code execution (RCE).</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26779">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6f518f9c5ee2980b59ffd6265dec9c85</td>
+       <td>CVE-2023-26491</td>
+       <td>2023-03-03 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>RSSHub is an open source and extensible RSS feed generator. When the URL parameters contain certain special characters, it returns an error page that does not properly handle XSS vulnerabilities, allowing for the execution of arbitrary JavaScript code. Users who access the deliberately constructed URL are affected. This vulnerability was fixed in version c910c4d28717fb860fbe064736641f379fab2c91. Please upgrade to this or a later version, there are no known workarounds.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26491">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7fcd20c9a311ca3f342fdf1ece4e9b6b</td>
+       <td>CVE-2023-26483</td>
+       <td>2023-03-03 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>gosaml2 is a Pure Go implementation of SAML 2.0. SAML Service Providers using this library for SAML authentication support are likely susceptible to Denial of Service attacks. A bug in this library enables attackers to craft a `deflate`-compressed request which will consume significantly more memory during processing than the size of the original request. This may eventually lead to memory exhaustion and the process being killed. The maximum compression ratio achievable with `deflate` is 1032:1, so by limiting the size of bodies passed to gosaml2, limiting the rate and concurrency of calls, and ensuring that lots of memory is available to the process it _may_ be possible to help Go's garbage collector "keep up". Implementors are encouraged not to rely on this. This issue is fixed in version 0.9.0.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26483">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">cfdc403b6ab02522da18345c3cf4d324</td>
+       <td>CVE-2023-26047</td>
+       <td>2023-03-03 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>teler-waf is a Go HTTP middleware that provides teler IDS functionality to protect against web-based attacks. In teler-waf prior to version v0.2.0 is vulnerable to a bypass attack when a specific case-sensitive hex entities payload with special characters such as CR/LF and horizontal tab is used. This vulnerability allows an attacker to execute arbitrary JavaScript code on the victim's browser and compromise the security of the web application. An attacker can exploit this vulnerability to bypass common web attack threat rules in teler-waf and launch cross-site scripting (XSS) attacks. The attacker can execute arbitrary JavaScript code on the victim's browser and steal sensitive information, such as login credentials and session tokens, or take control of the victim's browser and perform malicious actions. This issue has been patched in version 0.2.0.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26047">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">8c0c6410efa6bd78055aae098d258646</td>
        <td>CVE-2023-27574</td>
        <td>2023-03-03 22:15:00 <img src="imgs/new.gif" /></td>
@@ -437,86 +517,6 @@
        <td>2023-03-03 18:15:00 <img src="imgs/new.gif" /></td>
        <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018. Notes: none.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2018-3694">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1f2a615fec53d9dc5c44e94161568548</td>
-       <td>CVE-2018-3692</td>
-       <td>2023-03-03 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018. Notes: none.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2018-3692">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2b836d7612fd4014d26c2903a7788d26</td>
-       <td>CVE-2018-3685</td>
-       <td>2023-03-03 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018. Notes: none.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2018-3685">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9bbcd1e6ab3795d3372ed75c96482427</td>
-       <td>CVE-2018-3681</td>
-       <td>2023-03-03 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018. Notes: none.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2018-3681">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6d8c4b2e3b5e8af3f8670ad51b983dee</td>
-       <td>CVE-2018-3680</td>
-       <td>2023-03-03 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018. Notes: none.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2018-3680">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f9da497fc1b5093f9675bbd5036e5bff</td>
-       <td>CVE-2023-26604</td>
-       <td>2023-03-03 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>systemd before 247 does not adequately block local privilege escalation for some Sudo configurations, e.g., plausible sudoers files in which the "systemctl status" command may be executed. Specifically, systemd does not set LESSSECURE to 1, and thus other programs may be launched from the less program. This presents a substantial security risk when running systemctl from Sudo, because less executes as root when the terminal size is too small to show the complete systemctl output.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26604">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">08630d0c6172ac676ee889363e451972</td>
-       <td>CVE-2023-20104</td>
-       <td>2023-03-03 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability in the file upload functionality of Cisco Webex App for Web could allow an unauthenticated, remote attacker to conduct a cross-site scripting (XSS) attack against a user of the interface. This vulnerability is due to insufficient validation of user-supplied input. An attacker could exploit this vulnerability by sending an arbitrary file to a user and persuading that user to browse to a specific URL. A successful exploit could allow the attacker to execute arbitrary script code in the context of the affected interface or access sensitive, browser-based information.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-20104">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">79fd501cd9679dbe1e756626b68944ab</td>
-       <td>CVE-2023-20088</td>
-       <td>2023-03-03 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability in the nginx configurations that are provided as part of the VPN-less reverse proxy for Cisco Finesse could allow an unauthenticated, remote attacker to create a denial of service (DoS) condition for new and existing users who are connected through a load balancer. This vulnerability is due to improper IP address filtering by the reverse proxy. An attacker could exploit this vulnerability by sending a series of unauthenticated requests to the reverse proxy. A successful exploit could allow the attacker to cause all current traffic and subsequent requests to the reverse proxy through a load balancer to be dropped, resulting in a DoS condition.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-20088">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7752f9c27ab01dfea80cd3c1d818b405</td>
-       <td>CVE-2023-20079</td>
-       <td>2023-03-03 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>Multiple vulnerabilities in the web-based management interface of certain Cisco IP Phones could allow an unauthenticated, remote attacker to execute arbitrary code or cause a denial of service (DoS) condition. For more information about these vulnerabilities, see the Details section of this advisory.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-20079">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ee237df427c41a4efd2cc180577ad718</td>
-       <td>CVE-2023-20078</td>
-       <td>2023-03-03 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>Multiple vulnerabilities in the web-based management interface of certain Cisco IP Phones could allow an unauthenticated, remote attacker to execute arbitrary code or cause a denial of service (DoS) condition. For more information about these vulnerabilities, see the Details section of this advisory.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-20078">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">24bcc3a11b8d23cb6d54e089fe81abbb</td>
-       <td>CVE-2023-20069</td>
-       <td>2023-03-03 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability in the web-based management interface of Cisco Prime Infrastructure and Cisco Evolved Programmable Network (EPN) Manager could allow an authenticated, remote attacker to conduct a stored cross-site scripting (XSS) attack against a user of the interface on an affected device. This vulnerability is due to insufficient validation of user-supplied input. An attacker could exploit this vulnerability by persuading a user of an affected interface to click a crafted link. A successful exploit could allow the attacker to execute arbitrary script code in the context of the affected interface or access sensitive, browser-based information. To exploit this vulnerability, the attacker would need to have valid credentials to access the web-based management interface of the affected device.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-20069">详情</a></td>
       </tr>
 
      </tbody>
