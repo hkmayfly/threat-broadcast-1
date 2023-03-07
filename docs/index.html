@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-03-07 22:38:12 -->
+<!-- RELEASE TIME : 2023-03-07 23:15:39 -->
 <html lang="zh-cn">
 
  <head>
@@ -312,6 +312,14 @@
       </tr>
 
       <tr>
+       <td scope="row">06cf21f7ffb8376fa6e7b62598ff128e</td>
+       <td>CVE-2023-27481</td>
+       <td>2023-03-07 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>Directus is a real-time API and App dashboard for managing SQL database content. In versions prior to 9.16.0 users with read access to the `password` field in `directus_users` can extract the argon2 password hashes by brute forcing the export functionality combined with a `_starts_with` filter. This allows the user to enumerate the password hashes. Accounts cannot be taken over unless the hashes can be reversed which is unlikely with current hardware. This problem has been patched by preventing any hashed/concealed field to be filtered against with the `_starts_with` or other string operator in version 9.16.0. Users are advised to upgrade. Users unable to upgrade may mitigate this issue by ensuring that no user has `read` access to the `password` field in `directus_users`.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-27481">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">b9333fa2bfced32556653f622315da6d</td>
        <td>CVE-2023-27478</td>
        <td>2023-03-07 18:15:00 <img src="imgs/new.gif" /></td>
@@ -509,14 +517,6 @@
        <td>2023-03-07 15:15:00 <img src="imgs/new.gif" /></td>
        <td>A vulnerability, which was classified as critical, was found in SourceCodester Health Center Patient Record Management System 1.0. This affects an unknown part of the file login.php. The manipulation of the argument username leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-222483.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-1253">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7851a2ec76d65d96649ab30e12c532e1</td>
-       <td>CVE-2022-4932</td>
-       <td>2023-03-07 15:15:00 <img src="imgs/new.gif" /></td>
-       <td>The Total Upkeep plugin for WordPress is vulnerable to information disclosure in versions up to, and including 1.14.13. This is due to missing authorization on the heartbeat_received() function that triggers on WordPress heartbeat. This makes it possible for authenticated attackers, with subscriber-level permissions and above to retrieve back-up paths that can subsequently be used to download the back-up.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-4932">详情</a></td>
       </tr>
 
      </tbody>
@@ -2460,6 +2460,78 @@
       </tr>
 
       <tr>
+       <td scope="row">1adf1c3ced432a3e76b6821a3641193a</td>
+       <td>CVE-2023-24127</td>
+       <td>2023-03-01 21:15:11 </td>
+       <td>Jensen of Scandinavia Eagle 1200AC V15.03.06.33_en was discovered to contain a stack overflow via the wepkey1 parameter at /goform/WifiBasicSet.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24127">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">28853d463a95e7f6580647a57211420d</td>
+       <td>CVE-2023-24126</td>
+       <td>2023-03-01 21:15:11 </td>
+       <td>Jensen of Scandinavia Eagle 1200AC V15.03.06.33_en was discovered to contain a stack overflow via the wepkey4_5g parameter at /goform/WifiBasicSet.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24126">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6de8b8cf49bffa016e2b1a605f8dec6f</td>
+       <td>CVE-2023-24134</td>
+       <td>2023-03-01 20:15:18 </td>
+       <td>Jensen of Scandinavia Eagle 1200AC V15.03.06.33_en was discovered to contain a stack overflow via the wepkey3 parameter at /goform/WifiBasicSet.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24134">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9eb61f8f5ef69c076c1fb96d0ee29f5e</td>
+       <td>CVE-2023-24133</td>
+       <td>2023-03-01 20:15:18 </td>
+       <td>Jensen of Scandinavia Eagle 1200AC V15.03.06.33_en was discovered to contain a stack overflow via the wepkey_5g parameter at /goform/WifiBasicSet.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24133">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">dbe537949260c9623fbb6ae8cf42829e</td>
+       <td>CVE-2023-24132</td>
+       <td>2023-03-01 20:15:17 </td>
+       <td>Jensen of Scandinavia Eagle 1200AC V15.03.06.33_en was discovered to contain a stack overflow via the wepkey3_5g parameter at /goform/WifiBasicSet.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24132">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ccf15fbed3794c1dbd8531aa918db06e</td>
+       <td>CVE-2023-24131</td>
+       <td>2023-03-01 20:15:17 </td>
+       <td>Jensen of Scandinavia Eagle 1200AC V15.03.06.33_en was discovered to contain a stack overflow via the wepkey1_5g parameter at /goform/WifiBasicSet.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24131">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1fde3f2bbd4d8366d764d93e48f4e419</td>
+       <td>CVE-2023-24130</td>
+       <td>2023-03-01 20:15:16 </td>
+       <td>Jensen of Scandinavia Eagle 1200AC V15.03.06.33_en was discovered to contain a stack overflow via the wepkey parameter at /goform/WifiBasicSet.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24130">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4d0f0bea23ede05ee73d47cd17638a32</td>
+       <td>CVE-2023-24129</td>
+       <td>2023-03-01 20:15:16 </td>
+       <td>Jensen of Scandinavia Eagle 1200AC V15.03.06.33_en was discovered to contain a stack overflow via the wepkey4 parameter at /goform/WifiBasicSet.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24129">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3ef7a6722f1550a802bd2136dd927574</td>
+       <td>CVE-2023-24128</td>
+       <td>2023-03-01 20:15:15 </td>
+       <td>Jensen of Scandinavia Eagle 1200AC V15.03.06.33_en was discovered to contain a stack overflow via the wepkey2 parameter at /goform/WifiBasicSet.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24128">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">81aea208b28ace7345aa5e1f401ecce8</td>
        <td>CVE-2023-1116</td>
        <td>2023-03-01 14:15:16 </td>
@@ -2609,78 +2681,6 @@
        <td>2023-02-27 16:15:11 </td>
        <td>The GeoDirectory WordPress plugin before 2.2.24 does not properly sanitise and escape a parameter before using it in a SQL statement, leading to a SQL injection exploitable by high privilege users such as admin.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-0278">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">383f62a32f846f738aed8517285d8a7d</td>
-       <td>CVE-2023-0230</td>
-       <td>2023-02-27 16:15:11 </td>
-       <td>The VK All in One Expansion Unit WordPress plugin before 9.86.0.0 does not validate and escape some of its block options before outputting them back in a page/post where the block is embed, which could allow users with the contributor role and above to perform Stored Cross-Site Scripting attacks.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-0230">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0436499131d0f5e39722c1b05cf88212</td>
-       <td>CVE-2023-0168</td>
-       <td>2023-02-27 16:15:11 </td>
-       <td>The Olevmedia Shortcodes WordPress plugin through 1.1.9 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform Stored Cross-Site Scripting attacks.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-0168">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">77cc688bf30f57a028726334f472ef34</td>
-       <td>CVE-2023-0043</td>
-       <td>2023-02-27 16:15:11 </td>
-       <td>The Custom Add User WordPress plugin through 2.0.2 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting which could be used against high privilege users such as admin</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-0043">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f70f1d5de32d04105c466ab3c11d36a2</td>
-       <td>CVE-2022-4795</td>
-       <td>2023-02-27 16:15:11 </td>
-       <td>The Galleries by Angie Makes WordPress plugin through 1.67 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform Stored Cross-Site Scripting attacks</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-4795">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e7fa35856c60759dd38e1ed1c42c760c</td>
-       <td>CVE-2022-4788</td>
-       <td>2023-02-27 16:15:11 </td>
-       <td>The Embed PDF WordPress plugin through 1.0.6 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform Stored Cross-Site Scripting attacks</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-4788">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4e987c24836223264a486c03801f6416</td>
-       <td>CVE-2022-4757</td>
-       <td>2023-02-27 16:15:11 </td>
-       <td>The List Pages Shortcode WordPress plugin before 1.7.6 does not validate and escape some of its shortcode attributes before outputting them back in the page, which could allow users with a role as low as contributor to perform Stored Cross-Site Scripting attacks which could be used against high privilege users such as admins.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-4757">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">baf3cbb8bba4bc8fb20ab50884c3c8bd</td>
-       <td>CVE-2023-27266</td>
-       <td>2023-02-27 15:15:12 </td>
-       <td>Mattermost fails to honor the ShowEmailAddress setting when constructing a response to the /api/v4/users/me/teams API endpoint, allowing an attacker with team admin privileges to learn the team owner's email address in the response.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-27266">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1e93ac6ded7fdf6b0f882c1ccea4a446</td>
-       <td>CVE-2022-45697</td>
-       <td>2023-02-27 15:15:11 </td>
-       <td>Arbitrary File Delete vulnerability in Razer Central before v7.8.0.381 when handling files in the Accounts directory.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-45697">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">83e27b09f4f93f80c5d207a60e4a8a38</td>
-       <td>CVE-2023-27264</td>
-       <td>2023-02-27 15:15:11 </td>
-       <td>A missing permissions check in Mattermost Playbooks in Mattermost allows an attacker to modify a playbook via the /plugins/playbooks/api/v0/playbooks/[playbookID] API.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-27264">详情</a></td>
       </tr>
 
      </tbody>
