@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-03-07 15:38:31 -->
+<!-- RELEASE TIME : 2023-03-07 18:19:44 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,30 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">1307f032c6bd7e8118c1cf4611551522</td>
+       <td>CVE-2023-1254</td>
+       <td>2023-03-07 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability has been found in SourceCodester Health Center Patient Record Management System 1.0 and classified as problematic. This vulnerability affects unknown code of the file birthing_print.php. The manipulation of the argument birth_id leads to cross site scripting. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-222484.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-1254">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ecc5c0874547795cc6893632bba1adce</td>
+       <td>CVE-2021-4332</td>
+       <td>2023-03-07 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Plus Addons for Elementor plugin for WordPress is vulnerable to arbitrary file reads in versions up to, and including 4.1.9 (pro) and 2.0.6 (free). The plugin has a feature to add an "Info Box" to an Elementor created page. This Info Box can include an SVG image for the box. Unfortunately, the plugin used file_get_contents with no verification that the file being supplied was an SVG file, so any user with access to the Elementor page builder, such as contributors, could read arbitrary files on the WordPress installation.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-4332">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">cae1641fd7c32ecdae7644fb2b28b90d</td>
+       <td>CVE-2021-4331</td>
+       <td>2023-03-07 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Plus Addons for Elementor plugin for WordPress is vulnerable to privilege escalation in versions up to, and including 4.1.9 (pro) and 2.0.6 (free). The plugin adds a registration form to the Elementor page builders functionality. As part of the registration form, users can choose which role to set as the default for users upon registration. This field is not hidden for lower-level users so any user with access to the Elementor page builder, such as contributors, can set the default role to administrator. Since contributors can not publish posts, only author+ users can elevate privileges without interaction via a site administrator (to approve a post).</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-4331">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">b81924591d74748026eeb89b9fe58cbc</td>
        <td>CVE-2021-44197</td>
        <td>2023-03-07 14:15:00 <img src="imgs/new.gif" /></td>
@@ -493,30 +517,6 @@
        <td>2023-03-06 23:15:00 <img src="imgs/new.gif" /></td>
        <td>The fix for CVE-2022-3437 included changing memcmp to be constant time and a workaround for a compiler bug by adding "!= 0" comparisons to the result of memcmp. When these patches were backported to the heimdal-7.7.1 and heimdal-7.8.0 branches (and possibly other branches) a logic inversion sneaked in causing the validation of message integrity codes in gssapi/arcfour to be inverted.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45142">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b17116863f816eba812ad53bb15b67e7</td>
-       <td>CVE-2022-45141</td>
-       <td>2023-03-06 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>Since the Windows Kerberos RC4-HMAC Elevation of Privilege Vulnerability was disclosed by Microsoft on Nov 8 2022 and per RFC8429 it is assumed that rc4-hmac is weak, Vulnerable Samba Active Directory DCs will issue rc4-hmac encrypted tickets despite the target server supporting better encryption (eg aes256-cts-hmac-sha1-96).</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45141">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">590acbeaa543b39c65edb644518ec147</td>
-       <td>CVE-2022-4134</td>
-       <td>2023-03-06 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>A flaw was found in openstack-glance. This issue could allow a remote, authenticated attacker to tamper with images, compromising the integrity of virtual machines created using these modified images.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-4134">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cf740627983e601541ebca3ca547c4a8</td>
-       <td>CVE-2022-3857</td>
-       <td>2023-03-06 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>A flaw was found in libpng 1.6.38. A crafted PNG image can lead to a segmentation fault and denial of service in png_setup_paeth_row() function.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3857">详情</a></td>
       </tr>
 
      </tbody>
