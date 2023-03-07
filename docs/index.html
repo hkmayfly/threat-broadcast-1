@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-03-07 06:42:08 -->
+<!-- RELEASE TIME : 2023-03-07 07:12:57 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,22 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">fabcb3c9b69ac4b79bed3cb608f43691</td>
+       <td>CVE-2023-23554</td>
+       <td>2023-03-07 01:15:00 <img src="imgs/new.gif" /></td>
+       <td>Uncontrolled search path element vulnerability exists in pg_ivm versions prior to 1.5.1. When refreshing an IMMV, pg_ivm executes functions without specifying schema names. Under certain conditions, pg_ivm may be tricked to execute unexpected functions from other schemas with the IMMV owner's privilege. If this vulnerability is exploited, an unexpected function provided by an attacker may be executed with the privilege of the materialized view owner.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23554">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2d2f47a396cf755c41feb2cc09efaea1</td>
+       <td>CVE-2023-22847</td>
+       <td>2023-03-07 01:15:00 <img src="imgs/new.gif" /></td>
+       <td>Information disclosure vulnerability exists in pg_ivm versions prior to 1.5.1. An Incrementally Maintainable Materialized View (IMMV) created by pg_ivm may reflect rows with Row-Level Security that the owner of the IMMV should not have access to. As a result, information in tables protected by Row-Level Security may be retrieved by a user who is not authorized to access it.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-22847">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">d5a1d1e73176e8152815bf5b9c5bafca</td>
        <td>CVE-2023-1212</td>
        <td>2023-03-07 00:15:00 <img src="imgs/new.gif" /></td>
@@ -501,22 +517,6 @@
        <td>2023-03-06 18:15:00 <img src="imgs/new.gif" /></td>
        <td>discourse-yearly-review is a discourse plugin which publishes an automated Year in Review topic. In affected versions a user present in a yearly review topic that is then anonymised will still have some data linked to its original account. This issue has been patched in commit `b3ab33bbf7` which is included in the latest version of the Discourse Yearly Review plugin. Users are advised to upgrade. Users unable to upgrade may disable the `yearly_review_enabled` setting to fully mitigate the issue. Also, it's possible to edit the anonymised user's old data in the yearly review topics manually.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-25169">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0b877eba572dbfc638571fca0c514c36</td>
-       <td>CVE-2023-22481</td>
-       <td>2023-03-06 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>FreshRSS is a self-hosted RSS feed aggregator. When using the greader API, the provided password is logged in clear in `users/_/log_api.txt` in the case where the authentication fails. The issues occurs in `authorizationToUser()` in `greader.php`. If there is an issue with the request or the credentials, `unauthorized()` or `badRequest()` is called. Both these functions are printing the return of `debugInfo()` in the logs. `debugInfo()` will return the content of the request. By default, this will be saved in `users/_/log_api.txt` and if the const `COPY_LOG_TO_SYSLOG` is true, in syslogs as well. Exploiting this issue requires having access to logs produced by FreshRSS. Using the information from the logs, a malicious individual could get users' API keys (would be displayed if the users fills in a bad username) or passwords.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-22481">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">58c47b03d733ca2f13df3d209cc22220</td>
-       <td>CVE-2023-27474</td>
-       <td>2023-03-06 17:15:00 <img src="imgs/new.gif" /></td>
-       <td>Directus is a real-time API and App dashboard for managing SQL database content. Instances relying on an allow-listed reset URL are vulnerable to an HTML injection attack through the use of query parameters in the reset URL. An attacker could exploit this to email users urls to the servers domain but which may contain malicious code. The problem has been resolved and released under version 9.23.0. People relying on a custom password reset URL should upgrade to 9.23.0 or later, or remove the custom reset url from the configured allow list. Users are advised to upgrade. Users unable to upgrade may disable the custom reset URL allow list as a workaround.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-27474">详情</a></td>
       </tr>
 
      </tbody>
