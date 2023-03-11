@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-03-11 01:03:19 -->
+<!-- RELEASE TIME : 2023-03-11 02:25:10 -->
 <html lang="zh-cn">
 
  <head>
@@ -2468,6 +2468,14 @@
       </tr>
 
       <tr>
+       <td scope="row">0780e61fc2491cb7f827550e682ba61b</td>
+       <td>CVE-2023-26106</td>
+       <td>2023-03-06 05:15:12 </td>
+       <td>All versions of the package dot-lens are vulnerable to Prototype Pollution via the set() function in index.js file.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-26106">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">70f1164884ae2d492b81ff81dc42ab1c</td>
        <td>CVE-2023-26510</td>
        <td>2023-03-05 22:15:08 </td>
@@ -2673,14 +2681,6 @@
        <td>2023-02-28 20:15:10 </td>
        <td>GNU libmicrohttpd before 0.9.76 allows remote DoS (Denial of Service) due to improper parsing of a multipart/form-data boundary in the postprocessor.c MHD_create_post_processor() method. This allows an attacker to remotely send a malicious HTTP POST packet that includes one or more '\0' bytes in a multipart/form-data boundary field, which - assuming a specific heap layout - will result in an out-of-bounds read and a crash in the find_boundary() function.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-27371">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">af3d4abe7c7eb2ada8069bfbdfaa9f11</td>
-       <td>CVE-2023-27295</td>
-       <td>2023-02-28 17:15:11 </td>
-       <td>Cross-site request forgery is facilitated by OpenCATS failure to require CSRF tokens in POST requests. An attacker can exploit this issue by creating a dummy page that executes Javascript in an authenticated user's session when visited.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-27295">详情</a></td>
       </tr>
 
      </tbody>
