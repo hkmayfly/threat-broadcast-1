@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-03-31 20:13:15 -->
+<!-- RELEASE TIME : 2023-03-31 21:10:12 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">b8a8bdc454260e90858a63c6a65f9c83</td>
+       <td>CVE-2023-28879</td>
+       <td>2023-03-31 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>In Artifex Ghostscript through 10.01.0, there is a buffer overflow leading to potential corruption of data internal to the PostScript interpreter, in base/sbcp.c. This affects BCPEncode, BCPDecode, TBCPEncode, and TBCPDecode. If the write buffer is filled to one byte less than full, and one then tries to write an escaped character, two bytes are written.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-28879">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c5669245ce4990f1a9dba333d192e9dc</td>
+       <td>CVE-2023-28877</td>
+       <td>2023-03-31 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>The VTEX apps-graphql@2.x GraphQL API module does not properly restrict unauthorized access to private configuration data. (apps-graphql@3.x is unaffected by this issue.)</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-28877">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">76a07e03b472348a7852b5c2aeb22d7d</td>
+       <td>CVE-2023-28862</td>
+       <td>2023-03-31 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in LemonLDAP::NG before 2.16.1. Weak session ID generation in the AuthBasic handler and incorrect failure handling during a password check allow attackers to bypass 2FA verification. Any plugin that tries to deny session creation after the store step does not deny an AuthBasic session.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-28862">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">14b7068201925adc34862d792f34c55a</td>
+       <td>CVE-2022-3192</td>
+       <td>2023-03-31 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>Improper Input Validation vulnerability in ABB AC500 V2 PM5xx allows Client-Server Protocol Manipulation.This issue affects AC500 V2: from 2.0.0 before 2.8.6.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3192">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4e223e8c5840aede2643a557eb101193</td>
+       <td>CVE-2023-28464</td>
+       <td>2023-03-31 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>hci_conn_cleanup in net/bluetooth/hci_conn.c in the Linux kernel through 6.2.9 has a use-after-free (observed in hci_conn_hash_flush) because of calls to hci_dev_put and hci_conn_put. There is a double free that may lead to privilege escalation.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-28464">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">cdee32100cd23ef24f1fdb16040ae101</td>
+       <td>CVE-2023-26830</td>
+       <td>2023-03-31 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>An unrestricted file upload vulnerability in the administrative portal branding component of Gladinet CentreStack before 13.5.9808 allows authenticated attackers to execute arbitrary code by uploading malicious files to the server.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26830">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">32840e7f276781cf0aecddb879b69382</td>
+       <td>CVE-2023-26829</td>
+       <td>2023-03-31 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>An authentication bypass vulnerability in the Password Reset component of Gladinet CentreStack before 13.5.9808 allows remote attackers to set a new password for any valid user account, without needing the previous known password, resulting in a full authentication bypass.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26829">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">402934e2eace9a9621a76a3b2291f312</td>
+       <td>CVE-2023-0432</td>
+       <td>2023-03-31 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>The web configuration service of the affected device contains an authenticated command injection vulnerability. It can be used to execute system commands on the operating system (OS) from the device in the context of the user "root." If the attacker has credentials for the web service, then the device could be fully compromised.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0432">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b9cb5d89e2c92010ff1aa057c9a0dfff</td>
+       <td>CVE-2023-0344</td>
+       <td>2023-03-31 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>Akuvox E11 appears to be using a custom version of dropbear SSH server. This server allows an insecure option that by default is not in the official dropbear SSH server.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0344">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9bc62944ccdee46d899c3ef30791497c</td>
+       <td>CVE-2023-0343</td>
+       <td>2023-03-31 16:15:00 <img src="imgs/new.gif" /></td>
+       <td>Akuvox E11 contains a function that encrypts messages which are then forwarded. The IV vector and the key are static, and this may allow an attacker to decrypt messages.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0343">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">7a91dc2b7f1a70a72593ea239a235475</td>
        <td>CVE-2023-1777</td>
        <td>2023-03-31 12:15:00 <img src="imgs/new.gif" /></td>
@@ -437,86 +517,6 @@
        <td>2023-03-31 01:15:00 <img src="imgs/new.gif" /></td>
        <td>Cross-site Scripting (XSS) - Generic in GitHub repository thorsten/phpmyfaq prior to 3.1.12.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-1755">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">452a8631bbe15cd5482e455ee0fb3731</td>
-       <td>CVE-2023-1754</td>
-       <td>2023-03-31 01:15:00 <img src="imgs/new.gif" /></td>
-       <td>Improper Input Validation in GitHub repository thorsten/phpmyfaq prior to 3.1.12.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-1754">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f93ca19e3e0c8fa954ffcc96aea5de5f</td>
-       <td>CVE-2023-1753</td>
-       <td>2023-03-31 01:15:00 <img src="imgs/new.gif" /></td>
-       <td>Weak Password Requirements in GitHub repository thorsten/phpmyfaq prior to 3.1.12.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-1753">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1e5f3c220677d47af85b6e67f9a860ee</td>
-       <td>CVE-2023-1747</td>
-       <td>2023-03-31 00:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability has been found in IBOS up to 4.5.4 and classified as critical. Affected by this vulnerability is an unknown functionality of the file /?r=email/api/mark&op=delFromSend. The manipulation of the argument emailids leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 4.5.5 is able to address this issue. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-224635.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-1747">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9eee8e52eb0302ad2cfc103c6dda5cec</td>
-       <td>CVE-2023-1746</td>
-       <td>2023-03-30 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability, which was classified as problematic, was found in Dreamer CMS up to 3.5.0. Affected is an unknown function of the component File Upload Handler. The manipulation leads to cross site scripting. It is possible to launch the attack remotely. VDB-224634 is the identifier assigned to this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-1746">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c0e9650e2971ff3accd165c46686bac5</td>
-       <td>CVE-2023-1745</td>
-       <td>2023-03-30 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability, which was classified as problematic, has been found in KMPlayer 4.2.2.73. This issue affects some unknown processing in the library SHFOLDER.dll. The manipulation leads to uncontrolled search path. Attacking locally is a requirement. The exploit has been disclosed to the public and may be used. The identifier VDB-224633 was assigned to this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-1745">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">db2c19b760927963c0bf1145eb0a39a8</td>
-       <td>CVE-2023-1744</td>
-       <td>2023-03-30 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability classified as critical was found in IBOS 4.5.5. This vulnerability affects unknown code of the component htaccess Handler. The manipulation leads to unrestricted upload. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-224632.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-1744">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">a4b3c6217c1b2846557f272b9afc8b98</td>
-       <td>CVE-2023-1670</td>
-       <td>2023-03-30 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>A flaw use after free in the Linux kernel Xircom 16-bit PCMCIA (PC-card) Ethernet driver was found.A local user could use this flaw to crash the system or potentially escalate their privileges on the system.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-1670">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0f7279ceda1b7858f906e401d3bcc91f</td>
-       <td>CVE-2023-25587</td>
-       <td>2023-03-30 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-25587">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">047bc274f1a45c2f79d21d442cdc6ba1</td>
-       <td>CVE-2023-1743</td>
-       <td>2023-03-30 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability classified as problematic has been found in SourceCodester Grade Point Average GPA Calculator 1.0. This affects an unknown part of the file index.php. The manipulation of the argument page leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-224631.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-1743">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">40952be27d05d5f30265fcd31a9fe40e</td>
-       <td>CVE-2023-1742</td>
-       <td>2023-03-30 22:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability was found in IBOS 4.5.5. It has been rated as critical. Affected by this issue is some unknown functionality of the file /?r=report/api/getlist of the component Report Search. The manipulation leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-224630 is the identifier assigned to this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-1742">详情</a></td>
       </tr>
 
      </tbody>
