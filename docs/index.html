@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-03-31 21:10:12 -->
+<!-- RELEASE TIME : 2023-03-31 21:35:55 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,78 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">848579f26907f7c43b9ee2987a527949</td>
+       <td>CVE-2023-29141</td>
+       <td>2023-03-31 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in MediaWiki before 1.35.10, 1.36.x through 1.38.x before 1.38.6, and 1.39.x before 1.39.3. An auto-block can occur for an untrusted X-Forwarded-For header.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-29141">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">a4c39bdfe14d39a32d4219f861ddd5ab</td>
+       <td>CVE-2023-29140</td>
+       <td>2023-03-31 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in the GrowthExperiments extension for MediaWiki through 1.39.3. Attackers might be able to see edits for which the username has been hidden, because there is no check for rev_deleted.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-29140">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7ac7620223f54e99b082bbfd220214de</td>
+       <td>CVE-2023-29139</td>
+       <td>2023-03-31 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in the CheckUser extension for MediaWiki through 1.39.3. When a user with checkuserlog permissions makes many CheckUserLog API requests in some configurations, denial of service can occur (RequestTimeoutException or upstream request timeout).</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-29139">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">579e789cfbb301ac4515bb9651730b06</td>
+       <td>CVE-2023-29137</td>
+       <td>2023-03-31 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in the GrowthExperiments extension for MediaWiki through 1.39.3. The UserImpactHandler for GrowthExperiments inadvertently returns the timezone preference for arbitrary users, which can be used to de-anonymize users.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-29137">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3d0c10875981e4b76660898f37999984</td>
+       <td>CVE-2023-27160</td>
+       <td>2023-03-31 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>forem up to v2022.11.11 was discovered to contain a Server-Side Request Forgery (SSRF) via the component /articles/{id}. This vulnerability allows attackers to access network resources and sensitive information via a crafted POST request.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-27160">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f18d9837eb8d2c6f5ca823d721212b85</td>
+       <td>CVE-2023-27159</td>
+       <td>2023-03-31 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>Appwrite up to v1.2.1 was discovered to contain a Server-Side Request Forgery (SSRF) via the component /v1/avatars/favicon. This vulnerability allows attackers to access network resources and sensitive information via a crafted GET request.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-27159">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9f62cbb9d05425f7539e271c11b70e95</td>
+       <td>CVE-2023-26925</td>
+       <td>2023-03-31 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>An information disclosure vulnerability exists in the Syslog functionality of D-LINK DIR-882 1.30. A specially crafted network request can lead to the disclosure of sensitive information.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26925">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">82bf1b3cd065b38fb430d03215c83a5e</td>
+       <td>CVE-2023-23594</td>
+       <td>2023-03-31 19:15:00 <img src="imgs/new.gif" /></td>
+       <td>An authentication bypass vulnerability in the web client interface for the CL4NX printer before firmware version 1.13.3-u724_r2 provides remote unauthenticated attackers with access to execute commands intended only for valid/authenticated users, such as file uploads and configuration changes.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-23594">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">11d9a2f53bdafe348c61963a52f41e0a</td>
+       <td>CVE-2023-28843</td>
+       <td>2023-03-31 18:15:00 <img src="imgs/new.gif" /></td>
+       <td>PrestaShop/paypal is an open source module for the PrestaShop web commerce ecosystem which provides paypal payment support. A SQL injection vulnerability found in the PrestaShop paypal module from release from 3.12.0 to and including 3.16.3 allow a remote attacker to gain privileges, modify data, and potentially affect system availability. The cause of this issue is that SQL queries were being constructed with user input which had not been properly filtered. Only deployments on PrestaShop 1.6 are affected. Users are advised to upgrade to module version 3.16.4. There are no known workarounds for this vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-28843">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">b8a8bdc454260e90858a63c6a65f9c83</td>
        <td>CVE-2023-28879</td>
        <td>2023-03-31 17:15:00 <img src="imgs/new.gif" /></td>
@@ -445,78 +517,6 @@
        <td>2023-03-31 08:15:00 <img src="imgs/new.gif" /></td>
        <td>Exposure of Sensitive Information to an Unauthorized Actor vulnerability in ABB Flow-X firmware on Flow-X embedded hardware (web service modules) allows Footprinting.This issue affects Flow-X: before 4.0.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-1258">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">243ff5e84bfecf8a3ca86d6e5c8d074e</td>
-       <td>CVE-2023-28727</td>
-       <td>2023-03-31 07:15:00 <img src="imgs/new.gif" /></td>
-       <td>Panasonic AiSEG2 versions 2.00J through 2.93A allows adjacent attackers bypass authentication due to mishandling of X-Forwarded-For headers.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-28727">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">dda9facfe4d5021c6a41deadb1a5cbce</td>
-       <td>CVE-2023-28726</td>
-       <td>2023-03-31 07:15:00 <img src="imgs/new.gif" /></td>
-       <td>Panasonic AiSEG2 versions 2.80F through 2.93A allows remote attackers to execute arbitrary OS commands.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-28726">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">adbbbbc0d5bf2262db581b65b3e1509c</td>
-       <td>CVE-2023-28756</td>
-       <td>2023-03-31 04:15:00 <img src="imgs/new.gif" /></td>
-       <td>A ReDoS issue was discovered in the Time component through 0.2.1 in Ruby through 3.2.1. The Time parser mishandles invalid URLs that have specific characters. It causes an increase in execution time for parsing strings to Time objects. The fixed versions are 0.1.1 and 0.2.2.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-28756">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7f459113e6671893cea6fd09a0a9fa84</td>
-       <td>CVE-2023-28755</td>
-       <td>2023-03-31 04:15:00 <img src="imgs/new.gif" /></td>
-       <td>A ReDoS issue was discovered in the URI component through 0.12.0 in Ruby through 3.2.1. The URI parser mishandles invalid URLs that have specific characters. It causes an increase in execution time for parsing strings to URI objects. The fixed versions are 0.12.1, 0.11.1, 0.10.2 and 0.10.0.1.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-28755">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f2511cf9894240669ab70ddc0fc70d79</td>
-       <td>CVE-2023-1762</td>
-       <td>2023-03-31 02:15:00 <img src="imgs/new.gif" /></td>
-       <td>Improper Privilege Management in GitHub repository thorsten/phpmyfaq prior to 3.1.12.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-1762">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">25a669d17eb46153aabcba20655a2a4b</td>
-       <td>CVE-2023-1761</td>
-       <td>2023-03-31 02:15:00 <img src="imgs/new.gif" /></td>
-       <td>Code Injection in GitHub repository thorsten/phpmyfaq prior to 3.1.12.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-1761">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7f8ac41a4c85c796ecf4150a2628d115</td>
-       <td>CVE-2023-1760</td>
-       <td>2023-03-31 02:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.1.12.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-1760">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">0e4855cd0dbd2f063ffcf3deb9d298a8</td>
-       <td>CVE-2023-1759</td>
-       <td>2023-03-31 02:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.1.12.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-1759">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">fda02c3b893d44135e74f9eabc426847</td>
-       <td>CVE-2023-1755</td>
-       <td>2023-03-31 01:15:00 <img src="imgs/new.gif" /></td>
-       <td>Cross-site Scripting (XSS) - Generic in GitHub repository thorsten/phpmyfaq prior to 3.1.12.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-1755">详情</a></td>
       </tr>
 
      </tbody>
