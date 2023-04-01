@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-04-01 01:05:45 -->
+<!-- RELEASE TIME : 2023-04-01 02:17:07 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">f38d68c489ecff8e5584db7e6e332544</td>
+       <td>CVE-2023-28845</td>
+       <td>2023-03-31 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Nextcloud talk is a video & audio conferencing app for Nextcloud. In affected versions the talk app does not properly filter access to a conversations member list. As a result an attacker could use this vulnerability to gain information about the members of a Talk conversation, even if they themselves are not members. It is recommended that the Nextcloud Talk is upgraded to 14.0.9 or 15.0.4. There are no known workarounds for this vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-28845">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">95387da0e38ca45c05c337977fa45567</td>
+       <td>CVE-2023-28844</td>
+       <td>2023-03-31 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Nextcloud server is an open source home cloud implementation. In affected versions users that should not be able to download a file can still download an older version and use that for uncontrolled distribution. This issue has been addressed in versions 24.0.10 and 25.0.4. Users are advised to upgrade. There are no known workarounds for this vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-28844">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c2763574908bd16447adc0faa0bd702b</td>
+       <td>CVE-2023-28645</td>
+       <td>2023-03-31 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>Nextcloud richdocuments is a Nextcloud app integrating the office suit Collabora Online. In affected versions the secure view feature of the rich documents app can be bypassed by using unprotected internal API endpoint of the rich documents app. It is recommended that the Nextcloud Office app (richdocuments) is upgraded to 8.0.0-beta.1, 7.0.2 or 6.3.2. Users unable to upgrade may mitigate the issue by taking steps to restrict the ability to download documents. This includes ensuring that the `WOPI configuration` is configured to only serve documents between Nextcloud and Collabora. It is highly recommended to define the list of Collabora server IPs as the allow list within the Office admin settings of Nextcloud.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-28645">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">fac9e169445903cb79c8559de10e3c4f</td>
+       <td>CVE-2023-26485</td>
+       <td>2023-03-31 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>cmark-gfm is GitHub's fork of cmark, a CommonMark parsing and rendering library and program in C. A polynomial time complexity issue in cmark-gfm may lead to unbounded resource exhaustion and subsequent denial of service. This CVE covers quadratic complexity issues when parsing text which leads with either large numbers of `_` characters. This issue has been addressed in version 0.29.0.gfm.10. Users are advised to upgrade. Users unable to upgrade should validate that their input comes from trusted sources. ### Impact A polynomial time complexity issue in cmark-gfm may lead to unbounded resource exhaustion and subsequent denial of service. ### Proof of concept ``` $ ~/cmark-gfm$ python3 -c 'pad = "_" * 100000; print(pad + "." + pad, end="")' | time ./build/src/cmark-gfm --to plaintext ``` Increasing the number 10000 in the above commands causes the running time to increase quadratically. ### Patches This vulnerability have been patched in 0.29.0.gfm.10. ### Note on cmark and cmark-gfm XXX: TBD [cmark-gfm](https://github.com/github/cmark-gfm) is a fork of [cmark](https://github.com/commonmark/cmark) that adds the GitHub Flavored Markdown extensions. The two codebases have diverged over time, but share a common core. These bugs affect both `cmark` and `cmark-gfm`. ### Credit We would like to thank @gravypod for reporting this vulnerability. ### References https://en.wikipedia.org/wiki/Time_complexity ### For more information If you have any questions or comments about this advisory: * Open an issue in [github/cmark-gfm](https://github.com/github/cmark-gfm)</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26485">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9fb03b31e9366e64fbd4ce9a06365e10</td>
+       <td>CVE-2023-24824</td>
+       <td>2023-03-31 23:15:00 <img src="imgs/new.gif" /></td>
+       <td>cmark-gfm is GitHub's fork of cmark, a CommonMark parsing and rendering library and program in C. A polynomial time complexity issue in cmark-gfm may lead to unbounded resource exhaustion and subsequent denial of service. This CVE covers quadratic complexity issues when parsing text which leads with either large numbers of `>` or `-` characters. This issue has been addressed in version 0.29.0.gfm.10. Users are advised to upgrade. Users unable to upgrade should validate that their input comes from trusted sources.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-24824">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0cda98f8f9df66f8b398780598224964</td>
+       <td>CVE-2022-47192</td>
+       <td>2023-03-31 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>Generex UPS CS141 below 2.06 version, could allow a remote attacker to upload a backup file containing a modified "users.json" to the web server of the device, allowing him to replace the administrator password.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-47192">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8532304c93e5dd8f407d403bee101c68</td>
+       <td>CVE-2022-47191</td>
+       <td>2023-03-31 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>Generex UPS CS141 below 2.06 version, could allow a remote attacker to upload a firmware file containing a file with modified permissions, allowing him to escalate privileges.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-47191">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">78bceb72d5da92157d7995ea5d04431a</td>
+       <td>CVE-2022-47190</td>
+       <td>2023-03-31 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>Generex UPS CS141 below 2.06 version, could allow a remote attacker to upload a firmware file containing a webshell that could allow him to execute arbitrary code as root.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-47190">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">9d5d4699821213cb62fd2e913847cc71</td>
+       <td>CVE-2022-47189</td>
+       <td>2023-03-31 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>Generex UPS CS141 below 2.06 version, allows an attacker toupload a firmware file containing an incorrect configuration, in order to disrupt the normal functionality of the device.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-47189">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">06b6b684419003d7b5042ec6f4d6abd7</td>
+       <td>CVE-2022-47188</td>
+       <td>2023-03-31 22:15:00 <img src="imgs/new.gif" /></td>
+       <td>There is an arbitrary file reading vulnerability in Generex UPS CS141 below 2.06 version. An attacker, making use of the default credentials, could upload a backup file containing a symlink to /etc/shadow, allowing him to obtain the content of this path.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-47188">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">e7ed87d114b5396b18720522254833d2</td>
        <td>CVE-2023-27163</td>
        <td>2023-03-31 20:15:00 <img src="imgs/new.gif" /></td>
@@ -437,86 +517,6 @@
        <td>2023-03-31 16:15:00 <img src="imgs/new.gif" /></td>
        <td>hci_conn_cleanup in net/bluetooth/hci_conn.c in the Linux kernel through 6.2.9 has a use-after-free (observed in hci_conn_hash_flush) because of calls to hci_dev_put and hci_conn_put. There is a double free that may lead to privilege escalation.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-28464">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cdee32100cd23ef24f1fdb16040ae101</td>
-       <td>CVE-2023-26830</td>
-       <td>2023-03-31 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>An unrestricted file upload vulnerability in the administrative portal branding component of Gladinet CentreStack before 13.5.9808 allows authenticated attackers to execute arbitrary code by uploading malicious files to the server.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26830">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">32840e7f276781cf0aecddb879b69382</td>
-       <td>CVE-2023-26829</td>
-       <td>2023-03-31 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>An authentication bypass vulnerability in the Password Reset component of Gladinet CentreStack before 13.5.9808 allows remote attackers to set a new password for any valid user account, without needing the previous known password, resulting in a full authentication bypass.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-26829">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">402934e2eace9a9621a76a3b2291f312</td>
-       <td>CVE-2023-0432</td>
-       <td>2023-03-31 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>The web configuration service of the affected device contains an authenticated command injection vulnerability. It can be used to execute system commands on the operating system (OS) from the device in the context of the user "root." If the attacker has credentials for the web service, then the device could be fully compromised.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0432">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b9cb5d89e2c92010ff1aa057c9a0dfff</td>
-       <td>CVE-2023-0344</td>
-       <td>2023-03-31 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>Akuvox E11 appears to be using a custom version of dropbear SSH server. This server allows an insecure option that by default is not in the official dropbear SSH server.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0344">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9bc62944ccdee46d899c3ef30791497c</td>
-       <td>CVE-2023-0343</td>
-       <td>2023-03-31 16:15:00 <img src="imgs/new.gif" /></td>
-       <td>Akuvox E11 contains a function that encrypts messages which are then forwarded. The IV vector and the key are static, and this may allow an attacker to decrypt messages.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-0343">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7a91dc2b7f1a70a72593ea239a235475</td>
-       <td>CVE-2023-1777</td>
-       <td>2023-03-31 12:15:00 <img src="imgs/new.gif" /></td>
-       <td>Mattermost allows an attacker to request a preview of an existing message when creating a new message via the createPost API call, disclosing the contents of the linked message.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-1777">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e502424481da06ced33029577b7d2319</td>
-       <td>CVE-2023-1776</td>
-       <td>2023-03-31 12:15:00 <img src="imgs/new.gif" /></td>
-       <td>Boards in Mattermost allows an attacker to upload a malicious SVG image file as an attachment to a card and share it using a direct link to the file.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-1776">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4c1d3913780761d1a134d486f537259a</td>
-       <td>CVE-2023-1775</td>
-       <td>2023-03-31 12:15:00 <img src="imgs/new.gif" /></td>
-       <td>When running in a High Availability configuration, Mattermost fails to sanitize some of the user_updated and post_deleted events broadcast to all users, leading to disclosure of sensitive information to some of the users with currently connected Websocket clients.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-1775">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9bbfbeabf63fd49f679afc682ce04068</td>
-       <td>CVE-2023-1774</td>
-       <td>2023-03-31 12:15:00 <img src="imgs/new.gif" /></td>
-       <td>When processing an email invite to a private channel on a team, Mattermost fails to validate the inviter's permission to that channel, allowing an attacker to invite themselves to a private channel.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-1774">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">44b0834d696b42675cdfde702304da18</td>
-       <td>CVE-2023-1773</td>
-       <td>2023-03-31 12:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability was found in Rockoa 2.3.2. It has been declared as critical. This vulnerability affects unknown code of the file webmainConfig.php of the component Configuration File Handler. The manipulation leads to code injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-224674 is the identifier assigned to this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-1773">详情</a></td>
       </tr>
 
      </tbody>
